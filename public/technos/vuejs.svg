@@ -1,0 +1,10 @@
+<svg version="1.2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 80 80" >
+	<defs>
+		<image width="96" height="85" id="img1" href="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2aWV3Qm94PSIwIDAgOTUuNjI1IDg1IiBmaWxsPSIjZmZmIiBmaWxsLXJ1bGU9ImV2ZW5vZGQiIHN0cm9rZT0iIzAwMCIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIiBzdHJva2UtbGluZWpvaW49InJvdW5kIj48dXNlIHhsaW5rOmhyZWY9IiNBIiB4PSIyLjgxMyIgeT0iMi41Ii8+PHN5bWJvbCBpZD0iQSIgb3ZlcmZsb3c9InZpc2libGUiPjxnIHN0cm9rZT0ibm9uZSI+PHBhdGggZD0iTTQ1IDQ4LjY5NkwxNy4zMDggMEgwbDQ1IDgwTDkwIDBINzIuNjkyTDQ1IDQ4LjY5NiIgZmlsbD0iIzRkYmE4NyIvPjxwYXRoIGQ9Ik00NSAxOS4xM0wzNC42MTYgMEgxNy4zMDhMNDUgNDguNjk2IDcyLjY5MyAwSDU1LjM4NUw0NSAxOS4xMyIgZmlsbD0iIzQzNTQ2NiIvPjwvZz48L3N5bWJvbD48L3N2Zz4="/>
+	</defs>
+	<style>
+		.s0 { fill:  } 
+	</style>
+	<path id="Layer" class="s0" d="m0 27.7c0-13 0-19.6 4.1-23.6 4-4.1 10.6-4.1 23.6-4.1h24.6c13 0 19.6 0 23.6 4.1 4.1 4 4.1 10.6 4.1 23.6v24.6c0 13 0 19.6-4.1 23.6-4 4.1-10.6 4.1-23.6 4.1h-24.6c-13 0-19.6 0-23.6-4.1-4.1-4-4.1-10.6-4.1-23.6z"/>
+	<use id="vuejs" href="#img1" transform="matrix(.514,0,0,.514,15.35,18.591)"/>
+</svg>
