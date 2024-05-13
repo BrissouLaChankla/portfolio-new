@@ -172,9 +172,12 @@ const reviews = [
 
 
 import Image from "next/image"
+import AnimatedStars from "../ui/AnimatedStars";
 export default function Reviews() {
   return (
     <div className="section">
+
+      <AnimatedStars />
       <h2 className="text-center">Si vous doutiez encore<div className="text-primary">laissez les vous convaincre</div></h2>
       <div className="gap-4 columns-3xs py-14 ">
         {reviews.map((review, i) => {

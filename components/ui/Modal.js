@@ -8,7 +8,7 @@ export default function Modal({ data }) {
             <div className="modal-box w-11/12 max-w-5xl p-0">
                 <div className="flex flex-col sm:flex-row">
                     <form method="dialog">
-                        <button className="btn btn-sm btn-circle btn-ghost absolute right-2 top-2">✕</button>
+                        <button className="btn btn-sm btn-circle absolute right-2 btn-outline sm:btn-ghost border-2 sm:border-0 top-2 z-20">✕</button>
                     </form>
                     <div className="relative w-full sm:w-3/12 bg-primary">
                         {
