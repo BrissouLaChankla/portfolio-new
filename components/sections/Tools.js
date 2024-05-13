@@ -26,26 +26,26 @@ const technos = [
 
 export default function Tools() {
   return (
-    <div className="section grid grid-cols-12 items-center gap-14">
-      <div className="col-span-12 md:col-span-6  grid grid-cols-4 sm:grid-cols-5 md:grid-cols-10 lg:grid-cols-5 gap-4 sm:gap-5 lg:gap-8">
+    <div className="section grid grid-cols-12 items-center gap-6 lg:gap-14">
 
-        {technos.map(techno => (
-          <span key={techno.slug} className="tooltip lg:hover:scale-110 transition" data-tip={techno.tooltip}>
-
-            <a key={techno.slug} href={techno.link} className=" mask mask-squircle"  >
-              <Image src={`/technos/${techno.slug}.svg`} alt={techno.slug} width={100} height={100} />
-            </a>
-          </span>
-        ))}
-
-      </div>
-      <div className="col-span-12  md:col-span-6 flex flex-col gap-6">
-        <h2>J'aime bien travailler<br /><span className="text-primary">Avec ces outils</span></h2>
+      <div className="col-span-12 md:order-1 md:col-span-6 flex flex-col gap-6">
+        <h2>Voici mes stacks de<br /><span className="text-primary">prédilection</span></h2>
         <p>We love Vue Single-File Components as much as you do. Simple, intuitive and powerful, Nuxt lets you write Vue components in a way that makes sense. Every repetitive task is automated, so you can focus on writing your full-stack Vue application with confidence.</p>
         <div className="flex gap-3">
           <div className="btn btn-neutral btn-sm">Learn about Views</div>
           <div className="btn btn-outline btn-sm">Learn about Views</div>
         </div>
+      </div>
+      <div className="col-span-12  md:col-span-6 grid grid-cols-4 sm:grid-cols-5 md:grid-cols-5 lg:grid-cols-5 gap-4 sm:gap-5 lg:gap-8">
+
+        {technos.map(techno => (
+          <span key={techno.slug} className="tooltip lg:hover:scale-110 lg:transition" data-tip={techno.tooltip}>
+            <a key={techno.slug} href={techno.link} className=" mask mask-squircle"  >
+              <img src={`/technos/${techno.slug}.svg`} alt={techno.slug} width={100} height={100} className="" loading="lazy" />
+            </a>
+          </span>
+        ))}
+
       </div>
     </div>
   )

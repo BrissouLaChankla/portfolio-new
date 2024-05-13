@@ -9,11 +9,11 @@ html {
 
 @layer components {
   .section {
-    @apply mt-8 md:mt-52 lg:mt-60 w-full max-w-screen-xl px-3
+    @apply mt-12 md:mt-52 lg:mt-60 w-full max-w-screen-xl px-3
   }
 
   h2 {
-    @apply text-3xl font-bold tracking-tight  text-base-content sm:text-4xl lg:text-5xl;
+    @apply text-3xl font-bold tracking-tight text-base-content sm:text-4xl lg:text-5xl mt-8 md:mt-0;
   }
 
   p {

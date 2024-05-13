@@ -15,7 +15,7 @@ export default function Navbar() {
                     </ul>
                 </div>
                 <a href="#" className="btn btn-ghost text-2xl">
-                    <Image src="/logo.svg" className="w-8 h-8" width={60} height={60} quality={100} alt="Logo Brice Eliasse" />
+                    <img src="/logo.svg" className="w-8 h-8" width={60} height={60} quality={100} alt="Logo Brice Eliasse" />
                     Brice Eliasse
                 </a>
             </div>

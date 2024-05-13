@@ -10,9 +10,8 @@ const socials = [
         "link": "https://www.linkedin.com/in/brice-eliasse/"
     },
     {
-        "icon": '<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path d="M48 64C21.5 64 0 85.5 0 112c0 15.1 7.1 29.3 19.2 38.4L236.8 313.6c11.4 8.5 27 8.5 38.4 0L492.8 150.4c12.1-9.1 19.2-23.3 19.2-38.4c0-26.5-21.5-48-48-48H48zM0 176V384c0 35.3 28.7 64 64 64H448c35.3 0 64-28.7 64-64V176L294.4 339.2c-22.8 17.1-54 17.1-76.8 0L0 176z"/></svg>',
-        "link": "hello@brice-eliasse.com",
-        "isemail": true
+        "icon": '<svg  viewBox="0 0 32 32" version="1.1" xmlns="http://www.w3.org/2000/svg"> <title>youtube</title> <path d="M12.932 20.459v-8.917l7.839 4.459zM30.368 8.735c-0.354-1.301-1.354-2.307-2.625-2.663l-0.027-0.006c-3.193-0.406-6.886-0.638-10.634-0.638-0.381 0-0.761 0.002-1.14 0.007l0.058-0.001c-0.322-0.004-0.701-0.007-1.082-0.007-3.748 0-7.443 0.232-11.070 0.681l0.434-0.044c-1.297 0.363-2.297 1.368-2.644 2.643l-0.006 0.026c-0.4 2.109-0.628 4.536-0.628 7.016 0 0.088 0 0.176 0.001 0.263l-0-0.014c-0 0.074-0.001 0.162-0.001 0.25 0 2.48 0.229 4.906 0.666 7.259l-0.038-0.244c0.354 1.301 1.354 2.307 2.625 2.663l0.027 0.006c3.193 0.406 6.886 0.638 10.634 0.638 0.38 0 0.76-0.002 1.14-0.007l-0.058 0.001c0.322 0.004 0.702 0.007 1.082 0.007 3.749 0 7.443-0.232 11.070-0.681l-0.434 0.044c1.298-0.362 2.298-1.368 2.646-2.643l0.006-0.026c0.399-2.109 0.627-4.536 0.627-7.015 0-0.088-0-0.176-0.001-0.263l0 0.013c0-0.074 0.001-0.162 0.001-0.25 0-2.48-0.229-4.906-0.666-7.259l0.038 0.244z"></path> </svg>',
+        "link": "#",
     }
 ]
 
@@ -100,7 +99,7 @@ export default function Form() {
             <div className="formcarry-block flex gap-3 mt-6 items-center">
 
                 <div className='flex gap-3'>
-                    {socials.map((social, i) => <a key={i} href={social.isemail ? `mailto:${social.link}` : social.link} target={social.isemail ? "_self" : "_blank"} className="btn btn-sm h-10 btn-outline border-[1px] border-opacity-10 group transition">
+                    {socials.map((social, i) => <a key={i} href={social.link} target={"_blank"} className="btn btn-sm h-10 btn-outline border-[1px] border-opacity-10 group transition">
                         <svg dangerouslySetInnerHTML={{ __html: social.icon }} fill='currentColor' className="w-4 h-4" />
                     </a>)}
                 </div>

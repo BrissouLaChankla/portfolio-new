@@ -175,7 +175,7 @@ import Image from "next/image"
 export default function Reviews() {
   return (
     <div className="section">
-      <h2 className="text-center">Si vous doutez encore<div className="text-primary">laissez les vous convaincre :</div></h2>
+      <h2 className="text-center">Si vous doutiez encore<div className="text-primary">laissez les vous convaincre</div></h2>
       <div className="gap-4 columns-3xs py-14 ">
         {reviews.map((review, i) => {
           let words = review.name.split(' ');
@@ -184,7 +184,7 @@ export default function Reviews() {
           return (
             <div key={i} className='bg-base-200 rounded-lg p-6 mb-4 break-inside-avoid-column border-[1px] border-base-content border-opacity-10'>
               <div className='flex items-center gap-2'>
-                <Image width={34} height={34} src={review.picture} alt={`Photo de profil de ${review.name}`} />
+                <img referrerpolicy="no-referrer" loading="lazy" width={34} height={34} src={review.picture} alt={`Photo de profil de ${review.name}`} />
                 <span className='capitalize font-normal'>{firstname + " " + lastname}.</span>
               </div>
               <div className="flex mt-3 gap-0.5">

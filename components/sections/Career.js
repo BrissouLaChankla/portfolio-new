@@ -30,6 +30,8 @@ const jobs = [
       }
     ],
     slug: "mediaschool",
+    pics: 2
+
   },
   , {
     company: "Nanaba",
@@ -40,12 +42,14 @@ const jobs = [
         endDate: "Août 2022",
       },
       {
-        name: "Développeur FullStack",
+        name: "Développeur Full-Stack",
         startDate: "Sept 2021",
         endDate: "Janv. 2022",
       }
     ],
     slug: "nanaba",
+    pics: 3
+
   },
   {
     company: "MWA",
@@ -57,6 +61,7 @@ const jobs = [
       },
     ],
     slug: "mwa",
+
   },
   {
     company: "Koedia",
@@ -70,7 +75,7 @@ const jobs = [
     slug: "koedia",
   },
   {
-    company: "Oktogone Group",
+    company: "Visiplus Academy",
     posts: [
       {
         name: "Intégrateur / Webdesigner",
@@ -90,7 +95,7 @@ export default function Career() {
 
 
   return (
-    <div className="section grid grid-cols-12 gap-14 items-center">
+    <div className="section grid grid-cols-12 gap-6 lg:gap-14 items-center">
       <div className="col-span-12  md:col-span-6">
         <AnimatePresence mode="wait">
           <motion.img
@@ -103,7 +108,7 @@ export default function Career() {
               stiffness: 260,
               damping: 20,
             }}
-            src={`/companies/photos/${selectedJob.slug}.png`}
+            src={`/companies/photos/${selectedJob.slug}.webp`}
             width={400}
             height={300}
             alt="Photo de Brice Eliasse"
@@ -113,20 +118,23 @@ export default function Career() {
 
         <div className="flex justify-between gap-5 mt-4 h-56 w-full">
           <AnimatePresence mode="wait" >
-            {[...Array(selectedJob.pics || 3)].map((el, i) =>
-              <motion.img
-                src={`/companies/photos/${selectedJob.slug}_${i + 1}.png`}
-                key={selectedJob.slug + i}
-                initial={{ opacity: 0, y: 20 }}
-                animate={{ opacity: 1, y: 0 }}
-                exit={{ opacity: 0, y: 15 }}
-                transition={{
-                  type: "spring",
-                  stiffness: 260,
-                  damping: 20,
-                  delay: 0.15 * i
-                }} height={224} alt={`Photo de ${el}`} className="rounded-xl object-cover min-w-0" />
-            )}
+
+            {
+              !!selectedJob.pics &&
+              [...Array(selectedJob.pics)].map((el, i) =>
+                <motion.img
+                  src={`/companies/photos/${selectedJob.slug}_${i + 1}.webp`}
+                  key={selectedJob.slug + i}
+                  initial={{ opacity: 0, y: 20 }}
+                  animate={{ opacity: 1, y: 0 }}
+                  exit={{ opacity: 0, y: 15 }}
+                  transition={{
+                    type: "spring",
+                    stiffness: 260,
+                    damping: 20,
+                    delay: 0.15 * i
+                  }} height={224} alt={`Photo de ${el}`} className={`rounded-xl object-cover min-w-0 ${selectedJob.pics === 1 ? "w-full" : selectedJob.pics === 2 ? "w-1/2" : "w-1/3"}`} />
+              )}
           </AnimatePresence>
         </div>
 
@@ -139,7 +147,7 @@ export default function Career() {
           {jobs.map(job =>
             <div
               key={job.slug}
-              className={`px-4 py-2.5  hover:bg-gray-800 transition ${job.slug === selectedJob ? "bg-gray-800" : "cursor-pointer"}`}
+              className={`px-4 py-2.5  hover:bg-gray-800 transition ${job.slug === selectedJob.slug ? "bg-gray-800" : "cursor-pointer"}`}
               onClick={() => setSelectedJob(job)}
             >
               <div className="flex items-start gap-2">
