@@ -24,7 +24,7 @@ const projects = [
 export default function Projects() {
 
   return (
-    <div className="section grid grid-cols-12 items-center gap-8 lg:gap-14">
+    <div className="section grid grid-cols-12 items-center gap-8 lg:gap-14" id="projects">
       <GridLogos data={projects} src="projects" />
       <div className="col-span-12 md:col-span-6 flex flex-col gap-6">
         <h2>Désolé mais j'adore <br /><span className="text-primary">polluer le web</span></h2>

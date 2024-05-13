@@ -23,7 +23,7 @@ module.exports = {
           ...require("daisyui/src/theming/themes")["night"],
           primary: "#00dc82",
           "base-content": "#E2E8F0",
-          "neutral-content":"#f4f4f5"
+          "neutral-content": "#f4f4f5"
         },
         light: {
           ...require("daisyui/src/theming/themes")["light"],

@@ -10,9 +10,9 @@ export default function Hero() {
             <div className="mx-auto max-w-2xl">
 
                 <div className="text-center">
-                    <a href="#" className="btn btn-disabled font-semibold  badge-outline text-xs mb-6 rounded-full py-0 min-h-8 h-8">
+                    <span className="btn btn-primary  cursor-default btn-outline font-semibold  badge-outline text-xs mb-6 rounded-full py-0 min-h-8 h-8">
                         Retrouvez bientôt mes cours en ligne →
-                    </a>
+                    </span>
 
                     {/* <a href="#" className="font-semibold badge badge-primary badge-outline text-xs mb-6 p-3">
                         Retrouvez mes cours en ligne →

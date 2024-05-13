@@ -1,7 +1,7 @@
 import { HoverEffect } from "../ui/card-hover-effect";
 export default function Skills() {
   return (
-    <div className="section">
+    <div className="section" id="skills">
       <h2 className="text-center">Tout ce qui fait de moi un<br /><span className="text-primary">Dev. Full-Stack</span></h2>
       <div className="">
         <HoverEffect items={projects} />

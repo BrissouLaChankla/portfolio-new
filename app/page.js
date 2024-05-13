@@ -13,15 +13,11 @@ export default function Home() {
     <main className="flex flex-col items-center justify-center">
       <Hero />
       <Trusted />
-      <div id="about"></div>
       <About />
       <Career />
-      <div id="skills"></div>
       <Skills />
-      <div id="projects"></div>
       <Projects />
       <Tools />
-      <div id="contact"></div>
       <Contact />
       <Reviews />
       <Footer />

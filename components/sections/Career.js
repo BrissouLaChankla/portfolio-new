@@ -155,7 +155,7 @@ export default function Career() {
                 <div className="grow">
                   <h3 className=" font-semibold tracking-wide mb-1 text-sm">{job.company}</h3>
                   {job.posts.map(post =>
-                    <div className="flex justify-between items-center text-xs text-base-content opacity-75 mb-0.5">
+                    <div key={post.slug} className="flex justify-between items-center text-xs text-base-content opacity-75 mb-0.5">
                       <h4>{post.name}</h4>
                       <div>
                         {post.startDate} - {post.endDate}
