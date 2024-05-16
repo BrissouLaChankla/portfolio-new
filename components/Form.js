@@ -100,7 +100,7 @@ export default function Form() {
             <div className="formcarry-block flex gap-3 mt-6 items-center">
 
                 <div className='flex gap-3'>
-                    {socials.map((social, i) => <a key={i} href={social.link} target={"_blank"} className="btn btn-sm h-10 btn-outline border-[1px] border-opacity-10 group transition">
+                    {socials.map((social, i) => <a key={i} aria-label="Lien externe vers mon réseau social" href={social.link} target={"_blank"} className="btn btn-sm h-10 btn-outline border-[1px] border-opacity-10 group transition">
                         <svg dangerouslySetInnerHTML={{ __html: social.icon }} fill='currentColor' className="w-4 h-4" />
                     </a>)}
                 </div>

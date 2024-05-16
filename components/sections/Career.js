@@ -144,11 +144,11 @@ export default function Career() {
         <p>Merci à toutes les entreprises qui m'ont fait confiance ↓</p>
 
         <div className="border-2 border-gray-700 rounded-xl overflow-hidden">
-          {jobs.map(job =>
+          {jobs.map((job, i) =>
             <div
               key={job.slug}
-              className={`px-4 py-2.5  hover:bg-gray-800 transition ${job.slug === selectedJob.slug ? "bg-gray-800" : "cursor-pointer"}`}
-              onClick={() => setSelectedJob(job)}
+              className={`px-4 py-2.5  ${job.slug === selectedJob.slug ? "bg-gray-800" : i <= 3 ? "transition cursor-pointer hover:bg-gray-800 " : ""}`}
+              onClick={() => i <= 3 ? setSelectedJob(job) : false}
             >
               <div className="flex items-start gap-2">
                 <img src={`/companies/${job.slug}.png`} width={40} height={40} alt={`Logo ${job.company}`} />

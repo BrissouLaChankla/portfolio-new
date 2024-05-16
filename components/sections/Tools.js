@@ -1,5 +1,4 @@
-import { motion } from "framer-motion";
-import Image from "next/image";
+import AnimatedTools from "../ui/AnimatedTools";
 
 const technos = [
   { slug: "nextjs", link: "https://nextjs.org/", tooltip: "Next.js" },
@@ -20,11 +19,11 @@ const technos = [
   { slug: "bootstrap", link: "https://getbootstrap.com/", tooltip: "Bootstrap" },
   { slug: "nodejs", link: "https://nodejs.org/", tooltip: "Node.js" },
 
+  { slug: "socketio", link: "https://socket.io/", tooltip: "Socket.IO" },
   { slug: "react-native", link: "https://reactnative.dev/d", tooltip: "React Native" },
   { slug: "shadcn", link: "https://ui.shadcn.com/", tooltip: "Shadcn" },
-  { slug: "vercel", link: "https://vercel.com/", tooltip: "Vercel" },
-  { slug: "hono", link: "https://honojs.dev/", tooltip: "Hono" },
   { slug: "git", link: "https://git-scm.com", tooltip: "Git" },
+  { slug: "vercel", link: "https://vercel.com/", tooltip: "Vercel" },
 ];
 
 export default function Tools() {
@@ -40,15 +39,7 @@ export default function Tools() {
         </div>
       </div>
       <div className="col-span-12  md:col-span-6 grid grid-cols-4 sm:grid-cols-5 md:grid-cols-5 lg:grid-cols-5 gap-4 sm:gap-5 lg:gap-8">
-
-        {technos.map(techno => (
-          <span key={techno.slug} className="tooltip lg:hover:scale-110 lg:transition" data-tip={techno.tooltip}>
-            <a key={techno.slug} href={techno.link} className=" mask mask-squircle"  >
-              <img src={`/technos/${techno.slug}.svg`} alt={techno.slug} width={100} height={100} className="" loading="lazy" />
-            </a>
-          </span>
-        ))}
-
+        {technos.map(techno => <AnimatedTools {...techno} />)}
       </div>
     </div>
   )

@@ -175,8 +175,7 @@ import Image from "next/image"
 import AnimatedStars from "../ui/AnimatedStars";
 export default function Reviews() {
   return (
-    <div className="section">
-
+    <div className="section pt-20 md:pt-0">
       <AnimatedStars />
       <h2 className="text-center">Si vous doutiez encore<div className="text-primary">laissez les vous convaincre</div></h2>
       <div className="gap-4 columns-3xs py-14 ">
@@ -190,7 +189,7 @@ export default function Reviews() {
                 <img referrerPolicy="no-referrer" loading="lazy" width={34} height={34} src={review.picture} alt={`Photo de profil de ${review.name}`} />
                 <span className='capitalize font-normal'>{firstname + " " + lastname}.</span>
               </div>
-              <div className="flex mt-3 gap-0.5">
+              <div className="flex md:mt-3 gap-0.5">
                 {
                   [...Array(review.note)].map((e, i) => <span key={i} className="mask mask-star-2 bg-yellow-400 w-4 h-4"></span>)
                 }
