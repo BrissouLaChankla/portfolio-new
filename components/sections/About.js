@@ -1,10 +1,13 @@
 import Image from "next/image"
 import Age from "../Age"
+import AnimatedAvatar from "../ui/AnimatedAvatar"
 export default function About() {
     return (
-        <div className="section grid grid-cols-12 items-center" id="about">
-            <div className="col-span-12 md:order-1 md:col-span-6">
-                <img src="/avatar.svg" loading="lazy" className=" object-contain md:w-2/3 w-52 m-auto" width={300} height={300} alt="Avatar de Brice Eliasse" />
+        <div className="section grid grid-cols-12 items-center " id="about">
+            <div className="col-span-12 md:order-1 md:col-span-6 flex flex-col items-center">
+                <AnimatedAvatar />
+                <span className=" h-[4px] rounded-full bg-primary w-3/4 border-primary z-10 ">
+                </span>
             </div>
             <div className="col-span-12  md:col-span-6 flex flex-col gap-6">
                 <h2>Et si on parlait de moi <br /><span className="text-primary">vous voulez bien ?</span></h2>

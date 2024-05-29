@@ -1,0 +1,70 @@
+.rocketPlacement {
+    position: absolute;
+    left: 51%;
+    top: 45%;
+    transform: translate(-50%, -50%);
+    height: 85%;
+    aspect-ratio: 1 / 1;
+    animation: zIndexSwitch 7s linear infinite;
+
+
+}
+
+.rocket {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    /* margin: -30px; */
+
+    border: 4px solid transparent;
+    border-left: 4px solid #00dc80af;
+    filter: drop-shadow(0 0 0px #00dc8054) drop-shadow(0 0 20px #00dc8054) drop-shadow(0 0 20px #00dc8054);
+    animation: animate 7s linear infinite;
+
+}
+
+
+@keyframes zIndexSwitch {
+    0% {
+        z-index: -1;
+    }
+
+    49% {
+        z-index: -1;
+    }
+
+    50% {
+        z-index: 5;
+    }
+
+    99% {
+        z-index: 5;
+    }
+
+    100% {
+        z-index: -1;
+    }
+}
+
+
+@keyframes animate {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+.rocket::before {
+    content: url("/icons/rocket.svg");
+    position: absolute;
+    transform: rotate(-90deg);
+    top: 9%;
+    right: 80%;
+    rotate: 90deg;
+    width: 12%;
+    height: 12%;
+}

@@ -53,7 +53,7 @@ const Age = () => {
             <span>
                 <span className="countdown">
                     <span style={{ "--value": age.hours }}></span>
-                </span>heures&nbsp;
+                </span>&nbsp;heures&nbsp;
             </span>
             <span>
                 <span className="countdown">
@@ -64,8 +64,7 @@ const Age = () => {
             <span>et&nbsp;
                 <span className="countdown">
                     <span style={{ "--value": age.seconds }}></span>
-                </span>
-                s
+                </span>&nbsp;s
             </span>
         </>
     );
