@@ -39,7 +39,7 @@ export default function Tools() {
         </div>
       </div>
       <div className="col-span-12  md:col-span-6 grid grid-cols-4 sm:grid-cols-5 md:grid-cols-5 lg:grid-cols-5 gap-4 sm:gap-5 lg:gap-8">
-        {technos.map(techno => <AnimatedTools {...techno} />)}
+        {technos.map((techno) => <AnimatedTools key={techno.slug}  {...techno} />)}
       </div>
     </div>
   )

@@ -20,4 +20,19 @@ html {
   p {
     @apply leading-8
   }
+
+
+}
+
+.glowingBackdrop::after {
+  aspect-ratio: 1 / 1;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  border-radius: 9999px;
+  opacity: 0.3;
+  width: 300px;
+
 }

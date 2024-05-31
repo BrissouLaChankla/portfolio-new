@@ -154,8 +154,8 @@ export default function Career() {
                 <img src={`/companies/${job.slug}.png`} width={40} height={40} alt={`Logo ${job.company}`} />
                 <div className="grow">
                   <h3 className=" font-semibold tracking-wide mb-1 text-sm">{job.company}</h3>
-                  {job.posts.map(post =>
-                    <div key={post.slug} className="flex justify-between items-center text-xs text-base-content opacity-75 mb-0.5">
+                  {job.posts.map((post, i) =>
+                    <div key={i} className="flex justify-between items-center text-xs text-base-content opacity-75 mb-0.5">
                       <h4>{post.name}</h4>
                       <div>
                         {post.startDate} - {post.endDate}

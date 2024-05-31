@@ -15,8 +15,7 @@ export default function GridLogos({ data, src }) {
     return (
         <>
             <div className="col-span-12 md:col-span-6 order-1 grid grid-cols-4 sm:grid-cols-5 md:grid-cols-4 lg:grid-cols-5 gap-4 sm:gap-5 lg:gap-8">
-                {data.map((el, i) => (
-                    // Don't have ID cause don't have BDD
+                {data.map((el) => (
                     <motion.span
                         initial={{ opacity: 0, scale: 0 }}
                         whileInView={{ opacity: 1, scale: 1 }}

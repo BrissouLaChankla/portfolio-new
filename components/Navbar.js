@@ -1,4 +1,5 @@
-import Image from "next/image"
+import { socials } from "@/utils/socials"
+
 export default function Navbar() {
     return (
         <div className="navbar max-w-screen-xl m-auto bg-base-100/75 backdrop-blur border-b border-gray-800  sticky top-0 z-50 lg:mb-0 lg:border-0">
@@ -28,6 +29,14 @@ export default function Navbar() {
                 </ul>
             </div>
             <div className="navbar-end">
+
+                <div className='flex gap-2'>
+                    {socials.slice(0, 2).map((social, i) => <a key={i} aria-label="Lien externe vers mon réseau social" href={social.link} target={"_blank"} className="btn btn-sm h-10 btn-outline border-[1px] border-opacity-10 group transition">
+                        <svg dangerouslySetInnerHTML={{ __html: social.icon }} fill='currentColor' className="w-4 h-4" />
+                    </a>)}
+
+                    <a aria-label="Lien externe vers mon CV" href="/CV_Brice-Eliasse_Developpeur.pdf" target="_blank" className="btn btn-sm text-xs h-10 btn-outline border-[1px] border-opacity-10 group transition">CV</a>
+                </div>
                 {/* <label className="swap swap-rotate">
 
                

@@ -58,6 +58,95 @@
     }
 }
 
+
+@keyframes leftEyeRotate {
+    0% {
+
+        transform: translate(calc(-50% - 0px), -4px);
+        /* transform: translate(calc(-50% - 2px), 0px); */
+    }
+
+
+
+    25% {
+
+        transform: translate(calc(-50% + 3px), 0px);
+    }
+
+
+
+    50% {
+
+        transform: translate(calc(-50% - 3px), 5px);
+    }
+
+    75% {
+
+        transform: translate(calc(-50% + -8px), 0px);
+    }
+
+    100% {
+        transform: translate(calc(-50% - 0px), -4px);
+    }
+}
+
+@keyframes rightEyeRotate {
+    0% {
+        transform: translate(calc(-50% + 7px), -5px);
+        /* transform: translate(calc(-50% + 4px), 0px); */
+    }
+
+    25% {
+
+        transform: translate(calc(-50% + 11px), 0px);
+    }
+
+    50% {
+
+        transform: translate(calc(-50% + 2px), 5px);
+    }
+
+    75% {
+
+        transform: translate(calc(-50% + -5px), 0px);
+    }
+
+    100% {
+        transform: translate(calc(-50% + 7px), -5px);
+    }
+}
+
+
+.rightEye {
+    /* animation-timing-function: cubic-bezier(0.1, -0.6, 0.2, 0); */
+    animation: rightEyeRotate 7s ease-out infinite;
+    animation-delay: 1.2s;
+    z-index: -1;
+    transform: translate(calc(-50% + 4px), 0px);
+}
+
+.leftEye {
+    /* animation-timing-function: cubic-bezier(0.1, -0.6, 0.2, 0); */
+    animation: leftEyeRotate 7s ease-out infinite;
+    animation-delay: 1.2s;
+    z-index: -1;
+    transform: translate(calc(-50% - 2px), 0px);
+
+}
+
+.pupille {
+    background: rgb(234, 224, 207);
+    background: radial-gradient(circle, rgba(234, 224, 207, 1) 0%, rgba(246, 238, 222, 1) 100%);
+    position: absolute;
+    min-width: 80px;
+    width: 25%;
+    height: 12%;
+    top: 45%;
+    z-index: -2;
+    left: 52%;
+    transform: translate(-50%, -50%);
+}
+
 .rocket::before {
     content: url("/icons/rocket.svg");
     position: absolute;

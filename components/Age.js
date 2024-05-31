@@ -58,8 +58,7 @@ const Age = () => {
             <span>
                 <span className="countdown">
                     <span style={{ "--value": age.minutes }}></span>
-                </span>
-                &nbsp;min&nbsp;
+                </span>&nbsp;min&nbsp;
             </span>
             <span>et&nbsp;
                 <span className="countdown">
