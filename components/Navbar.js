@@ -35,7 +35,7 @@ export default function Navbar() {
                         <svg dangerouslySetInnerHTML={{ __html: social.icon }} fill='currentColor' className="w-4 h-4" />
                     </a>)}
 
-                    <a aria-label="Lien externe vers mon CV" href="/CV_Brice-Eliasse_Developpeur.pdf" target="_blank" className="btn btn-sm text-xs h-10 btn-outline border-[1px] border-opacity-10 group transition">CV</a>
+                    <a aria-label="Lien externe vers mon CV" href="/CV_Brice-Eliasse_Developpeur.pdf" target="_blank" className="hidden sm:flex btn btn-sm text-xs h-10 btn-outline border-[1px] border-opacity-10 group transition">CV</a>
                 </div>
                 {/* <label className="swap swap-rotate">
 
