@@ -18,7 +18,7 @@ const jobs = [
       }
     ],
     slug: "capsule",
-    pics: 2
+    pics: 3
   },
   {
     company: "MediaSchool",
