@@ -92,8 +92,6 @@ const jobs = [
 export default function Career() {
   const [selectedJob, setSelectedJob] = useState(jobs[0]);
 
-
-
   return (
     <div className="section grid grid-cols-12 gap-6 lg:gap-14 items-center">
       <div className="col-span-12  md:col-span-6">

@@ -20,7 +20,7 @@ const technos = [
   { slug: "nodejs", link: "https://nodejs.org/", tooltip: "Node.js" },
 
   { slug: "socketio", link: "https://socket.io/", tooltip: "Socket.IO" },
-  { slug: "react-native", link: "https://reactnative.dev/d", tooltip: "React Native" },
+  { slug: "react-native", link: "https://reactnative.dev", tooltip: "React Native" },
   { slug: "shadcn", link: "https://ui.shadcn.com/", tooltip: "Shadcn" },
   { slug: "git", link: "https://git-scm.com", tooltip: "Git" },
   { slug: "vercel", link: "https://vercel.com/", tooltip: "Vercel" },
