@@ -24,14 +24,13 @@ export default async function page({ params }) {
     const { slug } = params
     const data = await fetchBlogPostBySlug(slug);
 
-
     return (
         <>
             <Head>
                 <title>{data.title}</title>
                 <meta name="description" content={data.metaDesc} />
             </Head>
-            <div className='max-w-screen-lg m-auto py-20'>
+            <div className='max-w-screen-lg m-auto py-10 md:py-14 px-4'>
                 <Link href="/" >
                     <svg
 
@@ -43,10 +42,25 @@ export default async function page({ params }) {
                         <path d="M7.25 11.25L3.75 8m0 0l3.5-3.25M3.75 8h8.5"></path>
                     </svg>
                 </Link>
-                <h1 className='text-3xl font-semibold tracking-wide mt-8'>{data.title}</h1>
+                <div className="flex flex-col gap-3">
+
+                    <h1 className='text-3xl md:text-4xl lg:text-5xl text-center pb-4 font-bold tracking-normal mt-6 md:mt-12'>{data.title}</h1>
+                    <p className='text-center max-w-screen-sm m-auto'>{data.metaDesc}</p>
+                    <div className='flex items-center justify-center my-4 gap-3'>
+                        <img src="/avatar/full.webp" height={50} width={50} className='border-2 rounded-full h-14 w-14 border-primary ' alt="Avatar de Brice Eliasse" />
+                        <div className='flex flex-col'>
+                            <span className='font-semibold'>Brice Eliasse</span>
+                            <small className='capitalize'>{new Date(data.image.sys.updatedAt).toLocaleDateString("fr-FR", {
+                                year: 'numeric',
+                                month: 'long',
+                                day: 'numeric',
+                            })}</small>
+                        </div>
+                    </div>
+                </div>
                 <img src={data.image.fields.file.url} className='w-full rounded-lg mt-6' alt="Illustration principale" />
-                <div className={`py-10 ${style.article}`}>
-                    {documentToReactComponents(data.body)}
+                <div className={`md:py-10 ${style.article}`}>
+                    {documentToReactComponents(data.body, options)}
                 </div>
             </div>
         </>
