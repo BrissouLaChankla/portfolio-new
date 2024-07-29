@@ -1,5 +1,5 @@
 import { socials } from "@/utils/socials"
-
+import Link from "next/link"
 export default function Navbar() {
     return (
         <div className="navbar max-w-screen-xl m-auto bg-base-100/75 backdrop-blur border-b border-gray-800  sticky top-0 z-50 lg:mb-0 lg:border-0">
@@ -9,23 +9,23 @@ export default function Navbar() {
                         <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M4 6h16M4 12h8m-8 6h16" /></svg>
                     </div>
                     <ul tabIndex={0} className="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52">
-                        <li><a href="#about">A propos</a></li>
-                        <li><a href="#skills">Compétences</a></li>
-                        <li><a href="#projects">Projets</a></li>
-                        <li><a href="#contact">Contact</a></li>
+                        <li><a href="/#about">A propos</a></li>
+                        <li><a href="/#skills">Compétences</a></li>
+                        <li><a href="/#projects">Projets</a></li>
+                        <li><a href="/#contact">Contact</a></li>
                     </ul>
                 </div>
-                <a href="#" className="btn btn-ghost text-2xl">
+                <Link href="/" className="btn btn-ghost text-2xl">
                     <img src="/logo.svg" className="w-8 h-8" width={60} height={60} quality={100} alt="Logo Brice Eliasse" />
                     Brice Eliasse
-                </a>
+                </Link>
             </div>
             <div className="navbar-center hidden lg:flex">
                 <ul className="menu menu-horizontal px-1">
-                    <li><a href="#about">A propos</a></li>
-                    <li><a href="#skills">Compétences</a></li>
-                    <li><a href="#projects">Projets</a></li>
-                    <li><a href="#contact">Contact</a></li>
+                    <li><a href="/#about">A propos</a></li>
+                    <li><a href="/#skills">Compétences</a></li>
+                    <li><a href="/#projects">Projets</a></li>
+                    <li><a href="/#contact">Contact</a></li>
                 </ul>
             </div>
             <div className="navbar-end">
