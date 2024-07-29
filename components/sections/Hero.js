@@ -1,3 +1,5 @@
+import Link from "next/link"
+
 export default function Hero() {
     return (
         <>
@@ -132,9 +134,9 @@ export default function Hero() {
                                 </svg>
                                 Me contacter
                             </a>
-                            <a href="#about" className="btn glass">
-                                Me découvrir <span aria-hidden="true">→</span>
-                            </a>
+                            <Link href="articles" className="btn glass">
+                                Mes articles <span aria-hidden="true">→</span>
+                            </Link>
                         </div>
                     </div>
                 </div>

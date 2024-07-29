@@ -10,6 +10,7 @@
   },
   "dependencies": {
     "@contentful/rich-text-react-renderer": "^15.22.8",
+    "@contentful/rich-text-types": "^16.8.3",
     "clsx": "^2.1.1",
     "contentful": "^10.12.15",
     "framer-motion": "^11.1.9",

@@ -1,11 +1,21 @@
 
 import { fetchBlogPostBySlug, fetchStaticParams } from '@/lib/contentful';
 import { documentToReactComponents } from '@contentful/rich-text-react-renderer';
+import { BLOCKS } from '@contentful/rich-text-types';
 import style from '@/style/article.module.css'
 import Link from 'next/link';
 import Head from 'next/head';
 
-
+const options = {
+    renderNode: {
+        [BLOCKS.EMBEDDED_ASSET]: (node) => {
+            const { file, title } = node.data.target.fields;
+            const url = file.url;
+            const alt = title ? title : 'Embedded image';
+            return <img src={url} alt={alt} loading='lazy' style={{ width: '100%', height: '400px', objectFit: "cover" }} />;
+        },
+    },
+};
 
 export async function generateStaticParams() {
     return await fetchStaticParams();

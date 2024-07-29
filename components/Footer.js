@@ -1,4 +1,4 @@
-import { fetchBlogPosts } from '../lib/contentful';
+import { fetchBlogPosts } from '@/lib/contentful';
 import Link from 'next/link';
 
 export default async function Footer() {
@@ -9,7 +9,9 @@ export default async function Footer() {
     <div className="bg-base-200 text-base-content p-10 w-full ">
       <footer className="footer m-auto max-w-screen-xl">
         <aside>
-          <img src="/logo.svg" className="w-12 h-12" width={160} height={160} quality={100} alt="Logo Brice Eliasse" />
+          <a href="#">
+            <img src="/logo.svg" className="w-12 h-12" width={160} height={160} quality={100} alt="Logo Brice Eliasse" />
+          </a>
           <p>
             <span className="text-xl font-semibold tracking-normal">
               Brice Eliasse
@@ -20,13 +22,11 @@ export default async function Footer() {
           </p>
         </aside>
         <nav>
-          <h6 className="footer-title">Articles principaux</h6>
+          <h6 className="footer-title">Derniers articcles</h6>
           {
-            articles.map((article, i) => <Link key={i} href={`/blog/${article.slug}`} className="link link-hover">{article.title}</Link>)
+            articles.map((article, i) => <Link key={i} href={`/articles/${article.slug}`} className="link link-hover">{article.title}</Link>)
           }
-
         </nav>
-
         <nav>
           <h6 className="footer-title">Coordonnées</h6>
           <span>Alpes-Maritimes - Nice</span>
