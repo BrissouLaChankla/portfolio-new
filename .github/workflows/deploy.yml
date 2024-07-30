@@ -1,5 +1,3 @@
-
-
 name: Deploy
 
 on:
@@ -18,7 +16,7 @@ jobs:
     - name: Setup Node.js
       uses: actions/setup-node@v2
       with:
-        node-version: '20' 
+        node-version: '20'
 
     - name: Install dependencies
       run: yarn install
@@ -33,15 +31,14 @@ jobs:
       if: success()
       run: zip -r out.zip out/
 
-    - name: Upload to FTP
-      if: success()
-      uses: sebastianpopp/ftp-action@v1.0.0
+    - name: FTP Deploy
+      uses: SamKirkland/FTP-Deploy-Action@4.0.0
       with:
-        host: ftp.backstape.odns.fr
-        user: ${{ secrets.FTP_USERNAME }}
-        password: ${{ secrets.FTP_PASSWORD }}
-        localDir: out.zip
-        remoteDir: /path/to/remote/
+        ftp-server: ftp://ftp.votreftp.com
+        ftp-username: ${{ secrets.FTP_USERNAME }}
+        ftp-password: ${{ secrets.FTP_PASSWORD }}
+        local-dir: out.zip
+        remote-dir: /path/to/remote/
 
     - name: List files for debugging
       run: ls -alh out/
