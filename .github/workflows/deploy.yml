@@ -34,11 +34,11 @@ jobs:
     - name: FTP Deploy
       uses: SamKirkland/FTP-Deploy-Action@4.0.0
       with:
-        ftp-server: ftp://ftp.votreftp.com
-        ftp-username: ${{ secrets.FTP_USERNAME }}
-        ftp-password: ${{ secrets.FTP_PASSWORD }}
+        server: ftp.backstape.odns.fr
+        username: ${{ secrets.FTP_USERNAME }}
+        password: ${{ secrets.FTP_PASSWORD }}
         local-dir: out.zip
-        remote-dir: /path/to/remote/
+        server-dir: /path/to/remote/
 
     - name: List files for debugging
       run: ls -alh out/
