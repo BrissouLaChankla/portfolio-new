@@ -1,3 +1,5 @@
+
+
 name: Deploy
 
 on:
@@ -13,16 +15,26 @@ jobs:
     - name: Checkout code
       uses: actions/checkout@v2
 
+    - name: Setup Node.js
+      uses: actions/setup-node@v2
+      with:
+        node-version: '14' 
+
     - name: Install dependencies
       run: yarn install
 
     - name: Build project
+      env:
+        CONTENTFUL_SPACE_ID: ${{ secrets.CONTENTFUL_SPACE_ID }}
+        CONTENTFUL_ACCESS_TOKEN: ${{ secrets.CONTENTFUL_ACCESS_TOKEN }}
       run: yarn build
 
     - name: Zip the output directory
+      if: success()
       run: zip -r out.zip out/
 
     - name: Upload to FTP
+      if: success()
       uses: sebastianpopp/ftp-action@v1.0.0
       with:
         host: ftp.backstape.odns.fr
@@ -30,3 +42,6 @@ jobs:
         password: ${{ secrets.FTP_PASSWORD }}
         localFile: out.zip
         remotePath: /path/to/remote/
+
+    - name: List files for debugging
+      run: ls -alh out/
