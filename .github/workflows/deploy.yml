@@ -38,3 +38,4 @@ jobs:
         password: ${{ secrets.FTP_PASSWORD }}
         localDir: out/
         remoteDir: /
+ 
