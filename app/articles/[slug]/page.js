@@ -1,5 +1,30 @@
 
-import { fetchBlogPostBySlug, fetchStaticParams } from '@/lib/contentful';
+import { createClient } from 'contentful';
+
+const client = createClient({
+    space: process.env.CONTENTFUL_SPACE_ID,
+    accessToken: process.env.CONTENTFUL_ACCESS_TOKEN,
+});
+
+async function fetchBlogPostBySlug(slug) {
+    const response = await client.getEntries({
+        content_type: 'blogPage',
+        'fields.slug': slug,
+    });
+    return response.items[0].fields;
+}
+
+async function fetchStaticParams() {
+    const posts = await client.getEntries({
+        content_type: 'blogPage',
+        select: 'fields.slug',
+    });
+
+    return posts.items.map((items) => ({
+        slug: items.fields.slug,
+    }))
+}
+
 import { documentToReactComponents } from '@contentful/rich-text-react-renderer';
 import { BLOCKS } from '@contentful/rich-text-types';
 import style from '@/style/article.module.css'

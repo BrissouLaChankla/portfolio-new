@@ -1,4 +1,17 @@
-import { fetchBlogPosts } from '@/lib/contentful';
+import { createClient } from 'contentful';
+
+const client = createClient({
+    space: process.env.CONTENTFUL_SPACE_ID,
+    accessToken: process.env.CONTENTFUL_ACCESS_TOKEN,
+});
+
+async function fetchBlogPosts() {
+    const response = await client.getEntries({
+        content_type: 'blogPage',
+    });
+    return response.items.map((item) => item.fields);
+}
+
 import Card from '@/components/articles/Card';
 
 export const metadata = {
