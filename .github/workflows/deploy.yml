@@ -1,0 +1,32 @@
+name: Deploy
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v2
+
+    - name: Install dependencies
+      run: yarn install
+
+    - name: Build project
+      run: yarn build
+
+    - name: Zip the output directory
+      run: zip -r out.zip out/
+
+    - name: Upload to FTP
+      uses: sebastianpopp/ftp-action@v1.0.0
+      with:
+        host: ftp.backstape.odns.fr
+        user: ${{ secrets.FTP_USERNAME }}
+        password: ${{ secrets.FTP_PASSWORD }}
+        localFile: out.zip
+        remotePath: /path/to/remote/
