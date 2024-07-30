@@ -13,28 +13,17 @@ jobs:
     - name: Checkout code
       uses: actions/checkout@v2
 
-    - name: Setup Node.js
-      uses: actions/setup-node@v2
-      with:
-        node-version: '20'
-
     - name: Install dependencies
       run: yarn install
 
     - name: Build project
-      env:
-        CONTENTFUL_SPACE_ID: ${{ secrets.CONTENTFUL_SPACE_ID }}
-        CONTENTFUL_ACCESS_TOKEN: ${{ secrets.CONTENTFUL_ACCESS_TOKEN }}
       run: yarn build
 
-    - name: FTP Deploy
-      uses: SamKirkland/FTP-Deploy-Action@4.0.0
+    - name: Upload to FTP
+      uses: sebastianpopp/ftp-action@v1.0.0
       with:
         host: ftp.backstape.odns.fr
-        username: ${{ secrets.FTP_USERNAME }}
+        user: ${{ secrets.FTP_USERNAME }}
         password: ${{ secrets.FTP_PASSWORD }}
-        local-dir: out
-        server-dir: /path/to/remote/
-
-    - name: List files for debugging
-      run: ls -alh out/
+        localDir: out/
+        remotePath: /
