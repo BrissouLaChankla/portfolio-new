@@ -40,8 +40,8 @@ jobs:
         host: ftp.backstape.odns.fr
         user: ${{ secrets.FTP_USERNAME }}
         password: ${{ secrets.FTP_PASSWORD }}
-        localFile: out.zip
-        remotePath: /path/to/remote/
+        localDir: out.zip
+        remoteDir: /path/to/remote/
 
     - name: List files for debugging
       run: ls -alh out/
