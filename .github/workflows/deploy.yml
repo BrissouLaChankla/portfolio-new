@@ -27,17 +27,13 @@ jobs:
         CONTENTFUL_ACCESS_TOKEN: ${{ secrets.CONTENTFUL_ACCESS_TOKEN }}
       run: yarn build
 
-    - name: Zip the output directory
-      if: success()
-      run: zip -r out.zip out/
-
     - name: FTP Deploy
       uses: SamKirkland/FTP-Deploy-Action@4.0.0
       with:
-        server: ftp.backstape.odns.fr
+        host: ftp.backstape.odns.fr
         username: ${{ secrets.FTP_USERNAME }}
         password: ${{ secrets.FTP_PASSWORD }}
-        local-dir: out.zip
+        local-dir: out
         server-dir: /path/to/remote/
 
     - name: List files for debugging
