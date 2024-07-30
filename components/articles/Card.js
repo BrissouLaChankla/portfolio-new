@@ -3,7 +3,7 @@ import Link from "next/link"
 export default function Card({ data }) {
 
     return (
-        <article className="overflow-hidden rounded-lg border border-primary/75 bg-neutral shadow-sm">
+        <article className="overflow-hidden rounded-lg border border-base-neutral bg-neutral shadow-sm">
             <img
                 alt="Illustration principale de l'article"
                 src={data.image.fields.file.url}

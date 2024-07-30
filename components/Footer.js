@@ -22,7 +22,7 @@ export default async function Footer() {
           </p>
         </aside>
         <nav>
-          <h6 className="footer-title">Derniers articcles</h6>
+          <h6 className="footer-title">Derniers articles</h6>
           {
             articles.map((article, i) => <Link key={i} href={`/articles/${article.slug}`} className="link link-hover">{article.title}</Link>)
           }
