@@ -1,18 +1,5 @@
-import { createClient } from "contentful";
-import Link from "next/link";
-
-const client = createClient({
-  space: process.env.CONTENTFUL_SPACE_ID,
-  accessToken: process.env.CONTENTFUL_ACCESS_TOKEN,
-});
-
-async function fetchBlogPosts() {
-  const response = await client.getEntries({
-    content_type: 'blogPage',
-  });
-  return response.items.map((item) => item.fields);
-}
-
+import { fetchBlogPosts } from '@/lib/contentful';
+import Link from 'next/link';
 
 export default async function Footer() {
   const articles = await fetchBlogPosts()
