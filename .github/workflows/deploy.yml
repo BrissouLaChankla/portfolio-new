@@ -29,10 +29,13 @@ jobs:
         CONTENTFUL_ACCESS_TOKEN: ${{ secrets.CONTENTFUL_ACCESS_TOKEN }}
       run: yarn build
 
+<<<<<<< HEAD
     - name: Zip the output directory
       if: success()
       run: zip -r out.zip out/
 
+=======
+>>>>>>> 086c1513eaf5590ee5c1975a2fca9699c847d32a
     - name: Upload to FTP
       if: success()
       uses: sebastianpopp/ftp-action@v1.0.0
@@ -40,8 +43,13 @@ jobs:
         host: ftp.backstape.odns.fr
         user: ${{ secrets.FTP_USERNAME }}
         password: ${{ secrets.FTP_PASSWORD }}
+<<<<<<< HEAD
         localFile: out.zip
         remotePath: /path/to/remote/
 
     - name: List files for debugging
       run: ls -alh out/
+=======
+        localDir: out/
+        remotePath: /
+>>>>>>> 086c1513eaf5590ee5c1975a2fca9699c847d32a
