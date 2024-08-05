@@ -5,7 +5,7 @@ import { BLOCKS } from '@contentful/rich-text-types';
 import style from '@/style/article.module.css'
 import Link from 'next/link';
 import Head from 'next/head';
-
+// new article
 const options = {
     renderNode: {
         [BLOCKS.EMBEDDED_ASSET]: (node) => {
