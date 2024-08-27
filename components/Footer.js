@@ -4,7 +4,6 @@ import Link from 'next/link';
 export default async function Footer() {
   const articles = await fetchBlogPosts()
 
-
   return (
     <div className="bg-base-200 text-base-content p-10 w-full ">
       <footer className="footer m-auto max-w-screen-xl">
@@ -24,7 +23,7 @@ export default async function Footer() {
         <nav>
           <h6 className="footer-title">Derniers articles</h6>
           {
-            articles.map((article, i) => <Link key={i} href={`/articles/${article.slug}`} className="link link-hover">{article.title}</Link>)
+            articles.slice(0, 3).map((article, i) => <Link key={i} href={`/articles/${article.slug}`} className="link link-hover">{article.title}</Link>)
           }
         </nav>
         <nav>
