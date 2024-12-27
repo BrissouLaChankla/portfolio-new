@@ -1,5 +1,6 @@
 import GridLogos from "../ui/GridLogos";
 const projects = [
+  { slug: "lol-tracker", link: "https://lol-tracker.com", name: "Lol-Tracker", description: "Obtenez des stats, des évaluations détaillées et un historique de jeu pour booster les performances de votre équipe en Flex 5", tools: ["NextJS", "DaisyUI", "Clerk"] },
   { slug: "nekjeu", link: "https://nekjeu.fr", name: "Nekjeu", description: "Jeu web en temps réel où l'on défie un ami sur la discographie de l'artiste Nekfeu. Le premier à trouver l'album de la musique diffusée gagne des points.", tools: ["VueJS", "Laravel", "SocketIO"] },
   { slug: "bananegames", link: "https://bananegames.brice-eliasse.com/", name: "Banane Games", description: "Site vitrine avec un CMS personnalisé développé en Laravel pour gérer le site et publier des articles. J'ai aussi développé deux jeux éducatifs web en VueJS.", tools: ["Laravel", "VueJS", "Bootstrap"] },
   { slug: "g2", link: "https://g2detonate.com", name: "G2 Detonate", description: "Application qui détourne et positionne automatiquement une image sur un fond d'explosion. Elle permet aux fans de l'équipe G2 Esports de montrer leur soutien sur les réseaux sociaux.", tools: ["Laravel", "PhotoRoom"] },
@@ -19,7 +20,6 @@ const projects = [
   { slug: "trouve-mot", link: "https://trouve-mot.fr/", name: "Trouve mot", description: "API Laravel gratuite de mots aléatoires permettant de récupérer des mots triés ou non par catégories.", tools: ["Laravel", "Bootstrap"] },
   { slug: "monacotraduction", link: "https://www.monacotraduction.mc/fr", name: "Monaco Traduction", description: "Site vitrine multilingue réalisé pour une agence de traduction basée à Monaco.", tools: ["WordPress", "Elementor", "PolyLang"] },
   { slug: "about", link: "https://about-lime.vercel.app/", name: "Portfolio", description: "Portfolio développé pour pratiquer avec Tailwind CSS et DaisyUI.", tools: ["NextJS", "TailwindCSS", "DaisyUI"] },
-  { slug: "helloquence", link: "#", name: "HelloQuence", description: "Site permettant d'aider les personnes introverties à briser la glace ou à converser avec plus d'aisance", tools: ["NextJS", "TailwindCSS", "DaisyUI"] },
 ];
 
 
