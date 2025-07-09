@@ -23,6 +23,10 @@ export default async function Article({ params }) {
   );
   const { article, ok } = await response.json();
 
+  if (!ok || !article?.publishedAt) {
+    return notFound();
+  }
+
   // featured articles
   const featuredArticlesResponse = await fetch(
     `https://beatrice.app/api/articles?limit=3&onlyPublished=true${
@@ -30,10 +34,6 @@ export default async function Article({ params }) {
     }&excludeSlug=${slug}&token=203377ab-1537-4b08-a5ec-93d090abc95e`
   );
   const { data: featuredArticles } = await featuredArticlesResponse.json();
-
-  if (!ok || !article?.publishedAt) {
-    return notFound();
-  }
 
   const faqJsonLd = createFaqJsonLd(article.faq);
   const breadcrumbJsonLd = createBreadcrumbJsonLd(article.title, article.slug);
