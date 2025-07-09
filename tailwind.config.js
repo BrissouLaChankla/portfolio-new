@@ -1,5 +1,5 @@
 /** @type {import('tailwindcss').Config} */
-import daisyui from 'daisyui'
+import daisyui from "daisyui";
 module.exports = {
   content: [
     "./pages/**/*.{js,ts,jsx,tsx,mdx}",
@@ -15,7 +15,7 @@ module.exports = {
       },
     },
   },
-  plugins: [daisyui],
+  plugins: [daisyui, require("@tailwindcss/typography")],
   daisyui: {
     themes: [
       {
@@ -23,7 +23,7 @@ module.exports = {
           ...require("daisyui/src/theming/themes")["night"],
           primary: "#00dc82",
           "base-content": "#E2E8F0",
-          "neutral-content": "#f4f4f5"
+          "neutral-content": "#f4f4f5",
         },
         light: {
           ...require("daisyui/src/theming/themes")["light"],

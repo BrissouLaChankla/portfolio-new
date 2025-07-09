@@ -7,16 +7,24 @@ const nextConfig = {
     CONTENTFUL_ACCESS_TOKEN: process.env.CONTENTFUL_ACCESS_TOKEN,
   },
   images: {
+    unoptimized: true,
     remotePatterns: [
       {
-        protocol: 'https',
-        hostname: 'lh3.googleusercontent.com',
-        port: '',
+        protocol: "https",
+        hostname: "lh3.googleusercontent.com",
+        port: "",
+      },
+      {
+        protocol: "https",
+        hostname: "fbiosfgcdaoddmqsmzmv.supabase.co",
+        port: "",
       },
     ],
   },
+  // Permettre les routes dynamiques pour le sitemap
+  experimental: {
+    dynamicParams: true,
+  },
 };
-
-
 
 export default nextConfig;

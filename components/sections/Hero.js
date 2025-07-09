@@ -118,16 +118,9 @@ export default function Hero() {
               rel="noopener noreferrer"
               className="btn btn-primary   btn-outline font-semibold  badge-outline text-xs mb-6 rounded-full py-0 min-h-8 h-8"
             >
-              Et si on automatisait votre Blog ? →
+              Et si on automatisait à 100% votre Blog ? →
             </a>
 
-            {/* <a
-              href="https://beatrice.app"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="font-semibold badge badge-primary badge-outline text-xs mb-6 p-3"
-            >
-            </a> */}
             <h1 className="text-4xl font-bold tracking-tight sm:leading-none text-base-content sm:text-7xl">
               Brice Eliasse{" "}
               <div className="text-primary">Dev. Web Freelance </div>
