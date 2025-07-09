@@ -25,7 +25,9 @@ export default async function Article({ params }) {
 
   // featured articles
   const featuredArticlesResponse = await fetch(
-    `https://beatrice.app/api/articles?limit=3&onlyPublished=true&tag=${article.tags[0]}&excludeSlug=${slug}&token=203377ab-1537-4b08-a5ec-93d090abc95e`
+    `https://beatrice.app/api/articles?limit=3&onlyPublished=true${
+      article.tags && article.tags.length > 0 ? `&tag=${article.tags[0]}` : ""
+    }&excludeSlug=${slug}&token=203377ab-1537-4b08-a5ec-93d090abc95e`
   );
   const { data: featuredArticles } = await featuredArticlesResponse.json();
 
@@ -149,14 +151,15 @@ export default async function Article({ params }) {
                 </span>
               </div>
               <div className="flex items-center gap-2">
-                {article.tags.map((tag, index) => (
-                  <span
-                    key={index}
-                    className="border border-base-content/20  rounded-full px-3 py-1 text-xs text-base-content/80 capitalize"
-                  >
-                    {tag}
-                  </span>
-                ))}
+                {article.tags &&
+                  article.tags.map((tag, index) => (
+                    <span
+                      key={index}
+                      className="border border-base-content/20  rounded-full px-3 py-1 text-xs text-base-content/80 capitalize"
+                    >
+                      {tag}
+                    </span>
+                  ))}
               </div>
             </div>
           </header>
