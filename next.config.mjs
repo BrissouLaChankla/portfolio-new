@@ -1,4 +1,8 @@
 /** @type {import('next').NextConfig} */
+
+export const dynamic = "force-static";
+export const revalidate = false;
+
 const nextConfig = {
   output: "export",
   trailingSlash: true,
