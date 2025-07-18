@@ -16,6 +16,7 @@
     "contentful": "^10.12.15",
     "framer-motion": "^11.1.9",
     "heroicons": "^2.2.0",
+    "leaflet": "^1.9.4",
     "next": "14.2.3",
     "react": "^18",
     "react-dom": "^18",
