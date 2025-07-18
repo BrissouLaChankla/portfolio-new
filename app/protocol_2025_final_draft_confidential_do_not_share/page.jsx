@@ -1,7 +1,5 @@
 "use client";
 import { useEffect, useRef, useState } from "react";
-import L from "leaflet";
-import "leaflet/dist/leaflet.css";
 
 const target = {
   lat: 52.369598,
@@ -12,6 +10,7 @@ export default function LeafletGame() {
   const mapRef = useRef(null);
   const [isModalOpen, setIsModalOpen] = useState(false);
   const [toastMsg, setToastMsg] = useState("");
+  const [isClient, setIsClient] = useState(false);
 
   const showToast = (message) => {
     setToastMsg(message);
@@ -34,52 +33,93 @@ export default function LeafletGame() {
   };
 
   useEffect(() => {
-    const map = L.map(mapRef.current).setView([52.37, 4.89], 13);
-
-    L.tileLayer("https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png", {
-      attribution: "&copy; OpenStreetMap contributors",
-    }).addTo(map);
-
-    const customIcon = L.icon({
-      iconUrl:
-        "https://www.cp-desk.com/wp-content/uploads/2019/02/map-marker-free-download-png.png",
-      iconSize: [40, 40],
-      iconAnchor: [20, 40],
-    });
-
-    map.on("click", (e) => {
-      const { lat, lng } = e.latlng;
-      const distance = getDistanceInMeters(lat, lng, target.lat, target.lng);
-
-      if (distance < 100) {
-        L.marker([target.lat, target.lng], { icon: customIcon }).addTo(map);
-        showToast(
-          "🎯 Target acquired! The mission is a success, Agent Lovebird."
-        );
-        setIsModalOpen(true);
-      } else if (distance < 250) {
-        showToast("♨️ You're burning up! Almost too hot to handle...");
-      } else if (distance < 500) {
-        showToast("🔥 Hot! If you were any closer, we’d need sunscreen.");
-      } else if (distance < 1000) {
-        showToast("🌡️ Warm… Close enough to smell the picnic.");
-      } else if (distance < 2000) {
-        showToast(
-          "🌆 You’re in the right neighborhood. Suspiciously competent."
-        );
-      } else if (distance < 5000) {
-        showToast("🔍 Right city. You’re circling the target like a pro.");
-      } else if (distance < 8000) {
-        showToast("📍 Still Amsterdam, but let’s not get cocky.");
-      } else {
-        showToast("❄️ Cold.");
-      }
-    });
-
-    return () => {
-      map.remove();
-    };
+    setIsClient(true);
   }, []);
+
+  useEffect(() => {
+    if (!isClient || typeof window === "undefined") return;
+
+    const initMap = async () => {
+      const L = await import("leaflet");
+      await import("leaflet/dist/leaflet.css");
+
+      const map = L.map(mapRef.current).setView([52.37, 4.89], 13);
+
+      L.tileLayer("https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png", {
+        attribution: "&copy; OpenStreetMap contributors",
+      }).addTo(map);
+
+      const customIcon = L.icon({
+        iconUrl:
+          "https://www.cp-desk.com/wp-content/uploads/2019/02/map-marker-free-download-png.png",
+        iconSize: [40, 40],
+        iconAnchor: [20, 40],
+      });
+
+      map.on("click", (e) => {
+        const { lat, lng } = e.latlng;
+        const distance = getDistanceInMeters(lat, lng, target.lat, target.lng);
+
+        if (distance < 100) {
+          L.marker([target.lat, target.lng], { icon: customIcon }).addTo(map);
+          showToast(
+            "🎯 Target acquired! The mission is a success, Agent Lovebird."
+          );
+          setIsModalOpen(true);
+        } else if (distance < 250) {
+          showToast("♨️ You're burning up! Almost too hot to handle...");
+        } else if (distance < 500) {
+          showToast("🔥 Hot! If you were any closer, we'd need sunscreen.");
+        } else if (distance < 1000) {
+          showToast("🌡️ Warm… Close enough to smell the picnic.");
+        } else if (distance < 2000) {
+          showToast(
+            "🌆 You're in the right neighborhood. Suspiciously competent."
+          );
+        } else if (distance < 5000) {
+          showToast("🔍 Right city. You're circling the target like a pro.");
+        } else if (distance < 8000) {
+          showToast("📍 Still Amsterdam, but let's not get cocky.");
+        } else {
+          showToast("❄️ Cold.");
+        }
+      });
+
+      return () => {
+        map.remove();
+      };
+    };
+
+    initMap();
+  }, [isClient]);
+
+  if (!isClient) {
+    return (
+      <div className="flex flex-col items-center p-6 relative">
+        <div className="flex items-center gap-2">
+          <h2 className="text-xl font-semibold text-right ">
+            Click anywhere on the map pls dev, <br /> zuckerberg can't see us
+            here
+          </h2>
+          <img src="/zuck.webp" alt="" className="w-40 border-l-2" />
+        </div>
+        <div
+          style={{
+            height: "500px",
+            width: "100%",
+            maxWidth: "700px",
+            borderRadius: "10px",
+            backgroundColor: "#f0f0f0",
+            display: "flex",
+            alignItems: "center",
+            justifyContent: "center",
+          }}
+        >
+          <p>Chargement de la carte...</p>
+        </div>
+      </div>
+    );
+  }
 
   return (
     <div className="flex flex-col items-center  p-6 relative">
