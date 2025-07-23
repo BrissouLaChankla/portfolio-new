@@ -126,7 +126,7 @@ export default function Hero() {
               <div className="text-primary">Dev. Web Freelance </div>
             </h1>
             <p className="mt-6 text-lg leading-8 text-base-content">
-              Développeur Full stack Freelance sur Nice avec{" "}
+              Développeur web Freelance sur Nice avec{" "}
               {new Date().getFullYear() - 2019} années d'expériences, <br />{" "}
               <a href="#contact" className="text-primary underline">
                 je suis disponible
