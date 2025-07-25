@@ -88,13 +88,6 @@ export default async function Article({ params }) {
             <meta itemProp="position" content="3" />
           </div>
         </nav>
-        <Link
-          href="/articles"
-          className="!text-primary !no-underline  font-light"
-          aria-label="Back to the list of articles"
-        >
-          ← Retour aux articles
-        </Link>
 
         <article
           className="max-w-4xl mx-auto"
@@ -128,11 +121,11 @@ export default async function Article({ params }) {
                     </span>
                   </span>
                 </Link> */}
-                <img
+                <Image
                   src="/avatar/full.webp"
                   height={25}
                   width={25}
-                  className=" rounded-full h-10 w-10 border-primary "
+                  className=" rounded-full h-10 w-10 border-primary object-cover"
                   alt="Avatar de Brice Eliasse"
                 />
                 <span className="text-sm font-semibold ">Brice Eliasse</span>
@@ -172,11 +165,11 @@ export default async function Article({ params }) {
               quality={80}
               priority
               alt={`Image de l'article ${article.title}`}
-              className="w-full h-64 object-cover rounded-lg"
+              className="w-full h-80 object-cover rounded-lg"
             />
           </figure>
 
-          <div className="prose prose-lg" itemProp="articleBody">
+          <div className="prose prose-lg max-w-none" itemProp="articleBody">
             {/* {parsedContent} */}
             <div dangerouslySetInnerHTML={{ __html: article.content }}></div>
           </div>
@@ -228,14 +221,14 @@ export default async function Article({ params }) {
               className=" object-contain rounded-lg"
             />
             <p className="leading-relaxed mt-3">
-              Disponible pour vos projets web en freelance
+              Je suis disponible pour développer votre projet web
             </p>
             <div className="flex gap-3 justify-center mt-3">
               <Link
                 href="/#contact"
                 className="btn btn-primary btn-outline btn-sm w-full"
               >
-                Contactez-moi
+                Discutons de votre projet
               </Link>
             </div>
           </div>
@@ -273,16 +266,16 @@ export default async function Article({ params }) {
             // },
             publisher: {
               "@type": "Organization",
-              name: "Option Zero",
+              name: "Brice Eliasse",
               logo: {
                 "@type": "ImageObject",
-                url: "https://option-zero.fr/logo.webp",
+                url: "https://brice-eliasse.com/logo.webp",
               },
             },
             datePublished: article.publishedAt,
             mainEntityOfPage: {
               "@type": "WebPage",
-              "@id": `https://option-zero.fr/blog/${article.slug}`,
+              "@id": `https://brice-eliasse.com/articles/${article.slug}`,
             },
             keywords: article.tags ? article.tags.join(", ") : "",
           }),
@@ -334,19 +327,19 @@ const createBreadcrumbJsonLd = (articleTitle, articleSlug) => ({
       "@type": "ListItem",
       position: 1,
       name: "Home",
-      item: "https://option-zero.fr/",
+      item: "https://brice-eliasse.com/",
     },
     {
       "@type": "ListItem",
       position: 2,
       name: "Blog",
-      item: "https://option-zero.fr/blog",
+      item: "https://brice-eliasse.com/articles",
     },
     {
       "@type": "ListItem",
       position: 3,
       name: articleTitle,
-      item: `https://option-zero.fr/blog/${articleSlug}`,
+      item: `https://brice-eliasse.com/articles/${articleSlug}`,
     },
   ],
 });

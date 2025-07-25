@@ -4,6 +4,7 @@ import Link from "next/link";
 import Image from "next/image";
 
 import { redirect } from "next/navigation";
+export const revalidate = 3600;
 
 export default async function BlogPage({ params }) {
   const searchParams = await params;
@@ -121,24 +122,23 @@ export default async function BlogPage({ params }) {
           </Suspense>
         </div>
         <div className="flex justify-end mt-8">
-          <Pagination currentPage={currentPage} totalPages={pagination.pages} />
+          <Pagination pagination={pagination} />
         </div>
       </div>
     </div>
   );
 }
-const Pagination = (pagination) => {
+const Pagination = ({ pagination }) => {
+  console.log("pagination", pagination);
   return (
-    <div className="flex items-center gap-1.5 mt-6">
+    <div className="join mt-6">
       {Array.from({ length: pagination.pages }, (_, i) => i + 1).map(
         (pageNum) => (
           <Link
             key={pageNum}
             href={pageNum === 1 ? "/articles" : `/articles/page/${pageNum}`}
-            className={`w-8 h-8 flex items-center justify-center rounded transition-colors ${
-              currentPage === pageNum
-                ? "bg-secondary-500 text-white"
-                : "bg-base-100 hover:bg-base-300"
+            className={`join-item btn btn-sm btn-outline ${
+              pagination.page === pageNum ? " btn-active" : ""
             }`}
           >
             {pageNum}
@@ -149,28 +149,63 @@ const Pagination = (pagination) => {
   );
 };
 
-export const revalidate = 0;
+export async function generateStaticParams() {
+  try {
+    // Récupérer le nombre total de pages depuis l'API
+    const response = await fetch(
+      `https://beatrice.app/api/articles?page=1&limit=9&token=203377ab-1537-4b08-a5ec-93d090abc95e`
+    );
+
+    if (!response.ok) {
+      console.error(
+        "Erreur API lors de la génération des paramètres statiques:",
+        response.status
+      );
+      return [];
+    }
+
+    const { pagination } = await response.json();
+
+    if (!pagination || pagination.pages === 0) {
+      return [];
+    }
+
+    // Générer les paramètres pour toutes les pages
+    const params = [];
+    for (let i = 1; i <= pagination.pages; i++) {
+      params.push({ page: i.toString() });
+    }
+
+    return params;
+  } catch (error) {
+    console.error(
+      "Erreur lors de la génération des paramètres statiques:",
+      error
+    );
+    return [];
+  }
+}
 
 export async function generateMetadata({ params }) {
   const { page } = await params;
 
   const pageNumber = parseInt(page, 10);
   return {
-    title: `SEO Blog & Automated Article Generation - Page ${pageNumber} | Beatrice`,
-    description: `Discover how Beatrice automatically generates SEO-optimized articles for your website. Tips, tricks, and testimonials about automated content generation - Page ${pageNumber}.`,
+    title: `Tous les articles - Page ${pageNumber} | Brice Eliasse`,
+    description: `Parcourez la page ${pageNumber} des articles de Brice Eliasse, développeur web freelance à Nice. Conseils, actualités et astuces sur le développement web.`,
     alternates: {
-      canonical: `https://beatrice.ai/blog/page/${pageNumber}`,
+      canonical: `https://brice-eliasse.com/articles/page/${pageNumber}`,
     },
     openGraph: {
-      title: `SEO Blog & Automated Article Generation - Page ${pageNumber} | Beatrice`,
-      description: `Discover how Beatrice automatically generates SEO-optimized articles for your website. Tips, tricks, and testimonials about automated content generation - Page ${pageNumber}.`,
+      title: `Tous les articles - Page ${pageNumber} | Brice Eliasse`,
+      description: `Découvrez les articles de Brice Eliasse, développeur web freelance à Nice. Page ${pageNumber} : conseils, actualités et astuces sur le développement web.`,
       type: "website",
-      locale: "en_US",
+      locale: "fr_FR",
     },
     twitter: {
       card: "summary_large_image",
-      title: `SEO Blog & Automated Article Generation - Page ${pageNumber} | Beatrice`,
-      description: `Discover how Beatrice automatically generates SEO-optimized articles for your website - Page ${pageNumber}.`,
+      title: `Tous les articles - Page ${pageNumber} | Brice Eliasse`,
+      description: `Articles de Brice Eliasse, développeur web freelance à Nice. Page ${pageNumber}.`,
     },
   };
 }
