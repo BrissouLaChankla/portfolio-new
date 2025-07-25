@@ -48,7 +48,7 @@ export default async function BlogPage({ params }) {
   }
 
   return (
-    <div className="container mx-auto p-6">
+    <div className="container mx-auto p-6 max-w-screen-xl">
       <div className=" lg:mt-20">
         <div className="flex items-center justify-between mb-8 relative">
           <span className="text-gray-600 text-sm absolute -top-5 left-0">
@@ -129,7 +129,6 @@ export default async function BlogPage({ params }) {
   );
 }
 const Pagination = ({ pagination }) => {
-  console.log("pagination", pagination);
   return (
     <div className="join mt-6">
       {Array.from({ length: pagination.pages }, (_, i) => i + 1).map(
