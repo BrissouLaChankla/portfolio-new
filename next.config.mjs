@@ -25,10 +25,6 @@ const nextConfig = {
       },
     ],
   },
-  // Permettre les routes dynamiques pour le sitemap
-  experimental: {
-    dynamicParams: true,
-  },
 };
 
 export default nextConfig;
