@@ -1,43 +1,95 @@
-import { socials } from "@/utils/socials"
-import Link from "next/link"
+import { socials } from "@/utils/socials";
+import Link from "next/link";
 export default function Navbar() {
-    return (
-        <div className="navbar max-w-screen-xl m-auto bg-base-100/75 backdrop-blur border-b border-gray-800  sticky top-0 z-50 lg:mb-0 lg:border-0">
-            <div className="navbar-start">
-                <div className="dropdown">
-                    <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
-                        <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M4 6h16M4 12h8m-8 6h16" /></svg>
-                    </div>
-                    <ul tabIndex={0} className="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52">
-                        <li><a href="/#about">A propos</a></li>
-                        <li><a href="/#skills">Compétences</a></li>
-                        <li><a href="/#projects">Projets</a></li>
-                        <li><a href="/#contact">Contact</a></li>
-                    </ul>
-                </div>
-                <Link href="/" className="btn btn-ghost text-2xl">
-                    <img src="/logo.svg" className="w-8 h-8" width={60} height={60} quality={100} alt="Logo Brice Eliasse" />
-                    Brice Eliasse
-                </Link>
-            </div>
-            <div className="navbar-center hidden lg:flex">
-                <ul className="menu menu-horizontal px-1">
-                    <li><a href="/#about">A propos</a></li>
-                    <li><a href="/#skills">Compétences</a></li>
-                    <li><a href="/#projects">Projets</a></li>
-                    <li><a href="/#contact">Contact</a></li>
-                </ul>
-            </div>
-            <div className="navbar-end">
+  return (
+    <div className="navbar max-w-screen-xl m-auto bg-base-100/75 backdrop-blur border-b border-gray-800  sticky top-0 z-50 lg:mb-0 lg:border-0">
+      <div className="navbar-start">
+        <div className="dropdown">
+          <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              className="h-5 w-5"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke="currentColor"
+            >
+              <path
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                strokeWidth="2"
+                d="M4 6h16M4 12h8m-8 6h16"
+              />
+            </svg>
+          </div>
+          <ul
+            tabIndex={0}
+            className="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52"
+          >
+            <li>
+              <a href="/#about">A propos</a>
+            </li>
+            <li>
+              <a href="/#skills">Compétences</a>
+            </li>
+            <li>
+              <a href="/#projects">Projets</a>
+            </li>
+            <li>
+              <a href="/#contact">Contact</a>
+            </li>
+          </ul>
+        </div>
+        <Link href="/" className="btn btn-ghost text-2xl">
+          <img
+            src="/logo.svg"
+            className="w-8 h-8"
+            width={60}
+            height={60}
+            quality={100}
+            alt="Logo Brice Eliasse"
+          />
+          Brice Eliasse
+        </Link>
+      </div>
+      <div className="navbar-center hidden lg:flex">
+        <ul className="menu menu-horizontal px-1">
+          <li>
+            <a href="/#about">A propos</a>
+          </li>
+          <li>
+            <a href="/#skills">Compétences</a>
+          </li>
+          <li>
+            <a href="/#projects">Projets</a>
+          </li>
+          <li>
+            <a href="/#contact">Contact</a>
+          </li>
+        </ul>
+      </div>
+      <div className="navbar-end">
+        <div className="flex gap-2">
+          {socials.slice(0, 2).map((social, i) => (
+            <a
+              key={i}
+              aria-label="Lien externe vers mon réseau social"
+              href={social.link}
+              target={"_blank"}
+              className="btn btn-sm h-10 btn-outline border-[1px] border-opacity-10 group transition"
+            >
+              <svg
+                dangerouslySetInnerHTML={{ __html: social.icon }}
+                fill="currentColor"
+                className="w-4 h-4"
+              />
+            </a>
+          ))}
 
-                <div className='flex gap-2'>
-                    {socials.slice(0, 2).map((social, i) => <a key={i} aria-label="Lien externe vers mon réseau social" href={social.link} target={"_blank"} className="btn btn-sm h-10 btn-outline border-[1px] border-opacity-10 group transition">
-                        <svg dangerouslySetInnerHTML={{ __html: social.icon }} fill='currentColor' className="w-4 h-4" />
-                    </a>)}
-
-                    <a aria-label="Lien externe vers mon CV" href="/CV_Brice-Eliasse_Developpeur.pdf" target="_blank" className="hidden sm:flex btn btn-sm text-xs h-10 btn-outline border-[1px] border-opacity-10 group transition">CV</a>
-                </div>
-                {/* <label className="swap swap-rotate">
+          <Link href="/articles" className="btn btn-sm h-10  btn-outline ">
+            BLOG
+          </Link>
+        </div>
+        {/* <label className="swap swap-rotate">
 
                
                     <input type="checkbox" className="theme-controller" value="light" />
@@ -48,7 +100,7 @@ export default function Navbar() {
                     <svg className="swap-off fill-current w-8 h-8" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M21.64,13a1,1,0,0,0-1.05-.14,8.05,8.05,0,0,1-3.37.73A8.15,8.15,0,0,1,9.08,5.49a8.59,8.59,0,0,1,.25-2A1,1,0,0,0,8,2.36,10.14,10.14,0,1,0,22,14.05,1,1,0,0,0,21.64,13Zm-9.5,6.69A8.14,8.14,0,0,1,7.08,5.22v.27A10.15,10.15,0,0,0,17.22,15.63a9.79,9.79,0,0,0,2.1-.22A8.11,8.11,0,0,1,12.14,19.73Z" /></svg>
 
                 </label> */}
-            </div>
-        </div>
-    )
+      </div>
+    </div>
+  );
 }

@@ -125,7 +125,7 @@ export default function Hero() {
               Brice Eliasse{" "}
               <div className="text-primary">Dev. Web Freelance </div>
             </h1>
-            <p className="mt-6 text-lg leading-8 text-base-content">
+            <p className="mt-6 text-lg leading-8 text-base-content/80">
               Développeur web Freelance sur Nice avec{" "}
               {new Date().getFullYear() - 2019} années d'expériences, <br />{" "}
               <a href="#contact" className="text-primary underline">
@@ -134,26 +134,49 @@ export default function Hero() {
               pour réaliser le site ou l'application de vos rêves.
             </p>
             <div className="mt-10 flex items-center justify-center gap-x-6">
-              <a href="#contact" className="btn btn-primary">
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  fill="none"
-                  viewBox="0 0 24 24"
-                  strokeWidth={1.5}
-                  stroke="currentColor"
-                  className="w-6 h-6"
-                >
-                  <path
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                    d="M15.59 14.37a6 6 0 0 1-5.84 7.38v-4.8m5.84-2.58a14.98 14.98 0 0 0 6.16-12.12A14.98 14.98 0 0 0 9.631 8.41m5.96 5.96a14.926 14.926 0 0 1-5.841 2.58m-.119-8.54a6 6 0 0 0-7.381 5.84h4.8m2.581-5.84a14.927 14.927 0 0 0-2.58 5.84m2.699 2.7c-.103.021-.207.041-.311.06a15.09 15.09 0 0 1-2.448-2.448 14.9 14.9 0 0 1 .06-.312m-2.24 2.39a4.493 4.493 0 0 0-1.757 4.306 4.493 4.493 0 0 0 4.306-1.758M16.5 9a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0Z"
-                  />
-                </svg>
-                Me contacter
+              <a
+                href="#contact"
+                className="btn btn-primary px-6 group relative overflow-hidden shadow-lg hover:shadow-2xl transition-all duration-300 hover:scale-105"
+              >
+                <div className="absolute inset-0 bg-gradient-to-r from-primary/20 via-primary/10 to-primary/20 animate-pulse rounded-lg"></div>
+                <div className="absolute inset-0 bg-gradient-to-r from-transparent via-white/10 to-transparent animate-shimmer"></div>
+                <span className="relative z-10 text-[1rem]">
+                  Parlons de votre projet
+                </span>
+                <div className="relative inline-flex items-center ml-2 w-5 h-3 overflow-hidden z-10">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="20"
+                    height="12"
+                    viewBox="0 0 20 12"
+                    fill="none"
+                    className="absolute transition-transform duration-300 ease-in-out left-0 group-hover:translate-x-6"
+                  >
+                    <path
+                      d="M13.3333 0.166687C13.3333 0.78502 13.9442 1.70835 14.5625 2.48335C15.3575 3.48335 16.3075 4.35585 17.3967 5.02169C18.2133 5.52085 19.2033 6.00002 20 6.00002M20 6.00002C19.2033 6.00002 18.2125 6.47919 17.3967 6.97835C16.3075 7.64502 15.3575 8.51752 14.5625 9.51585C13.9442 10.2917 13.3333 11.2167 13.3333 11.8334M20 6.00002H0"
+                      stroke="currentColor"
+                      strokeWidth="2"
+                    ></path>
+                  </svg>
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="20"
+                    height="12"
+                    viewBox="0 0 20 12"
+                    fill="none"
+                    className="absolute transition-transform duration-300 ease-in-out -translate-x-full group-hover:translate-x-0"
+                  >
+                    <path
+                      d="M13.3333 0.166687C13.3333 0.78502 13.9442 1.70835 14.5625 2.48335C15.3575 3.48335 16.3075 4.35585 17.3967 5.02169C18.2133 5.52085 19.2033 6.00002 20 6.00002M20 6.00002C19.2033 6.00002 18.2125 6.47919 17.3967 6.97835C16.3075 7.64502 15.3575 8.51752 14.5625 9.51585C13.9442 10.2917 13.3333 11.2167 13.3333 11.8334M20 6.00002H0"
+                      stroke="currentColor"
+                      strokeWidth="2"
+                    ></path>
+                  </svg>
+                </div>
               </a>
-              <Link href="articles" className="btn glass">
+              {/* <Link href="articles" className="btn glass">
                 Mes articles <span aria-hidden="true">→</span>
-              </Link>
+              </Link> */}
             </div>
           </div>
         </div>
