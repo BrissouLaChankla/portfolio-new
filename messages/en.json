@@ -1,6 +1,5 @@
 {
-  "Home": {
-    "title": "Home",
-    "description": "Home description"
-  }
+  "HomePage": { "helloWorld": "Hello World!" },
+  "AboutPage": { "aboutText": "This is a fully translated static website" },
+  "Navbar": { "home": "Home", "about": "About" }
 }

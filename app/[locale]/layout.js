@@ -1,22 +1,32 @@
+import "../globals.css";
 import { Inter } from "next/font/google";
-import "./globals.css";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
-import { getMessages } from "next-intl/server";
+import { notFound } from "next/navigation";
+import { NextIntlClientProvider } from "next-intl";
+import { getMessages, setRequestLocale } from "next-intl/server";
+import { routing } from "../../i18n/routing.mjs";
 
 const inter = Inter({ subsets: ["latin"] });
 
-// export const metadata = {
-//   title: "Brice Eliasse - Formateur & Développeur web Freelance sur Nice",
-//   description: "Développeur web / formateur sur Nice et dans les Alpes-Maritimes. J'enseigne et utilise principalement Wordpress, React et Next.js pour la création de sites.",
-// };
+export function generateStaticParams() {
+  return routing.locales.map((locale) => ({ locale }));
+}
 
-export default async function RootLayout({ children, params: { locale } }) {
+export default async function LocaleLayout({ children, params: { locale } }) {
+  // ✅ simple check sans hasLocale
+  if (!routing.locales.includes(locale)) notFound();
+
+  // ⚓️ ancre la locale pour le rendu statique + Server Components descendants
+  setRequestLocale(locale);
+
+  // messages pour les composants client
   const messages = await getMessages();
+
   return (
     <html lang={locale} data-theme="night">
       <body className={`${inter.className} min-h-screen flex flex-col`}>
-        <NextIntlClientProvider messages={messages}>
+        <NextIntlClientProvider locale={locale} messages={messages}>
           <Navbar />
           <div className="grow flex flex-col">{children}</div>
           <Footer />

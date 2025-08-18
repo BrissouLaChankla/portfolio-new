@@ -1,6 +1,7 @@
 {
-  "Home": {
-    "title": "Accueil",
-    "description": "Description de l'accueil"
-  }
+  "HomePage": { "helloWorld": "Bonjour tout le monde !" },
+  "AboutPage": {
+    "aboutText": "Ceci est un site statique complètement traduit."
+  },
+  "Navbar": { "home": "Accueil", "about": "À propos" }
 }
