@@ -2,6 +2,7 @@ import { Inter } from "next/font/google";
 import "./globals.css";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
+import { getMessages } from "next-intl/server";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -10,13 +11,16 @@ const inter = Inter({ subsets: ["latin"] });
 //   description: "Développeur web / formateur sur Nice et dans les Alpes-Maritimes. J'enseigne et utilise principalement Wordpress, React et Next.js pour la création de sites.",
 // };
 
-export default function RootLayout({ children }) {
+export default async function RootLayout({ children, params: { locale } }) {
+  const messages = await getMessages();
   return (
-    <html lang="fr" data-theme="night">
+    <html lang={locale} data-theme="night">
       <body className={`${inter.className} min-h-screen flex flex-col`}>
-        <Navbar />
-        <div className="grow flex flex-col">{children}</div>
-        <Footer />
+        <NextIntlClientProvider messages={messages}>
+          <Navbar />
+          <div className="grow flex flex-col">{children}</div>
+          <Footer />
+        </NextIntlClientProvider>
       </body>
     </html>
   );

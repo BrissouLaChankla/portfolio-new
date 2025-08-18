@@ -7,13 +7,16 @@ import Projects from "@/components/sections/Projects";
 import Tools from "@/components/sections/Tools";
 import Reviews from "@/components/sections/Reviews";
 import Contact from "@/components/sections/Contact";
+import { getTranslations } from "next-intl/server";
 
 export const metadata = {
   title: "Brice Eliasse - Formateur & Développeur web Freelance sur Nice",
-  description: "Développeur web / formateur sur Nice et dans les Alpes-Maritimes. J'enseigne et utilise principalement Wordpress, React et Next.js pour la création de sites.",
+  description:
+    "Développeur web / formateur sur Nice et dans les Alpes-Maritimes. J'enseigne et utilise principalement Wordpress, React et Next.js pour la création de sites.",
 };
 
-export default function Home() {
+export default async function Home({ params: { locale } }) {
+  const t = await getTranslations("Home");
   return (
     <main className="flex flex-col items-center justify-center">
       <Hero />
