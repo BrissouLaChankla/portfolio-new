@@ -13,6 +13,18 @@ const nextConfig = {
       { protocol: "https", hostname: "fbiosfgcdaoddmqsmzmv.supabase.co" },
     ],
   },
+  experimental: {
+    optimizeCss: true,
+  },
+  webpack: (config, { isServer }) => {
+    if (!isServer) {
+      config.resolve.fallback = {
+        ...config.resolve.fallback,
+        fs: false,
+      };
+    }
+    return config;
+  },
 };
 
 export default withNextIntl(nextConfig);

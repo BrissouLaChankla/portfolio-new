@@ -34,3 +34,14 @@ jobs:
           password: ${{ secrets.FTP_PASSWORD }}
           local-dir: out/
           server-dir: /
+          exclude: |
+            **/.git*
+            **/.git*/**
+            **/node_modules/**
+            **/.hg*
+            **/.hg*/**
+            **/.svn*
+            **/.svn*/**
+            **/.DS_Store
+            **/Thumbs.db
+          dangerous-clean-slate: true
