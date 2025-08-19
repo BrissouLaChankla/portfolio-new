@@ -23,6 +23,7 @@
   },
   "devDependencies": {
     "@tailwindcss/typography": "^0.5.16",
+    "critters": "^0.0.20",
     "daisyui": "^4.10.2",
     "postcss": "^8",
     "tailwindcss": "^3.4.1"
