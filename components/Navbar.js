@@ -1,6 +1,9 @@
 import { socials } from "@/utils/socials";
 import Link from "next/link";
+import { useTranslations } from "next-intl";
+
 export default function Navbar() {
+  const t = useTranslations("Navbar");
   return (
     <div className="navbar max-w-screen-xl m-auto bg-base-100/75 backdrop-blur border-b border-gray-800  sticky top-0 z-50 lg:mb-0 lg:border-0">
       <div className="navbar-start">
@@ -26,16 +29,16 @@ export default function Navbar() {
             className="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52"
           >
             <li>
-              <a href="/#about">A propos</a>
+              <a href="/#about">{t("about")}</a>
             </li>
             <li>
-              <a href="/#skills">Compétences</a>
+              <a href="/#skills">{t("skills")}</a>
             </li>
             <li>
-              <a href="/#projects">Projets</a>
+              <a href="/#projects">{t("projects")}</a>
             </li>
             <li>
-              <a href="/#contact">Contact</a>
+              <a href="/#contact">{t("contact")}</a>
             </li>
           </ul>
         </div>
@@ -48,22 +51,22 @@ export default function Navbar() {
             quality={100}
             alt="Logo Brice Eliasse"
           />
-          Brice Eliasse
+          {t("brand")}
         </Link>
       </div>
       <div className="navbar-center hidden lg:flex">
         <ul className="menu menu-horizontal px-1">
           <li>
-            <a href="/#about">A propos</a>
+            <a href="/#about">{t("about")}</a>
           </li>
           <li>
-            <a href="/#skills">Compétences</a>
+            <a href="/#skills">{t("skills")}</a>
           </li>
           <li>
-            <a href="/#projects">Projets</a>
+            <a href="/#projects">{t("projects")}</a>
           </li>
           <li>
-            <a href="/#contact">Contact</a>
+            <a href="/#contact">{t("contact")}</a>
           </li>
         </ul>
       </div>
@@ -86,7 +89,7 @@ export default function Navbar() {
           ))}
 
           <Link href="/articles" className="btn btn-sm h-10  btn-outline ">
-            BLOG
+            {t("blog")}
           </Link>
         </div>
         {/* <label className="swap swap-rotate">

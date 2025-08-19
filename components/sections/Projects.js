@@ -1,168 +1,153 @@
 import GridLogos from "../ui/GridLogos";
-const projects = [
-  {
-    slug: "beatrice",
-    link: "https://beatrice.app",
-    name: "Beatrice",
-    description:
-      "Beatrice génère et publie automatiquement des articles SEO pour votre site Nextjs, Wordpress, etc. Connectez votre app, elle s’occupe du contenu.",
-    tools: ["NextJS", "Github Actions", "DaisyUI", "IA"],
-  },
-  {
-    slug: "option-zero",
-    link: "https://option-zero.fr",
-    name: "Option Zero",
-    description:
-      "Maquettes, intégration, développement et stratégie SEO/SEA du site. Ajoute d'un CMS custom Nextjs pour gérer les pages et les articles.",
-    tools: ["NextJS", "Tailwind", "SEO", "SEA"],
-  },
-  {
-    slug: "lol-tracker",
-    link: "https://lol-tracker.com",
-    name: "Lol-Tracker",
-    description:
-      "Obtenez des stats, des évaluations détaillées et un historique de jeu pour booster les performances de votre équipe en Flex 5",
-    tools: ["NextJS", "DaisyUI", "Clerk"],
-  },
-  {
-    slug: "captimed",
-    link: "https://www.captimed.fr",
-    name: "Captimed",
-    description:
-      "Application mobile développée pour accompagner les internes en médecine dans leur quotidien. Elle permet de tracker leurs heures de travail, d'évaluer leur bien-être mental et d'accéder à des ressources de soutien.",
-    tools: ["React Native", "Express", "Nativewind", "Zustand"],
-  },
-  {
-    slug: "nekjeu",
-    link: "https://nekjeu.fr",
-    name: "Nekjeu",
-    description:
-      "Jeu web en temps réel où l'on défie un ami sur la discographie de l'artiste Nekfeu. Le premier à trouver l'album de la musique diffusée gagne des points.",
-    tools: ["VueJS", "Laravel", "SocketIO"],
-  },
-  {
-    slug: "bananegames",
-    link: "https://bananegames.brice-eliasse.com/",
-    name: "Banane Games",
-    description:
-      "Site vitrine avec un CMS personnalisé développé en Laravel pour gérer le site et publier des articles. J'ai aussi développé deux jeux éducatifs web en VueJS.",
-    tools: ["Laravel", "VueJS", "Bootstrap"],
-  },
-  {
-    slug: "g2",
-    link: "https://g2detonate.com",
-    name: "G2 Detonate",
-    description:
-      "Application qui détourne et positionne automatiquement une image sur un fond d'explosion. Elle permet aux fans de l'équipe G2 Esports de montrer leur soutien sur les réseaux sociaux.",
-    tools: ["Laravel", "PhotoRoom"],
-  },
-  {
-    slug: "cdc",
-    link: "https://chiensdechasse.agency/",
-    name: "Chiens de chasse",
-    description:
-      "Site vitrine pour présenter les chiens de chasse, avec deux passionnés du web prêts à mettre leur technique et créativité à votre service.",
-    tools: ["Wordpress", "Elementor"],
-  },
-  {
-    slug: "qoffee",
-    link: "https://headless-next14.vercel.app/",
-    name: "Qoffee",
-    description:
-      "Projet pour former mes élèves à scraper des blogs Wordpress et à découvrir les premiers pas sur Next14 avec le nouveau système de routing.",
-    tools: ["NextJS", "WordPres", "DaisyUI"],
-  },
-
-  {
-    slug: "cours",
-    link: "https://perso-forma.vercel.app/",
-    name: "Cours en ligne",
-    description: "Futur site internet pour donner cours en ligne",
-    tools: ["Stripe", "NextJS", "DaisyUI"],
-  },
-  {
-    slug: "fuchs",
-    link: "https://game.all-images.ai",
-    name: "All images",
-    description:
-      "Jeu web pour All-images où les participants doivent déterminer si une image affichée est une vraie photo ou générée par IA.",
-    tools: ["NextJS", "DaisUI"],
-  },
-  {
-    slug: "krai",
-    link: "https://krai.brice-eliasse.com/",
-    name: "Krai",
-    description:
-      "Site créé pour approfondir mes connaissances en Laravel et pour pratiquer l'intégration en Bootstrap avec un effet Parallax.",
-    tools: ["Laravel", "Boostrap"],
-  },
-  {
-    slug: "legends-fusion",
-    link: "https://legends-fusion.com",
-    name: "Legends Fusion",
-    description:
-      "Jeu web permettant de construire un personnage de League of Legends en combinant les compétences de personnages choisis aléatoirement.",
-    tools: ["NextJS", "DaisyUI"],
-  },
-  {
-    slug: "mvp",
-    link: "https://mvptracker.brice-eliasse.com/",
-    name: "MVP Tracker",
-    description:
-      "Site en Vanilla JS pour apprendre à utiliser ChartJS. Il scrappe les données de OPGG avec Puppeteer, les stocke et en extrait des informations.",
-    tools: ["VanillaJS", "Puppeteer", "ChartJS"],
-  },
-  {
-    slug: "pokedex",
-    link: "https://pokedex.brice-eliasse.com/",
-    name: "Pokédex",
-    description:
-      "Projet pour entraîner mes élèves à utiliser des services web, à intégrer et à programmer en Vanilla JS.",
-    tools: ["HTML", "Bootstrap", "VanillaJS"],
-  },
-
-  {
-    slug: "ronronnerie",
-    link: "https://la-ronronnerie.com/",
-    name: "La Ronronnerie",
-    description: "Site vitrine pour un café à chats situé au centre de Nice.",
-    tools: ["WordPress", "Elementor", "jQuery"],
-  },
-  {
-    slug: "supdecours",
-    link: "https://supdecours.brice-eliasse.com/",
-    name: "SupdeCours",
-    description:
-      "CMS fait maison pour la création de cours par les professeurs et la mise à disposition de ressources en ligne pour les élèves.",
-    tools: ["Laravel", "TinyMCE", "Bootstrap"],
-  },
-  {
-    slug: "quizbrain",
-    link: "https://quiz-brain-opal.vercel.app/",
-    name: "QuizBrain",
-    description:
-      "Exercices avec Next14 et webservice pour mes élèves. Le but étant de travailler avec les pages dynamiques et le SSR",
-    tools: ["NextJS", "Tailwind CSS", "DaisyUI"],
-  },
-  {
-    slug: "trouve-mot",
-    link: "https://trouve-mot.fr/",
-    name: "Trouve mot",
-    description:
-      "API Laravel gratuite de mots aléatoires permettant de récupérer des mots triés ou non par catégories.",
-    tools: ["Laravel", "Bootstrap"],
-  },
-  {
-    slug: "monacotraduction",
-    link: "https://www.monacotraduction.mc/fr",
-    name: "Monaco Traduction",
-    description:
-      "Site vitrine multilingue réalisé pour une agence de traduction basée à Monaco.",
-    tools: ["WordPress", "Elementor", "PolyLang"],
-  },
-];
+import { useTranslations } from "next-intl";
 
 export default function Projects() {
+  const tProjects = useTranslations("Projects");
+  const t = useTranslations("Home");
+  const projects = [
+    {
+      slug: "beatrice",
+      link: "https://beatrice.app",
+      name: "Beatrice",
+      description: tProjects("beatriceDesc"),
+      tools: ["NextJS", "Github Actions", "DaisyUI", "AI"],
+    },
+    {
+      slug: "option-zero",
+      link: "https://option-zero.fr",
+      name: "Option Zero",
+      description: tProjects("optionZeroDesc"),
+      tools: ["NextJS", "Tailwind", "SEO", "SEA"],
+    },
+    {
+      slug: "lol-tracker",
+      link: "https://lol-tracker.com",
+      name: "Lol-Tracker",
+      description: tProjects("lolTrackerDesc"),
+      tools: ["NextJS", "DaisyUI", "Clerk"],
+    },
+    {
+      slug: "captimed",
+      link: "https://www.captimed.fr",
+      name: "Captimed",
+      description: tProjects("captimedDesc"),
+      tools: ["React Native", "Express", "Nativewind", "Zustand"],
+    },
+    {
+      slug: "nekjeu",
+      link: "https://nekjeu.fr",
+      name: "Nekjeu",
+      description: tProjects("nekjeuDesc"),
+      tools: ["VueJS", "Laravel", "SocketIO"],
+    },
+    {
+      slug: "bananegames",
+      link: "https://bananegames.brice-eliasse.com/",
+      name: "Banane Games",
+      description: tProjects("bananegamesDesc"),
+      tools: ["Laravel", "VueJS", "Bootstrap"],
+    },
+    {
+      slug: "g2",
+      link: "https://g2detonate.com",
+      name: "G2 Detonate",
+      description: tProjects("g2Desc"),
+      tools: ["Laravel", "PhotoRoom"],
+    },
+    {
+      slug: "cdc",
+      link: "https://chiensdechasse.agency/",
+      name: "Chiens de chasse",
+      description: tProjects("cdcDesc"),
+      tools: ["Wordpress", "Elementor"],
+    },
+    {
+      slug: "qoffee",
+      link: "https://headless-next14.vercel.app/",
+      name: "Qoffee",
+      description: tProjects("qoffeeDesc"),
+      tools: ["NextJS", "WordPres", "DaisyUI"],
+    },
+
+    {
+      slug: "cours",
+      link: "https://perso-forma.vercel.app/",
+      name: "Cours en ligne",
+      description: tProjects("coursDesc"),
+      tools: ["Stripe", "NextJS", "DaisyUI"],
+    },
+    {
+      slug: "fuchs",
+      link: "https://game.all-images.ai",
+      name: "All images",
+      description: tProjects("fuchsDesc"),
+      tools: ["NextJS", "DaisUI"],
+    },
+    {
+      slug: "krai",
+      link: "https://krai.brice-eliasse.com/",
+      name: "Krai",
+      description: tProjects("kraiDesc"),
+      tools: ["Laravel", "Boostrap"],
+    },
+    {
+      slug: "legends-fusion",
+      link: "https://legends-fusion.com",
+      name: "Legends Fusion",
+      description: tProjects("legendsFusionDesc"),
+      tools: ["NextJS", "DaisyUI"],
+    },
+    {
+      slug: "mvp",
+      link: "https://mvptracker.brice-eliasse.com/",
+      name: "MVP Tracker",
+      description: tProjects("mvpDesc"),
+      tools: ["VanillaJS", "Puppeteer", "ChartJS"],
+    },
+    {
+      slug: "pokedex",
+      link: "https://pokedex.brice-eliasse.com/",
+      name: "Pokédex",
+      description: tProjects("pokedexDesc"),
+      tools: ["HTML", "Bootstrap", "VanillaJS"],
+    },
+
+    {
+      slug: "ronronnerie",
+      link: "https://la-ronronnerie.com/",
+      name: "La Ronronnerie",
+      description: tProjects("ronronnerieDesc"),
+      tools: ["WordPress", "Elementor", "jQuery"],
+    },
+    {
+      slug: "supdecours",
+      link: "https://supdecours.brice-eliasse.com/",
+      name: "SupdeCours",
+      description: tProjects("supdecoursDesc"),
+      tools: ["Laravel", "TinyMCE", "Bootstrap"],
+    },
+    {
+      slug: "quizbrain",
+      link: "https://quiz-brain-opal.vercel.app/",
+      name: "QuizBrain",
+      description: tProjects("quizbrainDesc"),
+      tools: ["NextJS", "Tailwind CSS", "DaisyUI"],
+    },
+    {
+      slug: "trouve-mot",
+      link: "https://trouve-mot.fr/",
+      name: "Trouve mot",
+      description: tProjects("trouveMotDesc"),
+      tools: ["Laravel", "Bootstrap"],
+    },
+    {
+      slug: "monacotraduction",
+      link: "https://www.monacotraduction.mc/fr",
+      name: "Monaco Traduction",
+      description: tProjects("monacotraductionDesc"),
+      tools: ["WordPress", "Elementor", "PolyLang"],
+    },
+  ];
   return (
     <div
       className="section grid grid-cols-12 items-center gap-8 lg:gap-14"
@@ -171,23 +156,17 @@ export default function Projects() {
       <GridLogos data={projects} src="projects" />
       <div className="col-span-12 md:col-span-6 flex flex-col gap-6">
         <h2>
-          Désolé mais j'adore <br />
-          <span className="text-primary">polluer le web</span>
+          {tProjects("heading1")} <br />
+          <span className="text-primary">{tProjects("heading2")}</span>
         </h2>
-        <p>
-          Découvrez quelques une de mes dernières réalisations, certaines sont
-          des side projects innachevés et d'autres sont des projets réalisés en
-          Freelance pour mes clients. Chaque projet est codé seul et se trouve
-          quelque part sur mon Github.
-        </p>
+        <p>{tProjects("intro")}</p>
         <div className="flex gap-3">
-          {/* <div className="btn btn-neutral btn-sm">Learn about Views</div> */}
           <a
             href="https://github.com/BrissouLaChankla"
             target="_blank"
-            className="btn btn-outline btn-sm"
+            className="btn btn-outline btn-sm  px-5"
           >
-            Voir mon Github{" "}
+            {t("seeGithub")}
             <svg
               className="w-4 h-4"
               fill="currentColor"

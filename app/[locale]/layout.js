@@ -14,13 +14,10 @@ export function generateStaticParams() {
 }
 
 export default async function LocaleLayout({ children, params: { locale } }) {
-  // ✅ simple check sans hasLocale
   if (!routing.locales.includes(locale)) notFound();
 
-  // ⚓️ ancre la locale pour le rendu statique + Server Components descendants
   setRequestLocale(locale);
 
-  // messages pour les composants client
   const messages = await getMessages();
 
   return (

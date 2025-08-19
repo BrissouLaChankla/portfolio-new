@@ -1,6 +1,15 @@
 import Link from "next/link";
 
-export default function Hero() {
+export default function Hero({
+  title,
+  subtitle,
+  first,
+  years,
+  link,
+  second,
+  button,
+  badge,
+}) {
   return (
     <>
       <svg
@@ -118,20 +127,21 @@ export default function Hero() {
               rel="noopener noreferrer"
               className="btn btn-primary   btn-outline font-semibold  badge-outline text-xs mb-6 rounded-full py-0 min-h-8 h-8"
             >
-              Et si on automatisait à 100% votre Blog ? →
+              {badge}
             </a>
 
             <h1 className="text-4xl font-bold tracking-tight sm:leading-none text-base-content sm:text-7xl">
-              Brice Eliasse{" "}
-              <div className="text-primary">Dev. Web Freelance </div>
+              {title}
+              <div className="text-primary">{subtitle}</div>
             </h1>
             <p className="mt-6 text-lg leading-8 text-base-content/80">
-              Développeur web Freelance sur Nice avec{" "}
-              {new Date().getFullYear() - 2019} années d'expériences, <br />{" "}
+              {first}
+              {new Date().getFullYear() - 2019}
+              {years} <br />
               <a href="#contact" className="text-primary underline">
-                je suis disponible
-              </a>{" "}
-              pour réaliser le site ou l'application de vos rêves.
+                {link}
+              </a>
+              {second}
             </p>
             <div className="mt-10 flex items-center justify-center gap-x-6">
               <a
@@ -140,9 +150,7 @@ export default function Hero() {
               >
                 <div className="absolute inset-0 bg-gradient-to-r from-primary/20 via-primary/10 to-primary/20 animate-pulse rounded-lg"></div>
                 <div className="absolute inset-0 bg-gradient-to-r from-transparent via-white/10 to-transparent animate-shimmer"></div>
-                <span className="relative z-10 text-[1rem]">
-                  Parlons de votre projet
-                </span>
+                <span className="relative z-10 text-[1rem]">{button}</span>
                 <div className="relative inline-flex items-center ml-2 w-5 h-3 overflow-hidden z-10">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"

@@ -2,14 +2,14 @@ import { Suspense } from "react";
 import Link from "next/link";
 
 import Image from "next/image";
-
+import { useTranslations } from "next-intl";
 import { redirect } from "next/navigation";
 export const revalidate = 3600;
 
 export default async function BlogPage({ params }) {
   const searchParams = await params;
   const currentPage = parseInt(searchParams.page, 10) || 1;
-
+  const t = useTranslations("BlogPage");
   // Validation de la page courante
   if (currentPage <= 0) {
     redirect("/articles");
@@ -37,7 +37,7 @@ export default async function BlogPage({ params }) {
     return (
       <div className="container mx-auto p-6">
         <div className="section py-24">
-          <h1 className="text-4xl">Aucun article trouvé</h1>
+          <h1 className="text-4xl">{t("noArticles")}</h1>
         </div>
       </div>
     );
@@ -54,7 +54,7 @@ export default async function BlogPage({ params }) {
           <span className="text-gray-600 text-sm absolute -top-5 left-0">
             ({currentPage}/{pagination.pages})
           </span>
-          <h1 className="text-4xl font-bold">Tous mes articles </h1>
+          <h1 className="text-4xl font-bold">{t("allArticles")}</h1>
           <Pagination pagination={pagination} />
         </div>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
@@ -109,7 +109,7 @@ export default async function BlogPage({ params }) {
                         href={`/articles/${post.slug}`}
                         className="opacity-85 text-primary font-medium group-hover:opacity-100 transition-opacity duration-200"
                       >
-                        Lire la suite{" "}
+                        {t("readMore")}{" "}
                         <span className=" -rotate-45 inline-block group-hover:rotate-0 transition-transform duration-200 font-bold">
                           →
                         </span>

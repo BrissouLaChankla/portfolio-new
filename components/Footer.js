@@ -1,10 +1,13 @@
 import Link from "next/link";
+import { getTranslations } from "next-intl/server";
 
 export default async function Footer() {
   const articles = await fetch(
     `https://beatrice.app/api/articles?token=203377ab-1537-4b08-a5ec-93d090abc95e&limit=3`
   );
   const { data } = await articles.json();
+
+  const t = await getTranslations("Footer");
 
   return (
     <div className="bg-base-200 text-base-content p-10 w-full ">
@@ -26,11 +29,11 @@ export default async function Footer() {
             </span>
             <br />
             Copyright © {new Date().getUTCFullYear()}{" "}
-            <span className="hidden sm:inline">- Tous droits réservés</span>
+            <span className="hidden sm:inline">- {t("allRightsReserved")}</span>
           </p>
         </aside>
         <nav>
-          <h6 className="footer-title">Derniers articles</h6>
+          <h6 className="footer-title">{t("latestPosts")}</h6>
           {data.map((article, i) => (
             <Link
               key={i}
@@ -42,8 +45,8 @@ export default async function Footer() {
           ))}
         </nav>
         <nav>
-          <h6 className="footer-title">Coordonnées</h6>
-          <span>Alpes-Maritimes - Nice</span>
+          <h6 className="footer-title">{t("contact")}</h6>
+          <span>{t("address")}</span>
           <span>
             SIRET :{" "}
             <a

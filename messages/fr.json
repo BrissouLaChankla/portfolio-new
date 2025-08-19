@@ -1,7 +1,214 @@
 {
-  "HomePage": { "helloWorld": "Bonjour tout le monde !" },
-  "AboutPage": {
-    "aboutText": "Ceci est un site statique complètement traduit."
+  "HomeMeta": {
+    "title": "Brice Eliasse - Formateur & Développeur web Freelance sur Nice",
+    "description": "Développeur web / formateur sur Nice et dans les Alpes-Maritimes. J'enseigne et utilise principalement WordPress, React et Next.js."
   },
-  "Navbar": { "home": "Accueil", "about": "À propos" }
+
+  "Navbar": {
+    "about": "À propos",
+    "skills": "Compétences",
+    "projects": "Projets",
+    "contact": "Contact",
+    "blog": "BLOG",
+    "brand": "Brice Eliasse"
+  },
+  "Jobs": {
+    "vieFullStack": "VIE - Développeur Full-Stack",
+    "principalTeacher": "Principal Teacher",
+    "teacher": "Enseignant",
+    "intervenantPro": "Intervenant professionnel",
+    "chefProjetWeb": "Chef de Projet Web",
+    "developpeurFullStack": "Développeur Full-Stack",
+    "integrateurWeb": "Intégrateur Web",
+    "integrateurWebdesigner": "Intégrateur / Webdesigner"
+  },
+
+  "Contact": {
+    "heading": "Parlons de",
+    "heading2": "votre projet",
+    "alt": "Et si jamais vous préférez, vous pouvez directement m'envoyer un mail :",
+    "name": "Nom",
+    "email": "Email",
+    "message": "Votre message",
+    "messagePlaceholder": "Entrez votre message...",
+    "send": "Envoyer",
+    "testimonials": "J'ai eu l'opportunité de travailler avec Brice pour un projet chez G2 Esports et je ne peux que recommander ses services : exécution rapide, qualitative et flexible !"
+  },
+
+  "Reviews": {
+    "heading": "Si vous doutiez encore",
+    "heading2": "laissez les vous convaincre",
+    "testimonials": "J'ai eu l'opportunité de travailler avec Brice pour un projet chez G2 Esports et je ne peux que recommander ses services : exécution rapide, qualitative et flexible !",
+    "avis1": "Ayant eu l'occasion de travailler avec Brice, c'est un excellent développeur et son deuxième rôle de formateur facilite la communication et le transfert d'informations dans tous les projets. Son talent pour insuffler une touche de jeunesse",
+    "avis2": "Je travaille avec Brice Eliasse au quotidien en tant que formateur, et je tiens à souligner son expertise remarquable dans notre domaine. Brice est non seulement un développeur talentueux avec une vaste gamme de compétences techniques, mais",
+    "avis3": "J'ai eu le plaisir de suivre une formation dispensée par Brice Eliasse en tant que formateur et développeur web, et je suis extrêmement satisfait de l'expérience. Brice combine avec brio son expertise technique approfondie avec une approche",
+    "avis4": "Formateur expérimenté ! Brice est très pédagogue et se rend disponible pour ses élèves. Il sait s'adapter à son audience. Je suis très satisfait de son engagement lors de ma formation. Ses compétences variées et approfondies sur plusieurs technologies sont fortement appréciées. Je vous recommande vivement ses services !",
+    "avis5": "Étant designer j'ai pu côtoyer un grand nombre de développeurs et je peux vous le dire avec certitude, Brice est le meilleur ! C'est quelqu'un de très professionnel, pédagogue et toujours en quête d'amélioration. Si vous avez envie d'apprendre ou vous avez un projet c'est lui qu'il vous faut !",
+    "avis6": "Un immense merci à Brice pour ton enseignement et ton soutien dans cette expérience. Tu as su me transmettre tes connaissances avec une clarté et une passion",
+    "avis7": "En tant que Directeur du centre de formation La Capsule Nice, je recommande fortement Brice pour son sérieux et ses capacités d'animation lors des sessions de formation en développement web.",
+    "avis8": "J'ai pu suivre une formation avec Brice pour me réorienter en développement web, pédagogue, patient et très investis, un plaisir d'avoir pus apprendre auprès de Brice, il a su transmettre tout son savoir pour nous permettre d'avoir avec brio notre diplôme.",
+    "avis9": "Brice m'a enseigné la programmation web durant 3 mois et ce fût une expérience très enrichissante. Grâce à sa patience et à sa pédagogie, j'ai appris le HTML/CSS, Javascript, React et les frameworks NextJs et ExpressJS plutôt facilement. Aujourd'hui et grâce à ses cours, je suis développeur Full-stack en agence à Nice 🙏",
+    "avis10": "J'ai eu la chance d'avoir Brice comme professeur à La Capsule, et je suis entièrement satisfait de sa méthodologie d'enseignement. Il faisait preuve de patience lorsque je rencontrais des difficultés de compréhension et savait reformuler les explications de manière à ce que je les saisisse clairement.",
+    "avis11": "Un très bon professeur pédagogue, patient pour former et expliquer les bases du développement web avec qui on a bien rigoler lors de ces 3 mois de formation à la capsule. Merci Brice !!",
+    "avis12": "J’ai eu le plaisir de travailler avec Brice. C’est quelqu’un de professionnel, sérieux et à l’écoute. Je n’hésiterai pas à le recontacter si besoin !",
+    "avis13": "Professionnel, disponible et pédagogue, Brice à toutes les qualités et les compétences pour vous enseigner le développement web.",
+    "avis14": "Suberbe prof a l'écoute de ses élèves, j'ai vraiment adorer ses 10 semaines de formations de dev avec Brice",
+    "avis15": "Je ne saurais mieux faire que de recommander vivement Brice pour ses habiles talents de concepteur web. Particulièrement efficace, il a su être à l'écoute et à pu donner l’impulsion nécessaire à mon site. Ce fut un plaisir de collaborer avec lui.",
+    "avis16": "La perfection d’un jeune et talentueux développeur !",
+    "avis17": "Après de nombreux projets menés avec Brice, je peux témoigner qu'il cherche à satisfaire au mieux vos demandes, à travers des prestations correspondant à vos attentes et au prix le plus juste.",
+    "avis18": "Personne investie dans son domaine, à recommander !",
+    "avis19": "Un plaisir de travailler à ses côtés. Talentueux, professionnel, à l'écoute, polyvalent, et un portfolio qui donne envie.",
+    "avis20": "Très bon développeur capable de répondre à vos demandes précisément et rapidement.",
+    "avis21": "J ai été élevé de Brice, c est personne passionnée par son travail, il est incroyablement rapide pour trouver les solutions adéquates, pédagogue dans l âme, travail qualitatif dans ses conceptions , je recommande à 200%",
+    "avis22": "j'ai participé à une formation dispensée par Brice, j'ai été très bien formé au métier de développeur, il est très pédagogue et il aime son métier cela s'est ressenti tout au long de la formation",
+    "avis23": "J'ai eu l'opportunité de travailler avec Brice pour le projet G2 Esports et je ne peux que recommander ses services : exécution rapide et qualitative et flexible !",
+    "avis24": "Aspects positifs : Rapport qualité-prix",
+    "aMonthAgo": "il y a un mois",
+    "4WeeksAgo": "il y a 4 semaines",
+    "3WeeksAgo": "il y a 3 semaines",
+    "2DaysAgo": "il y a 2 jours",
+    "1DayAgo": "il y a un jour",
+    "5YearsAgo": "il y a 5 ans",
+    "4YearsAgo": "il y a 4 ans",
+    "3YearsAgo": "il y a 3 ans",
+    "2YearsAgo": "il y a 2 ans",
+    "1YearAgo": "il y a un an"
+  },
+
+  "Footer": {
+    "latestPosts": "Derniers articles",
+    "contact": "Coordonnées",
+    "address": "Alpes-Maritimes - Nice",
+    "allRightsReserved": "Tous droits réservés"
+  },
+
+  "Skills": {
+    "heading1": "Tout ce qui fait de moi un",
+    "heading2": "Dev. Full-Stack",
+    "frontend": "Frontend",
+    "frontendDesc": "Pour permettre aux utilisateurs d'interagir de manière intuitive et fluide avec mes sites, ma stack du moment c'est React avec NextJS.",
+    "backend": "Backend",
+    "backendDesc": "C'est le moteur qui fait tourner un site. Je travaille avec Next, Node.js/Express.js, Laravel ou même Wordpress de manière headless.",
+    "bdd": "BDD",
+    "bddDesc": "Permet de stocker des données. J'utilise MongoDB et MySQL en mappant mes données avec Mongoose ou Eloquent par exemple.",
+    "uxui": "UX/UI",
+    "uxuiDesc": "Je fais attention au design des mes apps. Pour intégrer des interfaces élégantes et fonctionnelles j'utilise Tailwind et DaisyUI.",
+    "cms": "CMS",
+    "cmsDesc": "J'utilise parfois Wordpress ou Shopify pour simplifier la gestion du site par le client, assurant une prise en main facile et efficace.",
+    "seo": "SEO",
+    "seoDesc": "Optimisation du site pour les moteurs de recherche. J'optimise les mots-clés, la structure des données, la sémantique et la performance.",
+    "responsive": "Responsive",
+    "responsiveDesc": "J'ajuste le contenu et les éléments visuels de mes sites pour qu'ils s'affichent de manière optimale sur tout type d'appareil.",
+    "performance": "Performance",
+    "performanceDesc": "Je développe des sites web ultra-performants en utilisant les dernières technologies, optimisant ainsi le SEO et garantissant d'excellents scores Lighthouse.",
+    "nativeApp": "Application Native",
+    "nativeAppDesc": "J'utilise React pour créer des apps avec React Native, ce qui facilite la compatibilité sur iOS et Android tout en restant performant.",
+    "gestionProjet": "Gestion de projet",
+    "gestionProjetDesc": "Planification, budgétisation, gestion des ressources et communication entre les membres de l'équipe et les parties prenantes.",
+    "pedagogie": "Pédagogie",
+    "pedagogieDesc": "En tant qu'enseignant en programmation, j'essaie d'expliquer au mieux des concepts complexes et toujours de manière ludique.",
+    "humain": "Humain",
+    "humainDesc": "Je ne suis pas un robot, je reste à l'écoute et conciliant pour gérer au mieux les imprévus, anticiper les problèmes et proposer mes idées."
+  },
+
+  "Projects": {
+    "heading1": "Désolé mais j'adore",
+    "heading2": "polluer le web",
+    "intro": "Découvrez quelques une de mes dernières réalisations, certaines sont des side projects inachevés et d'autres des projets réalisés en Freelance pour mes clients. Chaque projet est codé seul et se trouve quelque part sur mon Github.",
+    "beatriceDesc": "Beatrice génère et publie automatiquement des articles SEO pour votre site Nextjs, Wordpress, etc. Connectez votre app, elle s’occupe du contenu.",
+    "optionZeroDesc": "Maquettes, intégration, développement et stratégie SEO/SEA du site. Ajoute d'un CMS custom Nextjs pour gérer les pages et les articles.",
+    "lolTrackerDesc": "Obtenez des stats, des évaluations détaillées et un historique de jeu pour booster les performances de votre équipe en Flex 5",
+    "captimedDesc": "Application mobile développée pour accompagner les internes en médecine dans leur quotidien. Elle permet de tracker leurs heures de travail, d'évaluer leur bien-être mental et d'accéder à des ressources de soutien.",
+    "nekjeuDesc": "Jeu web en temps réel où l'on défie un ami sur la discographie de l'artiste Nekfeu. Le premier à trouver l'album de la musique diffusée gagne des points.",
+    "bananegamesDesc": "Site vitrine avec un CMS personnalisé développé en Laravel pour gérer le site et publier des articles. J'ai aussi développé deux jeux éducatifs web en VueJS.",
+    "g2Desc": "Application qui détourne et positionne automatiquement une image sur un fond d'explosion. Elle permet aux fans de l'équipe G2 Esports de montrer leur soutien sur les réseaux sociaux.",
+    "cdcDesc": "Site vitrine pour présenter les chiens de chasse, avec deux passionnés du web prêts à mettre leur technique et créativité à votre service.",
+    "qoffeeDesc": "Projet pour former mes élèves à scraper des blogs Wordpress et à découvrir les premiers pas sur Next14 avec le nouveau système de routing.",
+    "coursDesc": "Futur site internet pour donner cours en ligne",
+    "fuchsDesc": "Jeu web pour All-images où les participants doivent déterminer si une image affichée est une vraie photo ou générée par IA.",
+    "kraiDesc": "Site créé pour approfondir mes connaissances en Laravel et pour pratiquer l'intégration en Bootstrap avec un effet Parallax.",
+    "legendsFusionDesc": "Jeu web permettant de construire un personnage de League of Legends en combinant les compétences de personnages choisis aléatoirement.",
+    "mvpDesc": "Site en Vanilla JS pour apprendre à utiliser ChartJS. Il scrappe les données de OPGG avec Puppeteer, les stocke et en extrait des informations.",
+    "pokedexDesc": "Projet pour entraîner mes élèves à utiliser des services web, à intégrer et à programmer en Vanilla JS.",
+    "ronronnerieDesc": "Site vitrine pour un café à chats situé au centre de Nice.",
+    "supdecoursDesc": "CMS fait maison pour la création de cours par les professeurs et la mise à disposition de ressources en ligne pour les élèves.",
+    "quizbrainDesc": "Exercices avec Next14 et webservice pour mes élèves. Le but étant de travailler avec les pages dynamiques et le SSR",
+    "trouveMotDesc": "API Laravel gratuite de mots aléatoires permettant de récupérer des mots triés ou non par catégories.",
+    "monacotraductionDesc": "Site vitrine multilingue réalisé pour une agence de traduction basée à Monaco."
+  },
+
+  "Months": {
+    "january": "Janv",
+    "february": "Fév",
+    "march": "Mars",
+    "april": "Avr",
+    "may": "Mai",
+    "june": "Juin",
+    "july": "Juil",
+    "august": "Août",
+    "september": "Sept",
+    "october": "Oct",
+    "november": "Nov",
+    "december": "Déc",
+    "today": "Aujourd'hui"
+  },
+
+  "Home": {
+    "heroTitle": "Brice Eliasse",
+    "heroSubtitle": "Dev. Web Freelance",
+    "heroFirst": "Développeur web Freelance sur Nice avec ",
+    "heroYears": " années d'expériences, ",
+    "heroLink": "je suis disponible",
+    "heroSecond": " pour réaliser le site ou l'application de vos rêves.",
+    "heroButton": "Parlons de votre projet",
+    "heroBadge": "Et si on automatisait à 100% votre Blog ? →",
+
+    "trustHeading": "Ils me font déjà confiance",
+
+    "years": "ans",
+    "months": "mois",
+    "days": "jours",
+    "hours": "h",
+    "minutes": "min",
+    "seconds": "s",
+    "and": "et",
+
+    "aboutHeading1": "Et si on parlait de moi",
+    "aboutHeading2": "vous voulez bien ?",
+    "aboutAge": "Développeur web Niçois de ",
+    "aboutAge2": "Je suis quelqu'un de curieux, créatif et <underline>précis</underline>.",
+    "aboutParagraph1": "Après un Master de développeur en alternance dans diverses startups, PME & grosses entreprises, j'ai acquis une solide expérience en développement web. Etant très polyvalent, je suis naturellement devenu <strong>développeur web Freelance</strong>. Je donne d'ailleurs cours dans le supérieur et en formation Bootcamp.",
+    "aboutQuote": "Coder c'est donner vie aux idées, qu'elles soient miennes ou celles des autres.",
+
+    "careerHeading": "C'était un réel plaisir de",
+    "careerHeading2": "travailler ensemble",
+    "careerSub": "Merci à toutes les entreprises qui m'ont fait confiance ↓",
+
+    "addLinkedin": "M'ajouter sur Linkedin",
+    "downloadCV": "Télécharger mon CV",
+    "seeGithub": "Voir mon Github",
+
+    "projectsIntro": "Découvrez quelques une de mes dernières réalisations, certaines sont des side projects inachevés et d'autres des projets réalisés en Freelance pour mes clients. Chaque projet est codé seul et se trouve quelque part sur mon Github.",
+
+    "toolsHeading1": "Voici mes stacks de",
+    "toolsHeading2": "prédilection",
+    "toolsIntro": "Je suis la philosophie <i>ship first</i> — lancer rapidement pour itérer ensuite. Pour ce faire, j'utilise un ensemble d'outils modernes pouvant couvrir l'intégralité de n'importe quel projet. C'est comme ça que je peux transformer rapidement une idée en un produit fonctionnel et sécurisé.",
+
+    "contactHeading": "Parlons de",
+    "contactHeading2": "votre projet",
+    "contactAlt": "Et si jamais vous préférez, vous pouvez directement m'envoyer un mail :",
+    "contactNamePlaceholder": "John Doe",
+    "contactEmailPlaceholder": "john.doe@gmail.com",
+    "contactMessagePlaceholder": "Entrez votre message...",
+
+    "reviewsHeading1": "Si vous doutiez encore",
+    "reviewsHeading2": "laissez-les vous convaincre",
+
+    "footerBrand": "Brice Eliasse",
+    "footerCopyright": "Copyright © {year} - Tous droits réservés",
+    "footerLatestPosts": "Derniers articles",
+    "footerContact": "Coordonnées",
+    "footerAddress": "Alpes-Maritimes - Nice",
+    "footerSiret": "SIRET : 923 386 692 00019"
+  }
 }

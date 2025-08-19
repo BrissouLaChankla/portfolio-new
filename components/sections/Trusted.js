@@ -1,8 +1,12 @@
+import { useTranslations } from "next-intl";
+
 export default function Trusted() {
+  const t = useTranslations("Home");
+
   return (
     <div className="section">
       <span className="text-xl font-medium flex gap-2 items-center justify-center mt-20 md:-mt-14">
-        Ils me font déjà confiance
+        {t("trustHeading")}
       </span>
       <div className="mt-12 grid grid-cols-12 gap-6 max-w-screen-lg m-auto place-items-center">
         <div className="col-span-6 md:col-span-3 max-h-14 max-w-48">

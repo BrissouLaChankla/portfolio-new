@@ -1,105 +1,108 @@
 "use client";
 import { useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
-
-const jobs = [
-  {
-    company: "Selego",
-    posts: [
-      {
-        name: "VIE - Développeur Full-Stack",
-        startDate: "Janv. 2025",
-        endDate: "Aujourd'hui",
-      },
-    ],
-    slug: "selego",
-    pics: 3,
-  },
-  {
-    company: "La Capsule",
-    posts: [
-      {
-        name: "Principal Teacher",
-        startDate: "Janv. 2024",
-        endDate: "Janv. 2025",
-      },
-      {
-        name: "Teacher",
-        startDate: "Mars 2023",
-        endDate: "Janv. 2024",
-      },
-    ],
-    slug: "capsule",
-    pics: 3,
-  },
-  {
-    company: "MediaSchool",
-    posts: [
-      {
-        name: "Intervenant professionnel",
-        startDate: "Sept. 2023",
-        endDate: "Août 2024",
-      },
-    ],
-    slug: "mediaschool",
-    pics: 2,
-  },
-  ,
-  {
-    company: "Nanaba",
-    posts: [
-      {
-        name: "Chef de Projet Web",
-        startDate: "Janv. 2022",
-        endDate: "Août 2022",
-      },
-      {
-        name: "Développeur Full-Stack",
-        startDate: "Sept 2021",
-        endDate: "Janv. 2022",
-      },
-    ],
-    slug: "nanaba",
-    pics: 3,
-  },
-  {
-    company: "MWA",
-    posts: [
-      {
-        name: "Développeur Full-Stack",
-        startDate: "Sept. 2020",
-        endDate: "Sept. 2021",
-      },
-    ],
-    slug: "mwa",
-  },
-  {
-    company: "Koedia",
-    posts: [
-      {
-        name: "Intégrateur Web",
-        startDate: "Sept. 2019",
-        endDate: "Août 2020",
-      },
-    ],
-    slug: "koedia",
-  },
-  {
-    company: "Visiplus Academy",
-    posts: [
-      {
-        name: "Intégrateur / Webdesigner",
-        startDate: "Juil. 2016",
-        endDate: "Sept. 2019",
-      },
-    ],
-    slug: "visiplus",
-  },
-];
+import { useTranslations } from "next-intl";
 
 export default function Career() {
-  const [selectedJob, setSelectedJob] = useState(jobs[0]);
+  const t = useTranslations("Home");
+  const tJobs = useTranslations("Jobs");
+  const tMonths = useTranslations("Months");
 
+  const jobs = [
+    {
+      company: "Selego",
+      posts: [
+        {
+          name: tJobs("vieFullStack"),
+          startDate: `${tMonths("january")} 2025`,
+          endDate: tMonths("today"),
+        },
+      ],
+      slug: "selego",
+      pics: 3,
+    },
+    {
+      company: "La Capsule",
+      posts: [
+        {
+          name: tJobs("principalTeacher"),
+          startDate: `${tMonths("january")} 2024`,
+          endDate: `${tMonths("january")} 2025`,
+        },
+        {
+          name: tJobs("teacher"),
+          startDate: `${tMonths("march")} 2023`,
+          endDate: `${tMonths("january")} 2024`,
+        },
+      ],
+      slug: "capsule",
+      pics: 3,
+    },
+    {
+      company: "MediaSchool",
+      posts: [
+        {
+          name: tJobs("intervenantPro"),
+          startDate: `${tMonths("september")} 2023`,
+          endDate: `${tMonths("august")} 2024`,
+        },
+      ],
+      slug: "mediaschool",
+      pics: 2,
+    },
+    {
+      company: "Nanaba",
+      posts: [
+        {
+          name: tJobs("chefProjetWeb"),
+          startDate: `${tMonths("january")} 2022`,
+          endDate: `${tMonths("august")} 2022`,
+        },
+        {
+          name: tJobs("developpeurFullStack"),
+          startDate: `${tMonths("september")} 2021`,
+          endDate: `${tMonths("january")} 2022`,
+        },
+      ],
+      slug: "nanaba",
+      pics: 3,
+    },
+    {
+      company: "MWA",
+      posts: [
+        {
+          name: tJobs("developpeurFullStack"),
+          startDate: `${tMonths("september")} 2020`,
+          endDate: `${tMonths("september")} 2021`,
+        },
+      ],
+      slug: "mwa",
+    },
+    {
+      company: "Koedia",
+      posts: [
+        {
+          name: tJobs("integrateurWeb"),
+          startDate: `${tMonths("september")} 2019`,
+          endDate: `${tMonths("august")} 2020`,
+        },
+      ],
+      slug: "koedia",
+    },
+    {
+      company: "Visiplus Academy",
+      posts: [
+        {
+          name: tJobs("integrateurWebdesigner"),
+          startDate: `${tMonths("july")} 2016`,
+          endDate: `${tMonths("september")} 2019`,
+        },
+      ],
+      slug: "visiplus",
+    },
+  ];
+
+  const [selectedJob, setSelectedJob] = useState(jobs[0]);
   return (
     <div className="section grid grid-cols-12 gap-6 lg:gap-14 items-center">
       <div className="col-span-12  md:col-span-6">
@@ -154,10 +157,10 @@ export default function Career() {
       </div>
       <div className="col-span-12 md:col-span-6 flex flex-col gap-6 ">
         <h2>
-          C'était un réel plaisir de <br />
-          <span className="text-primary">travailler ensemble</span>
+          {t("careerHeading")} <br />
+          <span className="text-primary">{t("careerHeading2")}</span>
         </h2>
-        <p>Merci à toutes les entreprises qui m'ont fait confiance ↓</p>
+        <p>{t("careerSub")}</p>
 
         <div className="border-2 border-gray-700 rounded-xl overflow-hidden">
           {jobs.map((job, i) => (
