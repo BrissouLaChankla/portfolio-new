@@ -4,6 +4,18 @@
     "description": "Web developer / trainer in Nice and the Alpes-Maritimes. I mainly use and teach WordPress, React and Next.js."
   },
 
+  "BlogMeta": {
+    "title": "All articles | Brice Eliasse - Blog and news of a freelance web developer in Nice",
+    "description": "Browse all articles by Brice Eliasse, freelance web developer in Nice. Discover tips, news and tips on web development."
+  },
+
+  "BlogPage": {
+    "allArticles": "All my articles",
+    "noArticles": "No articles found",
+    "page": "Page",
+    "readMore": "Read more"
+  },
+
   "Navbar": {
     "about": "About",
     "skills": "Skills",

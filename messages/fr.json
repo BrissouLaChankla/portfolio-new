@@ -4,6 +4,18 @@
     "description": "Développeur web / formateur sur Nice et dans les Alpes-Maritimes. J'enseigne et utilise principalement WordPress, React et Next.js."
   },
 
+  "BlogMeta": {
+    "title": "Tous mes articles | Brice Eliasse - Blog et Actualités d'un Développeur Web Freelance à Nice",
+    "description": "Parcourez tous les articles de Brice Eliasse, développeur web freelance à Nice. Découvrez des conseils, actualités et astuces sur le développement web."
+  },
+
+  "BlogPage": {
+    "allArticles": "Tous mes articles",
+    "noArticles": "Aucun article trouvé",
+    "page": "Page",
+    "readMore": "Lire la suite"
+  },
+
   "Navbar": {
     "about": "À propos",
     "skills": "Compétences",

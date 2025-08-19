@@ -1,9 +1,11 @@
 import { socials } from "@/utils/socials";
 import Link from "next/link";
 import { useTranslations } from "next-intl";
+import { useLocale } from "next-intl";
 
 export default function Navbar() {
   const t = useTranslations("Navbar");
+  const locale = useLocale();
   return (
     <div className="navbar max-w-screen-xl m-auto bg-base-100/75 backdrop-blur border-b border-gray-800  sticky top-0 z-50 lg:mb-0 lg:border-0">
       <div className="navbar-start">
@@ -57,16 +59,16 @@ export default function Navbar() {
       <div className="navbar-center hidden lg:flex">
         <ul className="menu menu-horizontal px-1">
           <li>
-            <a href="/#about">{t("about")}</a>
+            <a href={`/${locale}/#about`}>{t("about")}</a>
           </li>
           <li>
-            <a href="/#skills">{t("skills")}</a>
+            <a href={`/${locale}/#skills`}>{t("skills")}</a>
           </li>
           <li>
-            <a href="/#projects">{t("projects")}</a>
+            <a href={`/${locale}/#projects`}>{t("projects")}</a>
           </li>
           <li>
-            <a href="/#contact">{t("contact")}</a>
+            <a href={`/${locale}/#contact`}>{t("contact")}</a>
           </li>
         </ul>
       </div>
@@ -88,7 +90,10 @@ export default function Navbar() {
             </a>
           ))}
 
-          <Link href="/articles" className="btn btn-sm h-10  btn-outline ">
+          <Link
+            href={`/${locale}/articles`}
+            className="btn btn-sm h-10  btn-outline "
+          >
             {t("blog")}
           </Link>
         </div>
