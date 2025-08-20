@@ -1,5 +1,9 @@
 User-agent: *
-Disallow: /protocol_2025_final_draft_confidential_do_not_share
+Allow: /
 
-# Sitemap (optionnel - à décommenter si vous avez un sitemap)
-Sitemap: https://brice-eliasse.com/sitemap.xml 
+Disallow: /_next/
+Disallow: /api/
+Disallow: /static/
+Disallow: /drafts/
+
+Sitemap: https://brice-eliasse.com/sitemap.xml

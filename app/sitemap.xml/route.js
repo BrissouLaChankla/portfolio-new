@@ -1,126 +1,136 @@
 // app/sitemap.xml/route.js
 const BASE_URL = "https://brice-eliasse.com";
-export const revalidate = 3600;
 
-// Tokens CMS
+// Tokens par langue (ton CMS headless)
 const TOKENS = {
   fr: "203377ab-1537-4b08-a5ec-93d090abc95e",
-  en: "2f8dd773-4ba0-4b3c-99ab-bb0a92a130b2",
+  en: "35e6fafc-82b3-421a-9e74-57d21a92450c",
 };
 
-// helpers
-const locBase = (locale) => (locale === "en" ? `${BASE_URL}/en` : BASE_URL);
-const apiList = (locale, qs = "") =>
-  `https://beatrice.app/api/articles?token=${TOKENS[locale]}${qs}`;
+// selon ta pagination (9 par page dans ton code)
+const PAGE_SIZE = 9;
 
-async function getPaginationPages(locale) {
-  try {
-    const res = await fetch(apiList(locale, "&page=1&limit=9"), {
-      next: { revalidate },
-    });
-    if (!res.ok) return 0;
-    const { pagination } = await res.json();
-    return pagination?.pages || 0;
-  } catch {
-    return 0;
-  }
+// petit fetch helper avec ISR
+async function getJSON(url, revalidate = 3600) {
+  const res = await fetch(url, { next: { revalidate } });
+  if (!res.ok) throw new Error(`Fetch failed: ${url} (${res.status})`);
+  return res.json();
 }
 
-async function getSlugs(locale) {
-  try {
-    const res = await fetch(apiList(locale, "&onlyPublished=true&limit=9999"), {
-      next: { revalidate },
-    });
-    if (!res.ok) return [];
-    const { data = [] } = await res.json();
-    return data.map((a) => ({
-      slug: a.slug,
-      updatedAt: a.updatedAt || a.publishedAt,
-    }));
-  } catch {
-    return [];
-  }
+async function getLocalesMaps() {
+  // pages d'index (pour calculer le nombre total de pages par locale)
+  const [frPage1, enPage1] = await Promise.all([
+    getJSON(
+      `https://beatrice.app/api/articles?token=${TOKENS.fr}&page=1&limit=${PAGE_SIZE}`
+    ),
+    getJSON(
+      `https://beatrice.app/api/articles?token=${TOKENS.en}&page=1&limit=${PAGE_SIZE}`
+    ),
+  ]);
+
+  const frPages = frPage1?.pagination?.pages || 1;
+  const enPages = enPage1?.pagination?.pages || 1;
+
+  // slugs d’articles par locale
+  const [frSlugs, enSlugs] = await Promise.all([
+    getJSON(`https://beatrice.app/api/slugs?token=${TOKENS.fr}`),
+    getJSON(`https://beatrice.app/api/slugs?token=${TOKENS.en}`),
+  ]);
+
+  return { frPages, enPages, frSlugs, enSlugs };
 }
 
-const urlNode = ({
+function buildUrlEntry(
   url,
-  lastModified,
+  lastmod = new Date(),
   changefreq = "weekly",
-  priority = 0.8,
-}) => {
-  const iso = new Date(lastModified).toISOString();
+  priority = 0.8
+) {
   return `  <url>
     <loc>${url}</loc>
-    <lastmod>${iso}</lastmod>
+    <lastmod>${new Date(lastmod).toISOString()}</lastmod>
     <changefreq>${changefreq}</changefreq>
     <priority>${priority}</priority>
   </url>`;
-};
+}
 
-async function buildXml() {
-  const now = new Date();
-  const nodes = [];
+async function buildSitemap() {
+  const map = [];
 
-  for (const locale of ["fr", "en"]) {
-    const base = locBase(locale);
+  // homes
+  map.push(buildUrlEntry(`${BASE_URL}/fr`, new Date(), "weekly", 1.0));
+  map.push(buildUrlEntry(`${BASE_URL}/en`, new Date(), "weekly", 0.9));
 
-    // Accueil + index articles (FR sans /fr, EN avec /en)
-    nodes.push(
-      urlNode({
-        url: `${base}/`,
-        lastModified: now,
-        changefreq: "monthly",
-        priority: 0.8,
-      })
-    );
-    nodes.push(
-      urlNode({
-        url: `${base}/articles`,
-        lastModified: now,
-        changefreq: "weekly",
-        priority: 0.8,
-      })
-    );
+  // index d’articles
+  map.push(buildUrlEntry(`${BASE_URL}/fr/articles`, new Date(), "daily", 0.9));
+  map.push(buildUrlEntry(`${BASE_URL}/en/articles`, new Date(), "daily", 0.8));
 
-    // Pagination
-    const totalPages = await getPaginationPages(locale);
-    for (let p = 2; p <= totalPages; p++) {
-      nodes.push(
-        urlNode({
-          url: `${base}/articles/page/${p}`,
-          lastModified: now,
-          changefreq: "weekly",
-          priority: 0.6,
-        })
+  try {
+    const { frPages, enPages, frSlugs, enSlugs } = await getLocalesMaps();
+
+    // pagination FR
+    for (let i = 2; i <= frPages; i++) {
+      map.push(
+        buildUrlEntry(
+          `${BASE_URL}/fr/articles/page/${i}`,
+          new Date(),
+          "daily",
+          0.6
+        )
       );
     }
 
-    // Articles
-    const slugs = await getSlugs(locale);
-    for (const { slug, updatedAt } of slugs) {
-      nodes.push(
-        urlNode({
-          url: `${base}/articles/${slug}`,
-          lastModified: updatedAt || now,
-          changefreq: "weekly",
-          priority: 0.8,
-        })
+    // pagination EN
+    for (let i = 2; i <= enPages; i++) {
+      map.push(
+        buildUrlEntry(
+          `${BASE_URL}/en/articles/page/${i}`,
+          new Date(),
+          "daily",
+          0.5
+        )
       );
     }
+
+    // articles FR
+    for (const slug of frSlugs || []) {
+      map.push(
+        buildUrlEntry(
+          `${BASE_URL}/fr/articles/${slug.slug}`,
+          slug.updatedAt || new Date(),
+          "weekly",
+          0.8
+        )
+      );
+    }
+
+    // articles EN
+    for (const slug of enSlugs || []) {
+      map.push(
+        buildUrlEntry(
+          `${BASE_URL}/en/articles/${slug.slug}`,
+          slug.updatedAt || new Date(),
+          "weekly",
+          0.7
+        )
+      );
+    }
+  } catch (e) {
+    // en cas de pépin API, on sort quand même le minimum vital
+    console.error("Sitemap build error:", e);
   }
 
   return `<?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-${nodes.join("\n")}
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+${map.join("\n")}
 </urlset>`;
 }
 
 export async function GET() {
-  const xml = await buildXml();
+  const xml = await buildSitemap();
   return new Response(xml, {
-    headers: {
-      "Content-Type": "application/xml; charset=utf-8",
-      "Cache-Control": "public, max-age=3600",
-    },
+    headers: { "Content-Type": "text/xml; charset=utf-8" },
   });
 }
