@@ -1,9 +1,19 @@
 import Link from "next/link";
 import { getTranslations } from "next-intl/server";
+import { getLocale } from "next-intl/server";
+
+// 🗝️ Token par locale
+const TOKENS = {
+  fr: "203377ab-1537-4b08-a5ec-93d090abc95e",
+  en: "2f8dd773-4ba0-4b3c-99ab-bb0a92a130b2",
+};
 
 export default async function Footer() {
+  const locale = await getLocale();
+  const token = TOKENS[locale] || TOKENS.fr; // fallback sur français
+
   const articles = await fetch(
-    `https://beatrice.app/api/articles?token=203377ab-1537-4b08-a5ec-93d090abc95e&limit=3`
+    `https://beatrice.app/api/articles?token=${token}&limit=3`
   );
   const { data } = await articles.json();
 

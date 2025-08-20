@@ -2,6 +2,7 @@ import { socials } from "@/utils/socials";
 import Link from "next/link";
 import { useTranslations } from "next-intl";
 import { useLocale } from "next-intl";
+import SelectLanguage from "./SelectLanguage";
 
 export default function Navbar() {
   const t = useTranslations("Navbar");
@@ -42,6 +43,9 @@ export default function Navbar() {
             <li>
               <a href="/#contact">{t("contact")}</a>
             </li>
+            <li>
+              <SelectLanguage />
+            </li>
           </ul>
         </div>
         <Link href="/" className="btn btn-ghost text-2xl">
@@ -70,6 +74,9 @@ export default function Navbar() {
           <li>
             <a href={`/${locale}/#contact`}>{t("contact")}</a>
           </li>
+          <li>
+            <SelectLanguage />
+          </li>
         </ul>
       </div>
       <div className="navbar-end">
@@ -92,7 +99,7 @@ export default function Navbar() {
 
           <Link
             href={`/${locale}/articles`}
-            className="btn btn-sm h-10  btn-outline "
+            className="btn btn-sm h-10  btn-outline hidden sm:flex"
           >
             {t("blog")}
           </Link>
