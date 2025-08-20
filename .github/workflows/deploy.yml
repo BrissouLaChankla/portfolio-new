@@ -44,4 +44,5 @@ jobs:
             **/.svn*/**
             **/.DS_Store
             **/Thumbs.db
+            **/.htaccess
           dangerous-clean-slate: true
