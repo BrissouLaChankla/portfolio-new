@@ -9,7 +9,7 @@ export const dynamicParams = true;
 // 🗝️ Token par locale
 const TOKENS = {
   fr: "203377ab-1537-4b08-a5ec-93d090abc95e",
-  en: "35e6fafc-82b3-421a-9e74-57d21a92450c",
+  en: "2f8dd773-4ba0-4b3c-99ab-bb0a92a130b2",
 };
 
 function apiList(locale, qs = "") {
