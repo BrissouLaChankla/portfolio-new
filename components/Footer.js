@@ -5,7 +5,7 @@ import { getLocale } from "next-intl/server";
 // 🗝️ Token par locale
 const TOKENS = {
   fr: "203377ab-1537-4b08-a5ec-93d090abc95e",
-  en: "2f8dd773-4ba0-4b3c-99ab-bb0a92a130b2",
+  en: "f71a551a-499b-4934-96ca-df4b4d8c3dab",
 };
 
 export default async function Footer() {
@@ -47,7 +47,7 @@ export default async function Footer() {
           {data.map((article, i) => (
             <Link
               key={i}
-              href={`/articles/${article.slug}`}
+              href={`/${locale}/articles/${article.slug}`}
               className="link link-hover line-clamp-1 max-w-xl"
             >
               {article.title}
