@@ -55,11 +55,11 @@ export default function Projects() {
       tools: ["Laravel", "PhotoRoom"],
     },
     {
-      slug: "cdc",
-      link: "https://chiensdechasse.agency/",
-      name: "Chiens de chasse",
-      description: tProjects("cdcDesc"),
-      tools: ["Wordpress", "Elementor"],
+      slug: "borders",
+      link: "https://bordersgg.vercel.app",
+      name: "Borders.gg",
+      description: tProjects("bordersDesc"),
+      tools: ["NextJS", "DaisyUI", "Aceternity UI"],
     },
     {
       slug: "qoffee",

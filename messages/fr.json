@@ -134,6 +134,7 @@
     "nekjeuDesc": "Jeu web en temps réel où l'on défie un ami sur la discographie de l'artiste Nekfeu. Le premier à trouver l'album de la musique diffusée gagne des points.",
     "bananegamesDesc": "Site vitrine avec un CMS personnalisé développé en Laravel pour gérer le site et publier des articles. J'ai aussi développé deux jeux éducatifs web en VueJS.",
     "g2Desc": "Application qui détourne et positionne automatiquement une image sur un fond d'explosion. Elle permet aux fans de l'équipe G2 Esports de montrer leur soutien sur les réseaux sociaux.",
+    "bordersDesc": "Configurateur qui permet de visualiser plus simplement les frames que vous souhaitez commander sur le site Summoner Frame qui imprime et construit des cadres du jeu de League of Legends.",
     "cdcDesc": "Site vitrine pour présenter les chiens de chasse, avec deux passionnés du web prêts à mettre leur technique et créativité à votre service.",
     "qoffeeDesc": "Projet pour former mes élèves à scraper des blogs Wordpress et à découvrir les premiers pas sur Next14 avec le nouveau système de routing.",
     "coursDesc": "Futur site internet pour donner cours en ligne",
@@ -146,7 +147,9 @@
     "supdecoursDesc": "CMS fait maison pour la création de cours par les professeurs et la mise à disposition de ressources en ligne pour les élèves.",
     "quizbrainDesc": "Exercices avec Next14 et webservice pour mes élèves. Le but étant de travailler avec les pages dynamiques et le SSR",
     "trouveMotDesc": "API Laravel gratuite de mots aléatoires permettant de récupérer des mots triés ou non par catégories.",
-    "monacotraductionDesc": "Site vitrine multilingue réalisé pour une agence de traduction basée à Monaco."
+    "monacotraductionDesc": "Site vitrine multilingue réalisé pour une agence de traduction basée à Monaco.",
+    "private": "C'est privé",
+    "seeWork": "Voir le chef-d'œuvre"
   },
 
   "Months": {
