@@ -14,6 +14,7 @@ export async function generateMetadata({ params }) {
   const tProjects = await getTranslations("Projects");
   const projects = getProjects(tProjects);
   const project = projects.find((p) => p.slug === slug);
+  const locale = await getLocale();
 
   if (!project) {
     return {
@@ -22,9 +23,21 @@ export async function generateMetadata({ params }) {
     };
   }
 
+  const baseUrl = "https://brice-eliasse.com";
+  const frUrl = `${baseUrl}/fr/projects/${slug}`;
+  const enUrl = `${baseUrl}/en/projects/${slug}`;
+
   return {
     title: `Projet ${project.name} - Brice Eliasse`,
     description: project.description,
+    alternates: {
+      canonical: locale === "fr" ? frUrl : enUrl,
+      languages: {
+        fr: frUrl,
+        en: enUrl,
+        "x-default": frUrl,
+      },
+    },
   };
 }
 
