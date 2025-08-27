@@ -1,4 +1,6 @@
 // app/sitemap.xml/route.js
+import { getProjects } from "../../data/projects.js";
+
 const BASE_URL = "https://brice-eliasse.com";
 
 // Tokens par langue (ton CMS headless)
@@ -65,6 +67,10 @@ async function buildSitemap() {
   map.push(buildUrlEntry(`${BASE_URL}/fr/articles`, new Date(), "daily", 0.9));
   map.push(buildUrlEntry(`${BASE_URL}/en/articles`, new Date(), "daily", 0.8));
 
+  // index de projets
+  map.push(buildUrlEntry(`${BASE_URL}/fr/projects`, new Date(), "weekly", 0.9));
+  map.push(buildUrlEntry(`${BASE_URL}/en/projects`, new Date(), "weekly", 0.8));
+
   try {
     const { frPages, enPages, frSlugs, enSlugs } = await getLocalesMaps();
 
@@ -111,6 +117,29 @@ async function buildSitemap() {
           `${BASE_URL}/en/articles/${slug.slug}`,
           slug.updatedAt || new Date(),
           "weekly",
+          0.7
+        )
+      );
+    }
+
+    // projets FR et EN
+    const projects = getProjects();
+    for (const project of projects) {
+      // projet FR
+      map.push(
+        buildUrlEntry(
+          `${BASE_URL}/fr/projects/${project.slug}`,
+          new Date(),
+          "monthly",
+          0.8
+        )
+      );
+      // projet EN
+      map.push(
+        buildUrlEntry(
+          `${BASE_URL}/en/projects/${project.slug}`,
+          new Date(),
+          "monthly",
           0.7
         )
       );

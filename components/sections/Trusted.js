@@ -14,6 +14,9 @@ export default function Trusted() {
             className="invert brightness-0  h-full object-contain m-auto "
             src="/trusted/mediaschool.png"
             alt="Logo Mediaschool"
+            loading="lazy"
+            width={192}
+            height={58}
           />
         </div>
         <div className="col-span-6 md:col-span-3 max-h-14 max-w-48">
@@ -21,6 +24,9 @@ export default function Trusted() {
             className="invert brightness-0 h-full object-contain m-auto"
             src="/trusted/capsule.png"
             alt="Logo La Capsule"
+            loading="lazy"
+            width={192}
+            height={58}
           />
         </div>
         <div className="col-span-6 md:col-span-3 max-h-14 max-w-48">
@@ -28,6 +34,9 @@ export default function Trusted() {
             className="invert brightness-0 h-full object-contain m-auto"
             src="/trusted/g2.png"
             alt="Logo G2 Esposrts"
+            loading="lazy"
+            width={192}
+            height={58}
           />
         </div>
         <div className="col-span-6 md:col-span-3 max-h-14 max-w-48">
@@ -35,6 +44,9 @@ export default function Trusted() {
             className="invert brightness-0 h-full object-contain m-auto"
             src="/trusted/supdeweb.png"
             alt="Logo Supdeweb"
+            loading="lazy"
+            width={192}
+            height={58}
           />
         </div>
       </div>

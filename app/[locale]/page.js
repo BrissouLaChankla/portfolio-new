@@ -33,7 +33,6 @@ export default async function Home({ params: { locale } }) {
     years: t("heroYears"),
     link: t("heroLink"),
     second: t("heroSecond"),
-    button: t("heroButton"),
     badge: t("heroBadge"),
   };
 
