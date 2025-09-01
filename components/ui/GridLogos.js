@@ -3,11 +3,9 @@ import Modal from "./Modal";
 import { useState } from "react";
 import { motion } from "framer-motion";
 import Image from "next/image";
-import { useLocale } from "next-intl";
 // Data is an array of object which are the projects or techs info, src is the folder where to find the img
 export default function GridLogos({ data, src }) {
   const [projectOpen, setProjectOpen] = useState("");
-  const locale = useLocale();
   const openModal = (proj) => {
     setProjectOpen(proj);
     document.getElementById("modal").showModal();
@@ -35,9 +33,9 @@ export default function GridLogos({ data, src }) {
             }}
             key={el.slug}
           >
-            <a
+            <span
               key={el.slug}
-              href={`/${locale}/projects/${el.slug}`}
+              onClick={() => openModal(el)}
               className=" mask mask-squircle cursor-pointer"
             >
               <Image
@@ -46,7 +44,7 @@ export default function GridLogos({ data, src }) {
                 height={100}
                 width={100}
               />
-            </a>
+            </span>
           </motion.span>
         ))}
       </div>

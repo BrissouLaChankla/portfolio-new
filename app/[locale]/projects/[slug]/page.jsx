@@ -3,8 +3,6 @@ import { getTranslations } from "next-intl/server";
 import { getProjects } from "@/data/projects";
 import { getLocale } from "next-intl/server";
 import { notFound } from "next/navigation";
-import Link from "next/link";
-
 export async function generateStaticParams() {
   return getProjects();
 }
@@ -18,7 +16,7 @@ export async function generateMetadata({ params }) {
 
   if (!project) {
     return {
-      title: "Projet non trouvé",
+      title: `${locale === "fr" ? "Projet" : "Project"} non trouvé`,
       description: "Ce projet n'existe pas ou n'est pas disponible.",
     };
   }
@@ -28,7 +26,9 @@ export async function generateMetadata({ params }) {
   const enUrl = `${baseUrl}/en/projects/${slug}`;
 
   return {
-    title: `Projet ${project.name} - Brice Eliasse`,
+    title: `${locale === "fr" ? "Projet" : "Project"} ${
+      project.name
+    } - Brice Eliasse`,
     description: project.description,
     alternates: {
       canonical: locale === "fr" ? frUrl : enUrl,

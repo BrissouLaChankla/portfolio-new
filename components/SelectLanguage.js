@@ -7,7 +7,7 @@ export default function SelectLanguage() {
 
   return (
     <select
-      className="select select-sm select-ghost w-20 text-xs h-full"
+      className="select select-sm select-ghost w-20 text-xs h-full whitespace-nowrap"
       value={locale}
       onChange={(e) => {
         const newLocale = e.target.value;

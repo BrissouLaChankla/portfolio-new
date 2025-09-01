@@ -1,8 +1,11 @@
+"use client";
 import Image from "next/image";
 import { useTranslations } from "next-intl";
+import { useLocale } from "next-intl";
 
 export default function Modal({ data }) {
   const messages = useTranslations();
+  const locale = useLocale();
 
   return (
     <dialog id="modal" className="modal">
@@ -34,8 +37,7 @@ export default function Modal({ data }) {
                     </i>
                   ) : (
                     <a
-                      href={data.link}
-                      target="_blank"
+                      href={`/${locale}/projects/${data.slug}`}
                       className="btn btn-sm btn-primary btn-outline  self-stretch sm:self-end"
                     >
                       {messages("Projects.seeWork")} →

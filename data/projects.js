@@ -260,7 +260,6 @@ export const getProjects = (tProjects = null) => [
     slug: "qoffee",
     isFavorite: false,
     isSideProject: true,
-
     link: "https://headless-next14.vercel.app/",
     mockups: [
       "https://about-lime.vercel.app/_next/image?url=%2Fassets%2Fprojects%2Fnekjeu.png&w=3840&q=75",

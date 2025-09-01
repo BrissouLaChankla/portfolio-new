@@ -38,7 +38,10 @@ export default function Navbar() {
               <a href="/#skills">{t("skills")}</a>
             </li>
             <li>
-              <a href="/#projects">{t("projects")}</a>
+              <Link href={`/${locale}/projects`}>{t("projects")}</Link>
+            </li>
+            <li>
+              <Link href={`/${locale}/articles`}>{t("blog")}</Link>
             </li>
             <li>
               <a href="/#contact">{t("contact")}</a>
@@ -69,7 +72,10 @@ export default function Navbar() {
             <a href={`/${locale}/#skills`}>{t("skills")}</a>
           </li>
           <li>
-            <a href={`/${locale}/#projects`}>{t("projects")}</a>
+            <a href={`/${locale}/projects`}>{t("projects")}</a>
+          </li>
+          <li>
+            <Link href={`/${locale}/articles`}>{t("blog")}</Link>
           </li>
           <li>
             <a href={`/${locale}/#contact`}>{t("contact")}</a>
@@ -96,13 +102,6 @@ export default function Navbar() {
               />
             </a>
           ))}
-
-          <Link
-            href={`/${locale}/articles`}
-            className="btn btn-sm h-10  btn-outline hidden sm:flex"
-          >
-            {t("blog")}
-          </Link>
         </div>
         {/* <label className="swap swap-rotate">
 

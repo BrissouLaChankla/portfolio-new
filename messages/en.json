@@ -1,12 +1,12 @@
 {
   "HomeMeta": {
-    "title": "Brice Eliasse - Freelance Web Developer | Next.js, WordPress & React Native",
-    "description": "Brice Eliasse, French freelance web developer. Fast, SEO-friendly websites & apps with modern design using Next.js, WordPress & React Native."
+    "title": "Freelance Web Developer – Fast & Custom Websites | Brice Eliasse",
+    "description": "Need an efficient and professional website? Brice Eliasse, freelance web developer, I create fast, beautiful, and easy-to-use websites."
   },
 
   "BlogMeta": {
-    "title": "All articles | Brice Eliasse - Blog and news of a freelance web developer",
-    "description": "Browse all articles by Brice Eliasse, freelance web developer. Discover tips, news and tips on web development."
+    "title": "All my articles - Blog and News of a Freelance Web Developer | Brice Eliasse",
+    "description": "Browse all articles by Brice Eliasse, freelance web developer. Discover advice, news, and tips on web development."
   },
 
   "BlogPage": {
@@ -21,7 +21,7 @@
     "skills": "Skills",
     "projects": "Projects",
     "contact": "Contact",
-    "blog": "BLOG",
+    "blog": "Blog",
     "brand": "Brice Eliasse"
   },
 
@@ -151,7 +151,7 @@
     "trouveMotDesc": "Free Laravel API for random words allowing you to retrieve words sorted or not by categories.",
     "monacotraductionDesc": "Multilingual website created for a translation agency based in Monaco.",
     "private": "This is private",
-    "seeWork": "See the masterpiece"
+    "seeWork": "Discover the project"
   },
 
   "Skills": {

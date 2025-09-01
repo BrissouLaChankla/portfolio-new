@@ -1,11 +1,11 @@
 {
   "HomeMeta": {
-    "title": "Brice Eliasse - Formateur & Développeur web Freelance sur Nice",
-    "description": "Développeur web sur Nice et dans les Alpes-Maritimes. Sites et apps rapides, SEO optimisé et design moderne."
+    "title": "Développeur Web Freelance – Sites rapides & sur-mesure | Brice Eliasse",
+    "description": "Besoin d’un site internet efficace et professionnel ? Brice Eliasse, développeur web freelance, je crée des sites rapides, beaux et simples à utiliser."
   },
 
   "BlogMeta": {
-    "title": "Tous mes articles | Brice Eliasse - Blog et Actualités d'un Développeur Web Freelance à Nice",
+    "title": "Tous mes articles - Blog et Actualités d'un Développeur Web Freelance à Nice | Brice Eliasse",
     "description": "Parcourez tous les articles de Brice Eliasse, développeur web freelance à Nice. Découvrez des conseils, actualités et astuces sur le développement web."
   },
 
@@ -21,7 +21,7 @@
     "skills": "Compétences",
     "projects": "Projets",
     "contact": "Contact",
-    "blog": "BLOG",
+    "blog": "Blog",
     "brand": "Brice Eliasse"
   },
   "Jobs": {
@@ -221,7 +221,7 @@
     "monacotraductionWorkDone": "<p>Pour Monaco Traduction, j'ai développé un site vitrine multilingue élégant qui reflète le professionnalisme de cette agence monégasque.</p><p>J'ai créé une plateforme qui :</p><ul><li>Implémente un système de gestion multilingue complet (français, anglais, italien)</li><li>Offre une navigation fluide entre les différentes langues</li><li>Présente les services de traduction de manière claire et professionnelle</li><li>Intègre un système de contact et de devis en ligne multilingue</li></ul><p>J'ai également optimisé le SEO pour chaque langue et créé un design qui reflète l'excellence et la fiabilité de l'agence.</p><p>En résumé, j'ai conçu ce site comme une vitrine internationale — permettant à Monaco Traduction de communiquer efficacement avec une clientèle internationale dans leur langue maternelle.</p>",
     "monacotraductionMission": "Créer une présence web multilingue qui reflète l'excellence et le professionnalisme d'une agence de traduction premium.",
     "private": "C'est privé",
-    "seeWork": "Voir le chef-d'œuvre"
+    "seeWork": "Découvrir le projet"
   },
 
   "Months": {
