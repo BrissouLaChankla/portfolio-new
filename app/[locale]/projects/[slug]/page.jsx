@@ -45,8 +45,8 @@ export default async function ProjectPage({ params }) {
   const { slug } = await params;
   const tProjects = await getTranslations("Projects");
   const projects = getProjects(tProjects);
-  const t = await getTranslations("Home");
-  const project = projects.find((p) => p.slug === slug);
+  const projectIndex = projects.findIndex((p) => p.slug === slug);
+  const project = projects[projectIndex];
   const locale = await getLocale();
 
   const relatedProjects = projects
@@ -78,16 +78,20 @@ export default async function ProjectPage({ params }) {
         <div className="w-full flex items-center justify-between section mt-0">
           {/* Design stylé pour navigation projet précédent / suivant avec noms et image du projet suivant */}
           <div className="flex flex-col items-center justify-center">
-            {/* Projet précédent */}
-            <button
-              type="button"
-              className="group flex items-center gap-3 px-4 py-2 rounded-full bg-base-200 hover:bg-primary hover:text-white transition-all shadow-lg"
-              aria-label={`Projet précédent : ${
-                relatedProjects[0]?.name || "Aucun"
+            <a
+              href={
+                projects[projectIndex - 1]
+                  ? `/${locale}/projects/${projects[projectIndex - 1].slug}`
+                  : `/${locale}/projects/${projects[projects.length - 1].slug}`
+              }
+              className={` flex items-center gap-5 ps-3 pe-6 py-2 rounded-lg bg-base-300 border-base-content/80 border hover:scale-[1.02]  `}
+              aria-label={`${tProjects("previousProject")} : ${
+                projects[projectIndex - 1]?.name ||
+                projects[projects.length - 1]?.name
               }`}
-              disabled={!relatedProjects[0]}
+              tabIndex={projects[projectIndex - 1] ? 0 : -1}
             >
-              <span className="inline-block rounded-full bg-base-100 p-2 group-hover:bg-white/20 transition-all">
+              <span className="block w-10">
                 <svg width="20" height="20" fill="none" viewBox="0 0 24 24">
                   <path
                     d="M15 19l-7-7 7-7"
@@ -99,14 +103,28 @@ export default async function ProjectPage({ params }) {
                 </svg>
               </span>
               <div className="flex flex-col items-start">
-                <span className="text-xs text-base-content/60">
-                  Projet précédent
+                <span className="text-xs text-base-content/60 whitespace-nowrap">
+                  {tProjects("previousProject")}
                 </span>
-                <span className="font-medium">
-                  {relatedProjects[0]?.name || "Aucun"}
+                <span className="font-medium whitespace-nowrap">
+                  {projects[projectIndex - 1]?.name ||
+                    projects[projects.length - 1]?.name}
                 </span>
               </div>
-            </button>
+              <img
+                src={
+                  projects[projectIndex - 1]
+                    ? `/projects/${projects[projectIndex - 1].slug}.svg`
+                    : `/projects/${projects[projects.length - 1].slug}.svg`
+                }
+                alt={
+                  projects[projectIndex - 1]
+                    ? `Logo du projet ${projects[projectIndex - 1].name}`
+                    : `Logo du projet ${projects[projects.length - 1].name}`
+                }
+                className="w-7 h-7 rounded"
+              />
+            </a>
           </div>
           <section className="section mt-20 text-center">
             <h1 className="text-5xl font-medium sm:leading-none text-base-content ">
@@ -126,30 +144,33 @@ export default async function ProjectPage({ params }) {
           </section>
           <div className="flex flex-col items-center justify-center">
             {/* Projet suivant */}
-            <button
-              type="button"
-              className="group flex items-center gap-3 px-4 py-2 rounded-full bg-base-200 hover:bg-primary hover:text-white transition-all shadow-lg"
-              aria-label={`Projet suivant : ${
-                relatedProjects[1]?.name || "Aucun"
+            <a
+              href={`/${locale}/projects/${
+                projects[projectIndex + 1]?.slug || projects[0]?.slug
               }`}
-              disabled={!relatedProjects[1]}
+              className="group flex items-center  gap-5 px-4 py-2 rounded-lg bg-base-300 border px-10  border-base-content/80 border hover:scale-[1.02] "
+              aria-label={`${tProjects("nextProject")} : ${
+                projects[projectIndex + 1]?.name || projects[0]?.name
+              }`}
+              disabled={!projects[projectIndex + 1] || !projects[0]}
             >
-              <div className="flex flex-col items-end mr-2">
-                <span className="text-xs text-base-content/60">
-                  Projet suivant
+              <img
+                src={`/projects/${
+                  projects[projectIndex + 1]?.slug || projects[0]?.slug
+                }.svg`}
+                alt={`Logo du projet ${projects[projectIndex + 1]?.name}`}
+                className="w-7 h-7 rounded"
+              />
+              <div className="flex flex-col items-start">
+                <span className="text-xs text-base-content/60 whitespace-nowrap">
+                  {tProjects("nextProject")}
                 </span>
-                <span className="font-medium">
-                  {relatedProjects[1]?.name || "Aucun"}
+                <span className="font-medium whitespace-nowrap">
+                  {projects[projectIndex + 1]?.name || projects[0]?.name}
                 </span>
               </div>
-              {relatedProjects[1]?.slug && (
-                <img
-                  src={`/projects/featured/${relatedProjects[1].slug}.webp`}
-                  alt={relatedProjects[1].name}
-                  className="w-14 h-10 object-cover rounded-md shadow-md border border-base-300"
-                />
-              )}
-              <span className="inline-block rounded-full bg-base-100 p-2 group-hover:bg-white/20 transition-all">
+
+              <span className="block w-10">
                 <svg width="20" height="20" fill="none" viewBox="0 0 24 24">
                   <path
                     d="M9 5l7 7-7 7"
@@ -160,7 +181,7 @@ export default async function ProjectPage({ params }) {
                   />
                 </svg>
               </span>
-            </button>
+            </a>
           </div>
         </div>
 
@@ -170,7 +191,6 @@ export default async function ProjectPage({ params }) {
           alt={project.name}
           width={1280}
           height={500}
-          loading="eager"
         />
 
         <div className="section mt-20 grid grid-cols-12 gap-10">
@@ -249,15 +269,22 @@ export default async function ProjectPage({ params }) {
                 {tProjects("stack")}
               </h3>
               <div className="flex items-center gap-2 mt-2">
-                {project.tools.map((tool) => (
-                  <img
-                    className=" hover:scale-110 transition-all duration-300 rounded"
-                    src={`/technos/${tool.toLowerCase().replace(" ", "")}.svg`}
-                    alt={tool}
-                    width={40}
-                    height={40}
-                    loading="lazy"
-                  />
+                {project.tools.map((tool, i) => (
+                  <div
+                    className={`tooltip ${i > 0 ? "" : "tooltip-left"}`}
+                    data-tip={tool}
+                  >
+                    <img
+                      className=" hover:scale-110 transition-all duration-300 rounded "
+                      src={`/technos/${tool
+                        .toLowerCase()
+                        .replace(" ", "")}.svg`}
+                      alt={tool}
+                      width={40}
+                      height={40}
+                      loading="lazy"
+                    />
+                  </div>
                 ))}
               </div>
             </div>

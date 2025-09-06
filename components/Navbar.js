@@ -51,7 +51,7 @@ export default function Navbar() {
             </li>
           </ul>
         </div>
-        <Link href="/" className="btn btn-ghost text-2xl">
+        <Link href={`/${locale}`} className="btn btn-ghost text-2xl">
           <img
             src="/logo.svg"
             className="w-8 h-8"

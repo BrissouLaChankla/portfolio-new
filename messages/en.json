@@ -62,6 +62,8 @@
     "favorite": "Favorite",
     "relatedProjects": "Related Projects",
     "seeProject": "See the project",
+    "nextProject": "Next Project",
+    "previousProject": "Previous Project",
 
     "beatriceDesc": "Beatrice generates and automatically publishes SEO articles for your Nextjs, Wordpress, etc. Connect your app, she takes care of the content.",
     "beatriceWorkDone": "<p>For Beatrice, I designed and implemented a complete system that automates the creation and publication of SEO content for Next.js projects.</p><p>I developed routes to manage the entire content lifecycle:</p><ul><li>Article search and filtering with pagination</li><li>Generation of SEO-optimized articles (titles, meta descriptions, tags, FAQs)</li><li>Automatic creation of unique and optimized images</li><li>Secure update and deletion of content</li></ul><p>I also integrated automatic image optimization and a CMS-like workflow to simplify management.</p><p>In summary, I built Beatrice as an autonomous SEO engine for developers — combining content generation, media optimization, and automatic publishing in a Next.js environment.</p>",
