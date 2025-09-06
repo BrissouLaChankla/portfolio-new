@@ -84,7 +84,7 @@ export default async function ProjectPage({ params }) {
                   ? `/${locale}/projects/${projects[projectIndex - 1].slug}`
                   : `/${locale}/projects/${projects[projects.length - 1].slug}`
               }
-              className={` flex items-center gap-5 ps-3 pe-6 py-2 rounded-lg bg-base-300 border-base-content/80 border hover:scale-[1.02]  `}
+              className={`flex items-center md:gap-5 gap-2 ps-3 pe-6 py-2 rounded-lg bg-base-300 border-base-content/80 border hover:scale-[1.02]  `}
               aria-label={`${tProjects("previousProject")} : ${
                 projects[projectIndex - 1]?.name ||
                 projects[projects.length - 1]?.name
@@ -102,7 +102,7 @@ export default async function ProjectPage({ params }) {
                   />
                 </svg>
               </span>
-              <div className="flex flex-col items-start">
+              <div className="flex flex-col items-start hidden md:flex">
                 <span className="text-xs text-base-content/60 whitespace-nowrap">
                   {tProjects("previousProject")}
                 </span>
@@ -131,7 +131,7 @@ export default async function ProjectPage({ params }) {
               {project.name}
             </h1>
 
-            <div className="flex items-center justify-center gap-5 mt-7">
+            <div className="flex items-center justify-center gap-3 mt-7 text-sm">
               {project.categories.map((category, i) => (
                 <>
                   {i > 0 && (
@@ -148,7 +148,7 @@ export default async function ProjectPage({ params }) {
               href={`/${locale}/projects/${
                 projects[projectIndex + 1]?.slug || projects[0]?.slug
               }`}
-              className="group flex items-center  gap-5 px-4 py-2 rounded-lg bg-base-300 border px-10  border-base-content/80 border hover:scale-[1.02] "
+              className="group flex items-center md:gap-5 gap-2 px-4 py-2 rounded-lg bg-base-300 border px-10  border-base-content/80 border hover:scale-[1.02] "
               aria-label={`${tProjects("nextProject")} : ${
                 projects[projectIndex + 1]?.name || projects[0]?.name
               }`}
@@ -161,7 +161,7 @@ export default async function ProjectPage({ params }) {
                 alt={`Logo du projet ${projects[projectIndex + 1]?.name}`}
                 className="w-7 h-7 rounded"
               />
-              <div className="flex flex-col items-start">
+              <div className="flex flex-col items-start hidden md:flex">
                 <span className="text-xs text-base-content/60 whitespace-nowrap">
                   {tProjects("nextProject")}
                 </span>
@@ -186,15 +186,15 @@ export default async function ProjectPage({ params }) {
         </div>
 
         <img
-          className="w-full h-[500px] object-cover section mt-20"
+          className="w-full md:h-[500px] h-[250px] object-cover section md:mt-20 mt-10"
           src={`/projects/featured/${project.slug}.webp`}
           alt={project.name}
           width={1280}
           height={500}
         />
 
-        <div className="section mt-20 grid grid-cols-12 gap-10">
-          <div className="col-span-8">
+        <div className="section md:mt-20 mt-10 grid grid-cols-12 gap-10">
+          <div className="col-span-12 md:col-span-8">
             <h2 className="text-4xl font-medium sm:leading-none text-base-content ">
               {tProjects("introWorkDone")} {project.name} ?
             </h2>
@@ -257,7 +257,7 @@ export default async function ProjectPage({ params }) {
               ))}
             </div>
           </div>
-          <div className="bg-base-300 backdrop-blur-sm p-10 rounded-xl w-full h-fit col-span-4 sticky top-20 flex flex-col gap-10">
+          <div className="bg-base-300 backdrop-blur-sm p-10 rounded-xl w-full h-fit col-span-12 md:col-span-4 sticky top-20 flex flex-col gap-10">
             <div>
               <h3 className="uppercase text-primary text-xs tracking-wide">
                 {tProjects("goal")}
@@ -338,7 +338,7 @@ export default async function ProjectPage({ params }) {
             {relatedProjects.map((project) => (
               <a
                 href={`/${locale}/projects/${project.slug}`}
-                className="col-span-4 mt-10 flex flex-col gap-4 bg-base-200 rounded-2xl shadow-lg overflow-hidden group border border-primary/10 relative transition-all duration-300 hover:-translate-y-1 hover:shadow-xl"
+                className="col-span-12 md:col-span-4 mt-10 flex flex-col gap-4 bg-base-200 rounded-2xl shadow-lg overflow-hidden group border border-primary/10 relative transition-all duration-300 hover:-translate-y-1 hover:shadow-xl"
               >
                 <div className="relative">
                   <img
