@@ -6,11 +6,12 @@ on:
       - main
   workflow_dispatch:
   schedule:
-    - cron: "0 0 * * 0"
+    - cron: "0 0 * * 0" # Tous les dimanches à minuit (UTC)
 
 jobs:
   build:
     runs-on: ubuntu-latest
+
     steps:
       - name: Checkout code
         uses: actions/checkout@v4
@@ -26,19 +27,20 @@ jobs:
       - name: Build project
         run: yarn build
 
-      - name: 📂 Sync files
+      - name: 📂 Deploy via FTPS
         uses: SamKirkland/FTP-Deploy-Action@v4.3.5
         with:
-          server: 147.93.92.140
-          username: ${{ secrets.FTP_USERNAME }}
+          server: 147.93.92.140               # ou ton domaine si tu en as un
+          username: ${{ secrets.FTP_USERNAME }} # u672386720.deployauto
           password: ${{ secrets.FTP_PASSWORD }}
-          protocol: ftps
+          protocol: ftps                      # FTPS explicite
           port: 21
-          passive: true
           local-dir: out/
-          server-dir: /            # public_html = racine
+          server-dir: /                       # tu es directement dans public_html
           dangerous-clean-slate: false
-          log-level: verbose       # retire-le quand tout est ok
+          log-level: verbose
+          security: loose                     # assouplit la vérification TLS
+          timeout: 120000                     # augmente le temps d’attente (120s)
           exclude: |
             **/.git*
             **/.git*/**
