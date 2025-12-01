@@ -49,7 +49,7 @@ const Age = () => {
         <span className="countdown">
           <span style={{ "--value": age.days }}></span>
         </span>
-        &nbsp;{t("days")}&nbsp;
+        {t("days")}&nbsp;
       </span>
       <span>
         <span className="countdown">

@@ -12,12 +12,28 @@ import { getTranslations, setRequestLocale } from "next-intl/server";
 
 export async function generateMetadata({ params: { locale } }) {
   const t = await getTranslations({ locale, namespace: "HomeMeta" });
+  const baseUrl = "https://brice-eliasse.com";
+  const canonicalUrl = locale === "fr" ? baseUrl : `${baseUrl}/en`;
+  
   return {
     title: t("title"),
     description: t("description"),
     alternates: {
-      canonical: locale === "fr" ? "/" : "/en",
-      languages: { fr: "/", en: "/en" },
+      canonical: canonicalUrl,
+      languages: { 
+        fr: baseUrl, 
+        en: `${baseUrl}/en`,
+        "x-default": baseUrl,
+      },
+    },
+    openGraph: {
+      title: t("title"),
+      description: t("description"),
+      url: canonicalUrl,
+    },
+    twitter: {
+      title: t("title"),
+      description: t("description"),
     },
   };
 }
