@@ -53,7 +53,7 @@ export default async function ProjectPage({ params }) {
     .filter(
       (p) =>
         p.categories.some((c) => project.categories.includes(c)) &&
-        p.slug !== slug
+        p.slug !== slug,
     )
     .slice(-3);
 
@@ -69,10 +69,10 @@ export default async function ProjectPage({ params }) {
         <span className="absolute w-px h-full bg-white/5 lg:left-[30%] md:left-[50%] sm:left-[60%]"></span>
         <span className="absolute w-px h-full bg-white/5 lg:left-[40%] md:left-[66.6666666667%] sm:left-[80%]"></span>
         <span className="absolute w-px h-full bg-white/5 lg:left-[50%] md:left-[83.3333333333%]"></span>
-        <span className="absolute w-px h-full bg-white/5 lg:left-[60%] "></span>
-        <span className="absolute w-px h-full bg-white/5 lg:left-[70%] "></span>
-        <span className="absolute w-px h-full bg-white/5 lg:left-[80%] "></span>
-        <span className="absolute w-px h-full bg-white/5 lg:left-[90%] "></span>
+        <span className="absolute w-px h-full bg-white/5 lg:left-[60%]"></span>
+        <span className="absolute w-px h-full bg-white/5 lg:left-[70%]"></span>
+        <span className="absolute w-px h-full bg-white/5 lg:left-[80%]"></span>
+        <span className="absolute w-px h-full bg-white/5 lg:left-[90%]"></span>
       </div>
       <div className="flex flex-col items-center justify-center">
         <div className="w-full flex items-center justify-between section mt-0">

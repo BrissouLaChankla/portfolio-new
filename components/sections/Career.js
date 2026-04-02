@@ -10,30 +10,31 @@ export default function Career() {
 
   const jobs = [
     {
-      company: "Selego",
+      company: "Freelance",
       posts: [
         {
-          name: tJobs("vieFullStack"),
-          startDate: `${tMonths("january")} 2025`,
+          name: tJobs("freelanceFullStack"),
+          startDate: `${tMonths("january")} 2026`,
           endDate: tMonths("today"),
         },
       ],
-      slug: "selego",
-      pics: 3,
+      slug: "freelance",
+      pics: 1,
     },
     {
-      company: "La Capsule",
+      company: "Selego",
       posts: [
         {
-          name: tJobs("principalTeacher"),
-          startDate: `${tMonths("january")} 2024`,
-          endDate: `${tMonths("january")} 2025`,
+          name: tJobs("vieFreelance"),
+          startDate: `${tMonths("january")} 2025`,
+          endDate: `${tMonths("january")} 2026`,
         },
         {
-          name: tJobs("teacher"),
-          startDate: `${tMonths("march")} 2023`,
-          endDate: `${tMonths("january")} 2024`,
+          name: tJobs("vieFullStack"),
+          startDate: `${tMonths("january")} 2025`,
+          endDate: `${tMonths("january")} 2026`,
         },
+        
       ],
       slug: "capsule",
       pics: 3,

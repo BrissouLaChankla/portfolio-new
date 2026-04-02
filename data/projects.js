@@ -239,10 +239,11 @@ export const getProjects = (tProjects = null) => [
     ],
   },
   {
-    name: "Qoffee",
-    categories: ["Web Development", "E-commerce", "Headless CMS"],
+    name: "Wabi Sabi Suites",
+    categories: ["Web Development", "WordPress", "SEO"],
+    featured_image: "/projects/wabi-sabi-suites.svg",
     ...(tProjects && {
-      workDone: tProjects.rich("qoffeeWorkDone", {
+      workDone: tProjects.rich("wabiSabiSuitesWorkDone", {
         ul: (chunks) => <ul className="list-disc list-inside">{chunks}</ul>,
         li: (chunks) => <li>{chunks}</li>,
         strong: (chunks) => <strong>{chunks}</strong>,
@@ -252,20 +253,49 @@ export const getProjects = (tProjects = null) => [
         a: (chunks) => <a href={chunks}>{chunks}</a>,
         em: (chunks) => <em>{chunks}</em>,
       }),
-      description: tProjects("qoffeeDesc"),
-      mission: tProjects("qoffeeMission"),
-      type: tProjects("sideProject"),
+      description: tProjects("wabiSabiSuitesDesc"),
+      mission: tProjects("wabiSabiSuitesMission"),
+      type: tProjects("clientProject"),
     }),
-    tools: ["NextJS", "WordPress", "DaisyUI"],
-    slug: "qoffee",
+    tools: ["WordPress", "Elementor", "SEO"],
+    slug: "wabi-sabi-suites",
     isFavorite: false,
-    isSideProject: true,
-    link: "https://headless-next14.vercel.app/",
+    isSideProject: false,
+
+    link: "https://wabisabisuites.com/",
     mockups: [
       "https://about-lime.vercel.app/_next/image?url=%2Fassets%2Fprojects%2Fnekjeu.png&w=3840&q=75",
       "https://about-lime.vercel.app/_next/image?url=%2Fassets%2Fprojects%2Fg2.png&w=3840&q=75",
     ],
   },
+  // {
+  //   name: "Qoffee",
+  //   categories: ["Web Development", "E-commerce", "Headless CMS"],
+  //   ...(tProjects && {
+  //     workDone: tProjects.rich("qoffeeWorkDone", {
+  //       ul: (chunks) => <ul className="list-disc list-inside">{chunks}</ul>,
+  //       li: (chunks) => <li>{chunks}</li>,
+  //       strong: (chunks) => <strong>{chunks}</strong>,
+  //       p: (chunks) => <p>{chunks}</p>,
+  //       span: (chunks) => <span>{chunks}</span>,
+  //       br: (chunks) => <br />,
+  //       a: (chunks) => <a href={chunks}>{chunks}</a>,
+  //       em: (chunks) => <em>{chunks}</em>,
+  //     }),
+  //     description: tProjects("qoffeeDesc"),
+  //     mission: tProjects("qoffeeMission"),
+  //     type: tProjects("sideProject"),
+  //   }),
+  //   tools: ["NextJS", "WordPress", "DaisyUI"],
+  //   slug: "qoffee",
+  //   isFavorite: false,
+  //   isSideProject: true,
+  //   link: "https://headless-next14.vercel.app/",
+  //   mockups: [
+  //     "https://about-lime.vercel.app/_next/image?url=%2Fassets%2Fprojects%2Fnekjeu.png&w=3840&q=75",
+  //     "https://about-lime.vercel.app/_next/image?url=%2Fassets%2Fprojects%2Fg2.png&w=3840&q=75",
+  //   ],
+  // },
   {
     name: "Cours en ligne",
     categories: ["Web Development", "Education", "E-commerce"],
@@ -595,5 +625,5 @@ export const getProjects = (tProjects = null) => [
       "https://about-lime.vercel.app/_next/image?url=%2Fassets%2Fprojects%2Fnekjeu.png&w=3840&q=75",
       "https://about-lime.vercel.app/_next/image?url=%2Fassets%2Fprojects%2Fg2.png&w=3840&q=75",
     ],
-  },
+  }
 ];
