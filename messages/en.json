@@ -26,7 +26,8 @@
   },
 
   "Jobs": {
-    "vieFullStack": "VIE - Full-Stack Developer",
+    "vieFreelance": "Web & Mobile Developer & Acquisition Specialist | Freelance",
+    "vieFullStack": "Web & Mobile Full-Stack Developer | VIE",
     "freelanceFullStack": "Web & Mobile Developer - SEO Expert",
     "principalTeacher": "Principal Teacher",
     "teacher": "Teacher",
@@ -257,7 +258,7 @@
     "heroLink": "I'm available",
     "heroSecond": " to build the website or app you dream of.",
     "heroButton": "Let's talk about your project",
-    "heroBadge": "What if we 100% automated your Blog? →",
+    "heroBadge": "A design site that finally makes you visible, does it suit you?",
     "CTABannerTitle": "Ready to build something that works & stands out?",
     "CTABannerSubtitle": "Let’s build websites and apps that look great, perform flawlessly, and drive real growth for your business.",
 

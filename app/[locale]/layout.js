@@ -37,7 +37,7 @@ export async function generateMetadata({ params: { locale } }) {
       type: "website",
       locale: isFr ? "fr_FR" : "en_US",
       siteName: "Brice Eliasse",
-      url: baseUrl,
+      url: isFr ? `${baseUrl}/fr/` : `${baseUrl}/en/`,
       images: [
         {
           url: `${baseUrl}/og-image.jpg`,

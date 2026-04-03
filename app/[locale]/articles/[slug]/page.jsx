@@ -8,13 +8,13 @@ export const dynamicParams = true;
 
 // 🗝️ Token par locale
 const TOKENS = {
-  fr: "203377ab-1537-4b08-a5ec-93d090abc95e",
+  fr: "814c322b-89bb-4ad9-b703-5c8910371c09",
   en: "f71a551a-499b-4934-96ca-df4b4d8c3dab",
 };
 
 function apiList(locale, qs = "") {
   const token = TOKENS[locale];
-  return `https://beatrice.app/api/articles?token=${token}${qs}`;
+  return `https://beatrice.app/api/articles?token=${token}&onlyPublished=true${qs}`;
 }
 function apiOne(locale, slug) {
   const token = TOKENS[locale];
@@ -31,7 +31,7 @@ export async function generateStaticParams() {
         apiList(locale, "&onlyPublished=true&limit=9999"),
         {
           next: { revalidate },
-        }
+        },
       );
       if (!res.ok) continue;
       const { data } = await res.json();
@@ -61,9 +61,9 @@ export default async function Article({ params }) {
       locale,
       `&limit=3&onlyPublished=true${
         article.tags && article.tags.length > 0 ? `&tag=${article.tags[0]}` : ""
-      }&excludeSlug=${slug}`
+      }&excludeSlug=${slug}`,
     ),
-    { next: { revalidate } }
+    { next: { revalidate } },
   );
   const { data: featuredArticles = [] } = await featuredRes.json();
 
@@ -71,7 +71,7 @@ export default async function Article({ params }) {
   const breadcrumbJsonLd = createBreadcrumbJsonLd(
     locale,
     article.title,
-    article.slug
+    article.slug,
   );
 
   return (

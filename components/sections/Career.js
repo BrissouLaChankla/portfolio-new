@@ -14,27 +14,44 @@ export default function Career() {
       posts: [
         {
           name: tJobs("freelanceFullStack"),
-          startDate: `${tMonths("january")} 2026`,
+          startDate: `${tMonths("march")} 2026`,
           endDate: tMonths("today"),
         },
       ],
       slug: "freelance",
-      pics: 1,
+      pics: 2,
     },
     {
       company: "Selego",
       posts: [
         {
           name: tJobs("vieFreelance"),
-          startDate: `${tMonths("january")} 2025`,
-          endDate: `${tMonths("january")} 2026`,
+          startDate: `${tMonths("september")} 2025`,
+          endDate: `${tMonths("march")} 2026`,
         },
         {
           name: tJobs("vieFullStack"),
           startDate: `${tMonths("january")} 2025`,
-          endDate: `${tMonths("january")} 2026`,
+          endDate: `${tMonths("september")} 2025`,
         },
         
+      ],
+      slug: "selego",
+      pics: 3,
+    },
+    {
+      company: "La Capsule",
+      posts: [
+        {
+          name: tJobs("principalTeacher"),
+          startDate: `${tMonths("january")} 2024`,
+          endDate: `${tMonths("january")} 2025`,
+        },
+        {
+          name: tJobs("teacher"),
+          startDate: `${tMonths("march")} 2023`,
+          endDate: `${tMonths("january")} 2024`,
+        },
       ],
       slug: "capsule",
       pics: 3,

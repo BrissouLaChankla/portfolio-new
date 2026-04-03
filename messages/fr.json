@@ -25,7 +25,8 @@
     "brand": "Brice Eliasse"
   },
   "Jobs": {
-    "vieFullStack": "VIE - Développeur Full-Stack",
+    "vieFreelance": "Développeur Web & Reponsable Acquisition | Freelance",
+    "vieFullStack": "Développeur Web & Mobile Full-Stack | VIE",
     "freelanceFullStack": "Développeur Web & Mobile - Expert SEO",
     "principalTeacher": "Principal Teacher",
     "teacher": "Enseignant",
@@ -258,7 +259,7 @@
     "heroButton": "Parlons de votre projet",
     "CTABannerTitle": "Prêt à lancer un projet qui se démarque vraiment ?",
     "CTABannerSubtitle": "Créons ensemble des sites et applications qui allient esthétique, performance et résultats concrets pour votre activité.",
-    "heroBadge": "Et si on automatisait à 100% votre Blog ? →",
+    "heroBadge": "Un site design qui vous rend enfin visible, ça vous dit ?",
 
     "trustHeading": "Ils me font déjà confiance",
 

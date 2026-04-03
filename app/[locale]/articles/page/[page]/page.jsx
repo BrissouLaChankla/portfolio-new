@@ -9,7 +9,7 @@ export const revalidate = 3600;
 
 // 🗝️ Token par locale
 const TOKENS = {
-  fr: "203377ab-1537-4b08-a5ec-93d090abc95e",
+  fr: "814c322b-89bb-4ad9-b703-5c8910371c09",
   en: "f71a551a-499b-4934-96ca-df4b4d8c3dab",
 };
 
@@ -134,7 +134,7 @@ export default async function BlogPage({ params }) {
                       >
                         {new Date(post.publishedAt).toLocaleDateString(
                           locale === "fr" ? "fr-FR" : "en-US",
-                          { year: "numeric", month: "long", day: "numeric" }
+                          { year: "numeric", month: "long", day: "numeric" },
                         )}
                       </time>
                       <span className="opacity-85 text-primary font-medium group-hover:opacity-100 transition-opacity duration-200">
@@ -177,7 +177,7 @@ const Pagination = ({ pagination, locale }) => {
           >
             {pageNum}
           </Link>
-        )
+        ),
       )}
     </div>
   );

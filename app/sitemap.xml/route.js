@@ -5,7 +5,7 @@ const BASE_URL = "https://brice-eliasse.com";
 
 // Tokens par langue (ton CMS headless)
 const TOKENS = {
-  fr: "203377ab-1537-4b08-a5ec-93d090abc95e",
+  fr: "814c322b-89bb-4ad9-b703-5c8910371c09",
   en: "f71a551a-499b-4934-96ca-df4b4d8c3dab",
 };
 

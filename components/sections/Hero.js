@@ -1,7 +1,8 @@
 import Link from "next/link";
 import CTAButton from "../CTAButton";
+import { getLocale } from "next-intl/server";
 
-export default function Hero({
+export default async function Hero({
   title,
   subtitle,
   first,
@@ -10,6 +11,7 @@ export default function Hero({
   second,
   badge,
 }) {
+  const locale = await getLocale();
   return (
     <>
       <svg
@@ -122,10 +124,8 @@ export default function Hero({
         <div className="mx-auto max-w-2xl">
           <div className="text-center">
             <a
-              href="https://beatrice.app"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="btn btn-primary   btn-outline font-semibold  badge-outline text-xs mb-6 rounded-full py-0 min-h-8 h-8"
+              href={`/${locale}/#contact`}
+              className="btn btn-primary btn-outline font-semibold  badge-outline text-xs mb-6 rounded-full py-0 min-h-8 h-8"
             >
               {badge}
             </a>
