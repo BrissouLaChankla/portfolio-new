@@ -8,8 +8,8 @@ export default function Trusted() {
       <span className="text-xl font-medium flex gap-2 items-center justify-center mt-20 md:-mt-14">
         {t("trustHeading")}
       </span>
-      <div className="mt-12 grid grid-cols-12 gap-6 max-w-screen-lg m-auto place-items-center">
-        <div className="col-span-6 md:col-span-3 max-h-14 max-w-48">
+      <div className="mt-12 flex max-w-screen-lg flex-wrap justify-center gap-6 mx-auto px-4">
+        <div className="flex h-14 max-h-14 w-[calc(50%-12px)] max-w-48 shrink-0 items-center justify-center md:w-[calc(25%-18px)]">
           <img
             className="invert brightness-0  h-full object-contain m-auto "
             src="/trusted/mediaschool.png"
@@ -19,7 +19,7 @@ export default function Trusted() {
             height={58}
           />
         </div>
-        <div className="col-span-6 md:col-span-3 max-h-14 max-w-48">
+        <div className="flex h-14 max-h-14 w-[calc(50%-12px)] max-w-48 shrink-0 items-center justify-center md:w-[calc(25%-18px)]">
           <img
             className="invert brightness-0 h-full object-contain m-auto"
             src="/trusted/capsule.png"
@@ -29,7 +29,7 @@ export default function Trusted() {
             height={58}
           />
         </div>
-        <div className="col-span-6 md:col-span-3 max-h-14 max-w-48">
+        <div className="flex h-14 max-h-14 w-[calc(50%-12px)] max-w-48 shrink-0 items-center justify-center md:w-[calc(25%-18px)]">
           <img
             className="invert brightness-0 h-full object-contain m-auto"
             src="/trusted/g2.png"
@@ -39,7 +39,7 @@ export default function Trusted() {
             height={58}
           />
         </div>
-        <div className="col-span-6 md:col-span-3 max-h-14 max-w-48">
+        <div className="flex h-14 max-h-14 w-[calc(50%-12px)] max-w-48 shrink-0 items-center justify-center md:w-[calc(25%-18px)]">
           <img
             className="invert brightness-0 h-full object-contain m-auto"
             src="/trusted/supdeweb.png"
@@ -49,6 +49,37 @@ export default function Trusted() {
             height={58}
           />
         </div>
+        <div className="flex h-14 max-h-14 w-[calc(50%-12px)] max-w-48 shrink-0 items-center justify-center md:w-[calc(25%-18px)]">
+          <img
+            className="invert brightness-0 h-full object-contain m-auto"
+            src="/trusted/optionzero.png"
+            alt="Logo Option Zero"
+            loading="lazy"
+            width={192}
+            height={58}
+          />
+        </div>
+        <div className="flex h-14 max-h-14 w-[calc(50%-12px)] max-w-48 shrink-0 items-center justify-center md:w-[calc(25%-18px)]">
+          <img
+            className="h-full object-contain m-auto"
+            src="/trusted/valueofwe.png"
+            alt="Logo Value of We"
+            loading="lazy"
+            width={192}
+            height={58}
+          />
+        </div>
+        <div className="flex h-14 max-h-14 w-[calc(50%-12px)] max-w-48 shrink-0 items-center justify-center md:w-[calc(25%-18px)]">
+          <img
+            className="invert brightness-0 h-full object-contain m-auto"
+            src="/trusted/selego.png"
+            alt="Logo Selego"
+            loading="lazy"
+            width={192}
+            height={58}
+          />
+        </div>
+    
       </div>
     </div>
   );
