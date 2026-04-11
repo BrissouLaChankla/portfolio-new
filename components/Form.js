@@ -109,12 +109,20 @@ export default function Form() {
 
       <div className="formcarry-block flex gap-3 mt-6 items-center">
         <div className="flex gap-3">
-          {socials.map((social, i) => (
+          {socials.map((social, i) => {
+            const isMailto = social.link.startsWith("mailto:");
+            return (
             <a
               key={i}
-              aria-label="Lien externe vers mon réseau social"
+              aria-label={
+                isMailto
+                  ? `${t("email")}: hello@brice-eliasse.com`
+                  : "Lien externe vers mon réseau social"
+              }
               href={social.link}
-              target={"_blank"}
+              {...(isMailto
+                ? {}
+                : { target: "_blank", rel: "noopener noreferrer" })}
               className="btn btn-sm h-10 btn-outline border-[1px] border-opacity-10 group transition"
             >
               <svg
@@ -123,7 +131,8 @@ export default function Form() {
                 className="w-4 h-4"
               />
             </a>
-          ))}
+          );
+          })}
         </div>
         <hr className="grow border-base-content opacity-50" />
         <button

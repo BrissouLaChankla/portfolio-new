@@ -1,5 +1,6 @@
 // app/sitemap.xml/route.js
 import { getProjects } from "../../data/projects.js";
+import { getAllGeoLandingUrls } from "../../data/geoDeveloperSEO.js";
 
 const BASE_URL = "https://brice-eliasse.com";
 
@@ -111,6 +112,13 @@ async function buildSitemap() {
     const alternates = makeAlternates(fr, en);
     map.push(buildUrlEntry(fr, new Date(), "weekly", 0.9, alternates));
     map.push(buildUrlEntry(en, new Date(), "weekly", 0.8, alternates));
+  }
+
+  // landings SEO géo — FR / EN avec hreflang
+  for (const { fr, en } of getAllGeoLandingUrls()) {
+    const alternates = makeAlternates(fr, en);
+    map.push(buildUrlEntry(fr, new Date(), "monthly", 0.85, alternates));
+    map.push(buildUrlEntry(en, new Date(), "monthly", 0.8, alternates));
   }
 
   try {

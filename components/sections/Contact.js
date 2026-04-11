@@ -1,10 +1,12 @@
+"use client";
+
 import Form from "../Form";
 import { useTranslations } from "next-intl";
 
-export default function Contact() {
+export default function Contact({ wrapperClassName = "section" }) {
   const t = useTranslations("Contact");
   return (
-    <div className="section" id="contact">
+    <div className={wrapperClassName} id="contact">
       <h2 className="mb-4">
         {t("heading")} <span className="text-primary">{t("heading2")}</span>
       </h2>

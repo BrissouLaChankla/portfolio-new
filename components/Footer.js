@@ -1,6 +1,7 @@
 import Link from "next/link";
 import { getTranslations } from "next-intl/server";
 import { getLocale } from "next-intl/server";
+import { GEO_PAGE_ORDER, getRegistryForGeoKey } from "@/data/geoDeveloperPageRegistry";
 
 // 🗝️ Token par locale
 const TOKENS = {
@@ -18,6 +19,17 @@ export default async function Footer() {
   const { data } = await articles.json();
 
   const t = await getTranslations("Footer");
+
+  const geoLinks = GEO_PAGE_ORDER.map((geoKey) => {
+    const reg = getRegistryForGeoKey(geoKey);
+    if (!reg) return null;
+    const slug = locale === "en" ? reg.enSlug : reg.frSlug;
+    const label =
+      locale === "en"
+        ? reg.enSlug.replaceAll("-", " ")
+        : reg.frSlug.replaceAll("-", " ");
+    return { key: geoKey, href: `/${locale}/${slug}/`, label };
+  }).filter(Boolean);
 
   return (
     <div className="bg-base-200 text-base-content p-10 w-full ">
@@ -51,6 +63,14 @@ export default async function Footer() {
               className="link link-hover line-clamp-1 max-w-xl"
             >
               {article.title}
+            </Link>
+          ))}
+        </nav>
+        <nav>
+          <h6 className="footer-title">SEO local</h6>
+          {geoLinks.map((l) => (
+            <Link key={l.key} href={l.href} className="link link-hover">
+              {l.label}
             </Link>
           ))}
         </nav>
