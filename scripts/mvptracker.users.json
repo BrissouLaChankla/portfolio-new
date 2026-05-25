@@ -1,0 +1,3377 @@
+[{
+  "_id": {
+    "$oid": "66fc0d27133a46ccb8bf5959"
+  },
+  "email": "brice.eliasse3@gmail.com",
+  "teams": [
+    {
+      "$oid": "66fc0f1a133a46ccb8bf5965"
+    },
+    {
+      "$oid": "66fd822c6ca0f38c4f3bf3e3"
+    },
+    {
+      "$oid": "66fd826212471672dd2523f5"
+    },
+    {
+      "$oid": "66fd83e8dd3d71a660d7c6a1"
+    },
+    {
+      "$oid": "66fd852f2e946736e7f20ef8"
+    },
+    {
+      "$oid": "67005f1e9322b944d5736f53"
+    },
+    {
+      "$oid": "674c58b3933b0042978e0afc"
+    }
+  ],
+  "plan": "tryhard",
+  "createdAt": {
+    "$date": "2024-10-01T14:54:31.240Z"
+  },
+  "updatedAt": {
+    "$date": "2024-12-01T12:38:12.008Z"
+  },
+  "__v": 0,
+  "customerId": "cus_Qx1WXowCk3A2Ls"
+},
+{
+  "_id": {
+    "$oid": "66fc108ef273a517d79178ce"
+  },
+  "email": "t.bbourges@gmail.com",
+  "teams": [
+    {
+      "$oid": "66fc111bf273a517d79178e0"
+    }
+  ],
+  "plan": "free",
+  "createdAt": {
+    "$date": "2024-10-01T15:09:02.371Z"
+  },
+  "updatedAt": {
+    "$date": "2024-10-01T15:11:23.596Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66fc1289511f760d2c187688"
+  },
+  "email": "azkkaneilyass@gmail.com",
+  "teams": [],
+  "plan": "free",
+  "createdAt": {
+    "$date": "2024-10-01T15:17:29.979Z"
+  },
+  "updatedAt": {
+    "$date": "2024-10-01T15:17:29.979Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66fc19233c1a8e6f63ad09f0"
+  },
+  "email": "alexis.ribemontt@laposte.net",
+  "teams": [],
+  "plan": "free",
+  "createdAt": {
+    "$date": "2024-10-01T15:45:39.336Z"
+  },
+  "updatedAt": {
+    "$date": "2024-10-01T15:45:39.336Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66fd32b8a759968feb587c6f"
+  },
+  "email": "math.lecherbonnier@gmail.com",
+  "teams": [],
+  "plan": "free",
+  "createdAt": {
+    "$date": "2024-10-02T11:47:04.486Z"
+  },
+  "updatedAt": {
+    "$date": "2024-10-02T11:47:04.486Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66fd6e480ce485a2a62b43fa"
+  },
+  "email": "ethankp8@gmail.com",
+  "teams": [
+    {
+      "$oid": "66fd6eab0ce485a2a62b43ff"
+    }
+  ],
+  "plan": "free",
+  "createdAt": {
+    "$date": "2024-10-02T16:01:12.869Z"
+  },
+  "updatedAt": {
+    "$date": "2024-10-02T16:02:51.656Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66fd6f5f49ec7355ff6147e1"
+  },
+  "email": "orellana123__@hotmail.com",
+  "teams": [
+    {
+      "$oid": "66fd6fe5640d5377e3bb7ad7"
+    }
+  ],
+  "plan": "free",
+  "createdAt": {
+    "$date": "2024-10-02T16:05:51.739Z"
+  },
+  "updatedAt": {
+    "$date": "2024-10-02T16:08:05.334Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66fd75bb3bfdab6210a4bd0a"
+  },
+  "email": "missmoni2u@gmail.com",
+  "teams": [
+    {
+      "$oid": "66fd7f1cdbe7b547075a2856"
+    }
+  ],
+  "plan": "free",
+  "createdAt": {
+    "$date": "2024-10-02T16:32:59.935Z"
+  },
+  "updatedAt": {
+    "$date": "2024-10-02T17:18:28.097Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66fd76143bfdab6210a4bd12"
+  },
+  "email": "joshingan@gmail.com",
+  "teams": [],
+  "plan": "free",
+  "createdAt": {
+    "$date": "2024-10-02T16:34:28.833Z"
+  },
+  "updatedAt": {
+    "$date": "2024-10-02T16:34:28.833Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66fd770d3bfdab6210a4bd18"
+  },
+  "email": "booyouhavebeenscared@gmail.com",
+  "teams": [
+    {
+      "$oid": "66fd778d3bfdab6210a4bd1d"
+    }
+  ],
+  "plan": "free",
+  "createdAt": {
+    "$date": "2024-10-02T16:38:37.234Z"
+  },
+  "updatedAt": {
+    "$date": "2024-10-02T16:41:40.885Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66fd7cb188faec8fa3d75899"
+  },
+  "email": "fabienportall@gmail.com",
+  "teams": [],
+  "plan": "free",
+  "createdAt": {
+    "$date": "2024-10-02T17:02:41.275Z"
+  },
+  "updatedAt": {
+    "$date": "2024-10-02T17:02:41.275Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66fd86ea3fb24d94ba66af9c"
+  },
+  "email": "quadm78@gmail.com",
+  "teams": [
+    {
+      "$oid": "66fd961fadb1c2fe011fdef5"
+    }
+  ],
+  "plan": "free",
+  "createdAt": {
+    "$date": "2024-10-02T17:46:18.704Z"
+  },
+  "updatedAt": {
+    "$date": "2024-10-02T18:57:51.554Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66fd88fe3fb24d94ba66afaa"
+  },
+  "email": "cosicolors@hotmail.fr",
+  "teams": [
+    {
+      "$oid": "66fd9135168b0edd77807586"
+    }
+  ],
+  "plan": "god",
+  "createdAt": {
+    "$date": "2024-10-02T17:55:10.014Z"
+  },
+  "updatedAt": {
+    "$date": "2026-05-20T22:21:28.528Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66fd89293fb24d94ba66afaf"
+  },
+  "email": "hamoodgangsta@gmail.com",
+  "teams": [
+    {
+      "$oid": "66fd8f9ca6d1bc6c37e60c9f"
+    }
+  ],
+  "plan": "god",
+  "createdAt": {
+    "$date": "2024-10-02T17:55:53.141Z"
+  },
+  "updatedAt": {
+    "$date": "2026-05-20T22:21:28.528Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66fd8eaa4e96aac73f580810"
+  },
+  "email": "clem06-fraiss@hotmail.com",
+  "teams": [],
+  "plan": "god",
+  "createdAt": {
+    "$date": "2024-10-02T18:19:22.957Z"
+  },
+  "updatedAt": {
+    "$date": "2026-05-20T22:21:28.528Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66fd94c1adb1c2fe011fdeea"
+  },
+  "email": "koreyleroux@live.com",
+  "teams": [
+    {
+      "$oid": "66fe2baaee8df6168618b1d6"
+    },
+    {
+      "$oid": "66fe2c2a537623e8f4e08bf5"
+    }
+  ],
+  "plan": "free",
+  "createdAt": {
+    "$date": "2024-10-02T18:45:21.929Z"
+  },
+  "updatedAt": {
+    "$date": "2024-10-03T05:31:23.062Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66fdbcebdb9a318dd4bab2a9"
+  },
+  "email": "80nicolas@live.fr",
+  "teams": [
+    {
+      "$oid": "66fdbdb2db9a318dd4bab2b1"
+    },
+    {
+      "$oid": "67086ae1700c213a818ded50"
+    },
+    {
+      "$oid": "673a704366ee78863d64191c"
+    },
+    {
+      "$oid": "68f15bf51d7c3e5016b9ba5b"
+    }
+  ],
+  "plan": "god",
+  "createdAt": {
+    "$date": "2024-10-02T21:36:43.029Z"
+  },
+  "updatedAt": {
+    "$date": "2026-05-20T22:21:28.528Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66fe0edeb46d3ba8a910b808"
+  },
+  "email": "notspamtrust@gmail.com",
+  "teams": [
+    {
+      "$oid": "66fe0f47b46d3ba8a910b80d"
+    }
+  ],
+  "plan": "free",
+  "createdAt": {
+    "$date": "2024-10-03T03:26:22.126Z"
+  },
+  "updatedAt": {
+    "$date": "2024-10-03T03:28:07.352Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66fe647a472456c7546ffbc5"
+  },
+  "email": "elmau@live.fr",
+  "teams": [],
+  "plan": "free",
+  "createdAt": {
+    "$date": "2024-10-03T09:31:38.893Z"
+  },
+  "updatedAt": {
+    "$date": "2024-10-03T09:31:38.893Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66fea01faa7f5d7c6637dc24"
+  },
+  "email": "danivaroli007@gmail.com",
+  "teams": [],
+  "plan": "free",
+  "createdAt": {
+    "$date": "2024-10-03T13:46:07.749Z"
+  },
+  "updatedAt": {
+    "$date": "2024-10-03T13:46:07.749Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66ff0431ae8ff737ffb90863"
+  },
+  "email": "luancardosobprges@gmail.com",
+  "teams": [
+    {
+      "$oid": "6700406e39c599d5f1a88709"
+    }
+  ],
+  "plan": "free",
+  "createdAt": {
+    "$date": "2024-10-03T20:53:05.903Z"
+  },
+  "updatedAt": {
+    "$date": "2024-10-04T19:22:22.965Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "670025028c54d2361381175f"
+  },
+  "email": "roxanebenoistl@gmail.com",
+  "teams": [
+    {
+      "$oid": "670025788c54d23613811764"
+    }
+  ],
+  "plan": "free",
+  "createdAt": {
+    "$date": "2024-10-04T17:25:22.532Z"
+  },
+  "updatedAt": {
+    "$date": "2024-10-04T17:27:20.781Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "670092ec375df0dc1c4b9aee"
+  },
+  "email": "drekso93@live.fr",
+  "teams": [
+    {
+      "$oid": "6700935f6cfadf69de43572d"
+    }
+  ],
+  "plan": "free",
+  "createdAt": {
+    "$date": "2024-10-05T01:14:20.771Z"
+  },
+  "updatedAt": {
+    "$date": "2024-10-05T01:16:15.414Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6702dc4ab8eb83e8df726ece"
+  },
+  "email": "imboemperor@outlook.fr",
+  "teams": [
+    {
+      "$oid": "6702dca7e349ab881c19965f"
+    }
+  ],
+  "plan": "free",
+  "createdAt": {
+    "$date": "2024-10-06T18:51:54.480Z"
+  },
+  "updatedAt": {
+    "$date": "2024-10-06T18:53:27.449Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6702f4a190ac7456193a31f2"
+  },
+  "email": "yassine-vtl@hotmail.com",
+  "teams": [
+    {
+      "$oid": "6702f4e526caf539dfabaccd"
+    }
+  ],
+  "plan": "free",
+  "createdAt": {
+    "$date": "2024-10-06T20:35:45.825Z"
+  },
+  "updatedAt": {
+    "$date": "2024-10-06T20:40:09.638Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "670339148def78d61192b074"
+  },
+  "email": "frumpyclown22@gmail.com",
+  "teams": [
+    {
+      "$oid": "6703395d8def78d61192b079"
+    }
+  ],
+  "plan": "free",
+  "createdAt": {
+    "$date": "2024-10-07T01:27:48.910Z"
+  },
+  "updatedAt": {
+    "$date": "2024-10-07T01:29:01.225Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67043a501b01f5dd206fd503"
+  },
+  "email": "oumar.guissi@gmail.com",
+  "teams": [],
+  "plan": "free",
+  "createdAt": {
+    "$date": "2024-10-07T19:45:20.358Z"
+  },
+  "updatedAt": {
+    "$date": "2024-10-07T19:45:20.358Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67050d2dfed4a4dbafd1d951"
+  },
+  "email": "lucas.feuerstein@gmail.com",
+  "teams": [],
+  "plan": "free",
+  "createdAt": {
+    "$date": "2024-10-08T10:45:01.670Z"
+  },
+  "updatedAt": {
+    "$date": "2024-10-08T10:45:01.670Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6705444f201f2ced9c56bef4"
+  },
+  "email": "ju.ribeaucourt@gmail.com",
+  "teams": [
+    {
+      "$oid": "670544d1201f2ced9c56befa"
+    }
+  ],
+  "plan": "free",
+  "createdAt": {
+    "$date": "2024-10-08T14:40:15.637Z"
+  },
+  "updatedAt": {
+    "$date": "2024-10-08T14:42:25.931Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6705b8fabbb375314d6a6a8b"
+  },
+  "email": "dagozam11@hotmail.com",
+  "teams": [
+    {
+      "$oid": "6705b9a8bbb375314d6a6a95"
+    }
+  ],
+  "plan": "free",
+  "createdAt": {
+    "$date": "2024-10-08T22:58:02.279Z"
+  },
+  "updatedAt": {
+    "$date": "2024-10-08T23:00:56.948Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67068d3f76cb22add46abfe5"
+  },
+  "email": "tiago.correia1@hotmail.com",
+  "teams": [
+    {
+      "$oid": "671bd88287ba69b00113c15f"
+    }
+  ],
+  "plan": "free",
+  "createdAt": {
+    "$date": "2024-10-09T14:03:43.035Z"
+  },
+  "updatedAt": {
+    "$date": "2024-10-25T17:42:26.370Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6707e1bed1e078369a5bdf6f"
+  },
+  "email": "brice.eliasse@gmail.com",
+  "teams": [
+    {
+      "$oid": "68dfd1c43d31b78ac39f3330"
+    },
+    {
+      "$oid": "66cb6a31ab32afaf61eff24d"
+    },
+    {
+      "$oid": "68f1763a2b81eb7938537a8e"
+    },
+    {
+      "$oid": "69ebd20676ba73a40a83fa34"
+    }
+  ],
+  "plan": "god",
+  "createdAt": {
+    "$date": "2024-10-10T14:16:30.413Z"
+  },
+  "updatedAt": {
+    "$date": "2026-05-20T22:21:28.528Z"
+  },
+  "__v": 0,
+  "clerkId": "user_2nFXRaP0Dk1RC3LLdfmqxvhMkM2"
+},
+{
+  "_id": {
+    "$oid": "67098194d23e93125ef93246"
+  },
+  "email": "lucie.boullay44@gmail.com",
+  "teams": [],
+  "plan": "free",
+  "createdAt": {
+    "$date": "2024-10-11T19:50:44.397Z"
+  },
+  "updatedAt": {
+    "$date": "2024-10-11T19:50:44.397Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "670bb92100c69f6513c84ffc"
+  },
+  "email": "kevin008_2@hotmail.com",
+  "teams": [
+    {
+      "$oid": "670bb9e000c69f6513c85008"
+    }
+  ],
+  "plan": "free",
+  "createdAt": {
+    "$date": "2024-10-13T12:12:17.534Z"
+  },
+  "updatedAt": {
+    "$date": "2024-10-13T12:15:28.851Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "670bd6631dbd5dfe384488fe"
+  },
+  "email": "superdanipro@gmail.com",
+  "teams": [
+    {
+      "$oid": "670bd7071dbd5dfe38448907"
+    }
+  ],
+  "plan": "free",
+  "createdAt": {
+    "$date": "2024-10-13T14:17:07.368Z"
+  },
+  "updatedAt": {
+    "$date": "2024-10-13T14:19:51.849Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "670d1131b3b7126a4143b3c4"
+  },
+  "email": "nazakia97@gmail.com",
+  "teams": [
+    {
+      "$oid": "670d118db3b7126a4143b3c9"
+    }
+  ],
+  "plan": "free",
+  "createdAt": {
+    "$date": "2024-10-14T12:40:17.328Z"
+  },
+  "updatedAt": {
+    "$date": "2024-10-14T12:41:49.915Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "670dd05ae780dce14e6e5fd2"
+  },
+  "email": "josephmothermamajoe@gmail.com",
+  "teams": [
+    {
+      "$oid": "670dd220e780dce14e6e5fd9"
+    }
+  ],
+  "plan": "free",
+  "createdAt": {
+    "$date": "2024-10-15T02:15:54.467Z"
+  },
+  "updatedAt": {
+    "$date": "2024-10-15T02:23:28.267Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "670e1a92d8a533172c5e4529"
+  },
+  "email": "charnawsome1337@gmail.com",
+  "teams": [],
+  "plan": "free",
+  "createdAt": {
+    "$date": "2024-10-15T07:32:34.646Z"
+  },
+  "updatedAt": {
+    "$date": "2024-10-15T07:32:34.646Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6713828cc7e89d1d68cce420"
+  },
+  "email": "fetrountron@gmail.com",
+  "teams": [],
+  "plan": "free",
+  "createdAt": {
+    "$date": "2024-10-19T09:57:32.674Z"
+  },
+  "updatedAt": {
+    "$date": "2024-10-19T09:57:32.674Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6713cd1be1e02fed6117621e"
+  },
+  "email": "matteozhu95@gmail.com",
+  "teams": [
+    {
+      "$oid": "6713cd5ee1e02fed61176223"
+    }
+  ],
+  "plan": "free",
+  "createdAt": {
+    "$date": "2024-10-19T15:15:39.361Z"
+  },
+  "updatedAt": {
+    "$date": "2024-10-19T15:16:46.133Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6713cd89e1e02fed61176242"
+  },
+  "email": "dangermatteoranger@yahoo.it",
+  "teams": [
+    {
+      "$oid": "6713cfe0afccd8d552682641"
+    }
+  ],
+  "plan": "free",
+  "createdAt": {
+    "$date": "2024-10-19T15:17:29.083Z"
+  },
+  "updatedAt": {
+    "$date": "2024-10-19T15:27:28.451Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6714004045582f34d9ae31b9"
+  },
+  "email": "ea.maurice10@gmail.com",
+  "teams": [],
+  "plan": "free",
+  "createdAt": {
+    "$date": "2024-10-19T18:53:52.809Z"
+  },
+  "updatedAt": {
+    "$date": "2024-10-19T18:53:52.809Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6716c1fec8c0da462edfc3a0"
+  },
+  "email": "karciukas1@gmail.com",
+  "teams": [],
+  "plan": "free",
+  "createdAt": {
+    "$date": "2024-10-21T21:05:02.532Z"
+  },
+  "updatedAt": {
+    "$date": "2024-10-21T21:05:02.532Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6717574d99d42be31ab9f32b"
+  },
+  "email": "272498366@qq.com",
+  "teams": [],
+  "plan": "free",
+  "createdAt": {
+    "$date": "2024-10-22T07:42:05.180Z"
+  },
+  "updatedAt": {
+    "$date": "2024-10-22T07:42:05.180Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "671848a5da6b526d99135777"
+  },
+  "email": "thesi.resi@gmx.de",
+  "teams": [],
+  "plan": "free",
+  "createdAt": {
+    "$date": "2024-10-23T00:51:49.690Z"
+  },
+  "updatedAt": {
+    "$date": "2024-10-23T00:51:49.690Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "671902380893df35303a539a"
+  },
+  "email": "solidon11@gmail.com",
+  "teams": [],
+  "plan": "free",
+  "createdAt": {
+    "$date": "2024-10-23T14:03:36.801Z"
+  },
+  "updatedAt": {
+    "$date": "2024-10-23T14:03:36.801Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67195f0b170f5b822f256dd2"
+  },
+  "email": "turcyasser@gmail.com",
+  "teams": [
+    {
+      "$oid": "671960bf170f5b822f256dd7"
+    }
+  ],
+  "plan": "free",
+  "createdAt": {
+    "$date": "2024-10-23T20:39:39.619Z"
+  },
+  "updatedAt": {
+    "$date": "2024-10-23T20:46:55.288Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "671bd973163d0e7b361743b0"
+  },
+  "email": "xsuklr@gmail.com",
+  "teams": [
+    {
+      "$oid": "671bd9b9163d0e7b361743b7"
+    }
+  ],
+  "plan": "free",
+  "createdAt": {
+    "$date": "2024-10-25T17:46:27.894Z"
+  },
+  "updatedAt": {
+    "$date": "2024-10-25T17:47:37.865Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "671ebcb46acf451feb3ce4b1"
+  },
+  "email": "yavuzbegovic@gmail.com",
+  "teams": [],
+  "plan": "free",
+  "createdAt": {
+    "$date": "2024-10-27T22:20:36.578Z"
+  },
+  "updatedAt": {
+    "$date": "2024-10-27T22:20:36.578Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6728008ec08d6c084994a6ae"
+  },
+  "email": "whiskycram@gmail.com",
+  "teams": [
+    {
+      "$oid": "672800fba8828b3b8b786e6b"
+    }
+  ],
+  "plan": "free",
+  "createdAt": {
+    "$date": "2024-11-03T23:00:30.288Z"
+  },
+  "updatedAt": {
+    "$date": "2024-11-03T23:02:19.154Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "672807cc6b01a558ffbaae26"
+  },
+  "email": "olivier.pierreditmery@gmail.com",
+  "teams": [
+    {
+      "$oid": "67280cc0e9035b052e137948"
+    }
+  ],
+  "plan": "free",
+  "createdAt": {
+    "$date": "2024-11-03T23:31:24.216Z"
+  },
+  "updatedAt": {
+    "$date": "2024-11-03T23:52:32.287Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6729e790b0b6e1d22ccacc19"
+  },
+  "email": "gaethan.boyer@gmail.com",
+  "teams": [],
+  "plan": "free",
+  "createdAt": {
+    "$date": "2024-11-05T09:38:24.942Z"
+  },
+  "updatedAt": {
+    "$date": "2024-11-05T09:38:24.942Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "673674dcf6221bd5a2872350"
+  },
+  "email": "salim777mansurov@gmail.com",
+  "teams": [],
+  "plan": "free",
+  "createdAt": {
+    "$date": "2024-11-14T22:08:28.005Z"
+  },
+  "updatedAt": {
+    "$date": "2024-11-14T22:08:28.005Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "674c7e14a950122d4d3192c1"
+  },
+  "email": "oworer@gmail.com",
+  "teams": [],
+  "plan": "free",
+  "createdAt": {
+    "$date": "2024-12-01T15:17:40.562Z"
+  },
+  "updatedAt": {
+    "$date": "2024-12-01T15:17:40.562Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "674d7b09c15aee592881dd6f"
+  },
+  "email": "williamignaciomunozpavon@gmail.com",
+  "teams": [],
+  "plan": "free",
+  "createdAt": {
+    "$date": "2024-12-02T09:16:57.075Z"
+  },
+  "updatedAt": {
+    "$date": "2024-12-02T09:16:57.075Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67550bef04743dbd26f3e54c"
+  },
+  "email": "temporarybuffet@gmail.com",
+  "teams": [],
+  "plan": "free",
+  "createdAt": {
+    "$date": "2024-12-08T03:01:03.696Z"
+  },
+  "updatedAt": {
+    "$date": "2024-12-08T03:01:03.696Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6775fb931c974c838322abd3"
+  },
+  "email": "thiagobernardino6@gmail.com",
+  "teams": [
+    {
+      "$oid": "6775fbbace85208b788cf31f"
+    }
+  ],
+  "plan": "free",
+  "createdAt": {
+    "$date": "2025-01-02T02:36:03.686Z"
+  },
+  "updatedAt": {
+    "$date": "2025-01-02T02:36:42.581Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67ae4cd75877fcbcf764992f"
+  },
+  "email": "fastdiablo3@gmail.com",
+  "teams": [],
+  "plan": "free",
+  "createdAt": {
+    "$date": "2025-02-13T19:49:43.013Z"
+  },
+  "updatedAt": {
+    "$date": "2025-02-13T19:49:43.013Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67bf8eb1b9916c5d77d633df"
+  },
+  "email": "maxoudech@gmail.com",
+  "teams": [],
+  "plan": "free",
+  "createdAt": {
+    "$date": "2025-02-26T21:59:13.695Z"
+  },
+  "updatedAt": {
+    "$date": "2025-02-26T21:59:13.695Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67eafc969e70dff85b0864a5"
+  },
+  "email": "leo.bernard2002.jeux@gmail.com",
+  "teams": [
+    {
+      "$oid": "67eafd189e70dff85b0864aa"
+    }
+  ],
+  "plan": "free",
+  "createdAt": {
+    "$date": "2025-03-31T20:35:34.640Z"
+  },
+  "updatedAt": {
+    "$date": "2026-04-23T21:20:30.882Z"
+  },
+  "__v": 0,
+  "clerkId": "user_2v66lxebbGB5tDMCFJgIaZqsdbI"
+},
+{
+  "_id": {
+    "$oid": "681119adfc8b870b6a798829"
+  },
+  "email": "jeanbonfleur42@gmail.com",
+  "teams": [
+    {
+      "$oid": "68111a73fc8b870b6a79882f"
+    }
+  ],
+  "plan": "free",
+  "createdAt": {
+    "$date": "2025-04-29T18:25:49.199Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-29T18:29:07.222Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "684d695cba3fd66238f9d5c8"
+  },
+  "email": "meisatukiyukari@yahoo.co.jp",
+  "teams": [],
+  "plan": "free",
+  "createdAt": {
+    "$date": "2025-06-14T12:21:48.338Z"
+  },
+  "updatedAt": {
+    "$date": "2025-06-14T12:21:48.338Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "685432b75e56c9ab85128e9d"
+  },
+  "email": "pinyi2001@gmail.com",
+  "teams": [
+    {
+      "$oid": "6854332b5e56c9ab85128ea3"
+    }
+  ],
+  "plan": "free",
+  "createdAt": {
+    "$date": "2025-06-19T15:54:31.989Z"
+  },
+  "updatedAt": {
+    "$date": "2025-06-19T15:56:27.718Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68560f99cb1070fde4a04d5b"
+  },
+  "email": "dominicdiazd7@gmail.com",
+  "teams": [],
+  "plan": "free",
+  "createdAt": {
+    "$date": "2025-06-21T01:49:13.078Z"
+  },
+  "updatedAt": {
+    "$date": "2025-06-21T01:49:13.078Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "686fd098ba311c361066d80e"
+  },
+  "email": "nguyenxu@hotmail.com",
+  "teams": [
+    {
+      "$oid": "686fd15eba311c361066d813"
+    }
+  ],
+  "plan": "free",
+  "createdAt": {
+    "$date": "2025-07-10T14:39:20.127Z"
+  },
+  "updatedAt": {
+    "$date": "2025-07-10T14:42:38.740Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "687b799190c3d4a5b7e2a937"
+  },
+  "email": "foghugh123@outlook.com",
+  "teams": [
+    {
+      "$oid": "687b7a4a5770abcafb99a456"
+    }
+  ],
+  "plan": "free",
+  "createdAt": {
+    "$date": "2025-07-19T10:55:13.408Z"
+  },
+  "updatedAt": {
+    "$date": "2025-07-19T10:58:18.246Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6882c38af061e7857875b9ad"
+  },
+  "email": "antonisvrigkos@gmail.com",
+  "teams": [],
+  "plan": "free",
+  "createdAt": {
+    "$date": "2025-07-24T23:36:42.662Z"
+  },
+  "updatedAt": {
+    "$date": "2025-07-24T23:36:42.662Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "688c6ca165e78524b0ca6ab2"
+  },
+  "email": "furkancildir99@gmail.com",
+  "teams": [],
+  "plan": "free",
+  "createdAt": {
+    "$date": "2025-08-01T07:28:33.445Z"
+  },
+  "updatedAt": {
+    "$date": "2025-08-01T07:28:33.445Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "688ce467740e4e562df59545"
+  },
+  "email": "nikolaishapovalov81@gmail.com",
+  "teams": [],
+  "plan": "free",
+  "createdAt": {
+    "$date": "2025-08-01T15:59:35.294Z"
+  },
+  "updatedAt": {
+    "$date": "2025-08-01T15:59:35.294Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68abe5f7cb30cfea766bc23c"
+  },
+  "email": "tktk06191@icloud.com",
+  "teams": [],
+  "plan": "free",
+  "createdAt": {
+    "$date": "2025-08-25T04:26:31.207Z"
+  },
+  "updatedAt": {
+    "$date": "2025-08-25T04:26:31.207Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68b1c25553599204bfa242b1"
+  },
+  "email": "jawad.lagmiri95@gmail.com",
+  "teams": [],
+  "plan": "free",
+  "createdAt": {
+    "$date": "2025-08-29T15:08:05.846Z"
+  },
+  "updatedAt": {
+    "$date": "2025-08-29T15:08:05.846Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68c16af0e2961d1ba37fda47"
+  },
+  "email": "sachab972@hotmail.com",
+  "teams": [
+    {
+      "$oid": "68c16b8bad7d3d226d2e869f"
+    }
+  ],
+  "plan": "free",
+  "createdAt": {
+    "$date": "2025-09-10T12:11:28.401Z"
+  },
+  "updatedAt": {
+    "$date": "2025-09-10T12:14:03.464Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68c25b6d841b051644763956"
+  },
+  "email": "dwarfypig@gmail.com",
+  "teams": [
+    {
+      "$oid": "68c25e2f1d6d59077a7a3041"
+    }
+  ],
+  "plan": "free",
+  "createdAt": {
+    "$date": "2025-09-11T05:17:33.452Z"
+  },
+  "updatedAt": {
+    "$date": "2025-09-11T05:29:19.223Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68cea69681f40b907e1ce4c7"
+  },
+  "email": "raunaqsrivastava@gmail.com",
+  "teams": [
+    {
+      "$oid": "68cea83481f40b907e1ce4cd"
+    }
+  ],
+  "plan": "free",
+  "createdAt": {
+    "$date": "2025-09-20T13:05:26.851Z"
+  },
+  "updatedAt": {
+    "$date": "2025-09-20T13:12:20.307Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68d0c14754e0b51618d50c69"
+  },
+  "email": "nickthekenyan@yahoo.com",
+  "teams": [
+    {
+      "$oid": "68d0c19954e0b51618d50c6e"
+    }
+  ],
+  "plan": "free",
+  "createdAt": {
+    "$date": "2025-09-22T03:23:51.209Z"
+  },
+  "updatedAt": {
+    "$date": "2025-09-22T03:25:13.813Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68e03f5172ad935b3086ec2d"
+  },
+  "email": "inoudam13@gmail.com",
+  "teams": [
+    {
+      "$oid": "68e03fbb6be820236bd26670"
+    },
+    {
+      "$oid": "68ecf9c888c333abf7463c0f"
+    },
+    {
+      "$oid": "68ed0e1db2f847e682a4ee95"
+    },
+    {
+      "$oid": "691d95b8304e0e02a98066e0"
+    }
+  ],
+  "plan": "god",
+  "createdAt": {
+    "$date": "2025-10-03T21:25:37.903Z"
+  },
+  "updatedAt": {
+    "$date": "2026-05-20T22:21:28.528Z"
+  },
+  "__v": 0,
+  "clerkId": "user_33ZZpROgYWtv14vmSbRGlNXS0fG"
+},
+{
+  "_id": {
+    "$oid": "68e2805c3b08ad82afa94ac2"
+  },
+  "email": "brice.eliasse@selego.co",
+  "teams": [],
+  "plan": "free",
+  "createdAt": {
+    "$date": "2025-10-05T14:27:40.696Z"
+  },
+  "updatedAt": {
+    "$date": "2025-10-05T14:27:40.696Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68e54b05aaf98dabe2858b05"
+  },
+  "email": "skalata_h@yahoo.com",
+  "teams": [
+    {
+      "$oid": "68e54b441faab9aff136be8f"
+    }
+  ],
+  "plan": "free",
+  "createdAt": {
+    "$date": "2025-10-07T17:16:53.653Z"
+  },
+  "updatedAt": {
+    "$date": "2025-10-07T17:17:56.686Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68e6ee51281f8e107b220abe"
+  },
+  "email": "nodighaelsosa@yahoo.com",
+  "teams": [],
+  "plan": "free",
+  "createdAt": {
+    "$date": "2025-10-08T23:05:53.056Z"
+  },
+  "updatedAt": {
+    "$date": "2025-10-08T23:05:53.056Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68e7d08a5eb1b2390f01ea59"
+  },
+  "email": "creeddickens@hotmail.it",
+  "teams": [],
+  "plan": "free",
+  "createdAt": {
+    "$date": "2025-10-09T15:11:06.993Z"
+  },
+  "updatedAt": {
+    "$date": "2025-10-09T15:11:06.993Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68e8197b4f5cd67a5b9849fd"
+  },
+  "email": "zewin_off@outlook.fr",
+  "teams": [],
+  "plan": "free",
+  "createdAt": {
+    "$date": "2025-10-09T20:22:19.385Z"
+  },
+  "updatedAt": {
+    "$date": "2025-10-09T20:22:19.385Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68e98bf17c1464965f228712"
+  },
+  "email": "junkhunter07@gmail.com",
+  "teams": [
+    {
+      "$oid": "68e98d26ac5e075971b1aedd"
+    }
+  ],
+  "plan": "free",
+  "createdAt": {
+    "$date": "2025-10-10T22:42:57.771Z"
+  },
+  "updatedAt": {
+    "$date": "2025-10-10T22:48:06.175Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68e9957f21df7d12b58aea4c"
+  },
+  "email": "sarpbc-ps3@hotmail.com",
+  "teams": [
+    {
+      "$oid": "68e9961e21df7d12b58aea51"
+    }
+  ],
+  "plan": "free",
+  "createdAt": {
+    "$date": "2025-10-10T23:23:43.941Z"
+  },
+  "updatedAt": {
+    "$date": "2025-10-10T23:26:22.675Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68ee7a0cd59ea3a53a4d0eb7"
+  },
+  "email": "dennisbefus2@gmail.com",
+  "teams": [],
+  "plan": "free",
+  "createdAt": {
+    "$date": "2025-10-14T16:27:56.075Z"
+  },
+  "updatedAt": {
+    "$date": "2025-10-14T16:27:56.075Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68eeab71592cb6e998d7d1fb"
+  },
+  "email": "anonymioche@gmail.com",
+  "teams": [
+    {
+      "$oid": "68ef71fadaa5dd35f9f5a347"
+    }
+  ],
+  "plan": "free",
+  "createdAt": {
+    "$date": "2025-10-14T19:58:41.021Z"
+  },
+  "updatedAt": {
+    "$date": "2025-10-15T10:05:46.489Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68f25839b1fe6ed11d8cbd87"
+  },
+  "email": "everblade22@gmail.com",
+  "teams": [
+    {
+      "$oid": "68f2598a04286299b1e7a3c1"
+    }
+  ],
+  "plan": "free",
+  "createdAt": {
+    "$date": "2025-10-17T14:52:41.314Z"
+  },
+  "updatedAt": {
+    "$date": "2025-10-17T14:58:18.582Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68f3fa69d4f2dae789cfd104"
+  },
+  "email": "albrehtd2005@gmail.com",
+  "teams": [],
+  "plan": "free",
+  "createdAt": {
+    "$date": "2025-10-18T20:36:57.295Z"
+  },
+  "updatedAt": {
+    "$date": "2025-10-18T20:36:57.295Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68fb46bcbc2003cdadac4ac5"
+  },
+  "email": "anthony.saintjean20@gmail.com",
+  "teams": [
+    {
+      "$oid": "68fb4738f9d34d7f910b8567"
+    }
+  ],
+  "plan": "free",
+  "createdAt": {
+    "$date": "2025-10-24T09:28:28.889Z"
+  },
+  "updatedAt": {
+    "$date": "2025-10-24T09:30:32.188Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68ffcc445b284ec041bbd7c8"
+  },
+  "email": "aronhabi@gmail.com",
+  "teams": [],
+  "plan": "free",
+  "createdAt": {
+    "$date": "2025-10-27T19:47:16.124Z"
+  },
+  "updatedAt": {
+    "$date": "2025-10-27T19:47:16.124Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6904bb48bb1f81ee4cc8541b"
+  },
+  "email": "mr.zord98@mail.ru",
+  "teams": [],
+  "plan": "free",
+  "createdAt": {
+    "$date": "2025-10-31T13:36:08.563Z"
+  },
+  "updatedAt": {
+    "$date": "2025-10-31T13:36:08.563Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69066065dcc8737ba52e9c3b"
+  },
+  "email": "olivier.charon.gateff@gmail.com",
+  "teams": [
+    {
+      "$oid": "69075d9552fd37eab4771c4e"
+    }
+  ],
+  "plan": "free",
+  "createdAt": {
+    "$date": "2025-11-01T19:32:53.331Z"
+  },
+  "updatedAt": {
+    "$date": "2025-11-02T13:33:09.416Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6909eebd510b8b5de7f00b53"
+  },
+  "email": "zcernyh711@gmail.com",
+  "teams": [],
+  "plan": "free",
+  "createdAt": {
+    "$date": "2025-11-04T12:17:01.372Z"
+  },
+  "updatedAt": {
+    "$date": "2025-11-04T12:17:01.372Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "690bd9bf5c7e73d8e9ae8200"
+  },
+  "email": "2662401095@qq.com",
+  "teams": [],
+  "plan": "free",
+  "createdAt": {
+    "$date": "2025-11-05T23:11:59.433Z"
+  },
+  "updatedAt": {
+    "$date": "2025-11-05T23:11:59.433Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "690e11e6af5294db062de17d"
+  },
+  "email": "masavo44@gmail.com",
+  "teams": [],
+  "plan": "free",
+  "createdAt": {
+    "$date": "2025-11-07T15:36:06.849Z"
+  },
+  "updatedAt": {
+    "$date": "2025-11-07T15:36:06.849Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6913cfb38c72b3c190abcc8e"
+  },
+  "email": "markozarkic@gmail.com",
+  "teams": [],
+  "plan": "free",
+  "createdAt": {
+    "$date": "2025-11-12T00:07:15.057Z"
+  },
+  "updatedAt": {
+    "$date": "2025-11-12T00:07:15.057Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6914a9e8bfbe6eb6ef2aac01"
+  },
+  "email": "herman97@gmx.de",
+  "teams": [],
+  "plan": "free",
+  "createdAt": {
+    "$date": "2025-11-12T15:38:16.013Z"
+  },
+  "updatedAt": {
+    "$date": "2025-11-12T15:38:16.013Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "691618329633a0c5e37f0f1b"
+  },
+  "email": "ndt.antoine@gmail.com",
+  "teams": [
+    {
+      "$oid": "6916188b9633a0c5e37f0f25"
+    }
+  ],
+  "plan": "free",
+  "createdAt": {
+    "$date": "2025-11-13T17:41:06.627Z"
+  },
+  "updatedAt": {
+    "$date": "2025-11-13T17:42:35.165Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "691a034e671704fbe130666a"
+  },
+  "email": "nutthagorn15554@gmail.com",
+  "teams": [],
+  "plan": "free",
+  "createdAt": {
+    "$date": "2025-11-16T17:01:02.729Z"
+  },
+  "updatedAt": {
+    "$date": "2025-11-16T17:01:02.729Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "691a3c5ff57d6976be7a3294"
+  },
+  "email": "nicolas.marques92@gmail.com",
+  "teams": [
+    {
+      "$oid": "691a4687f57d6976be7a32a1"
+    }
+  ],
+  "plan": "free",
+  "createdAt": {
+    "$date": "2025-11-16T21:04:31.952Z"
+  },
+  "updatedAt": {
+    "$date": "2025-11-16T21:47:51.650Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "691b6873f58b72f2331a9e36"
+  },
+  "email": "archambaultclement1@gmail.com",
+  "teams": [],
+  "plan": "free",
+  "createdAt": {
+    "$date": "2025-11-17T18:24:51.605Z"
+  },
+  "updatedAt": {
+    "$date": "2025-11-17T18:24:51.605Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "691db61d15daaed8e8f2c3c6"
+  },
+  "email": "duvy1994@gmail.com",
+  "teams": [],
+  "plan": "free",
+  "createdAt": {
+    "$date": "2025-11-19T12:20:45.348Z"
+  },
+  "updatedAt": {
+    "$date": "2025-11-19T12:20:45.348Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "691e6fe0a9dcff941991ec00"
+  },
+  "email": "sarmatkociev44@gmail.com",
+  "teams": [],
+  "plan": "free",
+  "createdAt": {
+    "$date": "2025-11-20T01:33:20.612Z"
+  },
+  "updatedAt": {
+    "$date": "2025-11-20T01:33:20.612Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "691efa35c758e5f90812a1d0"
+  },
+  "email": "gaby.colban@gmail.com",
+  "teams": [
+    {
+      "$oid": "691efab5c758e5f90812a1d9"
+    }
+  ],
+  "plan": "free",
+  "createdAt": {
+    "$date": "2025-11-20T11:23:33.757Z"
+  },
+  "updatedAt": {
+    "$date": "2025-11-20T11:25:41.980Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6921a28a2f92e3a1e5e36766"
+  },
+  "email": "pierrecartier100@gmail.com",
+  "teams": [],
+  "plan": "free",
+  "createdAt": {
+    "$date": "2025-11-22T11:46:18.420Z"
+  },
+  "updatedAt": {
+    "$date": "2025-11-22T11:46:18.420Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "692209bd3af0e1b6e315d290"
+  },
+  "email": "arcaneftn@gmail.com",
+  "teams": [],
+  "plan": "free",
+  "createdAt": {
+    "$date": "2025-11-22T19:06:37.546Z"
+  },
+  "updatedAt": {
+    "$date": "2025-11-22T19:06:37.546Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "692380aa76279777fe06cb2f"
+  },
+  "email": "kek988chebyrek@gmail.com",
+  "teams": [
+    {
+      "$oid": "6923816958e152564d1f4d16"
+    }
+  ],
+  "plan": "free",
+  "createdAt": {
+    "$date": "2025-11-23T21:46:19.179Z"
+  },
+  "updatedAt": {
+    "$date": "2025-11-23T21:49:30.198Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6923926de75d83c8e6305528"
+  },
+  "email": "olynykxsmurf@gmail.com",
+  "teams": [],
+  "plan": "free",
+  "createdAt": {
+    "$date": "2025-11-23T23:02:05.784Z"
+  },
+  "updatedAt": {
+    "$date": "2025-11-23T23:02:05.784Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "692399dee75d83c8e6305532"
+  },
+  "email": "abdullah_ahmed_2000@yahoo.de",
+  "teams": [],
+  "plan": "free",
+  "createdAt": {
+    "$date": "2025-11-23T23:33:50.472Z"
+  },
+  "updatedAt": {
+    "$date": "2025-11-23T23:33:50.472Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69243f8ea4ec7f0e1498451c"
+  },
+  "email": "blouchgames@gmail.com",
+  "teams": [],
+  "plan": "free",
+  "createdAt": {
+    "$date": "2025-11-24T11:20:46.906Z"
+  },
+  "updatedAt": {
+    "$date": "2025-11-25T22:27:33.088Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69270e5915df2202724d6c8d"
+  },
+  "email": "games@xn--diekrmmels-eeb.de",
+  "clerkId": "user_361HekuRYtjonRQ3zxpKs1VPgG6",
+  "teams": [],
+  "plan": "free",
+  "createdAt": {
+    "$date": "2025-11-26T14:27:37.831Z"
+  },
+  "updatedAt": {
+    "$date": "2025-11-26T14:27:37.831Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "692e23a8cade506fd3da3c33"
+  },
+  "email": "antoine.gaspar98@yahoo.fr",
+  "clerkId": "user_36GSYblnsrsJGaourIy2HRNSiED",
+  "teams": [
+    {
+      "$oid": "692e2432cade506fd3da3c3b"
+    }
+  ],
+  "plan": "free",
+  "createdAt": {
+    "$date": "2025-12-01T23:24:25.092Z"
+  },
+  "updatedAt": {
+    "$date": "2025-12-01T23:26:42.657Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "692e7fe6eb39d6ea7bd3d0ce"
+  },
+  "email": "tbartsctr@gmail.com",
+  "clerkId": "user_36HEPsz9j8ttV0ShpxuNxwy7cuG",
+  "teams": [],
+  "plan": "free",
+  "createdAt": {
+    "$date": "2025-12-02T05:57:58.554Z"
+  },
+  "updatedAt": {
+    "$date": "2025-12-02T05:57:58.554Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "692eddd0234d993336feb525"
+  },
+  "email": "edoardo0423zanni@gmail.com",
+  "clerkId": "user_36I19QvSUvzVNkqbzEg225WCwZw",
+  "teams": [],
+  "plan": "free",
+  "createdAt": {
+    "$date": "2025-12-02T12:38:40.964Z"
+  },
+  "updatedAt": {
+    "$date": "2025-12-02T12:38:40.964Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "692f014cf478e393f445b3c3"
+  },
+  "email": "marcusparbejde@hotmail.com",
+  "clerkId": "user_36IJYxXdRxRXZoceq1FBJNPmGF0",
+  "teams": [],
+  "plan": "free",
+  "createdAt": {
+    "$date": "2025-12-02T15:10:05.095Z"
+  },
+  "updatedAt": {
+    "$date": "2025-12-02T15:10:05.095Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "692f599f36dd3dc8f3d4baaf"
+  },
+  "email": "vitorskd2@gmail.com",
+  "clerkId": "user_36J3OTd3kNbyjpTGTZOhwY6GGv5",
+  "teams": [
+    {
+      "$oid": "692f60f636dd3dc8f3d4bb48"
+    }
+  ],
+  "plan": "free",
+  "createdAt": {
+    "$date": "2025-12-02T21:26:56.182Z"
+  },
+  "updatedAt": {
+    "$date": "2025-12-02T21:58:15.129Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69359a5849951d783a56c3d6"
+  },
+  "email": "paperbit11@gmail.com",
+  "clerkId": "user_36WRz0ecocnKoB3neWPfX7pYuzp",
+  "teams": [],
+  "plan": "free",
+  "createdAt": {
+    "$date": "2025-12-07T15:16:40.982Z"
+  },
+  "updatedAt": {
+    "$date": "2025-12-07T15:16:40.982Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6935ee724b8c43a349550fb7"
+  },
+  "email": "elouanlucas@hotmail.fr",
+  "clerkId": "user_36X9ceoAsSddHyIinzhAfj22Npy",
+  "teams": [
+    {
+      "$oid": "6a0e0d573b365cfed8f99f04"
+    }
+  ],
+  "plan": "free",
+  "createdAt": {
+    "$date": "2025-12-07T21:15:31.088Z"
+  },
+  "updatedAt": {
+    "$date": "2026-05-20T19:47:03.984Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "693606a0843ca62a1fd537ac"
+  },
+  "email": "marwan.321naruto@gmail.com",
+  "clerkId": "user_36XMAV4SNp8p9XQsQaEuPqlQTdq",
+  "teams": [],
+  "plan": "free",
+  "createdAt": {
+    "$date": "2025-12-07T22:58:40.495Z"
+  },
+  "updatedAt": {
+    "$date": "2025-12-07T22:58:40.495Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6937816edd1aaf70dba6a666"
+  },
+  "email": "hyeongmin14@naver.com",
+  "clerkId": "user_36aWj8CsNSsAbCtm33tl4CKNaUP",
+  "teams": [
+    {
+      "$oid": "69378190dd1aaf70dba6a66b"
+    }
+  ],
+  "plan": "tryhard",
+  "createdAt": {
+    "$date": "2025-12-09T01:54:55.176Z"
+  },
+  "updatedAt": {
+    "$date": "2025-12-09T01:55:28.948Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69382381c1bdefbe8a3375bf"
+  },
+  "email": "joffreylrx@gmail.com",
+  "clerkId": "user_36bsp56EmcCxhvUG2arEMQisfzm",
+  "teams": [
+    {
+      "$oid": "6938240dc1bdefbe8a3375c5"
+    }
+  ],
+  "plan": "tryhard",
+  "createdAt": {
+    "$date": "2025-12-09T13:26:25.695Z"
+  },
+  "updatedAt": {
+    "$date": "2025-12-09T16:26:04.533Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "693b580c11eb8bde09938cff"
+  },
+  "email": "worzedbmanick@gmail.com",
+  "clerkId": "user_36ikaKT8V3t5wXqzJYoGrludB0Y",
+  "teams": [],
+  "plan": "free",
+  "createdAt": {
+    "$date": "2025-12-11T23:47:24.994Z"
+  },
+  "updatedAt": {
+    "$date": "2025-12-11T23:47:24.994Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "693c13ed31a17300974010ce"
+  },
+  "email": "mateo.vicens@kinkaid.org",
+  "clerkId": "user_36kK4nzehyTwWW5PnzNbLwAsHMr",
+  "teams": [],
+  "plan": "free",
+  "createdAt": {
+    "$date": "2025-12-12T13:09:01.506Z"
+  },
+  "updatedAt": {
+    "$date": "2025-12-12T13:09:01.506Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69419f7865690abc1abb9e22"
+  },
+  "email": "ipados2003@gmail.com",
+  "clerkId": "user_36wCel5T9uoQ2CBTeKwl3yPYmt0",
+  "teams": [
+    {
+      "$oid": "69419fe265690abc1abb9e28"
+    }
+  ],
+  "plan": "free",
+  "createdAt": {
+    "$date": "2025-12-16T18:05:44.620Z"
+  },
+  "updatedAt": {
+    "$date": "2025-12-16T18:07:30.594Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6944424626eacb37b05efb2f"
+  },
+  "email": "emilis.urbonas@gmail.com",
+  "clerkId": "user_371qnP0MEKh7b8tS2lM3MTvYt7H",
+  "teams": [
+    {
+      "$oid": "694442d6801ed67a85653950"
+    }
+  ],
+  "plan": "free",
+  "createdAt": {
+    "$date": "2025-12-18T18:04:54.645Z"
+  },
+  "updatedAt": {
+    "$date": "2025-12-18T18:07:18.681Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6949e981c10a66bdcd482c18"
+  },
+  "email": "kinjirouliu@gmail.com",
+  "clerkId": "user_37DxkDahMr7WelTtIjXpbv1KcCn",
+  "teams": [],
+  "plan": "free",
+  "createdAt": {
+    "$date": "2025-12-23T00:59:45.564Z"
+  },
+  "updatedAt": {
+    "$date": "2025-12-23T00:59:45.564Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "694f232d5256da3423fa07a7"
+  },
+  "email": "patrickkreiner@outlook.com",
+  "clerkId": "user_37P9q7Amp9YJH4Q1g6PorJVXtiK",
+  "teams": [],
+  "plan": "free",
+  "createdAt": {
+    "$date": "2025-12-27T00:07:09.784Z"
+  },
+  "updatedAt": {
+    "$date": "2025-12-27T00:07:09.784Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6968a023c1a15703a786677c"
+  },
+  "email": "collinchase007@gmail.com",
+  "clerkId": "user_38HlXWyz1vOJSmMCSvqlyehqTg7",
+  "teams": [
+    {
+      "$oid": "6968a1b1008c0128423d83c7"
+    }
+  ],
+  "plan": "free",
+  "createdAt": {
+    "$date": "2026-01-15T08:06:59.849Z"
+  },
+  "updatedAt": {
+    "$date": "2026-01-15T08:13:37.994Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "696a2c4ce4ede49d30dfe58d"
+  },
+  "email": "liam.nilsson399@gmail.com",
+  "clerkId": "user_38L56DncoVAjIvLfW8bdiM1aXxA",
+  "teams": [],
+  "plan": "free",
+  "createdAt": {
+    "$date": "2026-01-16T12:17:16.387Z"
+  },
+  "updatedAt": {
+    "$date": "2026-01-16T12:17:16.387Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "696d6e473bfdc22685d7e599"
+  },
+  "email": "beaudouink@gmail.com",
+  "clerkId": "user_38S3q9XKNd14hbQ7DTQzmSlntyN",
+  "teams": [
+    {
+      "$oid": "696d6efe3bfdc22685d7e5a0"
+    }
+  ],
+  "plan": "free",
+  "createdAt": {
+    "$date": "2026-01-18T23:35:35.491Z"
+  },
+  "updatedAt": {
+    "$date": "2026-01-18T23:38:38.475Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "697014d4f2ea6e1e5f320302"
+  },
+  "email": "destinefuchs@gmail.com",
+  "clerkId": "user_38XjvgvcWHP7Wg12QBwDROT23OS",
+  "teams": [
+    {
+      "$oid": "697019bef2ea6e1e5f320324"
+    }
+  ],
+  "plan": "free",
+  "createdAt": {
+    "$date": "2026-01-20T23:50:45.096Z"
+  },
+  "updatedAt": {
+    "$date": "2026-01-21T00:11:42.927Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "697236381636a9b6b45bcf0f"
+  },
+  "email": "hlehuby@gmail.com",
+  "clerkId": "user_38cIvIGahQK6CNYuyd2GoaGsKyj",
+  "teams": [
+    {
+      "$oid": "697236de1636a9b6b45bcf16"
+    }
+  ],
+  "plan": "free",
+  "createdAt": {
+    "$date": "2026-01-22T14:37:44.435Z"
+  },
+  "updatedAt": {
+    "$date": "2026-01-22T14:40:30.665Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69742034721c82ae6bd56d00"
+  },
+  "email": "emile_vandepoel@hotmail.com",
+  "clerkId": "user_38gPAfu4mfVOBYWtz57EhXtmoo3",
+  "teams": [
+    {
+      "$oid": "697420dd721c82ae6bd56d06"
+    }
+  ],
+  "plan": "free",
+  "createdAt": {
+    "$date": "2026-01-24T01:28:20.179Z"
+  },
+  "updatedAt": {
+    "$date": "2026-01-24T01:31:09.758Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6976522c005f0ff2a1b33c54"
+  },
+  "email": "anakindawarolike@hotmail.com",
+  "clerkId": "user_38l6lQTvwkR1HYyszeJvZYnqc3l",
+  "teams": [
+    {
+      "$oid": "697652a4077d1b93a4530bce"
+    }
+  ],
+  "plan": "free",
+  "createdAt": {
+    "$date": "2026-01-25T17:26:04.414Z"
+  },
+  "updatedAt": {
+    "$date": "2026-01-25T17:28:04.887Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6976985d163b1c04429e17cd"
+  },
+  "email": "hajek.davson@seznam.cz",
+  "clerkId": "user_38lhBvFlEmycVu5fg8K6VjW9WIt",
+  "teams": [],
+  "plan": "free",
+  "createdAt": {
+    "$date": "2026-01-25T22:25:34.125Z"
+  },
+  "updatedAt": {
+    "$date": "2026-01-25T22:25:34.125Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "697856cd1c3dc8d00c13a25f"
+  },
+  "email": "2099196107@qq.com",
+  "clerkId": "user_38pQqGGtVY6hj7pDnBMaOeuo0wz",
+  "teams": [],
+  "plan": "free",
+  "createdAt": {
+    "$date": "2026-01-27T06:10:22.028Z"
+  },
+  "updatedAt": {
+    "$date": "2026-01-27T06:10:22.028Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69823f4f8dbb15d6d398ae50"
+  },
+  "email": "frederik_storck@web.de",
+  "clerkId": "user_39AezRjJsk8bdZK12xHmHEFCs0x",
+  "teams": [],
+  "plan": "free",
+  "createdAt": {
+    "$date": "2026-02-03T18:32:48.193Z"
+  },
+  "updatedAt": {
+    "$date": "2026-02-03T18:32:48.193Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6984e4da6294d9283abebaab"
+  },
+  "email": "kaojunior@gmail.com",
+  "clerkId": "user_39GKYnkP2n2u9rglPkTmdcRqEwd",
+  "teams": [],
+  "plan": "free",
+  "createdAt": {
+    "$date": "2026-02-05T18:43:38.756Z"
+  },
+  "updatedAt": {
+    "$date": "2026-02-05T18:43:38.756Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69877f927c2e3ff369970d18"
+  },
+  "email": "itsalisina79@gmail.com",
+  "clerkId": "user_39LuViL71Pn3VPgw6QH3u3KAJe3",
+  "teams": [],
+  "plan": "free",
+  "createdAt": {
+    "$date": "2026-02-07T18:08:18.397Z"
+  },
+  "updatedAt": {
+    "$date": "2026-02-07T18:08:18.397Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6987bdff0a32fdc59448a64d"
+  },
+  "email": "jakobldn@gmail.com",
+  "clerkId": "user_39MQtzsijHACHr71i0WNpXJGSD3",
+  "teams": [
+    {
+      "$oid": "6987be2a2d036d95b73d2af2"
+    }
+  ],
+  "plan": "free",
+  "createdAt": {
+    "$date": "2026-02-07T22:34:39.948Z"
+  },
+  "updatedAt": {
+    "$date": "2026-02-07T22:35:22.840Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "698b572aeee011156dcd2a6f"
+  },
+  "email": "contact.pyxaia@gmail.com",
+  "clerkId": "user_39U8sOCJEUl5PaFUUWz2CfkPfmx",
+  "teams": [],
+  "plan": "free",
+  "createdAt": {
+    "$date": "2026-02-10T16:04:58.696Z"
+  },
+  "updatedAt": {
+    "$date": "2026-02-14T12:48:57.573Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "698b699923c3e89fba3f1799"
+  },
+  "email": "fabioditroia@outlook.com",
+  "clerkId": "user_39UIRoyT28BglZAmuBCHs6oP76o",
+  "teams": [],
+  "plan": "free",
+  "createdAt": {
+    "$date": "2026-02-10T17:23:37.724Z"
+  },
+  "updatedAt": {
+    "$date": "2026-02-10T17:23:37.724Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "698ddea8c372de6c4c99268a"
+  },
+  "email": "owen.yousfi0907@gmail.com",
+  "clerkId": "user_39ZYqtalTHFRa2OWRY3jxfxhpq6",
+  "teams": [
+    {
+      "$oid": "698fc2bc7e6ea4f3f102bd46"
+    }
+  ],
+  "plan": "free",
+  "createdAt": {
+    "$date": "2026-02-12T14:07:36.675Z"
+  },
+  "updatedAt": {
+    "$date": "2026-02-14T00:33:00.748Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "698e56216312b8bda9e31136"
+  },
+  "email": "baby.girl.discord9551@gmail.com",
+  "clerkId": "user_39aYqmqQ1uY5CzNiruBLHQXZWsB",
+  "teams": [
+    {
+      "$oid": "698e56d36312b8bda9e3113e"
+    }
+  ],
+  "plan": "free",
+  "createdAt": {
+    "$date": "2026-02-12T22:37:22.164Z"
+  },
+  "updatedAt": {
+    "$date": "2026-02-12T22:40:19.577Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69935aea27f7f48456a90481"
+  },
+  "email": "davidjustu@gmail.com",
+  "clerkId": "user_39lJVDQPuwd4AZcBFk8pJOamDr9",
+  "teams": [
+    {
+      "$oid": "69935b3f27f7f48456a90487"
+    }
+  ],
+  "plan": "free",
+  "createdAt": {
+    "$date": "2026-02-16T17:59:06.956Z"
+  },
+  "updatedAt": {
+    "$date": "2026-02-16T18:00:32.119Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6995042c5951e7e9d673c39e"
+  },
+  "email": "kasper.kbp@gmail.com",
+  "clerkId": "user_39os9yMPWn2hVerSaXzIXfnHBQB",
+  "teams": [
+    {
+      "$oid": "6995f767ac161034e14d028f"
+    }
+  ],
+  "plan": "free",
+  "createdAt": {
+    "$date": "2026-02-18T00:13:32.600Z"
+  },
+  "updatedAt": {
+    "$date": "2026-02-18T17:31:20.213Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6996495c48f830ec5b7a9480"
+  },
+  "email": "kasper.buus@hotmail.com",
+  "teams": [],
+  "plan": "tryhard",
+  "createdAt": {
+    "$date": "2026-02-18T23:21:00.358Z"
+  },
+  "updatedAt": {
+    "$date": "2026-02-18T23:21:00.674Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "699d7f86f228b6c58c5b6b25"
+  },
+  "email": "prokaisa881@gmail.com",
+  "clerkId": "user_3A72q8sTzSfheTdqcdw10daFiEe",
+  "teams": [
+    {
+      "$oid": "699d8032f228b6c58c5b6b2b"
+    }
+  ],
+  "plan": "free",
+  "createdAt": {
+    "$date": "2026-02-24T10:37:58.646Z"
+  },
+  "updatedAt": {
+    "$date": "2026-02-24T10:40:50.745Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "699e0d357840058713ff8f25"
+  },
+  "email": "lefalwe@gmail.com",
+  "clerkId": "user_3A8EMNBjx1Av9Y4QCBZtgQ1WCY7",
+  "teams": [
+    {
+      "$oid": "699e0da77840058713ff8f2c"
+    }
+  ],
+  "plan": "tryhard",
+  "createdAt": {
+    "$date": "2026-02-24T20:42:29.373Z"
+  },
+  "updatedAt": {
+    "$date": "2026-02-24T20:44:23.461Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69ab837f697844eded6590f1"
+  },
+  "email": "eusuntunguru@gmail.com",
+  "clerkId": "user_3Ab4aNUAPY4cfJwnMpE7tj8HSDj",
+  "teams": [],
+  "plan": "free",
+  "createdAt": {
+    "$date": "2026-03-07T01:46:39.511Z"
+  },
+  "updatedAt": {
+    "$date": "2026-03-07T01:46:39.511Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69aded61b3438780e7ee2ebe"
+  },
+  "email": "oscarlemasle@gmail.com",
+  "clerkId": "user_3AgFByHkMsysgiRIge7crVaY0kX",
+  "teams": [
+    {
+      "$oid": "69adef3aed9148e063007179"
+    }
+  ],
+  "plan": "tryhard",
+  "createdAt": {
+    "$date": "2026-03-08T21:42:57.636Z"
+  },
+  "updatedAt": {
+    "$date": "2026-03-08T21:50:50.846Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69b04a328c5df42b515edf24"
+  },
+  "email": "jct_013@hotmail.com",
+  "clerkId": "user_3AlJ1KG9wwlbhWlDpI2TyaeumHj",
+  "teams": [
+    {
+      "$oid": "69b04a8d8c5df42b515edf29"
+    }
+  ],
+  "plan": "free",
+  "createdAt": {
+    "$date": "2026-03-10T16:43:30.745Z"
+  },
+  "updatedAt": {
+    "$date": "2026-03-10T16:45:02.339Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69b06a371fe3be5996105995"
+  },
+  "email": "reyeoun@gmail.com",
+  "clerkId": "user_3AlZdUrg7HgMtr27ZBQ61OTESJ2",
+  "teams": [
+    {
+      "$oid": "69b06a9908c6098490b8021d"
+    }
+  ],
+  "plan": "free",
+  "createdAt": {
+    "$date": "2026-03-10T19:00:10.535Z"
+  },
+  "updatedAt": {
+    "$date": "2026-03-10T19:01:46.140Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69b1008087056f1e23f1825c"
+  },
+  "email": "cunedenis27@gmail.com",
+  "clerkId": "user_3AmpcKAWA9gSy7Rzl62XICHhdU2",
+  "teams": [],
+  "plan": "free",
+  "createdAt": {
+    "$date": "2026-03-11T05:41:20.698Z"
+  },
+  "updatedAt": {
+    "$date": "2026-03-11T05:41:20.698Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69b7c67cba65bf453596ff24"
+  },
+  "email": "samsung.avbi@gmail.com",
+  "clerkId": "user_3B1LMEk4MVOqsZeg7zB5XTrua33",
+  "teams": [
+    {
+      "$oid": "69b7c6fcba65bf453596ff2a"
+    }
+  ],
+  "plan": "free",
+  "createdAt": {
+    "$date": "2026-03-16T08:59:41.040Z"
+  },
+  "updatedAt": {
+    "$date": "2026-03-16T09:01:49.289Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69b907e17b24d372bf4d6758"
+  },
+  "email": "owman2313@gmail.com",
+  "clerkId": "user_3B427oWVMajEgTunqzMZMaQbZf0",
+  "teams": [],
+  "plan": "free",
+  "createdAt": {
+    "$date": "2026-03-17T07:50:57.557Z"
+  },
+  "updatedAt": {
+    "$date": "2026-03-17T07:50:57.557Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69c009bbe075500811571a71"
+  },
+  "email": "folkearvidsson02@gmail.com",
+  "clerkId": "user_3BJ2vWHeIBlKJ4BGZKtaCYQTIVo",
+  "teams": [],
+  "plan": "free",
+  "createdAt": {
+    "$date": "2026-03-22T15:24:43.972Z"
+  },
+  "updatedAt": {
+    "$date": "2026-03-22T15:24:43.972Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69c160f8833e8725db75f046"
+  },
+  "email": "chaospww@gmail.com",
+  "clerkId": "user_3BLv1krpK8pc6zbGSbojjawVLF2",
+  "teams": [],
+  "plan": "free",
+  "createdAt": {
+    "$date": "2026-03-23T15:49:12.763Z"
+  },
+  "updatedAt": {
+    "$date": "2026-03-23T15:49:12.763Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69c1c4bf180bc524fcfacbdb"
+  },
+  "email": "altuntasy83@gmail.com",
+  "clerkId": "user_3BMknP1RZ5ZA4n9nMdbLVmoxIJ8",
+  "teams": [],
+  "plan": "free",
+  "createdAt": {
+    "$date": "2026-03-23T22:54:55.912Z"
+  },
+  "updatedAt": {
+    "$date": "2026-03-23T22:54:55.912Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69c2ac5cf23f7de8b2b9f726"
+  },
+  "email": "llermitoxd2005@gmail.com",
+  "clerkId": "user_3BOgyWWPvQumuttc7FNHAr3o06D",
+  "teams": [],
+  "plan": "free",
+  "createdAt": {
+    "$date": "2026-03-24T15:23:08.633Z"
+  },
+  "updatedAt": {
+    "$date": "2026-03-24T15:23:08.633Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69c738bf2c8366fbe7607b1d"
+  },
+  "email": "fyhehe42@gmail.com",
+  "clerkId": "user_3BYR9o68w6IgClXnexBr05cjKbZ",
+  "teams": [],
+  "plan": "free",
+  "createdAt": {
+    "$date": "2026-03-28T02:11:11.683Z"
+  },
+  "updatedAt": {
+    "$date": "2026-03-28T02:11:11.683Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69c7d0a115d06824d47d6a64"
+  },
+  "email": "rizy2001@gmail.com",
+  "clerkId": "user_3BZhxulhKpfJn5YGQZ8d7Cyuuye",
+  "teams": [
+    {
+      "$oid": "69c7d13a15d06824d47d6a69"
+    }
+  ],
+  "plan": "free",
+  "createdAt": {
+    "$date": "2026-03-28T12:59:14.160Z"
+  },
+  "updatedAt": {
+    "$date": "2026-03-28T13:01:46.532Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69ca2ebd2cc7df5b5e215bae"
+  },
+  "email": "bnejamin.franklin@gmail.com",
+  "clerkId": "user_3BemTIddTiE0tMGksdmLQL40FQR",
+  "teams": [
+    {
+      "$oid": "69ca2f2d2cc7df5b5e215bb4"
+    }
+  ],
+  "plan": "free",
+  "createdAt": {
+    "$date": "2026-03-30T08:05:18.159Z"
+  },
+  "updatedAt": {
+    "$date": "2026-03-30T08:07:09.646Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69cc00c94be27d8cd544a00b"
+  },
+  "email": "abelnightroad37@hotmail.com",
+  "clerkId": "user_3BigIQcoAVbs6qNRixyuSk0ktpW",
+  "teams": [],
+  "plan": "free",
+  "createdAt": {
+    "$date": "2026-03-31T17:13:46.043Z"
+  },
+  "updatedAt": {
+    "$date": "2026-03-31T17:13:46.043Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69d0362a6e2b5b9e063bd58a"
+  },
+  "email": "cankarakoyun91@gmail.com",
+  "clerkId": "user_3BrhKo3J4QvMwQZID3ut0gJNjMl",
+  "teams": [
+    {
+      "$oid": "69d036966e2b5b9e063bd590"
+    }
+  ],
+  "plan": "free",
+  "createdAt": {
+    "$date": "2026-04-03T21:50:35.072Z"
+  },
+  "updatedAt": {
+    "$date": "2026-04-03T21:52:22.352Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69dab35f8b079d274a49462d"
+  },
+  "email": "silvinhetero@gmail.com",
+  "clerkId": "user_3CEAe2KDFAIOgJklNhyMMOM7dEM",
+  "teams": [],
+  "plan": "free",
+  "createdAt": {
+    "$date": "2026-04-11T20:47:27.648Z"
+  },
+  "updatedAt": {
+    "$date": "2026-04-11T20:47:27.648Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69dfe7f5ef8af4f2709a47da"
+  },
+  "email": "kilyanterrien.pro@gmail.com",
+  "clerkId": "user_3CPK633QXJj97UTBS7OIAE6WOG4",
+  "teams": [],
+  "plan": "free",
+  "createdAt": {
+    "$date": "2026-04-15T19:33:09.907Z"
+  },
+  "updatedAt": {
+    "$date": "2026-04-15T19:33:09.907Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69e38438243dc34de6afd932"
+  },
+  "email": "chirz112@gmail.com",
+  "clerkId": "user_3CX3gDCwHUAFPU8EZB1Lk13TqCx",
+  "teams": [
+    {
+      "$oid": "69e3849831760b0efb8a17bb"
+    }
+  ],
+  "plan": "free",
+  "createdAt": {
+    "$date": "2026-04-18T13:16:40.450Z"
+  },
+  "updatedAt": {
+    "$date": "2026-04-18T13:18:16.350Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69ebad68be6c0117182c9abb"
+  },
+  "email": "skander.guissi@outlook.fr",
+  "clerkId": "user_3CoXjPHoEEOV69OWkxv80SCObpa",
+  "teams": [],
+  "plan": "free",
+  "mateProfile": null,
+  "createdAt": {
+    "$date": "2026-04-24T17:50:32.384Z"
+  },
+  "updatedAt": {
+    "$date": "2026-04-24T17:50:32.384Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69ede934137a0322474d3f1e"
+  },
+  "email": "tobias.h.h.kramer@gmail.com",
+  "clerkId": "user_3CtKQVM57pgWDP7wizE6QAZa73T",
+  "teams": [],
+  "plan": "free",
+  "mateProfile": null,
+  "createdAt": {
+    "$date": "2026-04-26T10:30:12.280Z"
+  },
+  "updatedAt": {
+    "$date": "2026-04-26T10:30:12.280Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69f0958066df28f985cc2913"
+  },
+  "email": "brice.eliasse+1@gmail.com",
+  "clerkId": "user_3Cz3V9HRQSRRJCpNUGvRqJvyaFa",
+  "teams": [],
+  "desktopDefaultTeamId": null,
+  "plan": "free",
+  "mateProfile": null,
+  "createdAt": {
+    "$date": "2026-04-28T11:09:52.844Z"
+  },
+  "updatedAt": {
+    "$date": "2026-04-28T11:09:52.844Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69f0972566df28f985cc2926"
+  },
+  "email": "brice.eliasse+2@gmail.com",
+  "clerkId": "user_3CyzfBIozttXLNLh1l8bdDKEaWS",
+  "teams": [],
+  "desktopDefaultTeamId": null,
+  "plan": "free",
+  "mateProfile": null,
+  "createdAt": {
+    "$date": "2026-04-28T11:16:53.014Z"
+  },
+  "updatedAt": {
+    "$date": "2026-04-28T11:16:53.014Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69f0989566df28f985cc292a"
+  },
+  "email": "talroma666@gmail.com",
+  "clerkId": "user_3CwvAsyKY4YDbYOqOx4MhBwspSL",
+  "teams": [
+    {
+      "$oid": "69f0a32635565ab665d13029"
+    }
+  ],
+  "desktopDefaultTeamId": null,
+  "plan": "free",
+  "mateProfile": null,
+  "createdAt": {
+    "$date": "2026-04-28T11:23:01.456Z"
+  },
+  "updatedAt": {
+    "$date": "2026-04-28T12:08:07.052Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69f0d743715a79dddfa85ee6"
+  },
+  "email": "hakio@erisia.com",
+  "clerkId": "user_3CydxjPir8X1T7kydBQsMYQ7ITh",
+  "teams": [],
+  "desktopDefaultTeamId": null,
+  "plan": "free",
+  "mateProfile": null,
+  "createdAt": {
+    "$date": "2026-04-28T15:50:27.804Z"
+  },
+  "updatedAt": {
+    "$date": "2026-04-28T15:50:27.804Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69f10f1070c1222a36efa3a4"
+  },
+  "email": "wallorab@gmail.com",
+  "clerkId": "user_3D04ZhQXJyRQChqwI7RSf2RZzHa",
+  "teams": [],
+  "desktopDefaultTeamId": null,
+  "plan": "free",
+  "mateProfile": null,
+  "createdAt": {
+    "$date": "2026-04-28T19:48:32.095Z"
+  },
+  "updatedAt": {
+    "$date": "2026-04-28T19:48:32.095Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69f2164da9d2d2ec5342be39"
+  },
+  "email": "anthony.mekediche95@hotmail.fr",
+  "clerkId": "user_3D2HAMxZHRwm4lq0wNfbBrHpjuE",
+  "teams": [],
+  "desktopDefaultTeamId": null,
+  "plan": "free",
+  "mateProfile": null,
+  "createdAt": {
+    "$date": "2026-04-29T14:31:41.665Z"
+  },
+  "updatedAt": {
+    "$date": "2026-04-29T14:31:41.665Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69f222eb0156cc6316c6347f"
+  },
+  "email": "brice.eliasse+67@gmail.com",
+  "clerkId": "user_3D2NiIe5JXogx42NzvCwoPKA5UJ",
+  "teams": [],
+  "desktopDefaultTeamId": null,
+  "plan": "free",
+  "mateProfile": null,
+  "createdAt": {
+    "$date": "2026-04-29T15:25:31.681Z"
+  },
+  "updatedAt": {
+    "$date": "2026-04-29T15:25:31.681Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69f52fe9a181b031a5f893f2"
+  },
+  "email": "danielcrespoochoteco@gmail.com",
+  "clerkId": "user_3D8uxWBJUqYpaJmDYVGl71mvF3B",
+  "teams": [],
+  "desktopDefaultTeamId": null,
+  "plan": "free",
+  "mateProfile": null,
+  "createdAt": {
+    "$date": "2026-05-01T22:57:45.207Z"
+  },
+  "updatedAt": {
+    "$date": "2026-05-01T22:57:45.207Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69fe197a3884a7d782126447"
+  },
+  "email": "brice.eliasse+44@gmail.com",
+  "clerkId": "user_3DS0pOrOmscsvpvaCGPntmCc7qT",
+  "teams": [
+    {
+      "$oid": "69fe048328a416a1096c1641"
+    }
+  ],
+  "desktopDefaultTeamId": null,
+  "plan": "free",
+  "mateProfile": null,
+  "createdAt": {
+    "$date": "2026-05-08T17:12:26.701Z"
+  },
+  "updatedAt": {
+    "$date": "2026-05-08T17:16:17.842Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a007ddd32f0bbb74c6267e6"
+  },
+  "email": "lulu.brousse0405@gmail.com",
+  "clerkId": "user_3DX8a5CsIAqexBF3oFNGGQSvD31",
+  "teams": [],
+  "desktopDefaultTeamId": null,
+  "plan": "free",
+  "mateProfile": null,
+  "createdAt": {
+    "$date": "2026-05-10T12:45:17.015Z"
+  },
+  "updatedAt": {
+    "$date": "2026-05-10T12:45:17.015Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a064329963e9e6a705972b9"
+  },
+  "email": "fwdts8@gmail.com",
+  "clerkId": "user_3DjV8FtuZtVvlSUPkoSFkFGFUbj",
+  "teams": [],
+  "desktopDefaultTeamId": null,
+  "plan": "free",
+  "mateProfile": null,
+  "createdAt": {
+    "$date": "2026-05-14T21:48:25.932Z"
+  },
+  "updatedAt": {
+    "$date": "2026-05-14T21:48:25.932Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a07472b3d3ce14d107efb2a"
+  },
+  "email": "electrozap59@gmail.com",
+  "clerkId": "user_3Dlg2e00KDwubwA4ALD5iixxn0R",
+  "teams": [],
+  "desktopDefaultTeamId": null,
+  "plan": "free",
+  "mateProfile": null,
+  "createdAt": {
+    "$date": "2026-05-15T16:17:47.952Z"
+  },
+  "updatedAt": {
+    "$date": "2026-05-15T16:17:47.952Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a07ae4281f59c58e1859a1b"
+  },
+  "email": "x.mcmillon@gmail.com",
+  "clerkId": "user_3DmXXPbPy5gIA9ESAQlOafk1vbB",
+  "teams": [],
+  "desktopDefaultTeamId": null,
+  "plan": "free",
+  "mateProfile": null,
+  "createdAt": {
+    "$date": "2026-05-15T23:37:38.989Z"
+  },
+  "updatedAt": {
+    "$date": "2026-05-15T23:37:38.989Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a085a1c3a045ea56cba4c9d"
+  },
+  "email": "vigodo360@gmail.com",
+  "clerkId": "user_3Dnyhy00QtVJGiHzAcLa62QMHcN",
+  "teams": [],
+  "desktopDefaultTeamId": null,
+  "plan": "free",
+  "mateProfile": null,
+  "createdAt": {
+    "$date": "2026-05-16T11:50:52.774Z"
+  },
+  "updatedAt": {
+    "$date": "2026-05-16T11:50:52.774Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a08840bf79e0e5f791dd4e4"
+  },
+  "email": "dmwbusy2@gmail.com",
+  "clerkId": "user_3DoKT3BfZ9VzxvY6aFEdmvt4PSn",
+  "teams": [],
+  "desktopDefaultTeamId": null,
+  "plan": "free",
+  "mateProfile": null,
+  "createdAt": {
+    "$date": "2026-05-16T14:49:47.978Z"
+  },
+  "updatedAt": {
+    "$date": "2026-05-16T14:49:47.978Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a0c3d3ca992215c66ff4b27"
+  },
+  "email": "lemonmonster775@gmail.com",
+  "clerkId": "user_3DwJ3sbuTgFYM49S40q8LYexrMY",
+  "teams": [],
+  "desktopDefaultTeamId": null,
+  "plan": "free",
+  "mateProfile": null,
+  "createdAt": {
+    "$date": "2026-05-19T10:36:44.121Z"
+  },
+  "updatedAt": {
+    "$date": "2026-05-19T10:36:44.121Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a0da37d4d0acc4d1d3bc9ab"
+  },
+  "email": "echauffement67@outlook.fr",
+  "clerkId": "user_3DzIxA4DJAmiEp63pDEmrMIVs5A",
+  "teams": [],
+  "desktopDefaultTeamId": null,
+  "plan": "free",
+  "mateProfile": null,
+  "createdAt": {
+    "$date": "2026-05-20T12:05:17.895Z"
+  },
+  "updatedAt": {
+    "$date": "2026-05-20T12:05:17.895Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a0e2dc4f57915102ad703c0"
+  },
+  "email": "stripe@example.com",
+  "teams": [],
+  "stripeCancelAtPeriodEnd": false,
+  "stripeBillingInterval": null,
+  "desktopDefaultTeamId": null,
+  "plan": "tryhard",
+  "mateProfile": null,
+  "createdAt": {
+    "$date": "2026-05-20T21:55:16.012Z"
+  },
+  "updatedAt": {
+    "$date": "2026-05-20T21:55:16.047Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a0e305a8eb35c81d2571edf"
+  },
+  "email": "brice.eliasse+421@gmail.com",
+  "clerkId": "user_3E0TUzO8X62Ed6BfUWYljEvQkfE",
+  "teams": [],
+  "stripeCancelAtPeriodEnd": false,
+  "stripeBillingInterval": null,
+  "desktopDefaultTeamId": null,
+  "plan": "free",
+  "mateProfile": null,
+  "createdAt": {
+    "$date": "2026-05-20T22:06:18.555Z"
+  },
+  "updatedAt": {
+    "$date": "2026-05-20T22:06:18.555Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a0ef3cb7571d083da0899dd"
+  },
+  "email": "stormbreaker684@gmail.com",
+  "clerkId": "user_3E27SU63BHSpOUbrV8imqz9hmc0",
+  "teams": [
+    {
+      "$oid": "6a0ef2d68e22608fa2a7a827"
+    }
+  ],
+  "stripeCancelAtPeriodEnd": false,
+  "stripeBillingInterval": null,
+  "desktopDefaultTeamId": null,
+  "plan": "free",
+  "mateProfile": null,
+  "createdAt": {
+    "$date": "2026-05-21T12:00:11.272Z"
+  },
+  "updatedAt": {
+    "$date": "2026-05-21T12:00:27.012Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a0f5c912df2544c6ce735e4"
+  },
+  "email": "brice.eliasse+231@gmail.com",
+  "clerkId": "user_3E2zpFQgr9dRBfMBv3VpSCQ2FOb",
+  "teams": [
+    {
+      "$oid": "6a0f6cebfbc1df23715db6a5"
+    }
+  ],
+  "stripeCancelAtPeriodEnd": false,
+  "stripeBillingInterval": null,
+  "desktopDefaultTeamId": null,
+  "plan": "free",
+  "mateProfile": null,
+  "createdAt": {
+    "$date": "2026-05-21T19:27:13.863Z"
+  },
+  "updatedAt": {
+    "$date": "2026-05-21T20:36:59.400Z"
+  },
+  "__v": 0
+}]

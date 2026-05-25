@@ -60,7 +60,7 @@ export const getProjects = (tProjects = null) => [
     ],
   },
   {
-    name: "Lol-Tracker",
+    name: "LoL Tracker",
     categories: ["Web Development", "Gaming", "API"],
     featured_image: "/projects/lol-tracker.png",
     ...(tProjects && {
@@ -73,9 +73,50 @@ export const getProjects = (tProjects = null) => [
         br: (chunks) => <br />,
         a: (chunks) => <a href={chunks}>{chunks}</a>,
         em: (chunks) => <em>{chunks}</em>,
+        loltracker: (chunks) => (
+          <a
+            href="https://lol-tracker.com/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            {chunks}
+          </a>
+        ),
+        flextracker: (chunks) => (
+          <a
+            href="https://lol-tracker.com/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            {chunks}
+          </a>
+        ),
+        leaguetracker: (chunks) => (
+          <a
+            href="https://lol-tracker.com/league-of-legends-tracker"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            {chunks}
+          </a>
+        ),
+        flexqueuetracker: (chunks) => (
+          <a
+            href="https://lol-tracker.com/league-of-legends-tracker"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            {chunks}
+          </a>
+        ),
       }),
       description: tProjects("lolTrackerDesc"),
+      seoTitle: tProjects("lolTrackerSeoTitle"),
+      metaDescription: tProjects("lolTrackerMetaDescription"),
+      caseStudyHeading: tProjects("lolTrackerHeading"),
       mission: tProjects("lolTrackerMission"),
+      primaryCta: tProjects("lolTrackerPrimaryCta"),
+      secondaryCta: tProjects("lolTrackerSecondaryCta"),
       type: tProjects("sideProject"),
     }),
     tools: ["NextJS", "DaisyUI", "Clerk"],
@@ -83,10 +124,21 @@ export const getProjects = (tProjects = null) => [
     isFavorite: true,
     isSideProject: true,
 
-    link: "https://lol-tracker.com",
+    link: "https://lol-tracker.com/",
+    secondaryLink: "https://lol-tracker.com/league-of-legends-tracker",
     mockups: [
-      "https://about-lime.vercel.app/_next/image?url=%2Fassets%2Fprojects%2Fnekjeu.png&w=3840&q=75",
-      "https://about-lime.vercel.app/_next/image?url=%2Fassets%2Fprojects%2Fg2.png&w=3840&q=75",
+      {
+        src: "/projects/mockups/lol-tracker-landing.webp",
+        alt: "LoL Tracker landing page for League of Legends teams",
+      },
+      {
+        src: "/projects/mockups/lol-tracker-leaderboard.webp",
+        alt: "LoL Tracker Flex 5 teams leaderboard",
+      },
+      {
+        src: "/projects/mockups/lol-tracker-team-dashboard.webp",
+        alt: "LoL Tracker team dashboard with MVP Score charts",
+      },
     ],
   },
   {

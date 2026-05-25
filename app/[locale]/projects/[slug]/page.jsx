@@ -22,21 +22,46 @@ export async function generateMetadata({ params }) {
   }
 
   const baseUrl = "https://brice-eliasse.com";
-  const frUrl = `${baseUrl}/fr/projects/${slug}`;
-  const enUrl = `${baseUrl}/en/projects/${slug}`;
+  const frUrl = `${baseUrl}/fr/projects/${slug}/`;
+  const enUrl = `${baseUrl}/en/projects/${slug}/`;
+  const currentUrl = locale === "fr" ? frUrl : enUrl;
+  const title =
+    project.seoTitle ||
+    `${locale === "fr" ? "Projet" : "Project"} ${
+      project.name
+    } - Brice Eliasse`;
+  const description = project.metaDescription || project.description;
 
   return {
-    title: `${locale === "fr" ? "Projet" : "Project"} ${
-      project.name
-    } - Brice Eliasse`,
-    description: project.description,
+    title,
+    description,
     alternates: {
-      canonical: locale === "fr" ? frUrl : enUrl,
+      canonical: currentUrl,
       languages: {
         fr: frUrl,
         en: enUrl,
         "x-default": frUrl,
       },
+    },
+    openGraph: {
+      title,
+      description,
+      url: currentUrl,
+      type: "article",
+      images: [
+        {
+          url: `${baseUrl}/projects/featured/${slug}.webp`,
+          width: 1280,
+          height: 500,
+          alt: project.name,
+        },
+      ],
+    },
+    twitter: {
+      card: "summary_large_image",
+      title,
+      description,
+      images: [`${baseUrl}/projects/featured/${slug}.webp`],
     },
   };
 }
@@ -196,66 +221,34 @@ export default async function ProjectPage({ params }) {
         <div className="section md:mt-20 mt-10 grid grid-cols-12 gap-10">
           <div className="col-span-12 md:col-span-8">
             <h2 className="text-4xl font-medium sm:leading-none text-base-content ">
-              {tProjects("introWorkDone")} {project.name} ?
+              {project.caseStudyHeading ||
+                `${tProjects("introWorkDone")} ${project.name} ?`}
             </h2>
             <div className="text-base-content/80 mt-6 mb-10 prose max-w-none">
               {project.workDone}
             </div>
-            <div className="carousel rounded-box md:hidden">
-              <div className="carousel-item">
-                <img
-                  src="https://img.daisyui.com/images/stock/photo-1559703248-dcaaec9fab78.webp"
-                  alt="Burger"
-                />
+            {project.mockups?.length > 0 && (
+              <div className="grid grid-cols-1 md:grid-cols-2 gap-5 mt-6 md:pe-10">
+                {project.mockups.map((image, index) => {
+                  const mockupSrc =
+                    typeof image === "string" ? image : image.src;
+                  const mockupAlt =
+                    typeof image === "string"
+                      ? `${project.name} interface preview ${index + 1}`
+                      : image.alt;
+
+                  return (
+                    <img
+                      key={mockupSrc}
+                      src={mockupSrc}
+                      alt={mockupAlt}
+                      loading="lazy"
+                      className="rounded object-cover h-64 w-full"
+                    />
+                  );
+                })}
               </div>
-              <div className="carousel-item">
-                <img
-                  src="https://img.daisyui.com/images/stock/photo-1565098772267-60af42b81ef2.webp"
-                  alt="Burger"
-                />
-              </div>
-              <div className="carousel-item">
-                <img
-                  src="https://img.daisyui.com/images/stock/photo-1572635148818-ef6fd45eb394.webp"
-                  alt="Burger"
-                />
-              </div>
-              <div className="carousel-item">
-                <img
-                  src="https://img.daisyui.com/images/stock/photo-1494253109108-2e30c049369b.webp"
-                  alt="Burger"
-                />
-              </div>
-              <div className="carousel-item">
-                <img
-                  src="https://img.daisyui.com/images/stock/photo-1550258987-190a2d41a8ba.webp"
-                  alt="Burger"
-                />
-              </div>
-              <div className="carousel-item">
-                <img
-                  src="https://img.daisyui.com/images/stock/photo-1559181567-c3190ca9959b.webp"
-                  alt="Burger"
-                />
-              </div>
-              <div className="carousel-item">
-                <img
-                  src="https://img.daisyui.com/images/stock/photo-1601004890684-d8cbf643f5f2.webp"
-                  alt="Burger"
-                />
-              </div>
-            </div>
-            <div className="flex items-center gap-5 mt-6 pe-10 grid grid-cols-2 hidden md:grid">
-              {project.mockups.map((image) => (
-                <img
-                  key={image}
-                  src={image}
-                  alt="Mockup"
-                  loading="lazy"
-                  className="rounded object-cover h-64 w-full"
-                />
-              ))}
-            </div>
+            )}
           </div>
           <div className="bg-base-300 backdrop-blur-sm p-10 rounded-xl w-full h-fit col-span-12 md:col-span-4 sticky top-20 flex flex-col gap-10">
             <div>
@@ -298,32 +291,62 @@ export default async function ProjectPage({ params }) {
                   : tProjects("clientProject")}
               </p>
             </div>
-            <a
-              href={project.link}
-              target="_blank"
-              rel="noopener noreferrer"
-              className="btn btn-primary btn-sm btn-outline flex items-center gap-2"
-            >
-              {tProjects("seeWork")}
-              <svg
-                width="16"
-                height="16"
-                viewBox="0 0 24 24"
-                fill="none"
-                xmlns="http://www.w3.org/2000/svg"
+            <div className="flex flex-col gap-3">
+              <a
+                href={project.link}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="btn btn-primary btn-sm btn-outline flex items-center gap-2"
               >
-                <g id="Interface / External_Link">
-                  <path
-                    id="Vector"
-                    d="M10.0002 5H8.2002C7.08009 5 6.51962 5 6.0918 5.21799C5.71547 5.40973 5.40973 5.71547 5.21799 6.0918C5 6.51962 5 7.08009 5 8.2002V15.8002C5 16.9203 5 17.4801 5.21799 17.9079C5.40973 18.2842 5.71547 18.5905 6.0918 18.7822C6.5192 19 7.07899 19 8.19691 19H15.8031C16.921 19 17.48 19 17.9074 18.7822C18.2837 18.5905 18.5905 18.2839 18.7822 17.9076C19 17.4802 19 16.921 19 15.8031V14M20 9V4M20 4H15M20 4L13 11"
-                    stroke="currentColor"
-                    strokeWidth="2"
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                  />
-                </g>
-              </svg>
-            </a>
+                {project.primaryCta || tProjects("seeWork")}
+                <svg
+                  width="16"
+                  height="16"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <g id="Interface / External_Link">
+                    <path
+                      id="Vector"
+                      d="M10.0002 5H8.2002C7.08009 5 6.51962 5 6.0918 5.21799C5.71547 5.40973 5.40973 5.71547 5.21799 6.0918C5 6.51962 5 7.08009 5 8.2002V15.8002C5 16.9203 5 17.4801 5.21799 17.9079C5.40973 18.2842 5.71547 18.5905 6.0918 18.7822C6.5192 19 7.07899 19 8.19691 19H15.8031C16.921 19 17.48 19 17.9074 18.7822C18.2837 18.5905 18.5905 18.2839 18.7822 17.9076C19 17.4802 19 16.921 19 15.8031V14M20 9V4M20 4H15M20 4L13 11"
+                      stroke="currentColor"
+                      strokeWidth="2"
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                    />
+                  </g>
+                </svg>
+              </a>
+              {project.secondaryLink && project.secondaryCta && (
+                <a
+                  href={project.secondaryLink}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="btn btn-primary btn-sm btn-ghost flex items-center gap-2"
+                >
+                  {project.secondaryCta}
+                  <svg
+                    width="16"
+                    height="16"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <g id="Interface / External_Link">
+                      <path
+                        id="Vector"
+                        d="M10.0002 5H8.2002C7.08009 5 6.51962 5 6.0918 5.21799C5.71547 5.40973 5.40973 5.71547 5.21799 6.0918C5 6.51962 5 7.08009 5 8.2002V15.8002C5 16.9203 5 17.4801 5.21799 17.9079C5.40973 18.2842 5.71547 18.5905 6.0918 18.7822C6.5192 19 7.07899 19 8.19691 19H15.8031C16.921 19 17.48 19 17.9074 18.7822C18.2837 18.5905 18.5905 18.2839 18.7822 17.9076C19 17.4802 19 16.921 19 15.8031V14M20 9V4M20 4H15M20 4L13 11"
+                        stroke="currentColor"
+                        strokeWidth="2"
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
+                      />
+                    </g>
+                  </svg>
+                </a>
+              )}
+            </div>
           </div>
         </div>
         <CTABanner />

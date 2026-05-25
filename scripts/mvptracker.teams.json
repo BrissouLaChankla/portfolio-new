@@ -1,0 +1,4644 @@
+[{
+  "_id": {
+    "$oid": "66cb6a31ab32afaf61eff24d"
+  },
+  "name": "Les Coupains",
+  "slug": "les-coupains",
+  "admin": {
+    "$oid": "6707e1bed1e078369a5bdf6f"
+  },
+  "region": "europe",
+  "lastRefresh": {
+    "$date": "2026-05-22T03:38:39.091Z"
+  },
+  "puuids": [
+    "Z3X6765gTkFFv6114HGF8YFtGUnGcN1NLK2KjPOwhASJ6A1TbMyF5-C23jhtt_c6mXFw6dYQQcthHw",
+    "p0hzFgkoSeN4ccmh2qos7JXBMUuRRN-ZMoSDnH8s8GSagK2RLWNvWetoo1E8Toe5BI8_TehQQTtTVw",
+    "K40x0s-w7LdtyNg5x2XEacoQDHTwLXk9WiB9G_QlJS7qP2Wmr6XWAOZ9JuJ8VrDBbLh4NWSIuHMqcg",
+    "AdJXRtf1VXskYqSj4KyD9eWBwpqdycNVxNg42eLAjwgS1kOuGcefcJhDuMEn3Klet49pfZWZJnI1Wg",
+    "3RFrrCplVslzRQbuWfXsLU6M0lQpm0QU-62Olze3EnzJnpP_XLPDn8Stykbe1jx8pPOEGpTNyeX9pQ"
+  ],
+  "createdAt": {
+    "$date": "2024-08-25T17:30:25.087Z"
+  },
+  "updatedAt": {
+    "$date": "2026-05-22T11:48:02.485Z"
+  },
+  "__v": 0,
+  "losses": 0,
+  "victories": 0,
+  "avgFlexLp": 2066,
+  "avgFlexRankLabel": "Emerald IV",
+  "avgFlexTier": "EMERALD",
+  "aiAnalysis": "{\"version\":3,\"generatedAt\":\"2026-04-21T17:15:42.657Z\",\"gameCount\":6,\"model\":\"nvidia/nemotron-nano-9b-v2:free\",\"headline\":\"Les Coupains' vision control lags in losses, hurting consistency\",\"team_advice\":[{\"action\":\"Prioritize vision control in mid-game\",\"why\":\"Team vision per minute is 1.07 in wins vs 1.13 in losses, a 0.06 deficit that correlates with shorter game duration (28.8 vs 37.8 min)\"},{\"action\":\"Focus utility plays on Bepo6 and GUIBZER\",\"why\":\"Bepo6's Utility vs team is -156% and GUIBZER's is -36%, both critical for team cohesion\"},{\"action\":\"Maintain high damage output in wins\",\"why\":\"Team damage per minute is 3629 in wins vs 4536 in losses, a 22% gap that defines win conditions\"}],\"player_advice\":{\"Skαnder Guissi\":{\"action\":\"Improve vision control during mid-game\",\"why\":\"Vision per minute is 0.82 (vs team's 1.07 in wins), a 0.25 deficit that weakens map awareness\"},\"desorm\":{\"action\":\"Enhance utility contributions in team fights\",\"why\":\"Utility vs team is -24%, a key weakness given his high KDA (3.12) but low team impact\"},\"GUIBZER\":{\"action\":\"Increase vision presence in early game\",\"why\":\"Vision per minute is 0.89 (vs team's 1.07 in wins), a 0.18 gap that allows enemy control\"},\"Bepo6\":{\"action\":\"Prioritize utility plays over damage in team fights\",\"why\":\"Utility vs team is -156%, a extreme deficit that undermines his 22% damage share\"}}}",
+  "aiChatCount": 0,
+  "scoringSource": "flex5",
+  "leaderboardScore": 0.2898,
+  "leaderboardScoreUpdatedAt": {
+    "$date": "2026-05-22T11:48:02.485Z"
+  },
+  "isDemo": false
+},
+{
+  "_id": {
+    "$oid": "66dcc9447563d1d8a65ff4ed"
+  },
+  "name": "SLAY",
+  "slug": "slay",
+  "admin": {
+    "$oid": "66fc0d27133a46ccb8bf5959"
+  },
+  "region": "europe",
+  "lastRefresh": {
+    "$date": "2026-05-22T03:38:52.178Z"
+  },
+  "puuids": [
+    "98W4vfu8EtjltyJxPhBvNdtoapUV55ufesBQEWloaoq8RQfoYxRlQyWrWAOsWPfTAJ6ZAXhtZU4TjQ",
+    "EIK7MUdGCQ1ddy_MHOh786nJXoOvy21DeXR7ZA9sfCqPAQelhQOuZ1k3cOOXeksN3eY0ELuGcA2nfA",
+    "uYXwakDD8-fEKsBqq4cuqbOAW1FbEMKZPvPADmZvoaYuXGpZ5M5wToEWdCKwaxdARcsroMZTFj1jow",
+    "p46sBgA90xSgaDqd06jn8WidvQN90QGA6gK3t3luOxk5efZjEBV1-Z5tUa9HVn_pckZ3pmoGIDdBpA",
+    "qW-XLk_-TkbMLi-2fXc3OTVQwyOHFeSsWKoE2hde_2yEoNAi8k2Q_9MbdpQlSO2FofEPBVg3HyTlmA"
+  ],
+  "createdAt": {
+    "$date": "2024-09-07T21:44:36.421Z"
+  },
+  "updatedAt": {
+    "$date": "2026-05-22T11:48:02.485Z"
+  },
+  "__v": 0,
+  "losses": 0,
+  "victories": 0,
+  "avgFlexLp": 2126,
+  "avgFlexRankLabel": "Emerald III",
+  "avgFlexTier": "EMERALD",
+  "aiChatCount": 0,
+  "scoringSource": "flex5",
+  "leaderboardScore": 0.08682500000000001,
+  "leaderboardScoreUpdatedAt": {
+    "$date": "2026-05-22T11:48:02.485Z"
+  },
+  "isDemo": false
+},
+{
+  "_id": {
+    "$oid": "66f0103c5aff4937fc1a4b30"
+  },
+  "name": "Skand/Lia",
+  "slug": "skandlia",
+  "admin": {
+    "$oid": "66e9f078c85209360233c91f"
+  },
+  "region": "europe",
+  "lastRefresh": {
+    "$date": "2026-05-22T03:39:04.605Z"
+  },
+  "puuids": [
+    "p0hzFgkoSeN4ccmh2qos7JXBMUuRRN-ZMoSDnH8s8GSagK2RLWNvWetoo1E8Toe5BI8_TehQQTtTVw",
+    "AdJXRtf1VXskYqSj4KyD9eWBwpqdycNVxNg42eLAjwgS1kOuGcefcJhDuMEn3Klet49pfZWZJnI1Wg",
+    "3RFrrCplVslzRQbuWfXsLU6M0lQpm0QU-62Olze3EnzJnpP_XLPDn8Stykbe1jx8pPOEGpTNyeX9pQ",
+    "vS_AxX53gPJE2t235jI2OGXqT3zFVNS8uBQThuJhJ1wcBsE3zb3So0goKgM1JW7t6njZZ9NFgCqnog",
+    "K40x0s-w7LdtyNg5x2XEacoQDHTwLXk9WiB9G_QlJS7qP2Wmr6XWAOZ9JuJ8VrDBbLh4NWSIuHMqcg"
+  ],
+  "createdAt": {
+    "$date": "2024-09-22T12:40:28.463Z"
+  },
+  "updatedAt": {
+    "$date": "2026-05-22T11:48:02.485Z"
+  },
+  "__v": 0,
+  "losses": 0,
+  "victories": 0,
+  "avgFlexLp": 2063,
+  "avgFlexRankLabel": "Emerald IV",
+  "avgFlexTier": "EMERALD",
+  "aiChatCount": 0,
+  "scoringSource": "flex5",
+  "leaderboardScore": 0.1978,
+  "leaderboardScoreUpdatedAt": {
+    "$date": "2026-05-22T11:48:02.485Z"
+  },
+  "isDemo": false
+},
+{
+  "_id": {
+    "$oid": "66fc111bf273a517d79178e0"
+  },
+  "name": "LES NULS",
+  "slug": "les-nuls",
+  "logo": "32",
+  "admin": {
+    "$oid": "66fc108ef273a517d79178ce"
+  },
+  "region": "europe",
+  "lastRefresh": {
+    "$date": "2026-05-22T03:39:17.287Z"
+  },
+  "puuids": [
+    "ODt7HN1rzKv1U708X2Ng74DYZgJCAQfnoxjlr6OOmxUfJnDSomYwV3JV-BozDZ9QKBWlYojETR_Cug",
+    "0xd-4ZpZDsef_Hxg34HBzxvFKOqeZfWBU97jgrsbhq7tH_b-j4N0oWHCVdSswLkeHUPVCvOQehYA8w",
+    "kyJajhX2AsrRV7IzTQSR8E-SKqONHbGviIM2mqc-dJyLd4pgj0Geo7w2DflSBCWmDt3r9EQNLpCfAA",
+    "Iz64BmVUrfEYhTxA91bvxekwDG1UmdV6-7cco6We6SCdierphlBmMWmFm0BviGzJFNqPiuXhKOnDkw",
+    "K40x0s-w7LdtyNg5x2XEacoQDHTwLXk9WiB9G_QlJS7qP2Wmr6XWAOZ9JuJ8VrDBbLh4NWSIuHMqcg"
+  ],
+  "createdAt": {
+    "$date": "2024-10-01T15:11:23.491Z"
+  },
+  "updatedAt": {
+    "$date": "2026-05-22T03:39:17.288Z"
+  },
+  "__v": 0,
+  "nbOfGames": 0,
+  "losses": 0,
+  "victories": 0,
+  "avgFlexLp": 2362,
+  "avgFlexRankLabel": "Emerald I",
+  "avgFlexTier": "EMERALD",
+  "aiChatCount": 0,
+  "scoringSource": "flex5",
+  "isDemo": false
+},
+{
+  "_id": {
+    "$oid": "66fd6eab0ce485a2a62b43ff"
+  },
+  "name": "CRUSADER",
+  "slug": "crusader",
+  "logo": "1",
+  "admin": {
+    "$oid": "66fd6e480ce485a2a62b43fa"
+  },
+  "region": "americas",
+  "lastRefresh": {
+    "$date": "2026-05-22T03:39:23.647Z"
+  },
+  "puuids": [
+    "J4Q5PrirPdjZ67AnklnFE-OcNjc9P3ckDw0uhlaRE_bnbG7R1zzNHAaBAB3uK0BYCs5PHNcHWZnBcw",
+    "uHcRkMtNYLg1jUggCR2HbBB_61NZS01aRDEn__z3luAE7kFPWNIcQraLLFlrQV9WSoEOyZaXOTMukA",
+    "AIvNL6rly0hXYw1GIMLzF-1nCQs8choXVlFNc2yU01_0hAf2O84A3E3MA-BqYXyfCocq8f9NRsynng",
+    "kBj97tOuQnwDy3V8tsbF7keCsvGVBlZMGkrHnzEtPt9VxP_N3IWCGGcikz1LQM2aWeiW6N_8d8fsWg",
+    "LhHKrkRDzafpv2J_ghCm6fyhBTE7dSgJ4FCkCZwvgytS9TVxuHilwboIQw_C8zbxTAhtlhCQxcZkuQ"
+  ],
+  "createdAt": {
+    "$date": "2024-10-02T16:02:51.562Z"
+  },
+  "updatedAt": {
+    "$date": "2026-05-22T03:39:23.648Z"
+  },
+  "__v": 0,
+  "nbOfGames": 0,
+  "losses": 0,
+  "victories": 0,
+  "avgFlexLp": 2480,
+  "avgFlexRankLabel": "Diamond IV",
+  "avgFlexTier": "DIAMOND",
+  "aiChatCount": 0,
+  "scoringSource": "flex5",
+  "isDemo": false
+},
+{
+  "_id": {
+    "$oid": "66fd6fe5640d5377e3bb7ad7"
+  },
+  "name": "Da girlies",
+  "slug": "da-girlies",
+  "logo": "1",
+  "admin": {
+    "$oid": "66fd6f5f49ec7355ff6147e1"
+  },
+  "region": "americas",
+  "lastRefresh": {
+    "$date": "2026-05-22T03:39:37.599Z"
+  },
+  "puuids": [
+    "7hzWR9xyws5ZBZPflyRqv0EeuX61YvsyDWWMixzjuK66k3Pcwocf8gJy-XbQt7R_xftfkuVQgrJGEQ",
+    "Bd0svPIZBoeXeJ6HTBdMF9TnqMUqsWc3Q4pVQBclCxRnwzUrY9WSAaGwv2AeqNzLGwdIJg4W9G4kyQ",
+    "PKExXmqlmYo7KWvVosnqsjU6NDNph2D3QUi0xdlWjZCfSLARl7TOCHV5OWHD7oIUZO59GE0EX4n0jg",
+    "u6K0Dv4dZTPtVcZdcGcjgjZuYajIXRtMV13wCD0asco7noCoB3O6kBkjPPBCLP6yzkzGkiaB0Ift4g",
+    "HcUQnREYIccxOzF062d_BQrVhi-jJSHwEwLbSCUGUvQFth00svQyNE3SsQv_S2cfpEpVm0WrLl39Pg"
+  ],
+  "createdAt": {
+    "$date": "2024-10-02T16:08:05.242Z"
+  },
+  "updatedAt": {
+    "$date": "2026-05-22T03:39:37.599Z"
+  },
+  "__v": 0,
+  "nbOfGames": 0,
+  "losses": 36,
+  "victories": 0,
+  "avgFlexLp": 2287,
+  "avgFlexRankLabel": "Emerald II",
+  "avgFlexTier": "EMERALD",
+  "aiChatCount": 0,
+  "scoringSource": "flex5",
+  "isDemo": false,
+  "leaderboardScore": 0,
+  "leaderboardScoreUpdatedAt": {
+    "$date": "2026-05-17T02:47:13.046Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "66fd778d3bfdab6210a4bd1d"
+  },
+  "name": "lads",
+  "slug": "lads",
+  "logo": "32",
+  "admin": {
+    "$oid": "66fd770d3bfdab6210a4bd18"
+  },
+  "region": "americas",
+  "lastRefresh": {
+    "$date": "2026-05-22T03:39:38.772Z"
+  },
+  "puuids": [
+    "FjVxVu9Uy7WQAoCr4oNnE1qhyxkiaWGl-OIwIeIbbnbM6vvShOVT5CM3R6P8HBVx_BBaGFcFqh9V2w",
+    "UcAo8XLE-Tiqz6k3V_VrluvZjnt6N2lpkDoNjIIQt9lHH5USc-Au0tAt0HWsri7VDBkX4Dfa6-b5aw",
+    "tAVTzoxTxCcnhC0z5kcKCO-lNHg0xpcsiVQsI5aWqOllz4b-UrSE0oh_8dZtjwDsT3B-4mg_PHAwOg",
+    "GOjEJaf6CThUlO_w_yXqbrBKB3CzqDqLWIw2WPgIDQRVCzYK4jQUvnex9ioQlVx5Mh3Z7msCUeCE5g",
+    "w1920i56dcG33EoDeFlEgt2-7Tge3m5m26pLB8ndbwQQ8sj1toANh1QXRQro1wyzgj6vxeKcfxh1eA"
+  ],
+  "createdAt": {
+    "$date": "2024-10-02T16:40:45.371Z"
+  },
+  "updatedAt": {
+    "$date": "2026-05-22T03:39:38.773Z"
+  },
+  "__v": 0,
+  "nbOfGames": 0,
+  "losses": 0,
+  "victories": 0,
+  "aiChatCount": 0,
+  "scoringSource": "flex5",
+  "isDemo": false
+},
+{
+  "_id": {
+    "$oid": "66fd7f1cdbe7b547075a2856"
+  },
+  "name": "Insert",
+  "slug": "insert",
+  "logo": "32",
+  "admin": {
+    "$oid": "66fd75bb3bfdab6210a4bd0a"
+  },
+  "region": "americas",
+  "lastRefresh": {
+    "$date": "2026-05-22T03:39:51.563Z"
+  },
+  "puuids": [
+    "U3_ciINS8R57RU63Eoyn-UdkFeg-50m-Gqpgqn3yKfpEfxJYEQNQqxzPSbc_o2xyj9gDM7aUD46Khg",
+    "wl_IfOjIMatDt4NkfgoCQyyeMQu-X9VLEt3MWJIwekLlIGcACBGddLvZt7pbiSJV0P1P6YKVANlfDQ",
+    "FEUY9evckFyete6cNWhUrau7pTzHpVCfrOZ_ptmG_BsLN3O9Ss_TzCiESt1_xIhKxj0xeje0Tzy8-A",
+    "YcHwKt4GcGM6W2F-teayasuAhIFbcwZS0CNC2JX6dllDXSjFYt0BomL0FuUM3K-QB2M5zfPUg4LjeA",
+    "KBdKXKuIQi3PrHYzvgnOBOvb0DTulhtf-iDyo77csGxA-aURmS47uDDlNTiqT4q2Fu_BjBxIOwwCAQ"
+  ],
+  "createdAt": {
+    "$date": "2024-10-02T17:13:00.779Z"
+  },
+  "updatedAt": {
+    "$date": "2026-05-22T03:39:51.564Z"
+  },
+  "__v": 0,
+  "nbOfGames": 0,
+  "losses": 0,
+  "victories": 0,
+  "avgFlexLp": 2024,
+  "avgFlexRankLabel": "Emerald IV",
+  "avgFlexTier": "EMERALD",
+  "aiChatCount": 0,
+  "scoringSource": "flex5",
+  "isDemo": false
+},
+{
+  "_id": {
+    "$oid": "66fd8f9ca6d1bc6c37e60c9f"
+  },
+  "name": "zizi esport",
+  "slug": "zizi-esport",
+  "logo": "6",
+  "admin": {
+    "$oid": "66fd89293fb24d94ba66afaf"
+  },
+  "region": "europe",
+  "lastRefresh": {
+    "$date": "2026-05-22T03:40:04.393Z"
+  },
+  "puuids": [
+    "3RFrrCplVslzRQbuWfXsLU6M0lQpm0QU-62Olze3EnzJnpP_XLPDn8Stykbe1jx8pPOEGpTNyeX9pQ",
+    "AdJXRtf1VXskYqSj4KyD9eWBwpqdycNVxNg42eLAjwgS1kOuGcefcJhDuMEn3Klet49pfZWZJnI1Wg",
+    "K40x0s-w7LdtyNg5x2XEacoQDHTwLXk9WiB9G_QlJS7qP2Wmr6XWAOZ9JuJ8VrDBbLh4NWSIuHMqcg",
+    "p0hzFgkoSeN4ccmh2qos7JXBMUuRRN-ZMoSDnH8s8GSagK2RLWNvWetoo1E8Toe5BI8_TehQQTtTVw",
+    "vS_AxX53gPJE2t235jI2OGXqT3zFVNS8uBQThuJhJ1wcBsE3zb3So0goKgM1JW7t6njZZ9NFgCqnog"
+  ],
+  "createdAt": {
+    "$date": "2024-10-02T18:23:24.839Z"
+  },
+  "updatedAt": {
+    "$date": "2026-05-22T11:48:02.485Z"
+  },
+  "__v": 0,
+  "nbOfGames": 4,
+  "losses": 0,
+  "victories": 0,
+  "avgFlexLp": 2063,
+  "avgFlexRankLabel": "Emerald IV",
+  "avgFlexTier": "EMERALD",
+  "aiChatCount": 0,
+  "scoringSource": "flex5",
+  "leaderboardScore": 0.130525,
+  "leaderboardScoreUpdatedAt": {
+    "$date": "2026-05-22T11:48:02.485Z"
+  },
+  "isDemo": false
+},
+{
+  "_id": {
+    "$oid": "66fd961fadb1c2fe011fdef5"
+  },
+  "name": "ALL-IN Prod.",
+  "slug": "all-in-prod",
+  "logo": "1",
+  "admin": {
+    "$oid": "66fd86ea3fb24d94ba66af9c"
+  },
+  "region": "europe",
+  "lastRefresh": {
+    "$date": "2026-05-22T03:40:16.636Z"
+  },
+  "puuids": [
+    "cpa21MpZFhhe7L15ileN74xQGp0i3H-sj7ATp_Wjgtq48gj5TmbIb2CkhirtWQjrDYnVfhKh8fLKoQ",
+    "0jZ_MiNxBirzwI36js7jopi_y8pnyefU1sSxBQ2LKaFpYLX9g9b_VgQWD2Qw4SVDjJOTa0xSpWvznQ",
+    "0FUEn804dE7VFcw7rNBpJm0Nm65abPEJzZLbBM0w5Dq3_onM72qYSS6OwwnTH1KtVEqaysMmhwh5QQ",
+    "GMdjaOdYiw39dqIxeNixnONWUr-4VO1xQ8Czval8vsJtN15CtmH3Z5pw1hdiG3nq1mtAXOf8hROWgQ",
+    "asGZok0KDmp0fwAO-2YYH-HzEDz2amm4gMeyUdLrLiVSBTChX4f7Z9Vts_aDejkM11Kc63x5o_7UrQ"
+  ],
+  "createdAt": {
+    "$date": "2024-10-02T18:51:11.955Z"
+  },
+  "updatedAt": {
+    "$date": "2026-05-22T03:40:16.636Z"
+  },
+  "__v": 0,
+  "nbOfGames": 0,
+  "losses": 0,
+  "victories": 0,
+  "avgFlexLp": 2422,
+  "avgFlexRankLabel": "Diamond IV",
+  "avgFlexTier": "DIAMOND",
+  "aiChatCount": 0,
+  "scoringSource": "flex5",
+  "isDemo": false
+},
+{
+  "_id": {
+    "$oid": "66fdbdb2db9a318dd4bab2b1"
+  },
+  "name": "Flex Gang",
+  "slug": "flex-gang",
+  "logo": "32",
+  "admin": {
+    "$oid": "66fdbcebdb9a318dd4bab2a9"
+  },
+  "region": "europe",
+  "lastRefresh": {
+    "$date": "2026-05-22T03:40:37.283Z"
+  },
+  "puuids": [
+    "BloSB_rwEWoRMjYKVq2wjf8schRWEz2lM1shgVY9XEYm1zZT_OqZJ-WYkobxMDoFXUErZ6ghU82WPg",
+    "g-iwJl6b1eguRBjHd7fm65V854c_94dYGSvZTm719N4fKIFSOXk9Fg1dQxwfdL14UzkJix0HfBofpA",
+    "Nb9nPcGLphWDpUBij0pHV6G62-nKB9yBuazGi0NCZunMbLNZQ0iF6pGt3VRo8Bxg4DjAiN68xQ2dpA",
+    "W2dayQGWGiXr1I0MJ15Gyslq4DxBcQwtjsnxtVfPu7sX0JC3cjjfrFRWYWanG6Ty9COQ9VAKQu_6cg",
+    "JKEPYVw93CH7EM7eSo2DW0yxFeABgJUDmk_jT7MHqUVzeBLfkDorRJYDD0rJHTsPvo7fEkWJhNi85g"
+  ],
+  "createdAt": {
+    "$date": "2024-10-02T21:40:02.822Z"
+  },
+  "updatedAt": {
+    "$date": "2026-05-22T11:48:02.485Z"
+  },
+  "__v": 0,
+  "nbOfGames": 4,
+  "losses": 0,
+  "victories": 76,
+  "avgFlexLp": 2535,
+  "avgFlexRankLabel": "Diamond III",
+  "avgFlexTier": "DIAMOND",
+  "aiChatCount": 0,
+  "scoringSource": "flex5",
+  "leaderboardScore": 0.29056000000000004,
+  "leaderboardScoreUpdatedAt": {
+    "$date": "2026-05-22T11:48:02.485Z"
+  },
+  "isDemo": false
+},
+{
+  "_id": {
+    "$oid": "66fe0f47b46d3ba8a910b80d"
+  },
+  "name": "dogshitjun",
+  "slug": "dogshitjun",
+  "logo": "1",
+  "admin": {
+    "$oid": "66fe0edeb46d3ba8a910b808"
+  },
+  "region": "americas",
+  "lastRefresh": {
+    "$date": "2026-04-17T04:53:42.114Z"
+  },
+  "puuids": [
+    "K5Fqbu-bGbhtV7-KKlKal2m8d8QF-xFGdu8JxRszscTEG8Z1G67kWlg9caJUMT1xiPGsHJu2JAP0Jg",
+    "X3Uo38z1J7TqdQppU5tumMqfkRrtwkc3Np4j8h0vjm55kJZimxvNYJmIjcIv8kNtPeFuDzCvIorGhw",
+    "ZNKuM9rLfmTS6zgL5CHReALLVf6UUiETlxYxElkPkCcbmhMsEVQtOlqC_bbzmKXjbaNKrx1nZYDNVA",
+    "8Q2_E3ywwgzeM66G21hsu-JfqYvzkKDzr5ec-kLbwNB-UlnSgvampGB-sssImsIt4WZjBCYhnHemng",
+    "bqQb20bwYVViG-Df62sEvacrrXCfcDzcJKymp9o36u7Cgi3kw3FUNggQsBhGmFybdXwBMuyUJKwy3A"
+  ],
+  "createdAt": {
+    "$date": "2024-10-03T03:28:07.258Z"
+  },
+  "updatedAt": {
+    "$date": "2026-04-17T04:53:42.114Z"
+  },
+  "__v": 0,
+  "nbOfGames": 0,
+  "losses": 0,
+  "victories": 0
+},
+{
+  "_id": {
+    "$oid": "66fe2baaee8df6168618b1d6"
+  },
+  "name": "hoss",
+  "slug": "hoss",
+  "logo": "44",
+  "admin": {
+    "$oid": "66fd94c1adb1c2fe011fdeea"
+  },
+  "region": "americas",
+  "lastRefresh": {
+    "$date": "2026-05-22T03:40:50.270Z"
+  },
+  "puuids": [
+    "yYtFkD5ETV_pltywfwHqfktRA1Trjj6E4Mz2GpQJYYdnqlAuTbZz24rERsKo4X8NonyaVKiSALuamg",
+    "TXjTOyWuRzRbz2dDhG1V_s2FfNd6wgQfQwb520X6uaAr2CvGnTfSAxKsR5axV7IF4NrYCb6xiViUWg",
+    "x5-xvJ5vO2fVl8FOFkX2B8k8REHbDJuPzOOwGVp6e9eQF0R5GzlRMAkKMFseaitzrzlvvbvzlV7hAw",
+    "VvNAeASBZ8-wyvyMh5yfjTJ7sI0dBZnZdP5-Esb-TUcvOmqNRtWsh_3r2OKQ7PQ3HvWVhvA7BVXs3g",
+    "r7_mNC7kRcSy7u7_on6AoIwGv-I3T_DvcUDqu8CcJij9Hfctr-aNWb7i0_nOYT4TX8JRjfOb2sqSUw"
+  ],
+  "createdAt": {
+    "$date": "2024-10-03T05:29:14.620Z"
+  },
+  "updatedAt": {
+    "$date": "2026-05-22T03:40:50.270Z"
+  },
+  "__v": 0,
+  "nbOfGames": 0,
+  "losses": 0,
+  "victories": 0,
+  "avgFlexLp": 1994,
+  "avgFlexRankLabel": "Platinum I",
+  "avgFlexTier": "PLATINUM",
+  "aiChatCount": 0,
+  "scoringSource": "flex5",
+  "isDemo": false
+},
+{
+  "_id": {
+    "$oid": "66fe2c2a537623e8f4e08bf5"
+  },
+  "name": "tkh",
+  "slug": "tkh",
+  "logo": "1",
+  "admin": {
+    "$oid": "66fd94c1adb1c2fe011fdeea"
+  },
+  "region": "americas",
+  "lastRefresh": {
+    "$date": "2026-05-22T03:41:02.112Z"
+  },
+  "puuids": [
+    "yYtFkD5ETV_pltywfwHqfktRA1Trjj6E4Mz2GpQJYYdnqlAuTbZz24rERsKo4X8NonyaVKiSALuamg",
+    "qX_EL-ncHIPQcq6syKK5dw1iDVF_6GXNa-a1MXKVb9ahPgz0vjCj0x8PoYH97W0RVk2ZHr_oi20HUA",
+    "QR3qRF9jCznx_ty1oev2IcK9Itc1BrzXmkebkZ2cdzlcdMqA1gctR1L7K2IjlYRcPJJ3gTTT3wD4cQ",
+    "GG72J5AtkXxTpyWT9UyBXqAzMdO0zA-NZqmcuwt5iFDUeSaLMf7MTYVFnyY-HGqifzz5198As446YQ",
+    "9puaxbCpz4O9bLqYUnNCO1pCnA7HGyMHwORHHi5WZj6RRaPkMe5Vn3ChTmHcT8vRnlweMwNFJvt0Iw"
+  ],
+  "createdAt": {
+    "$date": "2024-10-03T05:31:22.969Z"
+  },
+  "updatedAt": {
+    "$date": "2026-05-22T03:41:02.113Z"
+  },
+  "__v": 0,
+  "nbOfGames": 0,
+  "losses": 0,
+  "victories": 0,
+  "avgFlexLp": 1665,
+  "avgFlexRankLabel": "Platinum IV",
+  "avgFlexTier": "PLATINUM",
+  "aiChatCount": 0,
+  "scoringSource": "flex5",
+  "isDemo": false
+},
+{
+  "_id": {
+    "$oid": "670025788c54d23613811764"
+  },
+  "name": "NYSCRP",
+  "slug": "nyscrp",
+  "logo": "31",
+  "admin": {
+    "$oid": "670025028c54d2361381175f"
+  },
+  "region": "europe",
+  "lastRefresh": {
+    "$date": "2026-05-22T03:41:15.018Z"
+  },
+  "puuids": [
+    "3hZbrTWG1T0PcJEwrPKASLqG8frI_uNJKw5h7AECPKnwkdwKbyfNkDFLaiDpVlsP_4ktD4jidbBnkQ",
+    "fAwWlKi5pJSEMLN68vQwoTPvUKuRszPuCV5ShqurVnLJ1n2oIlEs7Uqeb2iRnOW3XRA1jxAql81NNg",
+    "EWEoKUPrNWdU_itRGFSr3MTKIImoAyXyJQ5wdv224hO3KjZaS6UKwwzUWdalJrcB3_PWHuDvSnokDw",
+    "CZXT_aPYTH1dqEiJPg5WsVh2vR6SOCBg7yuR9Oaiw5WjpXiNaO4sMDSMGEDlLF_ezhf4aabHUACIBA",
+    "q8EhJrI_3yRJXqt2ES4FuO34nebXCbYjcqhVv3xYV7-AfMUJMQLDzvyIls955yhfS66wRufdctyhpg"
+  ],
+  "createdAt": {
+    "$date": "2024-10-04T17:27:20.679Z"
+  },
+  "updatedAt": {
+    "$date": "2026-05-22T03:41:15.019Z"
+  },
+  "__v": 0,
+  "nbOfGames": 0,
+  "losses": 0,
+  "victories": 0,
+  "avgFlexLp": 1692,
+  "avgFlexRankLabel": "Platinum IV",
+  "avgFlexTier": "PLATINUM",
+  "aiChatCount": 0,
+  "scoringSource": "flex5",
+  "isDemo": false
+},
+{
+  "_id": {
+    "$oid": "6700406e39c599d5f1a88709"
+  },
+  "name": "Little Hands",
+  "slug": "little-hands",
+  "logo": "1",
+  "admin": {
+    "$oid": "66ff0431ae8ff737ffb90863"
+  },
+  "region": "europe",
+  "lastRefresh": {
+    "$date": "2026-04-17T04:53:44.755Z"
+  },
+  "puuids": [
+    "U3z_fEXbP0WmFpA5NeOtEDiyCNmsZ1PAEOso6xjJtCbfcFtYUHo5haIYT7OV6TK5uykesiXwyBRqiA",
+    "oPlt_c7HMb5RJcouKu80_p6sdRn0ZHFxEcBZ8TQxDAK18BdxHXX_2027lPrRLPUidqUMj8KsarpLGQ",
+    "O1MCgva-sFn-jTFOVAX170pVUkVLW4-CV2B5EqqpasjbtJPVmBsBz0TBSnO8NfQ2fsnHdnu7ExaMxg",
+    "rdcZyNjuGkYc3qoPZITwQG_4G0cQk_ciCLbL6D36p6Etj165_qxRmRm_jW6bBPoMhi_Z1kWhJpPNdw",
+    "Z-sMQNNaqjWmFQ3Q_O4MM3pF9SI-tKpewg0Z020TSKwH-HygcqbQ48ZSxdP_M1Zl6zfoh_Vd6qQ-yA"
+  ],
+  "createdAt": {
+    "$date": "2024-10-04T19:22:22.855Z"
+  },
+  "updatedAt": {
+    "$date": "2026-04-17T04:53:44.755Z"
+  },
+  "__v": 0,
+  "nbOfGames": 0,
+  "losses": 0,
+  "victories": 0
+},
+{
+  "_id": {
+    "$oid": "67005f1e9322b944d5736f53"
+  },
+  "name": "slt la team",
+  "slug": "slt-la-team",
+  "logo": "9",
+  "admin": {
+    "$oid": "66fc0d27133a46ccb8bf5959"
+  },
+  "region": "europe",
+  "lastRefresh": {
+    "$date": "2026-05-22T03:41:26.727Z"
+  },
+  "puuids": [
+    "K40x0s-w7LdtyNg5x2XEacoQDHTwLXk9WiB9G_QlJS7qP2Wmr6XWAOZ9JuJ8VrDBbLh4NWSIuHMqcg",
+    "3RFrrCplVslzRQbuWfXsLU6M0lQpm0QU-62Olze3EnzJnpP_XLPDn8Stykbe1jx8pPOEGpTNyeX9pQ",
+    "ODt7HN1rzKv1U708X2Ng74DYZgJCAQfnoxjlr6OOmxUfJnDSomYwV3JV-BozDZ9QKBWlYojETR_Cug",
+    "AdJXRtf1VXskYqSj4KyD9eWBwpqdycNVxNg42eLAjwgS1kOuGcefcJhDuMEn3Klet49pfZWZJnI1Wg",
+    "0xd-4ZpZDsef_Hxg34HBzxvFKOqeZfWBU97jgrsbhq7tH_b-j4N0oWHCVdSswLkeHUPVCvOQehYA8w"
+  ],
+  "createdAt": {
+    "$date": "2024-10-04T21:33:18.887Z"
+  },
+  "updatedAt": {
+    "$date": "2026-05-22T03:41:26.727Z"
+  },
+  "__v": 0,
+  "nbOfGames": 0,
+  "losses": 0,
+  "victories": 0,
+  "avgFlexLp": 2352,
+  "avgFlexRankLabel": "Emerald I",
+  "avgFlexTier": "EMERALD",
+  "aiChatCount": 0,
+  "scoringSource": "flex5",
+  "isDemo": false
+},
+{
+  "_id": {
+    "$oid": "6700935f6cfadf69de43572d"
+  },
+  "name": "Salty",
+  "slug": "salty",
+  "logo": "1",
+  "admin": {
+    "$oid": "670092ec375df0dc1c4b9aee"
+  },
+  "region": "europe",
+  "lastRefresh": {
+    "$date": "2026-05-22T03:41:39.388Z"
+  },
+  "puuids": [
+    "F-ZvQpWbigSMVpdy5yOiieQ1lhY_9TQaOefSQcREAuqVP0UtNv2IOhOdPfanSLccrZjXA2asvZYVhw",
+    "ey85pJU3vP003m9n5bE0mUjKGVZixKK1VTuTDqU9mTk4OAnIXGHApK81iTbZh8EvK30JpieiDRTzvA",
+    "RLZqglQfDLHZWjoJC4Z6GlLpmytzPQGe516HG0KSxrgsfVr5JgykqATHOoLVTdb-2Lh1lcAdGV-IfQ",
+    "toeGuIbeFRs8TenFqgj_-yUndax2Pb6bEPbzDUFzKh4BiE9gNQUrOeLSgxxPl83lsJm5y5P77DtlRw",
+    "-ZPbGVAG4kbPuBvIkJGCdTh8EPZV8T2VCr5ktcJmNGm5WCQnbyMQfMeIZfLjuvcLuswxlTTAHrlvcA"
+  ],
+  "createdAt": {
+    "$date": "2024-10-05T01:16:15.322Z"
+  },
+  "updatedAt": {
+    "$date": "2026-05-22T03:41:39.388Z"
+  },
+  "__v": 0,
+  "nbOfGames": 0,
+  "losses": 0,
+  "victories": 0,
+  "avgFlexLp": 1738,
+  "avgFlexRankLabel": "Platinum III",
+  "avgFlexTier": "PLATINUM",
+  "aiChatCount": 0,
+  "scoringSource": "flex5",
+  "isDemo": false
+},
+{
+  "_id": {
+    "$oid": "6702dca7e349ab881c19965f"
+  },
+  "name": "Flex",
+  "slug": "flex",
+  "logo": "1",
+  "admin": {
+    "$oid": "6702dc4ab8eb83e8df726ece"
+  },
+  "region": "europe",
+  "lastRefresh": {
+    "$date": "2026-05-22T03:41:52.124Z"
+  },
+  "puuids": [
+    "VaLZHFMz991QFC-jwJf63Huwor8r60OAi41oCo52x7R0FZw5kBctY0195fdh6gIaF_BuZf78KTufDw",
+    "BH75rljOX1cgU76xFz2_kPOgEtCIQqXGy-kHZPgYWoUMlWSlzosv-FMzcVIDcrNFSKcMKBpyLDWQTw",
+    "KBVodf3Y7ioYorBZ2Pj0R2mkyuWWhSlkBRTs-RDpquKnOVZnbZQs47Eni_Qo6QSLOnYw5ZC76EROLA",
+    "Vy5lS0iyHfVP-k1C5irkTqVhukEm-8-ykgbmiEViMgTjpqC2Neinof2GptSux6xLJTBZ7Bv98AIfMw",
+    "xfQ46PAqgCfuPeUYQbB_nLTiJyyLpaNmd_KKQV7C3UKck6n_IXvIHnbbEbri5RnlutwUsaHh4gOnRg"
+  ],
+  "createdAt": {
+    "$date": "2024-10-06T18:53:27.356Z"
+  },
+  "updatedAt": {
+    "$date": "2026-05-22T03:41:52.124Z"
+  },
+  "__v": 0,
+  "nbOfGames": 0,
+  "losses": 0,
+  "victories": 0,
+  "avgFlexLp": 2503,
+  "avgFlexRankLabel": "Diamond III",
+  "avgFlexTier": "DIAMOND",
+  "aiChatCount": 0,
+  "scoringSource": "flex5",
+  "isDemo": false
+},
+{
+  "_id": {
+    "$oid": "6702f4e526caf539dfabaccd"
+  },
+  "name": "ZOO",
+  "slug": "zoo",
+  "logo": "39",
+  "admin": {
+    "$oid": "6702f4a190ac7456193a31f2"
+  },
+  "region": "europe",
+  "lastRefresh": {
+    "$date": "2026-05-22T03:42:03.538Z"
+  },
+  "puuids": [
+    "VaLZHFMz991QFC-jwJf63Huwor8r60OAi41oCo52x7R0FZw5kBctY0195fdh6gIaF_BuZf78KTufDw",
+    "KBVodf3Y7ioYorBZ2Pj0R2mkyuWWhSlkBRTs-RDpquKnOVZnbZQs47Eni_Qo6QSLOnYw5ZC76EROLA",
+    "WjbShQM4GvtBl8clUWRbjVCZn6kVI7mNJhbb_wXCoueS7-ZjCB8Zwxc4uZBKBgwzav7d1fV2YrsVgg",
+    "sLVD4u0MUf2VwHBznP0Semuq6QFGf1LeEYYb46Qbh4YrtBW3C3mhEr4i_5l7fvCxAmXY6zGjkv-9sw",
+    "w6r4oGdFINh55CDqfznF-F92dJ4kzJWpxjGpNT-2xCgFOXI8sWYiH9Py8ZgDdha6G28s5f7CVPdNFQ"
+  ],
+  "createdAt": {
+    "$date": "2024-10-06T20:36:53.556Z"
+  },
+  "updatedAt": {
+    "$date": "2026-05-22T03:42:03.539Z"
+  },
+  "__v": 0,
+  "nbOfGames": 0,
+  "losses": 0,
+  "victories": 0,
+  "avgFlexLp": 2654,
+  "avgFlexRankLabel": "Diamond II",
+  "avgFlexTier": "DIAMOND",
+  "aiChatCount": 0,
+  "scoringSource": "flex5",
+  "isDemo": false
+},
+{
+  "_id": {
+    "$oid": "6703395d8def78d61192b079"
+  },
+  "name": "junsugs",
+  "slug": "junsugs",
+  "logo": "1",
+  "admin": {
+    "$oid": "670339148def78d61192b074"
+  },
+  "region": "americas",
+  "lastRefresh": {
+    "$date": "2026-04-17T04:53:47.355Z"
+  },
+  "puuids": [
+    "X3Uo38z1J7TqdQppU5tumMqfkRrtwkc3Np4j8h0vjm55kJZimxvNYJmIjcIv8kNtPeFuDzCvIorGhw",
+    "K5Fqbu-bGbhtV7-KKlKal2m8d8QF-xFGdu8JxRszscTEG8Z1G67kWlg9caJUMT1xiPGsHJu2JAP0Jg",
+    "ZNKuM9rLfmTS6zgL5CHReALLVf6UUiETlxYxElkPkCcbmhMsEVQtOlqC_bbzmKXjbaNKrx1nZYDNVA",
+    "bqQb20bwYVViG-Df62sEvacrrXCfcDzcJKymp9o36u7Cgi3kw3FUNggQsBhGmFybdXwBMuyUJKwy3A",
+    "8Q2_E3ywwgzeM66G21hsu-JfqYvzkKDzr5ec-kLbwNB-UlnSgvampGB-sssImsIt4WZjBCYhnHemng"
+  ],
+  "createdAt": {
+    "$date": "2024-10-07T01:29:01.133Z"
+  },
+  "updatedAt": {
+    "$date": "2026-04-17T04:53:47.355Z"
+  },
+  "__v": 0,
+  "nbOfGames": 0,
+  "losses": 0,
+  "victories": 0
+},
+{
+  "_id": {
+    "$oid": "670544d1201f2ced9c56befa"
+  },
+  "name": "EKIP",
+  "slug": "ekip",
+  "logo": "23",
+  "admin": {
+    "$oid": "6705444f201f2ced9c56bef4"
+  },
+  "region": "europe",
+  "lastRefresh": {
+    "$date": "2026-05-22T03:42:46.982Z"
+  },
+  "puuids": [
+    "SB3tUL0oPC3cACzE6Nbgy9SHx0hLl3GR4ewiYZoXSuj_IxwtumLgAMEd-j9xp3m9QYlX89LVjXtiwg",
+    "PDPmm1uIDUdsghhe2EnLginb5vDRH8uTIap002wkTYRHkjvP0V3tOkb_NAJD_Ky-xKQIYx_8cPdadA",
+    "Zn2vMcStI7k0myGdONpObfpaqpWBe4gc3hz5hwJkJ2W-RlSMWJPKHhiy89eQLB_u2OxzzX4AWxr1Jw",
+    "jFRRMbzByvFXKrVtztReeFRyODE1YFOm7PrJuXELP7VGANc7L5X3POFkro8mXkRRuQlDNcNz4_rUPQ",
+    "gw7_zPbLRrntonh__nxpqnIkwZGyF7gYz88V3WYa_WgoW3DYw2KPvwH2Nh_XKVVKel6s_FUnqRdQ4w"
+  ],
+  "createdAt": {
+    "$date": "2024-10-08T14:42:25.838Z"
+  },
+  "updatedAt": {
+    "$date": "2026-05-22T03:42:46.982Z"
+  },
+  "__v": 0,
+  "nbOfGames": 0,
+  "losses": 0,
+  "victories": 0,
+  "avgFlexLp": 1686,
+  "avgFlexRankLabel": "Platinum IV",
+  "avgFlexTier": "PLATINUM",
+  "aiChatCount": 0,
+  "scoringSource": "flex5",
+  "isDemo": false
+},
+{
+  "_id": {
+    "$oid": "6705b9a8bbb375314d6a6a95"
+  },
+  "name": "CANCER BADNO",
+  "slug": "cancer-badno",
+  "logo": "31",
+  "admin": {
+    "$oid": "6705b8fabbb375314d6a6a8b"
+  },
+  "region": "europe",
+  "lastRefresh": {
+    "$date": "2026-05-22T03:43:00.043Z"
+  },
+  "puuids": [
+    "eaGkWWVXnTmuOihL76YMt2vEwsFtxJ6vsBj7sNygrh7RxG2zp6NSXXbc3kEXx2oMjp4xSRYh2C7-vg",
+    "E9KGHYs4nmO-z56qLZILjQY52199klMtd5UroUK59lTjeIoNPFswi2lnjqCGYdUYoVxydnAgD0ijNg",
+    "7C7kj4KLjlLtbfikCDsbY25G5TwxIaa-CwCsMgBFRvEMjxk-0CXEDDUP0oDxUvrsyd89IthHnGSfog",
+    "U7Wqge1PNSSIy5EJR8ddwRiCQHBe7LPyJmgrZnoFg7cSgV15JpWhHMczrR5J0ShJjLoGwJljHhXEfQ",
+    "03GxmsV_lrvdtjQepya19smPAsH0NxdZvINiuGHedxyWzjzL6nLjx46gWH6mNwe9njxUFQvwNqQSNg"
+  ],
+  "createdAt": {
+    "$date": "2024-10-08T23:00:56.856Z"
+  },
+  "updatedAt": {
+    "$date": "2026-05-22T03:43:00.044Z"
+  },
+  "__v": 0,
+  "nbOfGames": 0,
+  "losses": 0,
+  "victories": 0,
+  "avgFlexLp": 2676,
+  "avgFlexRankLabel": "Diamond II",
+  "avgFlexTier": "DIAMOND",
+  "aiChatCount": 0,
+  "scoringSource": "flex5",
+  "isDemo": false
+},
+{
+  "_id": {
+    "$oid": "67086ae1700c213a818ded50"
+  },
+  "name": "Flex Gang 2",
+  "slug": "flex-gang-2",
+  "logo": "32",
+  "admin": {
+    "$oid": "66fdbcebdb9a318dd4bab2a9"
+  },
+  "region": "europe",
+  "lastRefresh": {
+    "$date": "2026-05-22T03:43:13.022Z"
+  },
+  "puuids": [
+    "g-iwJl6b1eguRBjHd7fm65V854c_94dYGSvZTm719N4fKIFSOXk9Fg1dQxwfdL14UzkJix0HfBofpA",
+    "Nb9nPcGLphWDpUBij0pHV6G62-nKB9yBuazGi0NCZunMbLNZQ0iF6pGt3VRo8Bxg4DjAiN68xQ2dpA",
+    "W2dayQGWGiXr1I0MJ15Gyslq4DxBcQwtjsnxtVfPu7sX0JC3cjjfrFRWYWanG6Ty9COQ9VAKQu_6cg",
+    "JsPeZFW-run31hRAxSxsjs9TBTmgpaIvNdEYAfWwy093ncSMcMM8NQZjtqjIKlY2Bp-8oUUja9PRfA",
+    "J7OraujHoCp2l5NwqUEa1ibYcGPMiWAfRil9VsodxtRhQrxPijvtg6Un0lqnpSlTl7XcSG1hntSw0g"
+  ],
+  "createdAt": {
+    "$date": "2024-10-11T00:01:37.602Z"
+  },
+  "updatedAt": {
+    "$date": "2026-05-22T11:48:02.485Z"
+  },
+  "__v": 0,
+  "nbOfGames": 4,
+  "losses": 0,
+  "victories": 0,
+  "aiChatCount": 0,
+  "scoringSource": "flex5",
+  "leaderboardScore": 0.227,
+  "leaderboardScoreUpdatedAt": {
+    "$date": "2026-05-22T11:48:02.485Z"
+  },
+  "isDemo": false
+},
+{
+  "_id": {
+    "$oid": "670bb9e000c69f6513c85008"
+  },
+  "name": "Absolute Fro",
+  "slug": "absolute-fro",
+  "logo": "50",
+  "admin": {
+    "$oid": "670bb92100c69f6513c84ffc"
+  },
+  "region": "europe",
+  "lastRefresh": {
+    "$date": "2026-05-22T03:43:25.700Z"
+  },
+  "puuids": [
+    "RCU32y3brm3e8Wdi7lahnzU5N5LWvZ2aYUzdUBUinY94cxR6_ym01mheeA1e4NRqmisT2Z8fW0lCWA",
+    "ItU11k69rw02mizEvdit1d8x16vYTUsozvihsx7qEcscklzqX-fiIkoC4dYjNAYwLmfA46AmaastxQ",
+    "zoiD77uTdEd9Jb-oBKNJJR8jNEEbzmAYULlzBGuumm-sHrR2tTBZKaAtIAvpCTXS3gs6WDMMtPMHIA",
+    "Miw-GVgzgPwnpbkMhd7xgiptWPAD6tVrasPBqpJ4PP1fHOD1_B_Mn5BwE2oaO6gXR52dtb8DYu9fpg",
+    "kDC8hb_CwJV755EFO8swrqSTZvq4ZNajb3J4NxqFeqchhXbwdq-2wRgZNH5j_Rppb6ITtaoJAH6xAw"
+  ],
+  "createdAt": {
+    "$date": "2024-10-13T12:15:28.757Z"
+  },
+  "updatedAt": {
+    "$date": "2026-05-22T03:43:25.700Z"
+  },
+  "__v": 0,
+  "nbOfGames": 0,
+  "losses": 0,
+  "victories": 0,
+  "avgFlexLp": 2243,
+  "avgFlexRankLabel": "Emerald II",
+  "avgFlexTier": "EMERALD",
+  "aiChatCount": 0,
+  "scoringSource": "flex5",
+  "isDemo": false
+},
+{
+  "_id": {
+    "$oid": "670bd7071dbd5dfe38448907"
+  },
+  "name": "AltiaOlimpus",
+  "slug": "altiaolimpus",
+  "logo": "14",
+  "admin": {
+    "$oid": "670bd6631dbd5dfe384488fe"
+  },
+  "region": "europe",
+  "lastRefresh": {
+    "$date": "2026-05-22T03:43:38.266Z"
+  },
+  "puuids": [
+    "_b7Rc3M9Nyed0DNCPnaWfJmjB2KXwvBAWgh8pvVWQndsE1Wd9cXTD9y1T5Tls7rF1Ql4hMs8K_s1TQ",
+    "LUIVrGUZf3B0yjNcxdSDkJsT1ke6bg4ZSn6Mjh5Z2nl1MNHnaHzi5qgjkqtQCtrRBWASmlYwCBziBQ",
+    "Qjr3Q67WuqxI8ys7AUAq6PQVrhVZln-ZtQqCJxEuW9VTqY-JgRTIb5jHDUwgZA9-TsJ-IPj76gwOMw",
+    "uOUm56epUB7Obhc85hM-SB_r742JRHJgTP1PZ2wEA-mnHOAYW-BwfcuHHBTsQZXyI9nlddlIXVtMhg",
+    "dbjr6fZenBWdIwoE43ae2FGCyRnaDJqTnsRmnxq7lFrT0hBUZXG-iNNJFuRhHIG9cxNfyvIMJ69PQQ"
+  ],
+  "createdAt": {
+    "$date": "2024-10-13T14:19:51.756Z"
+  },
+  "updatedAt": {
+    "$date": "2026-05-22T03:43:38.266Z"
+  },
+  "__v": 0,
+  "nbOfGames": 0,
+  "losses": 0,
+  "victories": 0,
+  "avgFlexLp": 2538,
+  "avgFlexRankLabel": "Diamond III",
+  "avgFlexTier": "DIAMOND",
+  "aiChatCount": 0,
+  "scoringSource": "flex5",
+  "isDemo": false
+},
+{
+  "_id": {
+    "$oid": "670d118db3b7126a4143b3c9"
+  },
+  "name": "Kolding",
+  "slug": "kolding",
+  "logo": "42",
+  "admin": {
+    "$oid": "670d1131b3b7126a4143b3c4"
+  },
+  "region": "europe",
+  "lastRefresh": {
+    "$date": "2026-05-22T03:43:51.050Z"
+  },
+  "puuids": [
+    "2HFSkOAgt2hhOTcQZCc43H2cT3gHown6ZUImCE1piKIawfWSvde8YFtgwHXdJ6TzM64TWHyEaKn3PA",
+    "S9QkzmiPcFG9G9AfpQq2_avYgSr3VMAiu0d4GUA-sY7m0i9V6dC7FrE03YRek7RMAcsKe6FBA8h52Q",
+    "LSphU4BjltTBNTla8N-1_aetEobuGAHE5PP_Lx8T-G_ylKQBABnrpY76EUEib8lCGhGuf3v_AKkv9Q",
+    "OQ9PViKhrnCqJhfyhnGt4FV9eRAxQdVmQqUGMbfDy-luCtKWT7A3p0r_6iB3jyh2IqyniBymuiGKVA",
+    "OaooG1Am3kVBXsWzkyk7IL_HZle8fvi6FpOod6HaTGaFqCH_pGT70tVdL9vfpQgv6jd-MkgO9f9Evg"
+  ],
+  "createdAt": {
+    "$date": "2024-10-14T12:41:49.820Z"
+  },
+  "updatedAt": {
+    "$date": "2026-05-22T03:43:51.051Z"
+  },
+  "__v": 0,
+  "nbOfGames": 0,
+  "losses": 0,
+  "victories": 0,
+  "avgFlexLp": 2445,
+  "avgFlexRankLabel": "Diamond IV",
+  "avgFlexTier": "DIAMOND",
+  "aiChatCount": 0,
+  "scoringSource": "flex5",
+  "isDemo": false
+},
+{
+  "_id": {
+    "$oid": "670dd220e780dce14e6e5fd9"
+  },
+  "name": "Nic ",
+  "slug": "nic",
+  "logo": "1",
+  "admin": {
+    "$oid": "670dd05ae780dce14e6e5fd2"
+  },
+  "region": "americas",
+  "lastRefresh": {
+    "$date": "2026-05-22T03:44:07.122Z"
+  },
+  "puuids": [
+    "be_hFibZ3qym20VFRHrJX8Y_jq9KC8WEYigHCD7oYNDDNu_cw90Pubn3FdGiiJ05mGA0AWdYvSgQpQ",
+    "YyNqkw9jhDbQcWY9SxmzYKI8-l4LkHh5iXywsy4DF4CNHBHKNlbjVRCiQIMM6CPiyTIRZN8CTLb9Kw",
+    "20a2JqYg2ssHZEb-cmrvtuZz6cVIGXT1doUzXSkdrHcJdmEXSl9oHPwT80s8XCv2Z3xiNJRR_QsQgw",
+    "df_Ph6sIkc0_QwPq-sihywFRWPOfzIw5NLErswAmuz2OYm7UwtjQvVejsI-AlNVu5KYjlWES6gPgxA",
+    "c4CTWV9v5Vl7vPK9RRUgdkuvNhcfQ6gPvoIafkcEpleu1qqTTjcbUB8vvPP03hlYKfu0L2jtpbi_Fg"
+  ],
+  "createdAt": {
+    "$date": "2024-10-15T02:23:28.163Z"
+  },
+  "updatedAt": {
+    "$date": "2026-05-22T03:44:07.122Z"
+  },
+  "__v": 0,
+  "nbOfGames": 10,
+  "losses": 145,
+  "victories": 110,
+  "avgFlexLp": 1691,
+  "avgFlexRankLabel": "Platinum IV",
+  "avgFlexTier": "PLATINUM",
+  "aiChatCount": 0,
+  "scoringSource": "flex5",
+  "isDemo": false
+},
+{
+  "_id": {
+    "$oid": "6713cd5ee1e02fed61176223"
+  },
+  "name": "JooSD",
+  "slug": "joosd",
+  "logo": "1",
+  "admin": {
+    "$oid": "6713cd1be1e02fed6117621e"
+  },
+  "region": "europe",
+  "lastRefresh": {
+    "$date": "2026-05-22T03:44:19.800Z"
+  },
+  "puuids": [
+    "cX8WLw0-KguZwIv762UeViSU5n8K8xyL-HuMPyXqthL379OF84Jkp88ZLrdFW9SX7Cb_JwVtiJj1AQ",
+    "FvNoMwAvfqJnVOVFRn5lnCb2lFh1muvo2r164UZdkuKjYAGUPGjf7awVVBN4WCCxQhYiZhJ_qIFd6A",
+    "2SrDa3Fo__HkX_6l1EUdui3qtlf1s5eQYQZxc8398uvjZuinHWjzuOO8PnSCKVIPGPxQz3R4E5Ha-w",
+    "pJlVEEsTLLAv7Xy40dyXpnTcu5dFKMesLnXjZaowtOlbKx2OfjUZoEGIypy7qG6gMIHFYzokOfHcIw",
+    "lVI0KuW2J7cI9-rSRh0f_bqt1Cd8ZBhgpa4BWG_M-kkdBsnbrY63MV2O1d-76g0PkG3Z5Ca54W6zfg"
+  ],
+  "createdAt": {
+    "$date": "2024-10-19T15:16:46.041Z"
+  },
+  "updatedAt": {
+    "$date": "2026-05-22T03:44:19.801Z"
+  },
+  "__v": 0,
+  "nbOfGames": 0,
+  "losses": 0,
+  "victories": 0,
+  "avgFlexLp": 2127,
+  "avgFlexRankLabel": "Emerald III",
+  "avgFlexTier": "EMERALD",
+  "aiChatCount": 0,
+  "scoringSource": "flex5",
+  "isDemo": false
+},
+{
+  "_id": {
+    "$oid": "6713cfe0afccd8d552682641"
+  },
+  "name": "JooSD Ita",
+  "slug": "joosd-ita",
+  "logo": "1",
+  "admin": {
+    "$oid": "6713cd89e1e02fed61176242"
+  },
+  "region": "europe",
+  "lastRefresh": {
+    "$date": "2026-05-22T03:45:02.813Z"
+  },
+  "puuids": [
+    "2SrDa3Fo__HkX_6l1EUdui3qtlf1s5eQYQZxc8398uvjZuinHWjzuOO8PnSCKVIPGPxQz3R4E5Ha-w",
+    "cX8WLw0-KguZwIv762UeViSU5n8K8xyL-HuMPyXqthL379OF84Jkp88ZLrdFW9SX7Cb_JwVtiJj1AQ",
+    "lVI0KuW2J7cI9-rSRh0f_bqt1Cd8ZBhgpa4BWG_M-kkdBsnbrY63MV2O1d-76g0PkG3Z5Ca54W6zfg",
+    "pJlVEEsTLLAv7Xy40dyXpnTcu5dFKMesLnXjZaowtOlbKx2OfjUZoEGIypy7qG6gMIHFYzokOfHcIw",
+    "FvNoMwAvfqJnVOVFRn5lnCb2lFh1muvo2r164UZdkuKjYAGUPGjf7awVVBN4WCCxQhYiZhJ_qIFd6A"
+  ],
+  "createdAt": {
+    "$date": "2024-10-19T15:27:28.358Z"
+  },
+  "updatedAt": {
+    "$date": "2026-05-22T03:45:02.813Z"
+  },
+  "__v": 0,
+  "nbOfGames": 0,
+  "losses": 0,
+  "victories": 0,
+  "avgFlexLp": 2127,
+  "avgFlexRankLabel": "Emerald III",
+  "avgFlexTier": "EMERALD",
+  "aiChatCount": 0,
+  "scoringSource": "flex5",
+  "isDemo": false
+},
+{
+  "_id": {
+    "$oid": "671960bf170f5b822f256dd7"
+  },
+  "name": "zoo34",
+  "slug": "zoo34",
+  "logo": "6",
+  "admin": {
+    "$oid": "67195f0b170f5b822f256dd2"
+  },
+  "region": "europe",
+  "lastRefresh": {
+    "$date": "2026-05-22T03:45:15.566Z"
+  },
+  "puuids": [
+    "BH75rljOX1cgU76xFz2_kPOgEtCIQqXGy-kHZPgYWoUMlWSlzosv-FMzcVIDcrNFSKcMKBpyLDWQTw",
+    "G_dRCa4dxsf-ahVmZl89Me1z5cjrAUqGc_X9lWPHBkibUaG5NLN94SCpAU_LB715Vxbf9RUcOCMdKw",
+    "KBVodf3Y7ioYorBZ2Pj0R2mkyuWWhSlkBRTs-RDpquKnOVZnbZQs47Eni_Qo6QSLOnYw5ZC76EROLA",
+    "Vy5lS0iyHfVP-k1C5irkTqVhukEm-8-ykgbmiEViMgTjpqC2Neinof2GptSux6xLJTBZ7Bv98AIfMw",
+    "VaLZHFMz991QFC-jwJf63Huwor8r60OAi41oCo52x7R0FZw5kBctY0195fdh6gIaF_BuZf78KTufDw"
+  ],
+  "createdAt": {
+    "$date": "2024-10-23T20:46:55.196Z"
+  },
+  "updatedAt": {
+    "$date": "2026-05-22T03:45:15.567Z"
+  },
+  "__v": 0,
+  "nbOfGames": 0,
+  "losses": 0,
+  "victories": 0,
+  "avgFlexLp": 2538,
+  "avgFlexRankLabel": "Diamond III",
+  "avgFlexTier": "DIAMOND",
+  "aiChatCount": 0,
+  "scoringSource": "flex5",
+  "isDemo": false
+},
+{
+  "_id": {
+    "$oid": "671bd88287ba69b00113c15f"
+  },
+  "name": "The Monsters",
+  "slug": "the-monsters",
+  "logo": "6",
+  "admin": {
+    "$oid": "67068d3f76cb22add46abfe5"
+  },
+  "region": "europe",
+  "lastRefresh": {
+    "$date": "2026-05-22T03:45:28.125Z"
+  },
+  "puuids": [
+    "M14IONeUxShgLCXaqY_WN_nlUVt-KeZSOQhhnR2yldGC5qIhw4oxuj_tjv7OXaw9HXViCINCHSxA1A",
+    "uUAHUorkg-zY94aJpuTOjcFcIdpPGj0dUBfeuQqwN8Cdon9pVoGfGNDhRgx5mn0eDCdGbEz0D0b-2g",
+    "bNRmeqwwgnmPxv6rwBC2Brks_9SEZYh1bszyRJZwvysUdyZ8gesTZDG2PQFbGEWSBuAVCKwZ3gpl3Q",
+    "1RZ4sH2wXEi4laBvAthcsf-58ZHsrUC4aHCj8fmz2-AC8jyusPNbBPVYPrbACdOA2Zt7jWk3kXIdDg",
+    "89NcjhHU75rLFOhEyhZKHVjaqJoyfC4VjXHdpQ_BWyD3m1mxX-Qz7TWnlCX81FfJu31TBErsanLiGw"
+  ],
+  "createdAt": {
+    "$date": "2024-10-25T17:42:26.270Z"
+  },
+  "updatedAt": {
+    "$date": "2026-05-22T03:45:28.126Z"
+  },
+  "__v": 0,
+  "nbOfGames": 0,
+  "losses": 0,
+  "victories": 0,
+  "avgFlexLp": 2198,
+  "avgFlexRankLabel": "Emerald III",
+  "avgFlexTier": "EMERALD",
+  "aiChatCount": 0,
+  "scoringSource": "flex5",
+  "isDemo": false
+},
+{
+  "_id": {
+    "$oid": "671bd9b9163d0e7b361743b7"
+  },
+  "name": "Monsters",
+  "slug": "monsters",
+  "logo": "44",
+  "admin": {
+    "$oid": "671bd973163d0e7b361743b0"
+  },
+  "region": "europe",
+  "lastRefresh": {
+    "$date": "2026-05-22T03:45:40.849Z"
+  },
+  "puuids": [
+    "1RZ4sH2wXEi4laBvAthcsf-58ZHsrUC4aHCj8fmz2-AC8jyusPNbBPVYPrbACdOA2Zt7jWk3kXIdDg",
+    "uUAHUorkg-zY94aJpuTOjcFcIdpPGj0dUBfeuQqwN8Cdon9pVoGfGNDhRgx5mn0eDCdGbEz0D0b-2g",
+    "bNRmeqwwgnmPxv6rwBC2Brks_9SEZYh1bszyRJZwvysUdyZ8gesTZDG2PQFbGEWSBuAVCKwZ3gpl3Q",
+    "M14IONeUxShgLCXaqY_WN_nlUVt-KeZSOQhhnR2yldGC5qIhw4oxuj_tjv7OXaw9HXViCINCHSxA1A",
+    "RRakZyf3LuIi2QDvapIl2NIeEnykHTCIbKvkstg0BsrTjSgX1qiiKED46qxl1wT9qXm41Z0WG3ygkQ"
+  ],
+  "createdAt": {
+    "$date": "2024-10-25T17:47:37.775Z"
+  },
+  "updatedAt": {
+    "$date": "2026-05-22T03:45:40.849Z"
+  },
+  "__v": 0,
+  "nbOfGames": 0,
+  "losses": 0,
+  "victories": 0,
+  "avgFlexLp": 2155,
+  "avgFlexRankLabel": "Emerald III",
+  "avgFlexTier": "EMERALD",
+  "aiChatCount": 0,
+  "scoringSource": "flex5",
+  "isDemo": false
+},
+{
+  "_id": {
+    "$oid": "672800fba8828b3b8b786e6b"
+  },
+  "name": "PIKMIN",
+  "slug": "pikmin",
+  "logo": "1",
+  "admin": {
+    "$oid": "6728008ec08d6c084994a6ae"
+  },
+  "region": "europe",
+  "lastRefresh": {
+    "$date": "2026-05-22T03:45:55.497Z"
+  },
+  "puuids": [
+    "7-YxR1ja0tfWLbKLV0hj6_6utCgKTKArOBPSX9SUDYRWsggzbUbzT-0WnYZ_hcGBY-4FokX1S2LO8g",
+    "h_icpsH-QwYOHK7VubL9kA8HU2PxkgQh7jCoo2Lo0PvOq84_ZEdzfbfZnQoQ_WECMLL9235UBkdTFg",
+    "QO-cUUg2aSU9jSvTvN52LHkatueGr3ktzUZazDusnJ0ZOA5RBkIXaUx0xpbjcSxBDXJ_NZE8qCtgBQ",
+    "VkLep_hQxEh9TYX9wjXLqDhZTvMGjpUtcOaRQ_EB28gvMbBF7K7Z3hTsZUc_LEa_pUJdHY1RyIPHEw",
+    "wLEShwtJLzuMRWyQ5zJKM0GOqhNOK0TZGozY_KKfuU2W03NYl_Hdcvwy13Lyra6JkUA2foJTjVcuyA"
+  ],
+  "createdAt": {
+    "$date": "2024-11-03T23:02:19.057Z"
+  },
+  "updatedAt": {
+    "$date": "2026-05-22T03:45:55.498Z"
+  },
+  "__v": 0,
+  "nbOfGames": 0,
+  "losses": 17,
+  "victories": 170,
+  "avgFlexLp": 1810,
+  "avgFlexRankLabel": "Platinum II",
+  "avgFlexTier": "PLATINUM",
+  "aiChatCount": 0,
+  "scoringSource": "flex5",
+  "isDemo": false
+},
+{
+  "_id": {
+    "$oid": "67280cc0e9035b052e137948"
+  },
+  "name": "QUELESPOATS",
+  "slug": "quelespoats",
+  "logo": "31",
+  "admin": {
+    "$oid": "672807cc6b01a558ffbaae26"
+  },
+  "region": "europe",
+  "lastRefresh": {
+    "$date": "2026-05-22T03:46:08.237Z"
+  },
+  "puuids": [
+    "Xr2MnuO_qyzOR6MrPDDuHTOtx2jTwlo0gRr9p3tjsCc1dQVorwR29tBUWjogNaVgQWcaZAUUG3fQ5A",
+    "uVKLZsDP1dZHJ-MCO1VF1gQs_-2ezXIh-h8D0MRJBVNDVPpKt5Wm5b2q9F5k0CcHxVlnyM8OcRzgrg",
+    "aO9PTDPBOiPVyzSCk_KnLYWKqGXMYeOgejDKuHVnRpS83mc5qrVOIsLWgYCxiwzV9S5EcfdTSXCg7Q",
+    "oEUAjI7CmHdmlGGbsy48viDk69swkbIBAKQ0SwAZjQ1sEkzYIzPGiFRYIixw1ZOQNW4MEBFtTsQDDQ",
+    "L-3M92wvOMKYiIGGWVUMwZtKEV0GAePHKfpdIFLESodFVPkKG9iyb1VqOZbz7TnpZNvv8Pkvv8mzrw"
+  ],
+  "createdAt": {
+    "$date": "2024-11-03T23:52:32.181Z"
+  },
+  "updatedAt": {
+    "$date": "2026-05-22T03:46:08.238Z"
+  },
+  "__v": 0,
+  "nbOfGames": 0,
+  "losses": 0,
+  "victories": 0,
+  "avgFlexLp": 2403,
+  "avgFlexRankLabel": "Diamond IV",
+  "avgFlexTier": "DIAMOND",
+  "aiChatCount": 0,
+  "scoringSource": "flex5",
+  "isDemo": false
+},
+{
+  "_id": {
+    "$oid": "673a704366ee78863d64191c"
+  },
+  "name": "Flex Gang 3 ",
+  "slug": "flex-gang-3",
+  "logo": "32",
+  "admin": {
+    "$oid": "66fdbcebdb9a318dd4bab2a9"
+  },
+  "region": "europe",
+  "lastRefresh": {
+    "$date": "2026-05-22T03:47:06.708Z"
+  },
+  "puuids": [
+    "J7OraujHoCp2l5NwqUEa1ibYcGPMiWAfRil9VsodxtRhQrxPijvtg6Un0lqnpSlTl7XcSG1hntSw0g",
+    "g-iwJl6b1eguRBjHd7fm65V854c_94dYGSvZTm719N4fKIFSOXk9Fg1dQxwfdL14UzkJix0HfBofpA",
+    "Nb9nPcGLphWDpUBij0pHV6G62-nKB9yBuazGi0NCZunMbLNZQ0iF6pGt3VRo8Bxg4DjAiN68xQ2dpA",
+    "W2dayQGWGiXr1I0MJ15Gyslq4DxBcQwtjsnxtVfPu7sX0JC3cjjfrFRWYWanG6Ty9COQ9VAKQu_6cg",
+    "JKEPYVw93CH7EM7eSo2DW0yxFeABgJUDmk_jT7MHqUVzeBLfkDorRJYDD0rJHTsPvo7fEkWJhNi85g"
+  ],
+  "createdAt": {
+    "$date": "2024-11-17T22:37:55.810Z"
+  },
+  "updatedAt": {
+    "$date": "2026-05-22T11:48:02.485Z"
+  },
+  "__v": 0,
+  "nbOfGames": 0,
+  "losses": 51,
+  "victories": 17,
+  "avgFlexLp": 2535,
+  "avgFlexRankLabel": "Diamond III",
+  "avgFlexTier": "DIAMOND",
+  "aiChatCount": 0,
+  "scoringSource": "flex5",
+  "leaderboardScore": 0.07264000000000001,
+  "leaderboardScoreUpdatedAt": {
+    "$date": "2026-05-22T11:48:02.485Z"
+  },
+  "isDemo": false
+},
+{
+  "_id": {
+    "$oid": "674c58b3933b0042978e0afc"
+  },
+  "name": "Les OGs",
+  "slug": "les-ogs",
+  "logo": "1",
+  "admin": {
+    "$oid": "66fc0d27133a46ccb8bf5959"
+  },
+  "region": "europe",
+  "lastRefresh": {
+    "$date": "2026-05-22T03:47:08.620Z"
+  },
+  "puuids": [
+    "4laeghXdEOoM7cQ4Bo5c1Hch0rmHisG142JtajvflBKoLSCpvCDlzpOhIv01WTE_ZVyGb-qNobN9Ng",
+    "hypNR9sSzMH4gCXBd4gxlEl2tzd5YYouKdfuHtzVugGe_ya8LHru6bmrbCD_slPhU2A9oNYwlp40PA",
+    "tWwBHfFn1yKt-dGRIcwVgdGaJwcUS6-fM-G7pgXKixZh_PxFdX2ACgoSwx9WY6J3VkTQedO6AW2P3Q",
+    "XrfPkrpAl0gSGvQoT-w1fU_wCVfJzzpc3TYv6uIMtoDOAk8F_FSIxwWuHjCV4GPpONUfRtEHxaNlxw",
+    "Cjx9mf7sA4Q3FLoJAWfdHgejZG6cmK_mxUx-pjryfDJWAknraZWqRVh35ZO0AQTC76AEZfQXcZeBlg"
+  ],
+  "createdAt": {
+    "$date": "2024-12-01T12:38:11.972Z"
+  },
+  "updatedAt": {
+    "$date": "2026-05-22T03:47:08.621Z"
+  },
+  "__v": 0,
+  "nbOfGames": 14,
+  "losses": 0,
+  "victories": 0,
+  "aiChatCount": 0,
+  "scoringSource": "flex5",
+  "isDemo": false
+},
+{
+  "_id": {
+    "$oid": "6775fbbace85208b788cf31f"
+  },
+  "name": "efwfwefwefw",
+  "slug": "efwfwefwefw",
+  "logo": "1",
+  "admin": {
+    "$oid": "6775fb931c974c838322abd3"
+  },
+  "region": "americas",
+  "lastRefresh": {
+    "$date": "2026-05-22T03:47:21.741Z"
+  },
+  "puuids": [
+    "9UgYt7X7ZhYlK3gheCUApGpW_oyqK4SLwh-MY0VQp1KQdAQwkyMFb5sYomJ4GhDE-Ie-TcjGXDZ6Dw",
+    "UItR4Vtq7gDAfFtXDSSKRcr_2NJi4SgkWrZr7HYbVPeSEd1oemrXGSIsQ9dPRcqgt7mFPr_Y6cA8Fg",
+    "FIwHdWqCJ08GBFL8kM7DTDqNoa5ZLPiQETtB0BWPR-DPICDCSqkGvRKRAUWstK0SR04hx46JXpf4Mw",
+    "wD1pEB7TPMmYRo_KMUTgdQ_qiLwc-JAIHfOz8mLpx1sL8b_Bu5PLgdgEHuQSMCFj4f7H7CTUw9rS2A",
+    "QtbRgNP4o5nKR60fiMzWyYwLz6vHP5Dd4Vk0HoODY_v3rgq9YUkNBYSbOPiqkgjLrC5y4pHgywSYLA"
+  ],
+  "createdAt": {
+    "$date": "2025-01-02T02:36:42.489Z"
+  },
+  "updatedAt": {
+    "$date": "2026-05-22T03:47:21.742Z"
+  },
+  "__v": 0,
+  "nbOfGames": 0,
+  "losses": 0,
+  "victories": 0,
+  "aiChatCount": 0,
+  "scoringSource": "flex5",
+  "isDemo": false
+},
+{
+  "_id": {
+    "$oid": "67eafd189e70dff85b0864aa"
+  },
+  "name": "CUMJARGAMNIG",
+  "slug": "cumjargamnig",
+  "logo": "35",
+  "admin": {
+    "$oid": "67eafc969e70dff85b0864a5"
+  },
+  "region": "europe",
+  "lastRefresh": {
+    "$date": "2026-05-22T03:47:34.397Z"
+  },
+  "puuids": [
+    "ts7plDaZeSHVi69f0WuFoEbP9KLPY23EE-nqXxfM1_LPEr1PwppvDs8BXQbPxbf0vT5o-kJl5seM8w",
+    "VQa1w6J14m5esxiGNURgI0BjPq5f28k6FRGzfrLpsoS1dIa0TjV5k6YkysGbMsOmUUAObLG1IKajQA",
+    "_nDFTqPTc9oe3SzdyUPjA2D7Qna4WJmwxIlC84lpJQ2AJDiL4mknwOdE7wPTvHD4VeChFNEyz1Gq9Q",
+    "k_0k3mF7JbJGhGsj1XC8qUoK2CHVOK_HHj5f7kSEfVvrh2ywg3rExWXr6x00syGYaNm_h3xS6Ejbbg",
+    "beMjK4Rlb3zUZaiCTKE3OD-vM7i2W3ySKt6iWcwZ8Q48xJlrKPWnNa1CuOv4O4bgwUViupQ2tebuKQ"
+  ],
+  "createdAt": {
+    "$date": "2025-03-31T20:37:44.406Z"
+  },
+  "updatedAt": {
+    "$date": "2026-05-22T03:47:34.397Z"
+  },
+  "__v": 0,
+  "nbOfGames": 0,
+  "losses": 0,
+  "victories": 0,
+  "avgFlexLp": 2243,
+  "avgFlexRankLabel": "Emerald II",
+  "avgFlexTier": "EMERALD",
+  "aiChatCount": 0,
+  "scoringSource": "flex5",
+  "isDemo": false
+},
+{
+  "_id": {
+    "$oid": "68111a73fc8b870b6a79882f"
+  },
+  "name": "Crampteam",
+  "slug": "crampteam",
+  "logo": "1",
+  "admin": {
+    "$oid": "681119adfc8b870b6a798829"
+  },
+  "region": "europe",
+  "lastRefresh": {
+    "$date": "2026-05-22T03:47:46.528Z"
+  },
+  "puuids": [
+    "Pz8apx7LehyEm2JECDUZ3vRC6Bp3HVptNN2-N7j1iYvBYVCPJlWtbql-uCIPprmFl55wZ_OTYwzrLg",
+    "ci4El4zjS7_OYZ2yBAkskGJKKrH9m3tGTKYagwzC3-tJzXrbF-s2NLDVEcwPxdg3ovOEbqxFW75myQ",
+    "FHI5OGY9EKbfpGZPAwkL_OZJXTJg_gDk94VUqiVXMLmzZuSpdxu3YztCsqtB9h9MZ36GFQIJXuZovA",
+    "ocvxw5XVnmxbCnK8JyR_oGerymNvIO47uMNNsIBeSISN_Fug-qpnz850XsmfAkw1BVJ3OLU1CRfe-A",
+    "lJ24Kzieaq20kHMz8OzHlfDKCveQfquqtLf2jsLY8n3o76u5q0X-jXlaDc7qHFxbRIL2sSskGmETvg"
+  ],
+  "createdAt": {
+    "$date": "2025-04-29T18:29:07.132Z"
+  },
+  "updatedAt": {
+    "$date": "2026-05-22T03:47:46.529Z"
+  },
+  "__v": 0,
+  "nbOfGames": 0,
+  "losses": 0,
+  "victories": 0,
+  "avgFlexLp": 1574,
+  "avgFlexRankLabel": "Gold I",
+  "avgFlexTier": "GOLD",
+  "aiChatCount": 0,
+  "scoringSource": "flex5",
+  "isDemo": false
+},
+{
+  "_id": {
+    "$oid": "6854332b5e56c9ab85128ea3"
+  },
+  "name": "BNC",
+  "slug": "bnc",
+  "logo": "12",
+  "admin": {
+    "$oid": "685432b75e56c9ab85128e9d"
+  },
+  "region": "europe",
+  "lastRefresh": {
+    "$date": "2026-05-22T03:47:59.451Z"
+  },
+  "puuids": [
+    "1Tdlo3B8bqkQ1Cu7aMvM_U1_OKtvkWD2fHdbKzE1WBZgG-z_TVREQlyAGGkiF159VKgO8a3SsMLZEQ",
+    "_6HZNSd2XAO3OU332LPDANi4Y_IMRdgRKbozb9uc3AGqwhERRDQeIwccJGSBH4eoxLNwx3ElQTWq8g",
+    "2MeKnZwIFgT9hVFXmydpH3C2fN081_olrwGywgUgmDEXnaXlIzN0U_yOD-7z5nMvKqJeCcBSud0yFQ",
+    "A6Ool8uXRFQiSP0WqbX9VKsUfsS02yVpRrQfAKxrSbScQC5XJvpWyj2sl-iF7lY4x8H_LaHL6gGXeQ",
+    "m_4lqQmKiK66TMHFCtdygkFIvgo2rJ8qJiPQTxVbp4S4lyy3mcHiVti3ditzUtRpsbQb4dbih7Ub2A"
+  ],
+  "createdAt": {
+    "$date": "2025-06-19T15:56:27.625Z"
+  },
+  "updatedAt": {
+    "$date": "2026-05-22T03:47:59.452Z"
+  },
+  "__v": 0,
+  "nbOfGames": 0,
+  "losses": 0,
+  "victories": 0,
+  "avgFlexLp": 2231,
+  "avgFlexRankLabel": "Emerald II",
+  "avgFlexTier": "EMERALD",
+  "aiChatCount": 0,
+  "scoringSource": "flex5",
+  "isDemo": false
+},
+{
+  "_id": {
+    "$oid": "686fd15eba311c361066d813"
+  },
+  "name": "Trololo",
+  "slug": "trololo",
+  "logo": "9",
+  "admin": {
+    "$oid": "686fd098ba311c361066d80e"
+  },
+  "region": "europe",
+  "lastRefresh": {
+    "$date": "2026-05-22T03:48:13.316Z"
+  },
+  "puuids": [
+    "KcwwrIiKrH7Jf3OLC_GArOTpwXHS3kk8opZniBtIe3uxUafQexyDIMRiCHuCEjM2nwAS7N4n8rlrRQ",
+    "8vqAjH8ZGpZTiuIx2nVoRnwzuyqDN-9MbK5a2hvyI2Xd7q5RzoMBQVfe73P0audTVKGjkrvQi8GVCg",
+    "5OSrg8g-BHssH-DUaK5sUbnhRXHibMwoSD49A9XKQR7j1_3n-BfAwsQMFG_uyKCVqer5FBnmvqldzQ",
+    "Fge0-uybFWGz6RI56ciGVU3k9qEy-rvc1SecX8YAcupwrSSwXeFrO6kdxC3mt551zK3kQ7zlgTU_-Q",
+    "V7lDTQejJ6a4kG1bzIoOr0WWwgtndmEMUcKiKAiFKvuJMDFNHCdK9QodqqZQ4j6oXRNhPlDL00g4ag"
+  ],
+  "createdAt": {
+    "$date": "2025-07-10T14:42:38.646Z"
+  },
+  "updatedAt": {
+    "$date": "2026-05-22T13:18:10.279Z"
+  },
+  "__v": 0,
+  "nbOfGames": 33,
+  "losses": 320,
+  "victories": 292,
+  "avgFlexLp": 1975,
+  "avgFlexRankLabel": "Platinum I",
+  "avgFlexTier": "PLATINUM",
+  "aiChatCount": 0,
+  "scoringSource": "flex5",
+  "leaderboardScore": 0.5844428571428573,
+  "leaderboardScoreUpdatedAt": {
+    "$date": "2026-05-22T13:18:10.279Z"
+  },
+  "isDemo": false
+},
+{
+  "_id": {
+    "$oid": "687b7a4a5770abcafb99a456"
+  },
+  "name": "Team Evictix",
+  "slug": "team-evictix",
+  "logo": "9",
+  "admin": {
+    "$oid": "687b799190c3d4a5b7e2a937"
+  },
+  "region": "americas",
+  "lastRefresh": {
+    "$date": "2026-05-22T03:48:26.470Z"
+  },
+  "puuids": [
+    "sozjVTSqQvSWhtQ3UfHZJy4EhAzFFuZgquVryrQuYTWHqFWFg-o5azg_w-yGJ-1VTE-o598u1kXRBw",
+    "ABgHXrmezLAfAn4uR2kqwpWeXiDplZ8DEyBaTjeyEtrVxSlqmlvjF_Hm9J75dJpLtreGkiegggDSTQ",
+    "dQJIDIN_Vc8a_C5J1ytWsa0Vo_yIQF1kUQ7Qcw5SSQVh4KDRDdmaqCy1Fv4B37gROJgiXyvJhWNOmA",
+    "mBH7wzPN8pLaRFZHHi6if4bfvCq0Xuq5RdipuB25gHymcHc66czW3gijc1LhEk0p5leKH0sF1n_LsQ",
+    "nUWWkWt2GYQVZduMo1eRLFS-yb-cv35t0PH7bHFK-R3V30RNcG85DUg6Ywc74a_aXHrZBbzgwX2PiA"
+  ],
+  "createdAt": {
+    "$date": "2025-07-19T10:58:18.156Z"
+  },
+  "updatedAt": {
+    "$date": "2026-05-22T03:48:26.470Z"
+  },
+  "__v": 0,
+  "nbOfGames": 0,
+  "losses": 0,
+  "victories": 0,
+  "aiChatCount": 0,
+  "scoringSource": "flex5",
+  "isDemo": false
+},
+{
+  "_id": {
+    "$oid": "68c16b8bad7d3d226d2e869f"
+  },
+  "name": "PPE",
+  "slug": "ppe",
+  "logo": "31",
+  "admin": {
+    "$oid": "68c16af0e2961d1ba37fda47"
+  },
+  "region": "europe",
+  "lastRefresh": {
+    "$date": "2026-05-22T03:48:39.220Z"
+  },
+  "puuids": [
+    "jxXpQvoyKQMjE3r6aySssJS1F6R-bU9tDxsNzP1ZIP8xXTPKxknFGF_Dtgp6zpZkG4sAKeSnBI_zog",
+    "rzZEeKQAdnjGpXvrxKphOGqxULmGnyAepv2hXVe-sSuOOAJL1zNlXzqJdBPAIiJqRDPOTxWMS5OJLA",
+    "QvYNCy_ed9Gx4XR-B-qRM8TCP5o1FcwZgcBntGLDQ5hnMbV7mHy4T5AvWAHS-bA_BRtmwHW3VadQww",
+    "tENcjWm1GY1pUPjpge4CztZNIMIWPQzL5zINZVwXLOd211UhBdsdIQwWMKeQrzRWF5_Edf0sg_XLrw",
+    "Z3PNxu2gZ9dhcsd4C9uMyXdJS0z-kfPau-YLN43oKpGUthg0bJ1ySKx7NpvzEMpxVupB8WbhYyP36w"
+  ],
+  "createdAt": {
+    "$date": "2025-09-10T12:14:03.373Z"
+  },
+  "updatedAt": {
+    "$date": "2026-05-22T03:48:39.220Z"
+  },
+  "__v": 0,
+  "nbOfGames": 13,
+  "losses": 18,
+  "victories": 42,
+  "avgFlexLp": 2545,
+  "avgFlexRankLabel": "Diamond III",
+  "avgFlexTier": "DIAMOND",
+  "aiChatCount": 0,
+  "scoringSource": "flex5",
+  "isDemo": false
+},
+{
+  "_id": {
+    "$oid": "68c25e2f1d6d59077a7a3041"
+  },
+  "name": "FE Solar",
+  "slug": "fe-solar",
+  "logo": "8",
+  "admin": {
+    "$oid": "68c25b6d841b051644763956"
+  },
+  "region": "americas",
+  "lastRefresh": {
+    "$date": "2026-05-22T03:48:52.031Z"
+  },
+  "puuids": [
+    "LEmv3rlIh7v7p4Dmr6V82bjHqsW-UIXDksLgne75IpXwgP1nkQ6ZilvIM2lsH_YwPBJ5nvLOMcSoEg",
+    "Dp28zPYr28zmoNXC7g8U1QJlF3cDrfj8mr_wqVp2b-68RoddtQojJoifJXJ_fl1KctDmmJM3mArK4w",
+    "RwC1unJs3e_aOP-wXtlUIaXYO3oRCS1DeHgyAmzyxX3H_n6WwfbQXZFruyz-qOzu7xt9AgPjI4ZulA",
+    "b_S_MM4RoYpGhj-u8aYfFLwbkyZvYjo20BRzB9WglMGyMw9JFtzCtZOFZTSxD86Os7uQUnjXFL62UQ",
+    "swD8eF5AEENh156fNK6_6OHyi7CUDzxirlHIdPr8iX7G096xUL45LU9hHRISka4-QorGXxBRDjOdlA"
+  ],
+  "createdAt": {
+    "$date": "2025-09-11T05:29:19.131Z"
+  },
+  "updatedAt": {
+    "$date": "2026-05-22T03:48:52.032Z"
+  },
+  "__v": 0,
+  "nbOfGames": 0,
+  "losses": 0,
+  "victories": 0,
+  "avgFlexLp": 1768,
+  "avgFlexRankLabel": "Platinum III",
+  "avgFlexTier": "PLATINUM",
+  "aiChatCount": 0,
+  "scoringSource": "flex5",
+  "isDemo": false
+},
+{
+  "_id": {
+    "$oid": "68cea83481f40b907e1ce4cd"
+  },
+  "name": "Turbo Inters",
+  "slug": "turbo-inters",
+  "logo": "1",
+  "admin": {
+    "$oid": "68cea69681f40b907e1ce4c7"
+  },
+  "region": "americas",
+  "lastRefresh": {
+    "$date": "2026-05-22T03:49:05.374Z"
+  },
+  "puuids": [
+    "tfudsAVmXltGMLm4HGaaHc_YIz6PqFxD6izm5hrF4ArHoy7D9tu_6kSb1N8nP867fnoFs0sEJh6R6g",
+    "R0j6xkGigzQmnOx3KisOeE6zODY_KGLK1z-1WcAoaM-zB_g6oUQ_IlWWwk0kGDZS9CcVHVqWftETqw",
+    "EVMzxkboQwCks3ojgD9Hm9soZgKYDr_Gr0r2hWAxuZ_1OThGafYUvCmI3HsDTZkdqzc3Vnzi1s1YOQ",
+    "08r-aSoF4JllFtG98v_aDbB003OHqdfwOUW1p9ZbozwfiikSTkKRTlXFXFsItO-kDQksqgerEujNeQ",
+    "JZH1eUWyGf1t3AbZWpynYHnllQMQ-QeaKGF_YjIRMmVVJwbgRxByHeZwK_0c0EJNgRpbyKCU8D5Wdw"
+  ],
+  "createdAt": {
+    "$date": "2025-09-20T13:12:20.218Z"
+  },
+  "updatedAt": {
+    "$date": "2026-05-22T03:49:05.374Z"
+  },
+  "__v": 0,
+  "nbOfGames": 1,
+  "losses": 0,
+  "victories": 0,
+  "avgFlexLp": 1898,
+  "avgFlexRankLabel": "Platinum II",
+  "avgFlexTier": "PLATINUM",
+  "aiChatCount": 0,
+  "scoringSource": "flex5",
+  "isDemo": false
+},
+{
+  "_id": {
+    "$oid": "68d0c19954e0b51618d50c6e"
+  },
+  "name": "gga",
+  "slug": "gga",
+  "logo": "20",
+  "admin": {
+    "$oid": "68d0c14754e0b51618d50c69"
+  },
+  "region": "americas",
+  "lastRefresh": {
+    "$date": "2026-05-22T03:49:20.598Z"
+  },
+  "puuids": [
+    "niOom6e4jyEDAaEl7Ubl_vwdVa33BpsYP0yBSiPaNbWwrKeCraKXhAgHPqu-4I0FNhNdr2v0oAVQyg",
+    "xk6mADrp_04d-3Mb0mFlqKTUNTsJxy1VojrBSL95Y3NC1NeKC17d5d47gVTsYmksauZhXwNRzwg3gw",
+    "GXYqe7_8EgStOSw_MdnZDTQ7He7ZSwbyUdRISjNQ0F8cHP57Hx9QlwWdPcQ-X1juXSQaCQ3MwRLAzw",
+    "gi7XmlCArNvaTtcNT1K7itvy2F4eYCF7tNeQtifGs9GUqEVPY6IBPNUHs86blMQDbvHK9Wd_nQSlWQ",
+    "Wc6BHtmD7i2Oajsi577hHV3uveT1YhXHQ0EUDQ1QcJ9CB7oMUgl5eiZubtco1GZUzShTblCLTrhmhQ"
+  ],
+  "createdAt": {
+    "$date": "2025-09-22T03:25:13.690Z"
+  },
+  "updatedAt": {
+    "$date": "2026-05-22T11:47:59.509Z"
+  },
+  "__v": 0,
+  "nbOfGames": 6,
+  "losses": 140,
+  "victories": 96,
+  "aiChatCount": 0,
+  "scoringSource": "flex5",
+  "leaderboardScore": 0.38335,
+  "leaderboardScoreUpdatedAt": {
+    "$date": "2026-05-22T11:47:59.508Z"
+  },
+  "isDemo": false
+},
+{
+  "_id": {
+    "$oid": "68dfd1c43d31b78ac39f3330"
+  },
+  "name": "GOATESQUES",
+  "slug": "goatesques",
+  "logo": "1",
+  "admin": {
+    "$oid": "6707e1bed1e078369a5bdf6f"
+  },
+  "region": "europe",
+  "lastRefresh": {
+    "$date": "2026-05-22T03:49:32.939Z"
+  },
+  "puuids": [
+    "K40x0s-w7LdtyNg5x2XEacoQDHTwLXk9WiB9G_QlJS7qP2Wmr6XWAOZ9JuJ8VrDBbLh4NWSIuHMqcg",
+    "Onflh8pMsbfwnwVW7RPfT00bqO9MrfM-kR6XAfwXMqX1ejqsKJ8fO7ofC78q0nvuJUs0zAJQD4oleg",
+    "3RFrrCplVslzRQbuWfXsLU6M0lQpm0QU-62Olze3EnzJnpP_XLPDn8Stykbe1jx8pPOEGpTNyeX9pQ",
+    "CX8YuYmO4691vmdHbGcX_yyYWKBkYSfXT_8hvDxYskXbGtqt8LWa25nsRAn2TsTi-ZIbaa3qhwTOEw",
+    "AdJXRtf1VXskYqSj4KyD9eWBwpqdycNVxNg42eLAjwgS1kOuGcefcJhDuMEn3Klet49pfZWZJnI1Wg"
+  ],
+  "createdAt": {
+    "$date": "2025-10-03T13:38:12.015Z"
+  },
+  "updatedAt": {
+    "$date": "2026-05-22T11:48:02.485Z"
+  },
+  "__v": 0,
+  "nbOfGames": 2,
+  "losses": 20,
+  "victories": 4,
+  "avgFlexLp": 2200,
+  "avgFlexRankLabel": "Emerald III",
+  "avgFlexTier": "EMERALD",
+  "aiChatCount": 0,
+  "aiAnalysis": "{\"version\":4,\"scoringSource\":\"flex5\",\"generatedAt\":\"2026-05-19T10:38:47.155Z\",\"gameCount\":13,\"model\":\"google/gemini-2.5-flash-lite\",\"headline\":\"Team struggles with early game damage and vision control, leading to longer, losing games.\",\"team_advice\":[{\"action\":\"Prioritize early game objectives and skirmishes when running a 'Bruiser heavy' composition.\",\"why\":\"Your 'Bruiser heavy' composition has a 38% win rate over 13 games, matching your overall team win rate. However, your losses have an average damage per minute of 4501 compared to 4285 in wins, suggesting you are outscaled or out-damaged early.\"},{\"action\":\"Increase vision score by 15% in the early game, especially around objectives.\",\"why\":\"Your team's vision per minute is lower in losses (1.11) than in wins (1.03). This is a small delta, but inoudam's vision per minute is 1.47, significantly higher than the team average, indicating potential for improvement.\"},{\"action\":\"Focus on closing out games before 32 minutes when ahead.\",\"why\":\"Your games in wins last an average of 32 minutes, while losses average 40 minutes. This indicates a tendency to let winning games slip away, as seen in the 38% overall win rate despite a recent 60% win rate in the last 5 games.\"}],\"player_advice\":{\"Maladie\":{\"action\":\"Focus on farming efficiency and jungle pathing to increase damage output.\",\"why\":\"Your 'Farming' axis is your weakest at 4%, while 'Damage' is 27%. In losses, the team's damage per minute is 4501 compared to 4285 in wins, suggesting a need for more damage contribution from the jungle.\"},\"Bepø\":{\"action\":\"Consider playing more Mage or Support class champions for higher impact.\",\"why\":\"You have a 60% win rate on Mage and Support classes (5 games each), compared to 25% on Tank and 29% on Fighter (8 and 7 games respectively). This suggests a stronger performance in these roles.\"},\"FAMINE\":{\"action\":\"Practice champions like Garen and other Fighters to leverage your strengths.\",\"why\":\"You have a 50% win rate on Fighters across 10 games and a 57% win rate on Tanks across 7 games. Your Garen has a 100% win rate over 2 games, indicating a strong champion pool in these classes.\"},\"inoudam\":{\"action\":\"Prioritize vision control and utility over aggressive plays to maximize your impact.\",\"why\":\"Your strongest axis is 'Vision' at 55% above team average, and 'Utility' at 34%. Your weakest axis is 'KDA' at -25%. Focusing on these strengths can improve team performance.\"},\"ReD Of GreeD\":{\"action\":\"Focus on improving vision score, especially when playing Mage or Support.\",\"why\":\"Your vision per minute is 0.43, significantly lower than the team average of 1.03 in wins. Your 'Vision' axis is -53% below team average, and your games on Lux and Morgana have a 0% win rate.\"},\"YOP Lune Glaçée\":{\"action\":\"Avoid playing Marksman champions until team strategy is clear.\",\"why\":\"Your two games played were on Marksman champions with a 0% win rate. Your 'Utility' axis is -106% below team average, suggesting a mismatch with the role's typical needs.\"},\"お前はもう死んでいる\":{\"action\":\"Focus on improving KDA and damage output, especially on Yasuo.\",\"why\":\"Your KDA is 1.72, significantly below the team average of 4.04 in wins. Your 'KDA' axis is -59% below team average. Your 9 Yasuo games have a 44% win rate, indicating room for improvement.\"}}}",
+  "scoringSource": "flex5",
+  "leaderboardScore": 0.19085576923076922,
+  "leaderboardScoreUpdatedAt": {
+    "$date": "2026-05-22T11:48:02.485Z"
+  },
+  "isDemo": false
+},
+{
+  "_id": {
+    "$oid": "68e03fbb6be820236bd26670"
+  },
+  "name": "CLUTCHINTIME",
+  "slug": "clutchintime",
+  "logo": "29",
+  "admin": {
+    "$oid": "68e03f5172ad935b3086ec2d"
+  },
+  "region": "europe",
+  "lastRefresh": {
+    "$date": "2026-05-22T03:49:45.565Z"
+  },
+  "puuids": [
+    "CX8YuYmO4691vmdHbGcX_yyYWKBkYSfXT_8hvDxYskXbGtqt8LWa25nsRAn2TsTi-ZIbaa3qhwTOEw",
+    "AdJXRtf1VXskYqSj4KyD9eWBwpqdycNVxNg42eLAjwgS1kOuGcefcJhDuMEn3Klet49pfZWZJnI1Wg",
+    "i1jJh_9-pA31igx3mZpaymcTE79ONPWQiCQdNMAL7lQ0dT1cFBjq0wy8dpKTrDQ_LKqEmlK6u2kD8g",
+    "K40x0s-w7LdtyNg5x2XEacoQDHTwLXk9WiB9G_QlJS7qP2Wmr6XWAOZ9JuJ8VrDBbLh4NWSIuHMqcg",
+    "3RFrrCplVslzRQbuWfXsLU6M0lQpm0QU-62Olze3EnzJnpP_XLPDn8Stykbe1jx8pPOEGpTNyeX9pQ"
+  ],
+  "createdAt": {
+    "$date": "2025-10-03T21:27:23.047Z"
+  },
+  "updatedAt": {
+    "$date": "2026-05-22T11:48:02.485Z"
+  },
+  "__v": 0,
+  "nbOfGames": 4,
+  "losses": 3,
+  "victories": 1,
+  "aiChatCount": 0,
+  "avgFlexLp": 2022,
+  "avgFlexRankLabel": "Emerald IV",
+  "avgFlexTier": "EMERALD",
+  "scoringSource": "flex5",
+  "leaderboardScore": 0.0652625,
+  "leaderboardScoreUpdatedAt": {
+    "$date": "2026-05-22T11:48:02.485Z"
+  },
+  "isDemo": false
+},
+{
+  "_id": {
+    "$oid": "68e54b441faab9aff136be8f"
+  },
+  "name": "213",
+  "slug": "213",
+  "logo": "1",
+  "admin": {
+    "$oid": "68e54b05aaf98dabe2858b05"
+  },
+  "region": "europe",
+  "lastRefresh": {
+    "$date": "2026-04-17T04:54:01.280Z"
+  },
+  "victories": 0,
+  "losses": 0,
+  "puuids": [
+    "HKPvmfWbYedQll9HQ6QNUnYk9hgxAp9XeF7ITegHNA2KKgYqLvFkrFclt740_wrIsNz0AI5T-d8azw",
+    "QmWE_O_ltYL7oK4l_-2xX2qSVQ1RaH0GZIX3H8B96WrLRZlihZVRbOJnIe9sz3BlnjQugMHi9eFkbg",
+    "TfkjYQsDGy1i-GOXnUQsXFaIksx1LJiloopHb76w4XMp3oRBc3_HXqD-HL3bFkUKzBont8NowelQxA",
+    "Ges4IguokmWw0t8yaVOSLM8aA50HuTFf3bf5tkxwSUzSQ31BdSWYTByfS-Sr--gJEN_Tn3ylcU4ffQ",
+    "S8BetZVkXp1tpPBmKnsmby6V2rnpC7op0HA89Osn7epFlCZJff_zhkNWd5jn5U16JgadlRDT-trX0g"
+  ],
+  "createdAt": {
+    "$date": "2025-10-07T17:17:56.595Z"
+  },
+  "updatedAt": {
+    "$date": "2026-04-22T00:02:20.690Z"
+  },
+  "__v": 0,
+  "aiChatCount": 0,
+  "avgFlexLp": 1760,
+  "avgFlexRankLabel": "Platinum III",
+  "avgFlexTier": "PLATINUM"
+},
+{
+  "_id": {
+    "$oid": "68e98d26ac5e075971b1aedd"
+  },
+  "name": "Zteam",
+  "slug": "zteam",
+  "logo": "13",
+  "admin": {
+    "$oid": "68e98bf17c1464965f228712"
+  },
+  "region": "europe",
+  "lastRefresh": {
+    "$date": "2026-05-22T03:49:58.154Z"
+  },
+  "victories": 0,
+  "losses": 0,
+  "puuids": [
+    "sIk4d-M9k56oYkyi6ZjrGcIPlxa43SZRSJyeyyyNJOvVywpCKN1s7nENGrVehXpFbgR2mbvM_pGt1Q",
+    "2IcaDQUv-Kc6DGRQJ3sZdigNY1ncOq_iR0WJfKOX5MWX6wXQSoQSCu1o_Kifks2E0AOIieS_T4-Ncw",
+    "2pqen6yT3teRbMB3d6FpXaoBPX6kZaM9SgIW6yFEp5QfTkL1SDvwNs9QjKpDGE9w82REw9UDWx8yXQ",
+    "9a9EfRuQYDPAlFH_f-0apEnZizRv_4tl_7sAkia8JgRPKPBFEJZNpj6mzYsnJVbLCs2xHC6EK2Ydmg",
+    "uw2T9ZhR0H6CjDFKLKdqBJgosHMY7aBg8VdoiaCvoy0e10qnGGb4DnmqWW2vkBFeCUzSsU6JlhWcpQ"
+  ],
+  "createdAt": {
+    "$date": "2025-10-10T22:48:06.085Z"
+  },
+  "updatedAt": {
+    "$date": "2026-05-22T03:49:58.154Z"
+  },
+  "__v": 0,
+  "aiChatCount": 0,
+  "avgFlexLp": 2302,
+  "avgFlexRankLabel": "Emerald I",
+  "avgFlexTier": "EMERALD",
+  "scoringSource": "flex5",
+  "isDemo": false
+},
+{
+  "_id": {
+    "$oid": "68e9961e21df7d12b58aea51"
+  },
+  "name": "LINE UP JGL",
+  "slug": "line-up-jgl",
+  "logo": "1",
+  "admin": {
+    "$oid": "68e9957f21df7d12b58aea4c"
+  },
+  "region": "europe",
+  "lastRefresh": {
+    "$date": "2026-05-22T03:50:11.135Z"
+  },
+  "victories": 2,
+  "losses": 0,
+  "puuids": [
+    "wLzlGhagyJ13WxC3wgc6ez-vDmdNNl3tw2L9xxJkMwJiulypJfmiAW9W2gD--wgnKtrRWhbUGGSM9A",
+    "9-TFbU-ISvEa-bKvt8xcRyayGriwJO06tIcGe_p7Q9PPhG9xLXKEBCS_V80t1GgSAooRotjesxMPNA",
+    "D_sINmgp_SOL5pZJ8vq9abDadi3fYFlLGIwBVBFS1D5b-dJYapAXsUZ_y3zRWHKIHN4crG_YO-cvSA",
+    "puMlWjV6tYYBQmLRnatZGYH8pvMxo_SSGtSla8irPEfvNnKHB1BEyIyozZouh6GO_amfOF7HOY7z6Q",
+    "2b4cnBTLYoTfNMLV25iHC0SQjCVMlknkj2GeWt713UDD5Hsuy5r8o-qM_p9DUeyGM29Sda_ekmwRug",
+    "MYC9hGycxAWxE4ja4p5budJDx3_sujIx22AEdaBn6DHl7DIbfVkXswbOO_JPgBSZkud1kw26HyURLQ",
+    "EMp5yxQdcTtOR0-oGJDMy2YSejctnAW4DqNSWRrC9e3dTsr3YHgNY2Tf2PvfXAiT1EFESc0Ez3Gblg",
+    "bGTOtChPzd235Gvg9rSRA33VEJAxlF40lvkqfGrxXK8RxZFYOWjk2EzdpcLcJsHaliRusUqxiNpenw",
+    "VBiIxwYQe6KBRfVa7KjN3bU1a6jc9DA4IRrie3Jlo1xErVBkBkGxEroHNWinz-Rnsp_-050VCwTlNg",
+    "mt3UQNXv1BCpzlniFH6RnV0RqW81kkY0OMMpzWMKa6Vg1BQ4uepL8vrI6FwQtG4JYIYp2PHcrg48jw",
+    "QwF8cOoGmOukTkgnqyTUhnS5Ib3GdV6f2w_TrvssYeVJvXD8Z5XTO5D__w78TTcSJ2Jzn65wuviDrA"
+  ],
+  "createdAt": {
+    "$date": "2025-10-10T23:26:22.585Z"
+  },
+  "updatedAt": {
+    "$date": "2026-05-22T03:50:11.136Z"
+  },
+  "__v": 0,
+  "aiChatCount": 0,
+  "avgFlexLp": 2004,
+  "avgFlexRankLabel": "Emerald IV",
+  "avgFlexTier": "EMERALD",
+  "scoringSource": "flex5",
+  "isDemo": false
+},
+{
+  "_id": {
+    "$oid": "68ecf9c888c333abf7463c0f"
+  },
+  "name": "quinikish",
+  "slug": "quinikish",
+  "logo": "15",
+  "admin": {
+    "$oid": "68e03f5172ad935b3086ec2d"
+  },
+  "region": "americas",
+  "lastRefresh": {
+    "$date": "2026-05-22T03:50:24.547Z"
+  },
+  "victories": 1,
+  "losses": 1,
+  "puuids": [
+    "DNMV36bnV3uGl2J-5G2xXqMMbcHVQalwpUznBjZhkLOjoulOIcPVLXK8sl8XNkuHD9sUfugJ-M9JEg",
+    "MiEYoGC9lQ3q4aYLUsZAYRIAwZO3yI-rGgsihgHWUhDGFOeVcTYP2HJc52YJ_RQ1D6qJmg5Inq4cAw",
+    "zEuMCzT2BLa-Hp2stXLTxs18BwaR1V8o9SszPzl6IUisEvQCDhqdsGVJJvprP7Il5FFkE6rUE4Kurw",
+    "OHoDekZK3Qdp_MDepG8oOwxndLtuFaIyAJBHG4AQPZ2rAAN_64EVgcUdkKvaxl-5HEUQSdJ-Sg1NuA",
+    "snSTXAv2mZmdguWHcKwhnE1vw4FxnN9GOmj-Ezc19XjfKfRtgns9hNk0G_v1YTLsA1HwhHZFeXcp8Q"
+  ],
+  "createdAt": {
+    "$date": "2025-10-13T13:08:24.842Z"
+  },
+  "updatedAt": {
+    "$date": "2026-05-22T11:47:59.509Z"
+  },
+  "__v": 0,
+  "aiChatCount": 0,
+  "scoringSource": "flex5",
+  "leaderboardScore": 0.113,
+  "leaderboardScoreUpdatedAt": {
+    "$date": "2026-05-22T11:47:59.508Z"
+  },
+  "isDemo": false
+},
+{
+  "_id": {
+    "$oid": "68ed0e1db2f847e682a4ee95"
+  },
+  "name": "Spyzzix",
+  "slug": "spyzzix",
+  "logo": "29",
+  "admin": {
+    "$oid": "68e03f5172ad935b3086ec2d"
+  },
+  "region": "europe",
+  "lastRefresh": {
+    "$date": "2026-05-22T03:50:37.845Z"
+  },
+  "victories": 17,
+  "losses": 19,
+  "puuids": [
+    "I0Ky_uV7Y9hh5SgY45c8TN5aO7AM5MyJ2hCQp-5v7mErEjVq3U9aqka9OkMvNG1sxDN9dBu2ec1rrA",
+    "QbBzbuX1-MqujGJRex_ifqjHOTGsdmn_lw4H7oZm-bbdNfI2q-ItAl2lBuwpN42qTHCqEApIPaz-VA",
+    "IsgvpJDb_gJ5OVQuiBS8QFWmr9c175c32QsC6ovFVDyYr3EZINJtWaWUZ2oJ9y9reJLenvHeq5RS0w",
+    "-Esb695QXuplPOrpTrp9cpUWMOEDfJ-DVfzBfe3Ij5wJljNCkoiODG0W3ESATggHgRkw90YYohIR6w",
+    "Mm3-Csrbo3a2AKQaCtuvIK4jr59K2cAUYWcCDIHvSEfESGiaKUaYeHgm41vgcbkVNoefClsfXl7DzA"
+  ],
+  "createdAt": {
+    "$date": "2025-10-13T14:35:09.321Z"
+  },
+  "updatedAt": {
+    "$date": "2026-05-22T11:48:02.485Z"
+  },
+  "__v": 0,
+  "aiChatCount": 0,
+  "avgFlexLp": 1042,
+  "avgFlexRankLabel": "Silver II",
+  "avgFlexTier": "SILVER",
+  "scoringSource": "flex5",
+  "leaderboardScore": 0.068327,
+  "leaderboardScoreUpdatedAt": {
+    "$date": "2026-05-22T11:48:02.485Z"
+  },
+  "isDemo": false
+},
+{
+  "_id": {
+    "$oid": "68ef71fadaa5dd35f9f5a347"
+  },
+  "name": "Maitre Keb",
+  "slug": "maitre-keb",
+  "logo": "1",
+  "admin": {
+    "$oid": "68eeab71592cb6e998d7d1fb"
+  },
+  "region": "europe",
+  "lastRefresh": {
+    "$date": "2026-05-22T03:50:50.834Z"
+  },
+  "victories": 0,
+  "losses": 0,
+  "puuids": [
+    "JHPBoe5Pl8bkxcFdUfAIYXKd24GTYLg2Kjn1-PNoXLTF5MGH4SymTK2keV0dMRrFSoydEMsf77TiTw",
+    "XSzxzTUxLV1mlGVFknOwn4hnF-wIcayBa0D-OhgSkM8wnFKTp0XejqcGoDVsQwxboQVALq5mkqLJ-w",
+    "QieHfTshfp2-sHeYpa23CS_KcJABYRjSmp4obYVVmR9Rx99AWhLvThSqBYD1JKDedmEPXfiv05E1Eg",
+    "K40x0s-w7LdtyNg5x2XEacoQDHTwLXk9WiB9G_QlJS7qP2Wmr6XWAOZ9JuJ8VrDBbLh4NWSIuHMqcg",
+    "qhiYmWt5uTOWnloWUgp6sEmKOgG_YnzBfTRpLfvOsQX-stLcWpyXR9phUSLO_k1ITpwwaz7-RR0GyA"
+  ],
+  "createdAt": {
+    "$date": "2025-10-15T10:05:46.400Z"
+  },
+  "updatedAt": {
+    "$date": "2026-05-22T03:50:50.835Z"
+  },
+  "__v": 0,
+  "aiChatCount": 0,
+  "avgFlexLp": 2240,
+  "avgFlexRankLabel": "Emerald II",
+  "avgFlexTier": "EMERALD",
+  "scoringSource": "flex5",
+  "isDemo": false
+},
+{
+  "_id": {
+    "$oid": "68f15bf51d7c3e5016b9ba5b"
+  },
+  "name": "Que la lose",
+  "slug": "que-la-lose",
+  "logo": "32",
+  "admin": {
+    "$oid": "66fdbcebdb9a318dd4bab2a9"
+  },
+  "region": "europe",
+  "lastRefresh": {
+    "$date": "2026-05-22T03:51:29.900Z"
+  },
+  "victories": 37,
+  "losses": 0,
+  "puuids": [
+    "_WbfF7xThAa5ugowEqyxYpew1aKDyx-6h_a9kHV7Lk6oP1emKBpWYHnJEzPN_wBus-OOWyLtczD00w",
+    "7fEuPpm-O3ILxVbvH-7nvvSDv1mT0LHQ1ed9hicup4fkw2gR-mdet6i5J8i_7YwcZzvNHVPXAUqQWw",
+    "QJ5vBtdgzZYcG1CkHPGogtKzhfBubb5Xi6EaCs7SYuwNVWn5G52YpB8N_3P0nDwmDdmZ5XP2czZP3A",
+    "4oP4mQQiWPvW2WuIR2bFdvGc79FhoEafoZhdgdImCg0yOopK8FpSUgHpFcRfUUUikkEGG0Z81KZThg",
+    "oEgEivMChaf4rrO7GN9RplYFp1-uNSQkLEiS3SF_DFCxVM9i4BlGSWFfR1jgMH-fU0VGLaTwenHBsg"
+  ],
+  "createdAt": {
+    "$date": "2025-10-16T20:56:21.393Z"
+  },
+  "updatedAt": {
+    "$date": "2026-05-22T11:48:02.485Z"
+  },
+  "__v": 0,
+  "aiChatCount": 0,
+  "avgFlexLp": 2068,
+  "avgFlexRankLabel": "Emerald IV",
+  "avgFlexTier": "EMERALD",
+  "scoringSource": "flex5",
+  "leaderboardScore": 0.25989999999999996,
+  "leaderboardScoreUpdatedAt": {
+    "$date": "2026-05-22T11:48:02.485Z"
+  },
+  "isDemo": false
+},
+{
+  "_id": {
+    "$oid": "68f1763a2b81eb7938537a8e"
+  },
+  "name": "Atomeus",
+  "slug": "atomeus",
+  "logo": "36",
+  "admin": {
+    "$oid": "6707e1bed1e078369a5bdf6f"
+  },
+  "region": "europe",
+  "lastRefresh": {
+    "$date": "2026-05-22T03:51:42.583Z"
+  },
+  "victories": 36,
+  "losses": 16,
+  "puuids": [
+    "K6TIlx4vzt7aiD91JVw7KGJ_bOpsmWocSQZlW88R_TopB_6DEGQNu_TbLX5WNQ6aUWj49M5FbF9wPw",
+    "ygXktGsgWu_8aQl_Y9f_m3AHjs-6AOAbm6M4i0oLVW3F7aWvy4BVWusCd6JnDOwqJeB98YsRyyuhMw",
+    "eUvfh2kjHtYY0gK-MjuQQH8n_znkQ7OpjL5z1fEoxieEmpJLcOY2ZsMlODg9i9MHvMy8BIN74GUFjg",
+    "cUeqHUbxm5zXw2zqjdUFa7yPOuXJwfz14vc4YTS8Dp3xwJIr5-q5hJjkCdOgAoqopjFlZ3D-b38-qg",
+    "QkSOTubGGEk4W5QcFfZPWleFYrUUlczdDdffsr9ZGSbtRQ--PfObyzeWcJ0SEKFHdfvfFtPMXlFxYg",
+    "DxuecgAOEONDSO6NjR9Ko-9oZUBITmX2aImWVCnLTLBB8O1M0r0G1cGENUruLD1a9trmC7zBLF06qw"
+  ],
+  "createdAt": {
+    "$date": "2025-10-16T22:48:26.277Z"
+  },
+  "updatedAt": {
+    "$date": "2026-05-22T11:48:02.485Z"
+  },
+  "__v": 0,
+  "avgFlexRankLabel": "Platinum II",
+  "aiAnalysis": "{\"version\":4,\"scoringSource\":\"both\",\"generatedAt\":\"2026-05-19T16:32:33.122Z\",\"gameCount\":36,\"model\":\"google/gemini-2.5-flash-lite\",\"headline\":\"Team wins more when games end faster, but recent performance is declining.\",\"team_advice\":[{\"action\":\"Prioritize shorter games by securing early objectives and closing out leads.\",\"why\":\"Your team wins 67% of games with an average duration of 29 minutes, compared to 32.3 minutes in losses. This indicates a strong tendency to capitalize on early advantages.\"},{\"action\":\"Focus on improving vision control in losing scenarios.\",\"why\":\"Your vision per minute is 1.02 in wins and 1.04 in losses. This small difference suggests vision is not a primary differentiator, but could be a factor in extended games.\"},{\"action\":\"Review recent VODs for decision-making in games that extend past 30 minutes.\",\"why\":\"Your team's win rate has dropped from 71% earlier to 40% in the last 5 games. This suggests a recent trend of struggling to close out games effectively.\"}],\"player_advice\":{\"Ami de la forêt\":{\"action\":\"Focus on playing Tank or Mage champions for higher win rates.\",\"why\":\"You have a 75% win rate on Tanks and 80% on Mages, compared to 63% on Fighters. Your weakest axis is Vision, with a -15% delta vs team.\"},\"Ryûuk\":{\"action\":\"Avoid playing Support or Tank champions, focus on Assassins or Mages.\",\"why\":\"Your win rate is 75% on Assassins and 68% on Mages, but only 33% on Tanks and 25% on Supports. Your weakest axis is Utility, with a -104% delta vs team.\"},\"Dr Moji\":{\"action\":\"Continue playing Support champions, but consider fewer Mage picks.\",\"why\":\"You have a 66% win rate on Supports over 35 games, but only 69% on Mages over 26 games. Your strongest axis is Vision, with a 135% delta vs team.\"},\"Under953\":{\"action\":\"Prioritize Fighter or Tank champions for optimal performance.\",\"why\":\"You have a 70% win rate on Fighters and 68% on Tanks, compared to 43% on Assassins. Your weakest axis is Vision, with a -42% delta vs team.\"},\"HU60F3\":{\"action\":\"Continue playing Marksman or Mage champions.\",\"why\":\"You have a 69% win rate on Marksman and 60% on Mages. Your weakest axis is Utility, with a -189% delta vs team.\"},\"LeNoisette\":{\"action\":\"Focus on Tank or Support champions for your strongest performance.\",\"why\":\"You have a 75% win rate on Tanks and 100% on Supports. Your strongest axis is Utility, with a 137% delta vs team.\"}}}",
+  "aiChatCount": 2,
+  "avgFlexLp": 1880,
+  "avgFlexTier": "PLATINUM",
+  "aiChatDay": "2026-04-24",
+  "scoringSource": "both",
+  "leaderboardScore": 0.36260000000000003,
+  "leaderboardScoreUpdatedAt": {
+    "$date": "2026-05-22T11:48:02.485Z"
+  },
+  "isDemo": false
+},
+{
+  "_id": {
+    "$oid": "68f2598a04286299b1e7a3c1"
+  },
+  "name": "BLD TEAM",
+  "slug": "bld-team",
+  "logo": "51",
+  "admin": {
+    "$oid": "68f25839b1fe6ed11d8cbd87"
+  },
+  "region": "europe",
+  "lastRefresh": {
+    "$date": "2026-05-22T03:51:55.415Z"
+  },
+  "victories": 0,
+  "losses": 0,
+  "puuids": [
+    "7AuU49SZjUaGtue2BPJAEYe7d04JChcIGvdCv6A5mRomXHMh2y1652rYs44pN7CjdtTxmuRRiEY-1A",
+    "CbWD-NJ73fPB77K6-obuXDl6lVdn71OLk8tw__F_h5yw-wnuozr_HnwiXPIYWBleyaru77Y7ub8d3Q",
+    "4nOUjeK-i5ILDeI2cetcHG8IE6_VbX_nLsflBicpkwiCh-SQW1s0gEDgs1wK10E2uQaXukV6a0u6lg",
+    "CCz98bKscY3DXKOG0c1MGhdzHwfNF5gaxz56hNHZYjzTryIG5UbCgQIrY4eRw-c9fSPPdUyvTgGpxA",
+    "SgSqvi0mvZu8K1dHb3Wb-pgU4FMZPoTABTCzr9O6neodfM69sOaJgRh44e51IW5qmSr7ldfPPplzHw"
+  ],
+  "createdAt": {
+    "$date": "2025-10-17T14:58:18.493Z"
+  },
+  "updatedAt": {
+    "$date": "2026-05-22T03:51:55.415Z"
+  },
+  "__v": 0,
+  "aiChatCount": 0,
+  "avgFlexLp": 2120,
+  "avgFlexRankLabel": "Emerald III",
+  "avgFlexTier": "EMERALD",
+  "scoringSource": "flex5",
+  "isDemo": false
+},
+{
+  "_id": {
+    "$oid": "68fb4738f9d34d7f910b8567"
+  },
+  "name": "rundown",
+  "slug": "rundown",
+  "logo": "29",
+  "admin": {
+    "$oid": "68fb46bcbc2003cdadac4ac5"
+  },
+  "region": "europe",
+  "lastRefresh": {
+    "$date": "2026-05-22T03:52:07.318Z"
+  },
+  "victories": 1,
+  "losses": 1,
+  "puuids": [
+    "bGTOtChPzd235Gvg9rSRA33VEJAxlF40lvkqfGrxXK8RxZFYOWjk2EzdpcLcJsHaliRusUqxiNpenw",
+    "wLzlGhagyJ13WxC3wgc6ez-vDmdNNl3tw2L9xxJkMwJiulypJfmiAW9W2gD--wgnKtrRWhbUGGSM9A",
+    "2b4cnBTLYoTfNMLV25iHC0SQjCVMlknkj2GeWt713UDD5Hsuy5r8o-qM_p9DUeyGM29Sda_ekmwRug",
+    "MYC9hGycxAWxE4ja4p5budJDx3_sujIx22AEdaBn6DHl7DIbfVkXswbOO_JPgBSZkud1kw26HyURLQ",
+    "VBiIxwYQe6KBRfVa7KjN3bU1a6jc9DA4IRrie3Jlo1xErVBkBkGxEroHNWinz-Rnsp_-050VCwTlNg",
+    "QwF8cOoGmOukTkgnqyTUhnS5Ib3GdV6f2w_TrvssYeVJvXD8Z5XTO5D__w78TTcSJ2Jzn65wuviDrA",
+    "mt3UQNXv1BCpzlniFH6RnV0RqW81kkY0OMMpzWMKa6Vg1BQ4uepL8vrI6FwQtG4JYIYp2PHcrg48jw",
+    "EMp5yxQdcTtOR0-oGJDMy2YSejctnAW4DqNSWRrC9e3dTsr3YHgNY2Tf2PvfXAiT1EFESc0Ez3Gblg"
+  ],
+  "createdAt": {
+    "$date": "2025-10-24T09:30:32.092Z"
+  },
+  "updatedAt": {
+    "$date": "2026-05-22T03:52:07.318Z"
+  },
+  "__v": 0,
+  "aiChatCount": 0,
+  "avgFlexLp": 1853,
+  "avgFlexRankLabel": "Platinum II",
+  "avgFlexTier": "PLATINUM",
+  "scoringSource": "flex5",
+  "isDemo": false
+},
+{
+  "_id": {
+    "$oid": "69075d9552fd37eab4771c4e"
+  },
+  "name": "SUII",
+  "slug": "suii",
+  "logo": "2",
+  "admin": {
+    "$oid": "69066065dcc8737ba52e9c3b"
+  },
+  "region": "europe",
+  "lastRefresh": {
+    "$date": "2026-05-22T03:52:20.153Z"
+  },
+  "victories": 3,
+  "losses": 0,
+  "puuids": [
+    "-NAb6RbpQTy5bMNhyZaBAB2hb3izfSjMYuEi9jWXhL_9Tl9eN8rU19_7wCdtxdP55iDCsunz_xijzw",
+    "TvTBRkyH2bLZZAtG6gyW3O3btla-UMJHgCqn6KwCGRrb99wkEk9Gi5Oa08Zx5YtYMzACI46RBigTnw",
+    "RjlkwZI0xrnDsxkfHebgJp2lc-uYk1purKBUtdPM9A_OGZjk9C6LeZYQPPkDJUNRK5zyRoGQm6fkCw",
+    "YiebYNrMvSRGYG3-5lz30SgdPWgzRWF2jpOSh7aUMyyBAxf1jWAUxz-DXHByEK8EHFBVZO-vkHHhiw",
+    "USNC7P0Pv0z5vWtRA6Bbsk9stKepCs3IqGJsL1d62pSDC7V7FvJnSaVy4_Yk5UCet9WyacW0QbCHQw"
+  ],
+  "createdAt": {
+    "$date": "2025-11-02T13:33:09.323Z"
+  },
+  "updatedAt": {
+    "$date": "2026-05-22T03:52:20.153Z"
+  },
+  "__v": 0,
+  "aiChatCount": 0,
+  "avgFlexLp": 1725,
+  "avgFlexRankLabel": "Platinum III",
+  "avgFlexTier": "PLATINUM",
+  "scoringSource": "flex5",
+  "isDemo": false
+},
+{
+  "_id": {
+    "$oid": "6916188b9633a0c5e37f0f25"
+  },
+  "name": "FBK Pink",
+  "slug": "fbk-pink",
+  "logo": "12",
+  "admin": {
+    "$oid": "691618329633a0c5e37f0f1b"
+  },
+  "region": "europe",
+  "lastRefresh": {
+    "$date": "2026-05-22T03:52:32.866Z"
+  },
+  "victories": 2,
+  "losses": 5,
+  "puuids": [
+    "6IFMf-GuzTsOISANYxT2IqD4PrhFo2IV2UVUArV0JJ5RNMlc70oEGHKGLyqzFdmnMQQqWUbUfRkjcA",
+    "iGC3KVrTQqVBwhCYURe3n76q559vSmwSUm8fUr-Lo5k4O79JzdUCXC6uGMUSlieQeVhIcfLyeb1E_g",
+    "US1cNihhifNE03v2FvEeUnlx59KXIEUmxmHhqaaIK7v0asUIZKGmLlWploQmGWrlGBIIQIVQFaMqmw",
+    "dnh1xR3kMmBaWagPR7m0P3Vb6uKk1gUHAJcHcDiMpUOnGSp9GG0oEdp4hHGtsM02s_G88QavWPBIiQ",
+    "fS2Jh5GRyYSsU85ztAaCUg06OivzDVWgGVvMqkqIFrZ2HtFhmFfz-GY4Z5w83IIRb8ykn99YqkdbIA"
+  ],
+  "createdAt": {
+    "$date": "2025-11-13T17:42:35.075Z"
+  },
+  "updatedAt": {
+    "$date": "2026-05-22T03:52:32.867Z"
+  },
+  "__v": 0,
+  "aiChatCount": 0,
+  "avgFlexLp": 2319,
+  "avgFlexRankLabel": "Emerald I",
+  "avgFlexTier": "EMERALD",
+  "scoringSource": "flex5",
+  "isDemo": false
+},
+{
+  "_id": {
+    "$oid": "691a4687f57d6976be7a32a1"
+  },
+  "name": "Mental Kaio",
+  "slug": "mental-kaio",
+  "logo": "24",
+  "admin": {
+    "$oid": "691a3c5ff57d6976be7a3294"
+  },
+  "region": "europe",
+  "lastRefresh": {
+    "$date": "2026-05-22T03:53:31.073Z"
+  },
+  "victories": 0,
+  "losses": 0,
+  "puuids": [
+    "CCz98bKscY3DXKOG0c1MGhdzHwfNF5gaxz56hNHZYjzTryIG5UbCgQIrY4eRw-c9fSPPdUyvTgGpxA",
+    "avw42-6w0xti6rCCrr1xRVMIwCvQHhe-kI-CF3JYdNOSbrmK8_YluDkh9YpjSunnHs78Qyvhe_kSWQ",
+    "IilhJc7maZjhRe7VVhHbofTn4AvFH4oxEYem4bBaw8Ax50N6i24kYQo0-tJyM5MryWxujDfi9zk7zQ",
+    "ZCvXSJGv57ATGVRx0BR026ydcOTn0Akn2f5oo_aWaxzQzKe1OomdXgGY1KiuKt-wPes5tSTvOqtdnA",
+    "i9JmkG2_UQi6Rps5426B8bOCyP6AlEZsGiFgy4B2bRzkOKig-7hLv1en3V_N4IR7dZEvb9dMy96zTQ"
+  ],
+  "createdAt": {
+    "$date": "2025-11-16T21:47:51.555Z"
+  },
+  "updatedAt": {
+    "$date": "2026-05-22T03:53:31.073Z"
+  },
+  "__v": 0,
+  "aiChatCount": 0,
+  "avgFlexLp": 1925,
+  "avgFlexRankLabel": "Platinum I",
+  "avgFlexTier": "PLATINUM",
+  "scoringSource": "flex5",
+  "isDemo": false
+},
+{
+  "_id": {
+    "$oid": "691d95b8304e0e02a98066e0"
+  },
+  "name": "INOUDAM DIFF",
+  "slug": "inoudam-diff",
+  "logo": "24",
+  "admin": {
+    "$oid": "68e03f5172ad935b3086ec2d"
+  },
+  "region": "europe",
+  "lastRefresh": {
+    "$date": "2026-05-22T03:53:44.191Z"
+  },
+  "victories": 78,
+  "losses": 100,
+  "puuids": [
+    "CX8YuYmO4691vmdHbGcX_yyYWKBkYSfXT_8hvDxYskXbGtqt8LWa25nsRAn2TsTi-ZIbaa3qhwTOEw",
+    "Onflh8pMsbfwnwVW7RPfT00bqO9MrfM-kR6XAfwXMqX1ejqsKJ8fO7ofC78q0nvuJUs0zAJQD4oleg",
+    "AdJXRtf1VXskYqSj4KyD9eWBwpqdycNVxNg42eLAjwgS1kOuGcefcJhDuMEn3Klet49pfZWZJnI1Wg",
+    "K40x0s-w7LdtyNg5x2XEacoQDHTwLXk9WiB9G_QlJS7qP2Wmr6XWAOZ9JuJ8VrDBbLh4NWSIuHMqcg",
+    "3RFrrCplVslzRQbuWfXsLU6M0lQpm0QU-62Olze3EnzJnpP_XLPDn8Stykbe1jx8pPOEGpTNyeX9pQ"
+  ],
+  "createdAt": {
+    "$date": "2025-11-19T10:02:32.250Z"
+  },
+  "updatedAt": {
+    "$date": "2026-05-22T11:48:02.485Z"
+  },
+  "__v": 0,
+  "aiChatCount": 0,
+  "avgFlexLp": 2200,
+  "avgFlexRankLabel": "Emerald III",
+  "avgFlexTier": "EMERALD",
+  "scoringSource": "flex5",
+  "leaderboardScore": 0.19396666666666665,
+  "leaderboardScoreUpdatedAt": {
+    "$date": "2026-05-22T11:48:02.485Z"
+  },
+  "isDemo": false
+},
+{
+  "_id": {
+    "$oid": "691efab5c758e5f90812a1d9"
+  },
+  "name": "FCCHOMAGE",
+  "slug": "fcchomage",
+  "logo": "6",
+  "admin": {
+    "$oid": "691efa35c758e5f90812a1d0"
+  },
+  "region": "europe",
+  "lastRefresh": {
+    "$date": "2026-05-22T03:53:57.035Z"
+  },
+  "victories": 3,
+  "losses": 0,
+  "puuids": [
+    "KN2op6Di5ZLQ8q1ydxD_qmj-HTAlAZ2mNevv4uebg4HtnzDxKg-zSBlyCbGJ5oQEDmMoCIut1RSYRg",
+    "_uo4ANo10wdMWJfZiU0HfSX0ERjDSdgXdZXyaZPwUqBfyv7d-JRnWrRcVdtEFqCk4iOqc4OSx6FQiA",
+    "IY1sIv2YEIhRvOZ0ee5XScs9xYIFIo4dFsjrWpebvNFJsZkUKJ3HIHdCmCtpODLprHsj2I0bTk7dHQ",
+    "EpSyWu1mtrOMrbdRLUsHeBD1cis7NHuXHLZxvnlICrftdaHuN49ZHiCkcJvPQL0nivV83FaOsWpQzw",
+    "JhztgM6VTdDiy06C0otYojYEsx3ZlXjzxTtBt-CrfSQviZbvl-Y-9G60S17EKSTHmnkejjvxLLp67g",
+    "SqFbLMglrYUkHuvLKv9gr8qcGLANdjIXaTkaOX1ZYjy2Cssy4HIsmcMs-J_ow9A-DXHxAD3f62ZrWw"
+  ],
+  "createdAt": {
+    "$date": "2025-11-20T11:25:41.890Z"
+  },
+  "updatedAt": {
+    "$date": "2026-05-22T03:53:57.035Z"
+  },
+  "__v": 0,
+  "aiChatCount": 0,
+  "avgFlexLp": 1816,
+  "avgFlexRankLabel": "Platinum II",
+  "avgFlexTier": "PLATINUM",
+  "scoringSource": "flex5",
+  "isDemo": false
+},
+{
+  "_id": {
+    "$oid": "6923816958e152564d1f4d16"
+  },
+  "name": "fghfghkughuj",
+  "slug": "fghfghkughuj",
+  "logo": "29",
+  "admin": {
+    "$oid": "692380aa76279777fe06cb2f"
+  },
+  "region": "europe",
+  "lastRefresh": {
+    "$date": "2026-05-22T03:54:10.153Z"
+  },
+  "victories": 0,
+  "losses": 0,
+  "puuids": [
+    "N6vQyi6E86GsjscLyKA9eVqSiciN2GA9wR6O0ug6AKx_eeWIjiGNUtCkARJ52zM3t9Nx4em5R7yD1w",
+    "Ges4IguokmWw0t8yaVOSLM8aA50HuTFf3bf5tkxwSUzSQ31BdSWYTByfS-Sr--gJEN_Tn3ylcU4ffQ",
+    "tpgy1hria49zxNRnZtGqCBaiC4BxvmyYVOv22jJTMcTQ7209cEgc_N9KrNKCTr_mng5lmDf3ZkPtjQ",
+    "3vS0Mz6HIrYv6f87AddmTiXbQoxQfnX13RVPy2RgssMQxAghna3baQuxPNokQ8ogTR3S9307nfsGYA",
+    "kdQIcm1ncvYQY5cJL5mQpnvGAvQt-6e0qvzkFJJr_ULuVp5UaVR9YZKqYTNppot4dwThWyyZwHK6MA"
+  ],
+  "createdAt": {
+    "$date": "2025-11-23T21:49:29.820Z"
+  },
+  "updatedAt": {
+    "$date": "2026-05-22T03:54:10.153Z"
+  },
+  "__v": 0,
+  "aiChatCount": 0,
+  "avgFlexLp": 1768,
+  "avgFlexRankLabel": "Platinum III",
+  "avgFlexTier": "PLATINUM",
+  "scoringSource": "flex5",
+  "isDemo": false
+},
+{
+  "_id": {
+    "$oid": "692e2432cade506fd3da3c3b"
+  },
+  "name": "Test",
+  "slug": "test",
+  "logo": "1",
+  "admin": {
+    "$oid": "692e23a8cade506fd3da3c33"
+  },
+  "region": "europe",
+  "lastRefresh": {
+    "$date": "2026-05-22T03:54:17.478Z"
+  },
+  "victories": 0,
+  "losses": 0,
+  "puuids": [
+    "z_ez06zZmvDTzQYbhEjBjqjvPLNcQZPXvc7YMMBp5PE4c5yeNueNSaFMs34mbvXDs0EQiER-tOCGeA",
+    "VszlUXCgmEznE6pvzSjpl06lyMoDKqMCrofmYdrvB4V9UBF9Ny9RoH0RdxdddUzzX7jWTfwvS1dxAw",
+    "pShnI2IwmApdk14TtGM61goum-ryLwzmLCA9MUiPHsYLbQ1hIVgrTaHGPBIQ-JRiF493-qzienPpPw",
+    "u6al4NVtrOXcZtuA5iCCyKhxK4-LtgZE6du2cRUjDgpUCJjCuCF4QIXsRUBwY7TvSBzay8byNGRVjQ",
+    "HkR2NnioBhMwRNTlrv2tJqsTdSO5IK_uqRED0S70eiO-Y5KXCEYBc4beEA_lvwRalhjfaB0hIHGCig"
+  ],
+  "createdAt": {
+    "$date": "2025-12-01T23:26:42.434Z"
+  },
+  "updatedAt": {
+    "$date": "2026-05-22T03:54:17.479Z"
+  },
+  "__v": 0,
+  "aiChatCount": 0,
+  "avgFlexLp": 2264,
+  "avgFlexRankLabel": "Emerald II",
+  "avgFlexTier": "EMERALD",
+  "scoringSource": "flex5",
+  "isDemo": false
+},
+{
+  "_id": {
+    "$oid": "692f60f636dd3dc8f3d4bb48"
+  },
+  "name": "bronze",
+  "slug": "bronze",
+  "logo": "1",
+  "admin": {
+    "$oid": "692f599f36dd3dc8f3d4baaf"
+  },
+  "region": "americas",
+  "lastRefresh": {
+    "$date": "2026-05-22T03:54:30.702Z"
+  },
+  "victories": 0,
+  "losses": 0,
+  "puuids": [
+    "wZYmvpCGGBy_SqiVMdTEKjOtS5s67gWu55f2rQtjhEfc59o_4aGVuppWizk92Pf-6KZ5W2LCPfcIyQ",
+    "FgAjuFHixZXvdFSp3Ek7sHf3bKm538AJg_eZaYwOm6OMJ8WAFmBcmUlUAgjDa-rggYoelgWwPE2xRQ",
+    "bwLpVXAAyCjl6KLREtiBdTELd0nSk5GtpUrIokYMX9ITe4oaX1dkvasBDhjwyHrjONICg1rotZtTPA",
+    "yoZ6Mfm4AIRuBVtba558i6y6w8HyE9Ih8gXN4dV0ayogpc3NowgOoVR8Jm4yEMVUJ6pU9yrNFxsThg",
+    "nN_NIkb3Z9biZrHV78sogBTbbVKaRHOHRLHt4CT5vJtUZar3KcFea6ql-qQdaOdF7IycfhoJ1f102A"
+  ],
+  "createdAt": {
+    "$date": "2025-12-02T21:58:14.760Z"
+  },
+  "updatedAt": {
+    "$date": "2026-05-22T03:54:30.702Z"
+  },
+  "__v": 0,
+  "aiChatCount": 0,
+  "scoringSource": "flex5",
+  "isDemo": false
+},
+{
+  "_id": {
+    "$oid": "69378190dd1aaf70dba6a66b"
+  },
+  "name": "WOOOSS",
+  "slug": "woooss",
+  "logo": "1",
+  "admin": {
+    "$oid": "6937816edd1aaf70dba6a666"
+  },
+  "region": "americas",
+  "lastRefresh": {
+    "$date": "2026-04-17T04:54:09.423Z"
+  },
+  "victories": 0,
+  "losses": 0,
+  "puuids": [
+    "2EYSKkIti7DF6iFWJ7_Vlozs2gBClb49qSAWiHLk1Dqh6oPHheV8XeyMtN6k19QAsJNLP6ZW7Dyu8Q",
+    "nVifAri_8NxJPYGn1c_AHlSpAyltmWafHX0d_DkIVmnc3F_WBszBt-ngnMPcXtHjGkn0c692FTO36g",
+    "jWvvKrecucjbmPPd7UKmV0EvdKYnht88XBuWE-v4yiF3DkMeMxK_9p3xER8sDZrZIJIgde-SH8pMaw",
+    "NiANgvmCp7g1dnvejRiYO9dNdxXZ-kDB6W8oBoHByGLDn1IMEbDs3n3pXSC1WRsIlIYkv4IVH803WA",
+    "LfVdR1veLBMH6FScuVeBeb_oLVqASudQLJ5rtP6cV9yDI7KYtohWdERgEvetaTrN9F4BxqM5TtH5xw"
+  ],
+  "createdAt": {
+    "$date": "2025-12-09T01:55:28.591Z"
+  },
+  "updatedAt": {
+    "$date": "2026-04-17T04:54:09.423Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6938240dc1bdefbe8a3375c5"
+  },
+  "name": "BROLAND",
+  "slug": "broland",
+  "logo": "27",
+  "admin": {
+    "$oid": "69382381c1bdefbe8a3375bf"
+  },
+  "region": "europe",
+  "lastRefresh": {
+    "$date": "2026-05-22T03:54:44.958Z"
+  },
+  "victories": 300,
+  "losses": 316,
+  "puuids": [
+    "UbmKo8VqjWkWlr6orBOCILD3WwgqIa_a2xMYjCARVzsG5sKeznn5YF52cETVN8drRhhnzEdQ2LN9Ww",
+    "r89BGLNKAfJo3rFAQ0yo1Ib5li0WGDuzQ0dCwdUVBO5PCrg25pfZkZR6cfRKKgCu9YFUYmfvMqSC9A",
+    "3SEKdPHzjRCnf9hEWihd7yGlzQyFoCUCWkfhova-Jt8KAbyaJMOkFpChVJL5n2u_bOJdz-B4hHxe7Q",
+    "Y0mPOI2Nf9PSOoRx0e4zlEb5_cNoIbJsWlHNtySyT2u-1gyLfyOTYOw2FlgMb-ObOVqo6VFQX4q5kw",
+    "LSjU0uNftaW8J59czBiQhB5KyHjHY49GAc4gHPXDK-Y4EVA_qxqNktJsuc1UAY0pIXUtFmfTg2xsyw"
+  ],
+  "createdAt": {
+    "$date": "2025-12-09T13:28:45.118Z"
+  },
+  "updatedAt": {
+    "$date": "2026-05-22T11:48:02.485Z"
+  },
+  "__v": 0,
+  "aiAnalysis": "{\"version\":4,\"scoringSource\":\"flex5\",\"generatedAt\":\"2026-05-17T02:48:43.318Z\",\"gameCount\":54,\"model\":\"google/gemini-2.5-flash-lite\",\"headline\":\"Team wins when dealing more damage and getting more kills, but struggles on AD-leaning comps.\",\"team_advice\":[{\"action\":\"Prioritize team compositions with Double frontline or AP-leaning archetypes.\",\"why\":\"These compositions have a 61% win rate, significantly higher than the team's average of 54%. The AD-leaning archetype has a very low 25% win rate over 8 games, indicating a clear weakness.\"},{\"action\":\"Focus on securing early advantages and snowballing leads.\",\"why\":\"In wins, the team averages 4198 damage per min and 37.7 kills, compared to 3160 damage per min and 23 kills in losses. This suggests a pattern of out-damaging and out-killing opponents when successful.\"},{\"action\":\"Improve vision control in losing games.\",\"why\":\"The team's vision per min is 1 in wins and 0.9 in losses. While the difference is small, a slight improvement in vision could help prevent the large kill deficits seen in losses (26.4 deaths vs 36.4 deaths).\"}],\"player_advice\":{\"BRO chauki\":{\"action\":\"Focus on maximizing damage output and KDA on your primary Marksman champions.\",\"why\":\"Your damage per min is high, and your 'Damage' axis is +38 vs team average. However, your 'Utility' axis is -179 vs team average. Prioritizing damage and KDA on champions like Yunara (67% win rate) will leverage your strengths.\"},\"BRO Lama\":{\"action\":\"Continue playing Tank or Mage class champions for optimal win rates.\",\"why\":\"You have a 59% win rate on Tanks and an 88% win rate on Mages, which are strong performances. Your Fighter class win rate is only 48% over 46 games.\"},\"BRO shweeps\":{\"action\":\"Focus on your Support and Mage champion classes.\",\"why\":\"You have a 55% win rate on Supports and a 62% win rate on Mages. Your vision per min is high at 1.81, aligning with your strongest axis. Avoid playing Tank class champions where your win rate is 47%.\"},\"BRO Jo\":{\"action\":\"Prioritize playing Marksman or Fighter class champions when possible.\",\"why\":\"You have a 73% win rate on Marksman and an 83% win rate on Fighters. These are significantly higher than your 51% win rate on Mages. Your 'Utility' axis is weak at -32 vs team average.\"},\"BRO aado\":{\"action\":\"Continue playing Tank or Support class champions.\",\"why\":\"You have a 57% win rate on Tanks and a 59% win rate on Supports. These are your strongest performing classes. Your KDA axis is -37 vs team average, so focus on consistent play rather than aggressive plays.\"}}}",
+  "aiChatCount": 0,
+  "scoringSource": "flex5",
+  "leaderboardScore": 0.28301851851851856,
+  "leaderboardScoreUpdatedAt": {
+    "$date": "2026-05-22T11:48:02.485Z"
+  },
+  "isDemo": false
+},
+{
+  "_id": {
+    "$oid": "69419fe265690abc1abb9e28"
+  },
+  "name": "La FlexTeam",
+  "slug": "la-flexteam",
+  "logo": "25",
+  "admin": {
+    "$oid": "69419f7865690abc1abb9e22"
+  },
+  "region": "europe",
+  "lastRefresh": {
+    "$date": "2026-05-22T03:54:57.560Z"
+  },
+  "victories": 11,
+  "losses": 1,
+  "puuids": [
+    "I-otZIFd5FpRiXknwiiIeLc0SczLUMc4m--Alet1wzMn-acfiWRZVwQO1yizFFXl36RVf0VE9yoEkw",
+    "qZa5UESD2ijojDQ1PBu_qjXGM8j2T4S52xVj2G8hXt5UHMDcBdrNXp6Dv0pk3m3nV4Z7iw9mBOhGyA",
+    "ceTPOZzwCXAQp-NImfCQHnYcAvfP3_iHUQ39w_8ZDVEThUwT2Lzr0yhWb3zciDVbZPmgC08qG3lqig",
+    "C9Tw60KJibE8uQC6FLuaYDk50hGfbG3I-yin8j44mmOqE_EvYzTVFn98XE9dhMLs-1lr1WV_w0rZ0A",
+    "ZBnKmyHIFZA8_yd2eSZL6Ubd0qqOAK6Rni4i2cTGawQVx54DlQ3Ufy4_7bCKVLD_z_Xwyv5llt-_NA"
+  ],
+  "createdAt": {
+    "$date": "2025-12-16T18:07:30.379Z"
+  },
+  "updatedAt": {
+    "$date": "2026-05-22T03:54:57.560Z"
+  },
+  "__v": 0,
+  "aiChatCount": 0,
+  "avgFlexLp": 4186,
+  "avgFlexRankLabel": "Challenger",
+  "avgFlexTier": "CHALLENGER",
+  "scoringSource": "flex5",
+  "isDemo": false
+},
+{
+  "_id": {
+    "$oid": "694442d6801ed67a85653950"
+  },
+  "name": "Iron FOX",
+  "slug": "iron-fox",
+  "logo": "1",
+  "admin": {
+    "$oid": "6944424626eacb37b05efb2f"
+  },
+  "region": "europe",
+  "lastRefresh": {
+    "$date": "2026-05-22T03:55:42.723Z"
+  },
+  "victories": 121,
+  "losses": 86,
+  "puuids": [
+    "I2naGdvnzjH8yPwhqlSrShqfmUM7J2I5NJE-GwGpRbmRHftS5PICkYmQBULH7I7soW3MbbWMFPJdSA",
+    "Mt6GxA7YwHMAb_OzlRTopEqpZOvlqCPt6-9PuGf_x7oxjzGEe1b2hLgHjf_uaAbiay69aWmlKZaoBg",
+    "yAkMZLmPxchEBw5dCWZFYU4HE1SFp6t41JdjzpHOA9K6p1NioioNnmXhYMsugNxXQloe9EcxRkZ-6Q",
+    "p1a5O_BUejnQMge_osFFSjwYSUwBh8QXYOA6iCn_-0iN-r4jI9LsmgJrGn_tHJG4OgK_RWMKvKCnJg",
+    "rlVRGbWGHm7Da3RFIQlWurMHwkApyjpzPp-DsyB6UiPQRZroi25YXPKcLTCCc4fXlfBCcDqjRa4X5Q"
+  ],
+  "createdAt": {
+    "$date": "2025-12-18T18:07:18.404Z"
+  },
+  "updatedAt": {
+    "$date": "2026-05-22T03:55:42.724Z"
+  },
+  "__v": 0,
+  "aiChatCount": 0,
+  "scoringSource": "flex5",
+  "isDemo": false
+},
+{
+  "_id": {
+    "$oid": "6968a1b1008c0128423d83c7"
+  },
+  "name": "TSPMO",
+  "slug": "tspmo",
+  "logo": "44",
+  "admin": {
+    "$oid": "6968a023c1a15703a786677c"
+  },
+  "region": "americas",
+  "lastRefresh": {
+    "$date": "2026-05-22T03:55:58.411Z"
+  },
+  "victories": 126,
+  "losses": 126,
+  "puuids": [
+    "IFhk5BPxiKrRBjURkW0N-4x520vWwQEvVgFi2Zh5PENayWT1GGrYc0IkukwK8Y9Iy_Jo9k80p1GBxg",
+    "K6CsmgS5wv3ov9oQyvxF8yT2p_PUr-3n2r5QffcqFgC7Q94dssupKxBMiO7IoDKK1MLfjIeFWf6G6g",
+    "Qv0-k4kxdy4iyI-PHsfgDUlLmxYwQxCyIX-I6t2JjJLIIBWLVW6b8cVIB7el5PcpwKc1XAgp5xmzbw",
+    "hnDYupXek265AQBwxuHP69yMQhfVY8JVGuZ1yaUuCH0swBzxevZYY-uGCqQh1FJsPZM40nAbavZOlw",
+    "xiK4nCDtxmnfuxZ6vTXSzAvd5JikyBcnb35cJEOHxwyNW6XUI3W7lPtd6BkK6gU_ut8uC5Uo8qysEA"
+  ],
+  "createdAt": {
+    "$date": "2026-01-15T08:13:37.683Z"
+  },
+  "updatedAt": {
+    "$date": "2026-05-22T03:55:58.411Z"
+  },
+  "__v": 0,
+  "aiChatCount": 0,
+  "scoringSource": "flex5",
+  "isDemo": false
+},
+{
+  "_id": {
+    "$oid": "696d6efe3bfdc22685d7e5a0"
+  },
+  "name": "RapContender",
+  "slug": "rapcontender",
+  "logo": "1",
+  "admin": {
+    "$oid": "696d6e473bfdc22685d7e599"
+  },
+  "region": "europe",
+  "lastRefresh": {
+    "$date": "2026-05-22T03:56:11.122Z"
+  },
+  "victories": 0,
+  "losses": 0,
+  "puuids": [
+    "jccsAV5w6UBBLEsLXWJJQkDKXwTTMzZKnpLwsICjq1vr4ZSbq3fJ01R9R1w7A24Kn8AgihFOXw_xXg",
+    "T3V7DbbvuIO9q-CnfCozXtleOj7aYeufQYXkJfVXEoaDJdLy9n88MrBVfNo57JzKyZJjAFXPlzu4AQ",
+    "CZviVPW9MUiPrZ8q0qqnNCGWCLXrGfRn2QIbjOMPjP2Y3K5CUh-eaHOpmYpdTvaN2YFP47f8cgG6cg",
+    "y_QKR6a8Op_Xy5UcNWmTqRET8do3bDgRrXwvcMGbwDKhJ3jSugpIKjKFEoFsc2cYghPahwex0uKPMg",
+    "sQkwLYAjRS_b4dqTpsIfAKYsJBTNbuBqmd-pxVLJR1h-g4ySHfvb067smo__VkEIWCIESMd9efczBw"
+  ],
+  "createdAt": {
+    "$date": "2026-01-18T23:38:38.213Z"
+  },
+  "updatedAt": {
+    "$date": "2026-05-22T03:56:11.122Z"
+  },
+  "__v": 0,
+  "aiChatCount": 0,
+  "scoringSource": "flex5",
+  "isDemo": false
+},
+{
+  "_id": {
+    "$oid": "697019bef2ea6e1e5f320324"
+  },
+  "name": "Reformed",
+  "slug": "reformed",
+  "logo": "32",
+  "admin": {
+    "$oid": "697014d4f2ea6e1e5f320302"
+  },
+  "region": "americas",
+  "lastRefresh": {
+    "$date": "2026-05-22T03:56:26.827Z"
+  },
+  "victories": 125,
+  "losses": 145,
+  "puuids": [
+    "FgwMy4x7hi97C4vEoRdCFc0VZ5OhmNqbyACCeCYMHr1qZ2A2VXgX9dsDxpxamzEqf3abBQY_cvSBqA",
+    "hT0bB4Z6vjgPtvcBuhMaj3aC3ClZojjML0TqY9m2DPqLCILKEoq95WfgSqyu1L1eYTQORFaG6G1cmQ",
+    "2djR8-2EcDvj9k7VnZvTz48rsioWNLtXtMhyDqQYI7me4CBodGdviuxVMM3xbAGa4eoiiHE1VWPzlQ",
+    "S4ixWsSHezfhzvO1JGLx5V7tbE_4cauzybWEOYUAYTtaUFtRwEyXZVE1-2DaDAdxvH2rmyLfKL4y6Q",
+    "zL5rhex2eVTt-jWPEfT2UXZm-_AnC_UIj2Z2yJY3SOM--eZZWT72YmOT3gt2JVUws6cFVvZ7WqF8_g"
+  ],
+  "createdAt": {
+    "$date": "2026-01-21T00:11:42.562Z"
+  },
+  "updatedAt": {
+    "$date": "2026-05-22T03:56:26.827Z"
+  },
+  "__v": 0,
+  "avgFlexLp": 1413,
+  "avgFlexRankLabel": "Gold II",
+  "avgFlexTier": "GOLD",
+  "aiChatCount": 0,
+  "scoringSource": "flex5",
+  "leaderboardScore": 0,
+  "leaderboardScoreUpdatedAt": {
+    "$date": "2026-05-03T03:38:04.409Z"
+  },
+  "isDemo": false
+},
+{
+  "_id": {
+    "$oid": "697236de1636a9b6b45bcf16"
+  },
+  "name": "LDC",
+  "slug": "ldc",
+  "logo": "50",
+  "admin": {
+    "$oid": "697236381636a9b6b45bcf0f"
+  },
+  "region": "europe",
+  "lastRefresh": {
+    "$date": "2026-05-22T03:56:39.704Z"
+  },
+  "victories": 0,
+  "losses": 0,
+  "puuids": [
+    "4I0v9TTjU8LDp0ip5eNE6gMhRpPoIeRidFjSbV-2pEPglSaVxvBjSQq78cH81gjoeNogMvMDe6IxfA",
+    "GmoTSKoWXlg0VrDmUsNVx6lj1YB_bk4289SlMiMFUYTFmGO_-SegsTBGlROxlY818kHcHA7MIXfKoQ",
+    "INuzcDQdpEj-RUDjJOIQ6Mq4yuKJ4TMAtZ8w8bR-im4BYfSN5VsVSH72s93svbbcLlwDDhZz8sPYXQ",
+    "IyaQS9m6Fw81gff8JKVLoJGamu5moCHQh7iOaEoJHQ5tJnsFjma4hqUGAFaj_TLPW_W3xrHibODwyA",
+    "1NDEKIHkgnVFHjfGaNmUzG4VKd-T4RVXwAL43nMKHAxgTYIC4tyT2mAJG3sUKVc89YOZvJGOhw5JbQ"
+  ],
+  "createdAt": {
+    "$date": "2026-01-22T14:40:30.445Z"
+  },
+  "updatedAt": {
+    "$date": "2026-05-22T03:56:39.705Z"
+  },
+  "__v": 0,
+  "aiChatCount": 0,
+  "avgFlexLp": 1372,
+  "avgFlexRankLabel": "Gold III",
+  "avgFlexTier": "GOLD",
+  "scoringSource": "flex5",
+  "isDemo": false
+},
+{
+  "_id": {
+    "$oid": "697420dd721c82ae6bd56d06"
+  },
+  "name": "NLG",
+  "slug": "nlg",
+  "logo": "1",
+  "admin": {
+    "$oid": "69742034721c82ae6bd56d00"
+  },
+  "region": "europe",
+  "lastRefresh": {
+    "$date": "2026-05-22T03:56:53.727Z"
+  },
+  "victories": 50,
+  "losses": 99,
+  "puuids": [
+    "e-amM_GOe8rGa6XPBxONngfKY4wma8FYkTOyPYA87anhwagRpk7SikydE8pGYDmQE9RwxR8o9c5Ozw",
+    "nrzYmZyDNYEnPWXeENpkuFo-6qtM7TnRsfHp0HXxjQlvRLrKdDoUVtqU50BVvFZd8zaKg6rtbmnWfA",
+    "oVsQHSFTKvqq0Ns9WHptNfmsiPGTpRcCzh9EUuF0oEpsBx9kcxolvw-NQzYIYLys2E4n45LFf8eGEg",
+    "Bu_GX0H9NZcBqVNP_5mviVZcX8gypqZmTUik9VVvpa2WOIXIcw7WPOG-BMJ1AFb59q-PbHKBfpXTDw",
+    "uPHy--XNyeyVi2i4nnCmT_hONZKpswxVBZjZJdsAIjiZdwxSN2eQJZz622FpDFmtEylxEG17ADV53A"
+  ],
+  "createdAt": {
+    "$date": "2026-01-24T01:31:09.491Z"
+  },
+  "updatedAt": {
+    "$date": "2026-05-22T03:56:53.727Z"
+  },
+  "__v": 0,
+  "aiChatCount": 0,
+  "avgFlexLp": 2076,
+  "avgFlexRankLabel": "Emerald IV",
+  "avgFlexTier": "EMERALD",
+  "scoringSource": "flex5",
+  "leaderboardScore": 0.12155499999999997,
+  "leaderboardScoreUpdatedAt": {
+    "$date": "2026-05-21T21:50:54.176Z"
+  },
+  "isDemo": false
+},
+{
+  "_id": {
+    "$oid": "697652a4077d1b93a4530bce"
+  },
+  "name": "BROFRESCO",
+  "slug": "brofresco",
+  "logo": "12",
+  "admin": {
+    "$oid": "6976522c005f0ff2a1b33c54"
+  },
+  "region": "europe",
+  "lastRefresh": {
+    "$date": "2026-05-22T03:57:06.843Z"
+  },
+  "victories": 35,
+  "losses": 0,
+  "puuids": [
+    "61gwztPSEoJBQw4tlbHXImVlZGVeuPueFuodEIVgaY089qct5sN_0BHVyIKaIvGUpdxIgOYzyJ_UHQ",
+    "Xf9Jj9FsY7gdu9vY_Yl2BWcNZK-30OSXqzmxT0tWN1chaN250fVBCkSsbdrwmxW8y4mA_OsEXDAfow",
+    "inFSDdvQnmlSghTMSNa-JxUPn9ffwmyOxUAaQOSukopxtt4u6ocL7BC5JyGEs6LdGYhydH-cUZP36w",
+    "AiylFae2W92v1WAgEjn9Oz5pw6mZPAJCMHAlifVNVpsUggBUagKN5Br-WBw-JzksL-baYX0X-6_BgQ",
+    "QYnbO6UJivUvDLt6FWJMc5P0obYtSWcvED5i9bLpK660XMBl7jEGCD3qnbcQfvY5DVl-wf6hvj2xmw"
+  ],
+  "createdAt": {
+    "$date": "2026-01-25T17:28:04.654Z"
+  },
+  "updatedAt": {
+    "$date": "2026-05-22T03:57:06.844Z"
+  },
+  "__v": 0,
+  "aiChatCount": 0,
+  "avgFlexLp": 1556,
+  "avgFlexRankLabel": "Gold I",
+  "avgFlexTier": "GOLD",
+  "scoringSource": "flex5",
+  "isDemo": false
+},
+{
+  "_id": {
+    "$oid": "6987be2a2d036d95b73d2af2"
+  },
+  "name": "Blues Lose",
+  "slug": "blues-lose",
+  "logo": "1",
+  "admin": {
+    "$oid": "6987bdff0a32fdc59448a64d"
+  },
+  "region": "europe",
+  "lastRefresh": {
+    "$date": "2026-05-22T03:57:19.386Z"
+  },
+  "victories": 3,
+  "losses": 3,
+  "puuids": [
+    "v6vWPA-Usx0Fv7ZhP1rM0q_eTDeICE9nE5uM2J0FZCP-tIvbStn57yayPYbVU8i7uV9VV5qQL5g3TQ",
+    "P01D8Ux1TEttfeQHrufRdtVK0E1jCeCYWAG50YpIx8K09oiKyX06iUFgm3WfgnTLTDkMwjQXDqduIg",
+    "kP7AIg_4Dam6R84AgPGSyDbV8ASfonYHSIDTA3XO4WzIzYNkF9oIc5UcvNKfJsFvMyMne3lNtj216g",
+    "ZPAmgjfALuRahPMu_HMpRjtyo-CU8DQB-yfze3jdG6CVfFU3N9WxnsRQQQpfPklOLz2yluWIeOs8ig",
+    "Jngx2SL0LkLvmJFKP4-F5YLIarJzDk5htTr6FkaeB1Hz8QhfBj0l4TJNMDoIJZH0aue8weNiO8GRDQ"
+  ],
+  "createdAt": {
+    "$date": "2026-02-07T22:35:22.613Z"
+  },
+  "updatedAt": {
+    "$date": "2026-05-22T03:57:19.386Z"
+  },
+  "__v": 0,
+  "aiChatCount": 0,
+  "avgFlexLp": 2572,
+  "avgFlexRankLabel": "Diamond III",
+  "avgFlexTier": "DIAMOND",
+  "scoringSource": "flex5",
+  "isDemo": false
+},
+{
+  "_id": {
+    "$oid": "698e56d36312b8bda9e3113e"
+  },
+  "name": "equipe3",
+  "slug": "equipe3",
+  "logo": "50",
+  "admin": {
+    "$oid": "698e56216312b8bda9e31136"
+  },
+  "region": "europe",
+  "lastRefresh": {
+    "$date": "2026-05-22T03:57:47.262Z"
+  },
+  "victories": 0,
+  "losses": 0,
+  "puuids": [
+    "K55j_vAxcwIFUwAspP6Qls6Nqs1iyrGJf4fD5R26Ea1Ip2tS8_Hhv8OHzmikdevpdhGaSoWY-ZTKRw",
+    "1urfqikR6CsG4P-t1RMN0bziZfaE-5dbEosAtCA9_sqHhh8r7Gk801T4tOMUKPshCkKbI3T3B-t1GA",
+    "T6URLoUnk8bnkJg1Es9Il4QKPMTBaCUU05-pB2xYz2vU3v6VjMzNB_O9UDrYW8Jc_gj53hY-1Ca5og",
+    "J8Itqb1ChplGhYGwANuumFA6I-5RY-mOS5bE_9EDGCx8OHIQbMBNfHGKr8nCEDCWjQmcWp6Qfn81cg",
+    "we_pqqxSWesFt7AVVUW5JaaFm8bMV6Dy8RWuK7qkE6NuytHi9M5NpGe6f7k9yMMtJf8OoD9x6ybyhA"
+  ],
+  "createdAt": {
+    "$date": "2026-02-12T22:40:19.236Z"
+  },
+  "updatedAt": {
+    "$date": "2026-05-22T03:57:47.262Z"
+  },
+  "__v": 0,
+  "aiChatCount": 0,
+  "avgFlexLp": 1351,
+  "avgFlexRankLabel": "Gold III",
+  "avgFlexTier": "GOLD",
+  "scoringSource": "flex5",
+  "isDemo": false
+},
+{
+  "_id": {
+    "$oid": "698fc2bc7e6ea4f3f102bd46"
+  },
+  "name": "Mercure ESP",
+  "slug": "mercure-esp",
+  "logo": "13",
+  "admin": {
+    "$oid": "698ddea8c372de6c4c99268a"
+  },
+  "region": "europe",
+  "lastRefresh": {
+    "$date": "2026-05-22T03:57:59.896Z"
+  },
+  "victories": 2,
+  "losses": 0,
+  "puuids": [
+    "bJuvyvzG6ZDEI7h7Q4ypW4DkvItWrGEKdtjlF13skxaZNVooiH5WsWjjClfX6X313uAVJGVjp9fkcA",
+    "4c9trMptIvuDriEUNBc5lvByEikxAsPDq56-kIKV_7Pc-A0gi2VDfDapo_wTWs8fWjAKTdVdiulcTw",
+    "NiIzdrrFYXd8AF7LD9oxcsunD6A8g-nyVHIIR9sE-xmkKXzEf6OUawwCJQbeEemTtX34do31_qJOwA",
+    "fWJ_4bO8e0K9Hizq_MWyuF2SX7qTKxMQQP3SPzJv7jQA6ygLp5O4ipqB5JjPjizE3vEWU3Nl5ouVbw",
+    "O7uR3ORy1NcyLfxOPQgNteb-7azbOrSk8Qx8890T8g_eq_tBXhsGNKviSStNAU_G43OFrNOC2aGU2g"
+  ],
+  "createdAt": {
+    "$date": "2026-02-14T00:33:00.336Z"
+  },
+  "updatedAt": {
+    "$date": "2026-05-22T03:57:59.896Z"
+  },
+  "__v": 0,
+  "aiChatCount": 0,
+  "avgFlexLp": 1220,
+  "avgFlexRankLabel": "Gold IV",
+  "avgFlexTier": "GOLD",
+  "scoringSource": "flex5",
+  "isDemo": false
+},
+{
+  "_id": {
+    "$oid": "69935b3f27f7f48456a90487"
+  },
+  "name": "Schloter",
+  "slug": "schloter",
+  "logo": "1",
+  "admin": {
+    "$oid": "69935aea27f7f48456a90481"
+  },
+  "region": "europe",
+  "lastRefresh": {
+    "$date": "2026-05-22T03:58:12.827Z"
+  },
+  "victories": 27,
+  "losses": 51,
+  "puuids": [
+    "kclKHTZU6Qj5Rl_WPt4eTE19ICvPZ0R4CdR344qWxj70SLDDmdvEfZSlN0EHFzrIDByh4S21f3lqGA",
+    "SSaiUlFmRODRkufrJZN9zdjl7tcWXGIYJ3jtTmkynglsLD6VfcNOXfk09WLSLu_9AFS0zYiHyLAfYA",
+    "6XNFa_dBFSurTIS6m7ODmdrIT9A1cdYvFgCMEyXv-8wEQ22SF5NTfSWL6MOgF7tVJ9MH3gtHenP4sg",
+    "IQRBL2Db8nxJFtyVYARqDmo1dpzHRZt5NiOqSXQ1wg60OH3A0HfGv30UU-7gxRI3lFJcco31ifVvJA",
+    "jM0I2g7PvoQr5gBr6H4bRWNzxZ3mMU21qvBK9DwFi2YrPJxeB9L0WoSFUMFSPn1jxVzopIFgndFKIA"
+  ],
+  "createdAt": {
+    "$date": "2026-02-16T18:00:31.906Z"
+  },
+  "updatedAt": {
+    "$date": "2026-05-22T11:48:02.485Z"
+  },
+  "__v": 0,
+  "aiChatCount": 0,
+  "avgFlexLp": 2667,
+  "avgFlexRankLabel": "Diamond II",
+  "avgFlexTier": "DIAMOND",
+  "scoringSource": "flex5",
+  "leaderboardScore": 0.31597714285714285,
+  "leaderboardScoreUpdatedAt": {
+    "$date": "2026-05-22T11:48:02.485Z"
+  },
+  "isDemo": false
+},
+{
+  "_id": {
+    "$oid": "6995f767ac161034e14d028f"
+  },
+  "name": "BLOCKBUUS",
+  "slug": "blockbuus",
+  "logo": "7",
+  "admin": {
+    "$oid": "6995042c5951e7e9d673c39e"
+  },
+  "region": "europe",
+  "lastRefresh": {
+    "$date": "2026-05-22T03:58:25.691Z"
+  },
+  "victories": 269,
+  "losses": 208,
+  "puuids": [
+    "KV5qsld4H-q4PqHAzDO6AwO-jEwZ6gj22bGjkMLsTvFHNgTxH2sRihcBAGS9l5jXMDuU4nDfybRN6g",
+    "hQlvHOvFwC-rAVOttPMIB8c_JzCt8KFkFaY1h1eG5f_LIyBohk42xVxgjCn2rdua3iz78MsV9G1Q5g",
+    "gTSIxnOLKaFI76MWLOkGpH-Ge5wNZQv7DFGiEHoe_dYCNwtQD9p2AIwLnfwm8tyAfS2Q6gfgcHZ2dQ",
+    "bnWWDPOvxzAssHHHuIwPV2I4llpspV0OkPJXfWv087LkLYypT9RIa6j4lv13OBmvroLu9KqRBIs28g",
+    "n5YxuT101t8GLQofXudZditi-uS3IeDFi1EXTkWnezzFjMv3hnIx_QUctNkK23_1_iJgmM_EO54MIg",
+    "_P_61s1C-PRV9ImAkm-urCTnuewCbjKKqlliT05dNGpTQVAxqRuC3CZEwvs3vkPuowcj1g7h2axebg"
+  ],
+  "createdAt": {
+    "$date": "2026-02-18T17:31:19.907Z"
+  },
+  "updatedAt": {
+    "$date": "2026-05-22T03:58:25.691Z"
+  },
+  "__v": 0,
+  "aiChatCount": 0,
+  "avgFlexLp": 2368,
+  "avgFlexRankLabel": "Emerald I",
+  "avgFlexTier": "EMERALD",
+  "scoringSource": "flex5",
+  "isDemo": false
+},
+{
+  "_id": {
+    "$oid": "699d8032f228b6c58c5b6b2b"
+  },
+  "name": "nightblade s",
+  "slug": "nightblade-s",
+  "logo": "1",
+  "admin": {
+    "$oid": "699d7f86f228b6c58c5b6b25"
+  },
+  "region": "europe",
+  "lastRefresh": {
+    "$date": "2026-04-17T04:54:18.273Z"
+  },
+  "victories": 0,
+  "losses": 0,
+  "puuids": [
+    "GIH0hjz7EBqCk3nh3P1aeND_HPm3RnTyve13HMFHBnQUod7DPB40Pewt17A3enEmt_ezSk2baGAzQw",
+    "OjKXfYCU5E8ZcPj9ZA7XCzTsErBMgHhqQ_8-POB_gk1bGJRSceyqvHX5u3mKIp5n-EgU4jTkPr_GcQ",
+    "KFMqOaKMY4H7Z-BuD33BBlMW9u299EtAMEiZfLVUaDeeQI8psSnKXnQzwnJYddPdChRYzYrVs8AnEw",
+    "TbjSSoL1WT7SB5wasRChGb-4lfsfIV8-IOdNlSuP4XSjHyI3AXLiWM5JRKmh8J5dFL-JNVpRPGtRcw",
+    "uYkkVy-chtKiUaGVN24-o3Vwb655EH3eNZXi80xl88wRmVaBZ3IEUEtHK9DmqQQ9WAWPwnU1SJ0x5w"
+  ],
+  "createdAt": {
+    "$date": "2026-02-24T10:40:50.466Z"
+  },
+  "updatedAt": {
+    "$date": "2026-04-17T04:54:18.273Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "699e0da77840058713ff8f2c"
+  },
+  "name": "Nulos",
+  "slug": "nulos",
+  "logo": "13",
+  "admin": {
+    "$oid": "699e0d357840058713ff8f25"
+  },
+  "region": "europe",
+  "lastRefresh": {
+    "$date": "2026-05-22T03:58:38.626Z"
+  },
+  "victories": 44,
+  "losses": 23,
+  "puuids": [
+    "EpfqPpxaqLTsbzE8pwJNt872ROkro1WnxJJ3BbhPMi3QBXJWWah2u8460yBW4ShrQigIvMMs3a3lSQ",
+    "V56fH2iF3ONa7r03RB1qzACyEFYIg-1CdaD4_rwKbiljTmMyoazNz9njkG8OL2Yr_FprCcOoJ5b3RQ",
+    "oVS478tttaYqfCDPVhMJoT0ly1mUJWhzUHi5RqNzGvVmGDBp7vSpYapp9AHg2o2jiq4IMGKBpsUNJQ",
+    "6kLKHyagQPEa6gZlE39glmikHw9etD9MKameV-TgLochi-ujAqJsNAq9pt1RwkZJRNgwv5L8JcjVzg",
+    "LrAGVf3MEXN4_hvMZU3dvgpq5TYxPx6aIdXkL_j0If4zWXw3z_7-WMgnnod4kiHLPrSxwFXvKzWZpA",
+    "aljsFunj_I4a21SPPVLnrDq6gPS6u3gegsH5mHpFtr6NQvkaUAB_9WoJmeb4zuTD2f4xsO_2VmwE7g",
+    "ChFH6sd0F4PWa-NSM0eAd-a1HUv50QyO0o-TQEAsl16eyOm-0cLYLaOdI8UcvS8sCEHeV5Gwvx6Hxg",
+    "lzBI_XO_VAyDpP2EuRYvZcu7GQwDyvHyb5SOda3NIlRgGU-fEonEoK3JZjNisFVV1PKwAbIatxa6Lg",
+    "N_O8PSISpWt_agJPz675dclWvCp4DNzOljauxHQE-myavdgAWTENwM15sBEQMdlNA_FOlLGFjOHwLQ"
+  ],
+  "createdAt": {
+    "$date": "2026-02-24T20:44:23.103Z"
+  },
+  "updatedAt": {
+    "$date": "2026-05-22T11:48:02.485Z"
+  },
+  "__v": 0,
+  "avgFlexLp": 1389,
+  "avgFlexRankLabel": "Gold III",
+  "avgFlexTier": "GOLD",
+  "aiAnalysis": "{\"version\":4,\"scoringSource\":\"flex5\",\"generatedAt\":\"2026-05-20T07:30:22.495Z\",\"gameCount\":10,\"model\":\"google/gemini-2.5-flash-lite\",\"headline\":\"Team wins games longer, but losses are faster and have lower KDA.\",\"team_advice\":[{\"action\":\"Focus on closing out games when ahead, avoid extended late-game fights.\",\"why\":\"Your wins average 34.5 minutes, while losses average 30.1 minutes. This suggests games you win are longer, but games you lose are quicker, indicating potential throws or inability to close.\"},{\"action\":\"Prioritize team fighting and objective control in the mid-game.\",\"why\":\"Your team's total kills in wins are 46.3, compared to 31.3 in losses. This indicates a strong correlation between taking fights and securing wins, especially when games are longer.\"},{\"action\":\"Review loss VODs for decision-making around objectives and team fights.\",\"why\":\"Your losses have a significantly lower average KDA of 1.6 compared to 3.53 in wins. This suggests a pattern of poor engagement or execution in losing games.\"}],\"player_advice\":{\"Aiapec\":{\"action\":\"Increase vision score by warding more actively in the early and mid-game.\",\"why\":\"Your vision per minute is 2.05, which is high, but your 'Farming' axis is -5 and 'Vision' is 60. This suggests you are providing vision but not necessarily in the most impactful areas or at the right times.\"},\"RAVUUUS\":{\"action\":\"Focus on improving utility and objective control in your jungle pathing.\",\"why\":\"Your 'Utility' axis is -75, the lowest on the team, despite a strong 'Damage' axis. Your win rate on Assassin and Fighter classes is 67%, but these often require utility for success.\"},\"LeFalwé\":{\"action\":\"Consider playing champions that contribute more damage in team fights.\",\"why\":\"Your 'Damage' axis is -48, the lowest on the team. While your utility is high (145), your damage share is only 11%, indicating a potential imbalance in your role.\"},\"Manuel Fecaca\":{\"action\":\"Focus on improving your utility score and objective participation.\",\"why\":\"Your 'Utility' axis is -33, the weakest for you. While your damage is decent (22% share), your overall impact in winning games might be limited by low utility plays.\"},\"Tartine\":{\"action\":\"Expand champion pool beyond Fighters to include utility or control mages.\",\"why\":\"You have a 100% win rate on 2 Fighter games, but your 'Utility' axis is -47. This suggests your current playstyle might be too one-dimensional for consistent success.\"},\"sengoku le bouda\":{\"action\":\"Focus on playing champions that contribute more damage or utility.\",\"why\":\"Your damage share is 17% and utility is only 15%. In your 2 Fighter losses, your damage per min was 931, indicating a potential lack of impact in losing matchups.\"},\"Le Mérovingien\":{\"action\":\"Try to increase your damage output and KP in losing matchups.\",\"why\":\"Your damage share is 16% and your 'Damage' axis is -17. In your 4 losses, your average damage per min was 744, suggesting you struggle to impact games when behind.\"},\"The Honored One\":{\"action\":\"Focus on improving your utility and vision score.\",\"why\":\"Your 'Utility' axis is -92, the lowest on the team, and your vision score is also low at 0.71. This indicates a significant gap in supporting your team's overall strategy.\"}}}",
+  "aiChatCount": 0,
+  "scoringSource": "flex5",
+  "leaderboardScore": 0.34313999999999995,
+  "leaderboardScoreUpdatedAt": {
+    "$date": "2026-05-22T11:48:02.485Z"
+  },
+  "isDemo": false
+},
+{
+  "_id": {
+    "$oid": "69adef3aed9148e063007179"
+  },
+  "name": "Bseur200abri",
+  "slug": "bseur200abri",
+  "logo": "1",
+  "admin": {
+    "$oid": "69aded61b3438780e7ee2ebe"
+  },
+  "region": "europe",
+  "lastRefresh": {
+    "$date": "2026-05-22T03:58:51.209Z"
+  },
+  "victories": 0,
+  "losses": 0,
+  "puuids": [
+    "KYsQthSYYyivBn6shJaZmtUerPLbsJ62o59yudpC6LYfPYwdvqRzZcTGmz2f8WzeIjvqEcO_jZJ-BQ",
+    "wt6mwnOJZW4C3RwkbO6xaxq883joK7fITbhH8as-PWcGGfXPp-oCI9XC2fS-3zmJhYUUe1_Ucggmow",
+    "qQiLO_iQL0XrJ4dEIvhFjRKkdjbVDUiaN2GWGGB1DR_xhBEmNyls2s77D8eAUOnGTDb207H1BcrVlw",
+    "NXt6yqHuB-lqKU6bujJcLDmmwJfgQ2fLFRo-BpNebrAR_ilgolGQQIQbbglK1MjBxYBA4d2GpUlJxQ",
+    "kbkuinv40lS4R74LvrtSgml1uBTOyUsYlsrvwLHKLASn6pgA10538EA3pBsscT4iEJg0gNelY8VobA"
+  ],
+  "createdAt": {
+    "$date": "2026-03-08T21:50:50.567Z"
+  },
+  "updatedAt": {
+    "$date": "2026-05-22T03:58:51.209Z"
+  },
+  "__v": 0,
+  "aiChatCount": 0,
+  "avgFlexLp": 1833,
+  "avgFlexRankLabel": "Platinum II",
+  "avgFlexTier": "PLATINUM",
+  "scoringSource": "flex5",
+  "isDemo": false
+},
+{
+  "_id": {
+    "$oid": "69b04a8d8c5df42b515edf29"
+  },
+  "name": "Prueba",
+  "slug": "prueba",
+  "logo": "14",
+  "admin": {
+    "$oid": "69b04a328c5df42b515edf24"
+  },
+  "region": "americas",
+  "lastRefresh": {
+    "$date": "2026-05-22T03:59:03.662Z"
+  },
+  "victories": 3,
+  "losses": 5,
+  "puuids": [
+    "n9qLi2EN6eC-bM6G4nULUnnAq0bCLkks_PM7rw-AzUk8DFmajdG0pV7N33otp7PMq0Q5egUFkP2mmQ",
+    "b5QL0Dpt6V3JF1_2WxIAytkMfyeGRM9Vc9R7NHH7q9AgUqCj98nIvx-z1t9W5IaaeKnRVLt7nN-0DQ",
+    "8ZtBRmhXt07Z3ORtQyMY9T43DbmrTX0plLuoxDPMHTvMTGNI9WCuosdhxtck2VWwBt_62hpXw_boAA",
+    "p4ijQSsimDmQmA3oTLkQH1bn01wQFAGACvex58OC746UHn3r_uiat3drqK7JIwECGJcUJ4lkRff9ng",
+    "P44bAQHb-lkjdbSjODc5bPb2Eq5C7ku0cOOTDyvu7a2xTsymAfGaE5_1Mk7vSalC7fzw91XGP0oj7Q"
+  ],
+  "createdAt": {
+    "$date": "2026-03-10T16:45:01.975Z"
+  },
+  "updatedAt": {
+    "$date": "2026-05-22T03:59:03.662Z"
+  },
+  "__v": 0,
+  "aiChatCount": 0,
+  "scoringSource": "flex5",
+  "leaderboardScore": 0.15889999999999999,
+  "leaderboardScoreUpdatedAt": {
+    "$date": "2026-05-02T20:31:36.223Z"
+  },
+  "isDemo": false
+},
+{
+  "_id": {
+    "$oid": "69b06a9908c6098490b8021d"
+  },
+  "name": "BLS",
+  "slug": "bls",
+  "logo": "1",
+  "admin": {
+    "$oid": "69b06a371fe3be5996105995"
+  },
+  "region": "europe",
+  "lastRefresh": {
+    "$date": "2026-05-22T03:59:15.694Z"
+  },
+  "victories": 1,
+  "losses": 1,
+  "puuids": [
+    "v6vWPA-Usx0Fv7ZhP1rM0q_eTDeICE9nE5uM2J0FZCP-tIvbStn57yayPYbVU8i7uV9VV5qQL5g3TQ",
+    "ZPAmgjfALuRahPMu_HMpRjtyo-CU8DQB-yfze3jdG6CVfFU3N9WxnsRQQQpfPklOLz2yluWIeOs8ig",
+    "kP7AIg_4Dam6R84AgPGSyDbV8ASfonYHSIDTA3XO4WzIzYNkF9oIc5UcvNKfJsFvMyMne3lNtj216g",
+    "P01D8Ux1TEttfeQHrufRdtVK0E1jCeCYWAG50YpIx8K09oiKyX06iUFgm3WfgnTLTDkMwjQXDqduIg",
+    "Jngx2SL0LkLvmJFKP4-F5YLIarJzDk5htTr6FkaeB1Hz8QhfBj0l4TJNMDoIJZH0aue8weNiO8GRDQ"
+  ],
+  "createdAt": {
+    "$date": "2026-03-10T19:01:45.683Z"
+  },
+  "updatedAt": {
+    "$date": "2026-05-22T03:59:15.695Z"
+  },
+  "__v": 0,
+  "aiChatCount": 0,
+  "avgFlexLp": 2572,
+  "avgFlexRankLabel": "Diamond III",
+  "avgFlexTier": "DIAMOND",
+  "scoringSource": "flex5",
+  "leaderboardScore": 0.202496,
+  "leaderboardScoreUpdatedAt": {
+    "$date": "2026-05-06T14:16:47.422Z"
+  },
+  "isDemo": false
+},
+{
+  "_id": {
+    "$oid": "69b7c6fcba65bf453596ff2a"
+  },
+  "name": "Woof team",
+  "slug": "woof-team",
+  "logo": "1",
+  "admin": {
+    "$oid": "69b7c67cba65bf453596ff24"
+  },
+  "region": "europe",
+  "lastRefresh": {
+    "$date": "2026-05-21T03:16:45.979Z"
+  },
+  "victories": 0,
+  "losses": 0,
+  "puuids": [
+    "USgFuUvHNcxTW58kMmojZ-gFtu0kWBlW5CNj4jq-Pe74r68ATse7KDFLwNW8J4DxTCls6_q6SveHKQ",
+    "KHpF1yy7POCNFjAMMNy8LHhKYI2E8U5zl1yup_eNCH3xwYiKnWDPzWl9bbxv8OxCLQanXaoKbOk8xw",
+    "oUmVF2byLSfwLwTdbOglYIkZllle2j4CKeSFHEZctbd-Gdwsd4XTlxJrnFwM0MRNTug4Ug7j9HAP_g",
+    "cic1kd_mTAFORe12PQ8WhoLl6geHXVg9O0n-7FtNq-eI9a_Oj1vcGgnBqanwPnw8M0D8PKdezV5WpA",
+    "n6Z3oAsHABjKpwd3W9YQD8-7JHTLRIcLyY2nUkqkJs9u22hWQdYnkRPoP8Sg7nCJX0B4fxS-gkc0hQ"
+  ],
+  "createdAt": {
+    "$date": "2026-03-16T09:01:48.931Z"
+  },
+  "updatedAt": {
+    "$date": "2026-05-21T03:16:45.980Z"
+  },
+  "__v": 0,
+  "aiChatCount": 0,
+  "avgFlexLp": 2081,
+  "avgFlexRankLabel": "Emerald IV",
+  "avgFlexTier": "EMERALD",
+  "scoringSource": "flex5",
+  "isDemo": false
+},
+{
+  "_id": {
+    "$oid": "69c7d13a15d06824d47d6a69"
+  },
+  "name": "Get Bonked",
+  "slug": "get-bonked",
+  "logo": "32",
+  "admin": {
+    "$oid": "69c7d0a115d06824d47d6a64"
+  },
+  "region": "europe",
+  "lastRefresh": {
+    "$date": "2026-05-21T03:17:00.425Z"
+  },
+  "victories": 0,
+  "losses": 0,
+  "puuids": [
+    "HkPizybfvgiMMDbx6JIdds8EhhD5kjp34hsNAB6Ett1wg-QXYqtIWzmvzIKht6PizfKyAm15tLSkRA",
+    "_ud9xwTNQVwuQpnvrXVVR2XGkcXVkWGz6eLhLj9lYWQqrfcRXHv0yWw7Nle1vIN_LTmCiSnAZ7c3_g",
+    "TsTkYYGPlK372-YMCyTdeVPVSKM2sYpUa0AW3TJXFXn7iBB1FDaGmN4AtBTNewA5FVfRZAzvSNZaOg",
+    "7aDmCxyjGG2mAA06M00z0z3LBKEL7NY9H8S4Km_pnrOCz0HDsV2iVQMPRruLP53p_385cPlrwffK5w",
+    "QlgHG7wBZ3y6XQjcejdDLnE0dOQxNorYpqHVUXLZL6kYGiM_Q1I3qrjf_5cs5hg7Nt25kT4q8oPYcw"
+  ],
+  "createdAt": {
+    "$date": "2026-03-28T13:01:46.158Z"
+  },
+  "updatedAt": {
+    "$date": "2026-05-21T03:17:00.425Z"
+  },
+  "__v": 0,
+  "aiChatCount": 0,
+  "avgFlexLp": 1498,
+  "avgFlexRankLabel": "Gold II",
+  "avgFlexTier": "GOLD",
+  "scoringSource": "flex5",
+  "isDemo": false
+},
+{
+  "_id": {
+    "$oid": "69ca2f2d2cc7df5b5e215bb4"
+  },
+  "name": "Lol Team",
+  "slug": "lol-team",
+  "logo": "1",
+  "admin": {
+    "$oid": "69ca2ebd2cc7df5b5e215bae"
+  },
+  "region": "europe",
+  "lastRefresh": {
+    "$date": "2026-05-21T03:17:15.064Z"
+  },
+  "victories": 16,
+  "losses": 3,
+  "puuids": [
+    "JpE8q_rM_n9iRztq1x4Ir_5g3dRgRzzfTeiRug2119txFDw0IJgFU1xgd33wvwHdeYMY5d8uHO0rmw",
+    "opQcBgEUwWB70tMVnZrh9TMktmsKUaCYkQ12Eb12fSXYUsZjqkSfXRzKmYvIEl5TDr9pJfsi-w4Cjg",
+    "ukn7trMikJk_-wyYX6qdxV6lrlNfMSF18gYZTlw96ZKRWUa5wE4eN3nshSXzwfSwk6qYTXjXL_f17w",
+    "7zoXowm9lcOsXPVnAt6wq1uIgJhuuf7_bKgDgWvIVYEynBp5N1MycOf22rijrYfAPudXdEiMQIQUvg",
+    "sQc1urdLFypmF3_MW9vZE3SGMhGe2Ez4rH0QNEHNXgqzP47i9LdPfVzZMz2VoiXqfWXdF4YWPdgghg"
+  ],
+  "createdAt": {
+    "$date": "2026-03-30T08:07:09.347Z"
+  },
+  "updatedAt": {
+    "$date": "2026-05-22T11:48:02.485Z"
+  },
+  "__v": 0,
+  "aiChatCount": 0,
+  "avgFlexLp": 1882,
+  "avgFlexRankLabel": "Platinum II",
+  "avgFlexTier": "PLATINUM",
+  "scoringSource": "flex5",
+  "leaderboardScore": 0.40341,
+  "leaderboardScoreUpdatedAt": {
+    "$date": "2026-05-22T11:48:02.485Z"
+  },
+  "isDemo": false
+},
+{
+  "_id": {
+    "$oid": "69d036966e2b5b9e063bd590"
+  },
+  "name": "VAT",
+  "slug": "vat",
+  "logo": "26",
+  "admin": {
+    "$oid": "69d0362a6e2b5b9e063bd58a"
+  },
+  "region": "europe",
+  "lastRefresh": {
+    "$date": "2026-05-21T03:17:46.370Z"
+  },
+  "victories": 18,
+  "losses": 47,
+  "puuids": [
+    "GPyVzaueTG59cVE9L1Qwr86RHmvvBOe7hLLiiYX1vcjGUGiRVE8z3tQBrEg2UTZFZrn3FSDwIpUKeg",
+    "BupUS1u1lpOnlpx5KXQ0c7t21HcyOUkpH_ZkX6qjOIRY3WFN6cT8opNP-u2qx8QezJ4dYSwgMBB1jQ",
+    "XhJ220sZ-S8fm9F0UF39HT56TdxdqC-r4qffiGGP33abcSKpnkKt-fENzXRz4yJD0dSUqrfX59o4rg",
+    "Aj40YqbVq6Vq8W9BAUwSHdQVgeqt9uEv6pOJ0QmY4fYhSjrW31UsU875zcRHQGbqwhHHnfVCSKDtHA",
+    "hdZfEZxzkqVr_72vjKKc-R3ZWnhyEy7Rf4ydnJWrNhYVbHCX4g5acaj7Ij7p_nSw-xA4UO6whnULpA"
+  ],
+  "createdAt": {
+    "$date": "2026-04-03T21:52:22.033Z"
+  },
+  "updatedAt": {
+    "$date": "2026-05-22T11:48:02.485Z"
+  },
+  "__v": 0,
+  "aiChatCount": 0,
+  "avgFlexLp": 1283,
+  "avgFlexRankLabel": "Gold IV",
+  "avgFlexTier": "GOLD",
+  "scoringSource": "flex5",
+  "leaderboardScore": 0.17102374999999997,
+  "leaderboardScoreUpdatedAt": {
+    "$date": "2026-05-22T11:48:02.485Z"
+  },
+  "isDemo": false
+},
+{
+  "_id": {
+    "$oid": "69e3849831760b0efb8a17bb"
+  },
+  "name": "Chirzs chaps",
+  "slug": "chirzs-chaps",
+  "logo": "29",
+  "admin": {
+    "$oid": "69e38438243dc34de6afd932"
+  },
+  "region": "americas",
+  "lastRefresh": {
+    "$date": "2026-05-22T03:59:30.965Z"
+  },
+  "victories": 55,
+  "losses": 100,
+  "puuids": [
+    "hR2r8cZ-AA_tqgdAJNJI54mBAbva82ZERPH95wzrx96WtuvbgNJcCY_m5bq5JXK4YmyBIJMn4q-viw",
+    "AywpTG4P51ZQstDqzjtWKek4yRKCdOO5wjUPkfDU0saXFvjpAhYpxcZ27toVvelzozX-Alj3BbOIkg",
+    "KCkiaSe5X2swvpzCYjPuWXeUQQfCnuUEIDZPxbxKg56HgxSp3AkKGfz6s7mk7dF9_tT0aqoTJ8V5bA",
+    "1YKMdryrvEuKvG2iebF8dfTpEf-IyjBdcxz2Mwar4E5j7jkhPCpFZQ-a5N5qXa4CevK0MEil5o5Ypg",
+    "TAhHSc8D29KFF2A1MnzNt87ZhGQfqThpkAYLDLOmbYv8qzpGs7iCe25W87sy2TeMFw0glMoYrQutiw"
+  ],
+  "createdAt": {
+    "$date": "2026-04-18T13:18:16.106Z"
+  },
+  "updatedAt": {
+    "$date": "2026-05-22T11:47:59.509Z"
+  },
+  "__v": 0,
+  "avgFlexLp": 1107,
+  "avgFlexRankLabel": "Silver I",
+  "avgFlexTier": "SILVER",
+  "aiChatCount": 0,
+  "scoringSource": "flex5",
+  "leaderboardScore": 0.3996353846153846,
+  "leaderboardScoreUpdatedAt": {
+    "$date": "2026-05-22T11:47:59.508Z"
+  },
+  "isDemo": false
+},
+{
+  "_id": {
+    "$oid": "69ebd20676ba73a40a83fa34"
+  },
+  "name": "Horrible",
+  "slug": "horrible",
+  "logo": "3",
+  "admin": {
+    "$oid": "6707e1bed1e078369a5bdf6f"
+  },
+  "region": "europe",
+  "platform": "euw",
+  "lastRefresh": {
+    "$date": "2026-05-21T03:18:15.762Z"
+  },
+  "victories": 15,
+  "losses": 3,
+  "avgFlexRankLabel": "Platinum I",
+  "avgFlexTier": "PLATINUM",
+  "avgFlexLp": 1984,
+  "puuids": [
+    "vS_AxX53gPJE2t235jI2OGXqT3zFVNS8uBQThuJhJ1wcBsE3zb3So0goKgM1JW7t6njZZ9NFgCqnog",
+    "AdJXRtf1VXskYqSj4KyD9eWBwpqdycNVxNg42eLAjwgS1kOuGcefcJhDuMEn3Klet49pfZWZJnI1Wg",
+    "3RFrrCplVslzRQbuWfXsLU6M0lQpm0QU-62Olze3EnzJnpP_XLPDn8Stykbe1jx8pPOEGpTNyeX9pQ",
+    "K40x0s-w7LdtyNg5x2XEacoQDHTwLXk9WiB9G_QlJS7qP2Wmr6XWAOZ9JuJ8VrDBbLh4NWSIuHMqcg",
+    "NXt6yqHuB-lqKU6bujJcLDmmwJfgQ2fLFRo-BpNebrAR_ilgolGQQIQbbglK1MjBxYBA4d2GpUlJxQ"
+  ],
+  "aiChatDay": null,
+  "aiChatCount": 0,
+  "scoringSource": "flex5",
+  "createdAt": {
+    "$date": "2026-04-24T20:26:46.589Z"
+  },
+  "updatedAt": {
+    "$date": "2026-05-22T11:48:02.485Z"
+  },
+  "__v": 0,
+  "leaderboardScore": 0.35752500000000004,
+  "leaderboardScoreUpdatedAt": {
+    "$date": "2026-05-22T11:48:02.485Z"
+  },
+  "isDemo": false
+},
+{
+  "_id": {
+    "$oid": "69f0a32635565ab665d13029"
+  },
+  "name": "Chrono Shift",
+  "slug": "chrono-shift",
+  "logo": "1",
+  "admin": {
+    "$oid": "69f0989566df28f985cc292a"
+  },
+  "region": "americas",
+  "platform": "na",
+  "lastRefresh": {
+    "$date": "2026-05-22T03:59:44.986Z"
+  },
+  "victories": 26,
+  "losses": 12,
+  "avgFlexRankLabel": "Platinum IV",
+  "avgFlexTier": "PLATINUM",
+  "avgFlexLp": 1694,
+  "leaderboardScore": 0.47564999999999996,
+  "leaderboardScoreUpdatedAt": {
+    "$date": "2026-05-22T11:47:59.508Z"
+  },
+  "puuids": [
+    "PNDdRe-uiH-tnv64Z33LFIRWNZVnlCRHMAnbd4Y8c-UY8STRxhfcdeg2J1g88MTvBYUuHoHJPjc3LA",
+    "Xi61257trVYEATxk3FBfOSdiIfOsWHtZgZL-3-18WpcMaWj8GVCuW9feq0i4ss-BROTvkHzgI4G4Dw",
+    "bvHopkLwjn2XIwAXJsofHOZ3gycKXTGEBQDgDPVI9G0Xe9xniBFD1UOGj3Z79kqvFTmoMcjtYtN7WA",
+    "RMfi_0QF6cHd7CVO3Pyay0ljRybVQn1RjajxmPWXkZFY0eH0rcG1SOStge4NgsnchiZLsC4esahnXw",
+    "LhqV3uj8hJ3aNUQlSOWnQyhYoRzWJwxVWVTXxmXxWTXVGKhb1aD1LsqMGIkrT5lIeteba12vTY1oYg"
+  ],
+  "aiChatDay": null,
+  "aiChatCount": 0,
+  "scoringSource": "flex5",
+  "createdAt": {
+    "$date": "2026-04-28T12:08:06.952Z"
+  },
+  "updatedAt": {
+    "$date": "2026-05-22T11:47:59.508Z"
+  },
+  "__v": 0,
+  "isDemo": false
+},
+{
+  "_id": {
+    "$oid": "69f47c1747e19c8c11696528"
+  },
+  "name": "Fourchaise's Lineup",
+  "slug": "demo-fourchaise-e2078bdb",
+  "logo": "4",
+  "region": "europe",
+  "platform": "euw",
+  "lastRefresh": {
+    "$date": "2026-05-01T10:10:54.604Z"
+  },
+  "victories": 14,
+  "losses": 16,
+  "avgFlexRankLabel": "Platinum I",
+  "avgFlexTier": "PLATINUM",
+  "avgFlexLp": 1967,
+  "leaderboardScore": null,
+  "leaderboardScoreUpdatedAt": null,
+  "isDemo": true,
+  "demoExpiresAt": {
+    "$date": "2026-05-01T22:10:29.364Z"
+  },
+  "demoClaimToken": "e2078bdb",
+  "demoPlayerSlug": "fourchaise",
+  "puuids": [
+    "V7lDTQejJ6a4kG1bzIoOr0WWwgtndmEMUcKiKAiFKvuJMDFNHCdK9QodqqZQ4j6oXRNhPlDL00g4ag",
+    "Fge0-uybFWGz6RI56ciGVU3k9qEy-rvc1SecX8YAcupwrSSwXeFrO6kdxC3mt551zK3kQ7zlgTU_-Q",
+    "KcwwrIiKrH7Jf3OLC_GArOTpwXHS3kk8opZniBtIe3uxUafQexyDIMRiCHuCEjM2nwAS7N4n8rlrRQ",
+    "5OSrg8g-BHssH-DUaK5sUbnhRXHibMwoSD49A9XKQR7j1_3n-BfAwsQMFG_uyKCVqer5FBnmvqldzQ",
+    "8vqAjH8ZGpZTiuIx2nVoRnwzuyqDN-9MbK5a2hvyI2Xd7q5RzoMBQVfe73P0audTVKGjkrvQi8GVCg"
+  ],
+  "aiChatDay": null,
+  "aiChatCount": 0,
+  "scoringSource": "flex5",
+  "createdAt": {
+    "$date": "2026-05-01T10:10:31.500Z"
+  },
+  "updatedAt": {
+    "$date": "2026-05-01T10:10:56.034Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69fa60b6aabb6bb430514e64"
+  },
+  "name": "DRbr0kens42's Squad",
+  "slug": "demo-drbr0kens42-fb35d84d",
+  "logo": "4",
+  "region": "europe",
+  "platform": "euw",
+  "lastRefresh": {
+    "$date": "2026-05-05T21:27:35.682Z"
+  },
+  "victories": 0,
+  "losses": 1,
+  "avgFlexRankLabel": "Platinum III",
+  "avgFlexTier": "PLATINUM",
+  "avgFlexLp": 1740,
+  "leaderboardScore": null,
+  "leaderboardScoreUpdatedAt": null,
+  "isDemo": true,
+  "demoExpiresAt": {
+    "$date": "2026-05-06T09:27:16.814Z"
+  },
+  "demoClaimToken": "fb35d84d",
+  "demoPlayerSlug": "drbr0kens42",
+  "puuids": [
+    "ZDYJ-218GfOCtEg9MZ7sQLZGAx61sP-q2961PedrlMP61fB8fDZ-JDvxR2Nl-kVri2nEwSmr6RH1eQ",
+    "WO2gjH4R6N5VZAhOkBR9Q5vx9RDZj7TChyOVGyv5EDmbC_uUeon_Y5jgVV-7gBmufYw7tBDrtN3v0Q",
+    "A0q_Ip_sg5Zy8THqVZM18n755B6uqUpuhotwjNf2hwrIUTEosuHmkbpyKYt9kmrfIsH83qjH4NRF0g",
+    "tFLRe_QAoCe6aMIx0dVLBiDEPZpLh9bCWrapes1GeqMn7cB95WXnHJQ4FFvQagTZdVqhUbxoikhujQ",
+    "vOu4YEpfQAKNrejGGah9q36x6P6usaXdLsClml5ZN7mWIeoehZ9XkEblwCz4dv6QGaDK9m5YipGCPw"
+  ],
+  "aiChatDay": null,
+  "aiChatCount": 0,
+  "scoringSource": "flex5",
+  "createdAt": {
+    "$date": "2026-05-05T21:27:18.111Z"
+  },
+  "updatedAt": {
+    "$date": "2026-05-05T21:27:37.171Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69fb240238dc45b742fd935d"
+  },
+  "name": "Top range sucks's Gang",
+  "slug": "demo-top-range-sucks-6192ff84",
+  "logo": "4",
+  "region": "europe",
+  "platform": "euw",
+  "lastRefresh": {
+    "$date": "2026-05-06T11:20:50.824Z"
+  },
+  "victories": 2,
+  "losses": 0,
+  "avgFlexRankLabel": "Platinum II",
+  "avgFlexTier": "PLATINUM",
+  "avgFlexLp": 1836,
+  "leaderboardScore": null,
+  "leaderboardScoreUpdatedAt": null,
+  "isDemo": true,
+  "demoExpiresAt": {
+    "$date": "2026-05-06T23:20:32.973Z"
+  },
+  "demoClaimToken": "6192ff84",
+  "demoPlayerSlug": "top-range-sucks",
+  "puuids": [
+    "WfIXmO72gyDrOxOhze-7zREJP2I07UbLtxzPS29ZPkyFI6UB3KV59CMYtxK98W5Ivrke9Df_fYgvXA",
+    "cxQ23rn00Sp8oTvFiqojKYq0GzX0kXAkir4UszaNTFqBcvJVion_9lu3sWNU9haIkVppAWF5VHx5cw",
+    "HdBRyIK5Jxx4bxKkcK6MIkxS-PYBcq2kPAbm402Bg6q74etOajrF48HpzhvwD7p8HsL1g1W012oABw",
+    "dgqs8AJsVAJeMuoWV0-k2AzDeEw1Fo0Df3imGMllanZGIFZBzjGcsKVot_dc-2FxuaPrYjYmL-MOmA",
+    "9FmH3SwoiICWqHihy4hz1icBOjtfT7sjnss6lf96Jzck0VIqxI-aVbaK_ky2KGnlnQiIMHufaln0Vg"
+  ],
+  "aiChatDay": null,
+  "aiChatCount": 0,
+  "scoringSource": "flex5",
+  "createdAt": {
+    "$date": "2026-05-06T11:20:34.227Z"
+  },
+  "updatedAt": {
+    "$date": "2026-05-06T11:20:52.359Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69fdee68d04b307672b3213e"
+  },
+  "name": "Nichois's Lineup",
+  "slug": "demo-nichois-c96d1743",
+  "logo": "4",
+  "region": "europe",
+  "platform": "euw",
+  "lastRefresh": {
+    "$date": "2026-05-08T14:08:57.778Z"
+  },
+  "victories": 2,
+  "losses": 0,
+  "avgFlexRankLabel": "Platinum II",
+  "avgFlexTier": "PLATINUM",
+  "avgFlexLp": 1871,
+  "leaderboardScore": null,
+  "leaderboardScoreUpdatedAt": null,
+  "isDemo": true,
+  "demoExpiresAt": {
+    "$date": "2026-05-09T02:08:39.483Z"
+  },
+  "demoClaimToken": "c96d1743",
+  "demoPlayerSlug": "nichois",
+  "puuids": [
+    "RM3kgfB_HY9LzA7IvsjHmCy1IUmWD67CyWQof3IOcweOyjtwOZev3B_JoLzIgU2UKEju60OGrUoxzg",
+    "slwsJ3SuG7nyB1i9H-IXC1nnOgvdn245h-s7V2SKBwb0A1XCQw6rS5PjnIVLgHTCEHYJcf-z5eHSLA",
+    "qkR-C26ZKhvO4uPbdxHEsXcZMnNugJ5FC8yTBqteu16QKutpgZ80gjB9cFKgCJybE2bUWKnuTGvC2g",
+    "-b8zi0FfURQHSE4WkSFuC78zC5B1lzyQD1mp8-caj7hKiQ8itQU8fUNnFtqbfsILf0W-tCPZ2BFMcw",
+    "RZyP1dA8AutlC2QDsuKqjEoe5S4COaP6F64FqoVQJ4WvaRydQKOH20VZKwhqBYyxlisTdjclW8Gkxw"
+  ],
+  "aiChatDay": null,
+  "aiChatCount": 0,
+  "scoringSource": "flex5",
+  "createdAt": {
+    "$date": "2026-05-08T14:08:40.746Z"
+  },
+  "updatedAt": {
+    "$date": "2026-05-08T14:08:59.241Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69fe048328a416a1096c1641"
+  },
+  "name": "Les fous mal",
+  "slug": "les-fous-mal",
+  "logo": "35",
+  "region": "europe",
+  "platform": "euw",
+  "lastRefresh": {
+    "$date": "2026-05-22T03:59:57.297Z"
+  },
+  "victories": 1,
+  "losses": 1,
+  "avgFlexRankLabel": null,
+  "avgFlexTier": null,
+  "avgFlexLp": null,
+  "leaderboardScore": 0.1921,
+  "leaderboardScoreUpdatedAt": {
+    "$date": "2026-05-22T11:48:02.485Z"
+  },
+  "isDemo": false,
+  "demoExpiresAt": null,
+  "demoClaimToken": null,
+  "demoPlayerSlug": null,
+  "puuids": [
+    "O0jgS2oQBx8iexjSHJPvTcxexPcC7Jv50m_WFPNsfe0SI2VIHiGYSgMQZLtkn5pkMbSC9ZqJXqhWjw",
+    "6TQWwQJ4LOsP-mQbGLuFmrAW3OVks6JYq7ezoYxxdVYJOSvS6rwe_-3dHH70sLLSP5qgwXLghVjX9Q",
+    "U_ITAd6eOu5thR6I_OdRpK7sM_dDDFZ6l1hgMITM0CpdgufIlPIj1j5NExxAXDR_WYrngK1BD1GEEA",
+    "vS_AxX53gPJE2t235jI2OGXqT3zFVNS8uBQThuJhJ1wcBsE3zb3So0goKgM1JW7t6njZZ9NFgCqnog",
+    "wW-lsQaFAETUfnpYMM7FwFd1jHWB87JKawhgdjCZEa-dMvAs5LQ_wNvUKlpakRsh5ktYx6PLFQ6Zew",
+    "Ges4IguokmWw0t8yaVOSLM8aA50HuTFf3bf5tkxwSUzSQ31BdSWYTByfS-Sr--gJEN_Tn3ylcU4ffQ"
+  ],
+  "aiChatDay": null,
+  "aiChatCount": 0,
+  "scoringSource": "flex5",
+  "createdAt": {
+    "$date": "2026-05-08T15:42:59.404Z"
+  },
+  "updatedAt": {
+    "$date": "2026-05-22T11:48:02.485Z"
+  },
+  "__v": 0,
+  "admin": {
+    "$oid": "69fe197a3884a7d782126447"
+  }
+},
+{
+  "_id": {
+    "$oid": "69fe1937c5174c95ad088e65"
+  },
+  "name": "PetitePantoufle's Squad",
+  "slug": "petitepantoufle-demo",
+  "logo": "4",
+  "region": "europe",
+  "platform": "euw",
+  "lastRefresh": {
+    "$date": "2026-05-08T17:11:19.196Z"
+  },
+  "victories": 0,
+  "losses": 2,
+  "avgFlexRankLabel": null,
+  "avgFlexTier": null,
+  "avgFlexLp": null,
+  "leaderboardScore": null,
+  "leaderboardScoreUpdatedAt": null,
+  "isDemo": true,
+  "demoExpiresAt": {
+    "$date": "2026-05-09T05:11:19.196Z"
+  },
+  "demoClaimToken": null,
+  "demoPlayerSlug": "petitepantoufle",
+  "puuids": [
+    "tvkkD0MMpdI612ZrfqIplBSKnpOXUCONzRRXdIXnjVi1N-75zQo0m1bOVOlLOf6H68NkSrBba3pJcA",
+    "vS_AxX53gPJE2t235jI2OGXqT3zFVNS8uBQThuJhJ1wcBsE3zb3So0goKgM1JW7t6njZZ9NFgCqnog",
+    "YyWtzHfXw9FTiFZcHdw9JzWEyULPT1hmfO-Lq2vRSkvMJDOq7o93OskGuoww-ABsm7CnkIjFPyJeOw",
+    "l9bmFlxs52TIV1RTPSbtM-zPi0Z540C-FX7jhHAOeZ9VnJeFjnT-7jXT4kFrqvbA679WARDkCGbseA",
+    "RiewlmrMSjM7Wrjxtq5RlOIMycsYukgoSq3Wqj8C5z4NZehvM-dq60O1fuGBygD4PqEUZ8MkEE_EUg"
+  ],
+  "aiChatDay": null,
+  "aiChatCount": 0,
+  "scoringSource": "flex5",
+  "createdAt": {
+    "$date": "2026-05-08T17:11:19.204Z"
+  },
+  "updatedAt": {
+    "$date": "2026-05-08T17:11:19.677Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a0b983462c7c9e57964b914"
+  },
+  "name": "Baizeur2chiennes's Squad",
+  "slug": "baizeur2chiennes-demo-2",
+  "logo": "4",
+  "region": "europe",
+  "platform": "euw",
+  "lastRefresh": {
+    "$date": "2026-05-18T22:52:36.939Z"
+  },
+  "victories": 6,
+  "losses": 4,
+  "avgFlexRankLabel": null,
+  "avgFlexTier": null,
+  "avgFlexLp": null,
+  "leaderboardScore": null,
+  "leaderboardScoreUpdatedAt": null,
+  "isDemo": true,
+  "demoExpiresAt": {
+    "$date": "2026-05-19T10:52:36.939Z"
+  },
+  "demoClaimToken": null,
+  "demoPlayerSlug": "baizeur2chiennes",
+  "puuids": [
+    "vS_AxX53gPJE2t235jI2OGXqT3zFVNS8uBQThuJhJ1wcBsE3zb3So0goKgM1JW7t6njZZ9NFgCqnog",
+    "3RFrrCplVslzRQbuWfXsLU6M0lQpm0QU-62Olze3EnzJnpP_XLPDn8Stykbe1jx8pPOEGpTNyeX9pQ",
+    "hGDxGHoiT8-gP8Gp0VEt01suGRz26HqtVkiJn9aea7zoGBuu904ighLyGbp33FFJ-g1u1SCOMg44eg",
+    "K40x0s-w7LdtyNg5x2XEacoQDHTwLXk9WiB9G_QlJS7qP2Wmr6XWAOZ9JuJ8VrDBbLh4NWSIuHMqcg",
+    "AdJXRtf1VXskYqSj4KyD9eWBwpqdycNVxNg42eLAjwgS1kOuGcefcJhDuMEn3Klet49pfZWZJnI1Wg"
+  ],
+  "aiChatDay": null,
+  "aiChatCount": 0,
+  "scoringSource": "flex5",
+  "createdAt": {
+    "$date": "2026-05-18T22:52:36.948Z"
+  },
+  "updatedAt": {
+    "$date": "2026-05-18T22:52:38.914Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a0b9e2451b47d60a2f46a04"
+  },
+  "name": "Baizeur2chiennes's Squad",
+  "slug": "baizeur2chiennes-demo",
+  "logo": "4",
+  "region": "europe",
+  "platform": "euw",
+  "lastRefresh": {
+    "$date": "2026-05-18T23:17:56.950Z"
+  },
+  "victories": 6,
+  "losses": 4,
+  "avgFlexRankLabel": null,
+  "avgFlexTier": null,
+  "avgFlexLp": null,
+  "leaderboardScore": null,
+  "leaderboardScoreUpdatedAt": null,
+  "isDemo": true,
+  "demoExpiresAt": {
+    "$date": "2026-05-19T11:17:56.950Z"
+  },
+  "demoClaimToken": null,
+  "demoPlayerSlug": "baizeur2chiennes",
+  "puuids": [
+    "vS_AxX53gPJE2t235jI2OGXqT3zFVNS8uBQThuJhJ1wcBsE3zb3So0goKgM1JW7t6njZZ9NFgCqnog",
+    "3RFrrCplVslzRQbuWfXsLU6M0lQpm0QU-62Olze3EnzJnpP_XLPDn8Stykbe1jx8pPOEGpTNyeX9pQ",
+    "hGDxGHoiT8-gP8Gp0VEt01suGRz26HqtVkiJn9aea7zoGBuu904ighLyGbp33FFJ-g1u1SCOMg44eg",
+    "K40x0s-w7LdtyNg5x2XEacoQDHTwLXk9WiB9G_QlJS7qP2Wmr6XWAOZ9JuJ8VrDBbLh4NWSIuHMqcg",
+    "AdJXRtf1VXskYqSj4KyD9eWBwpqdycNVxNg42eLAjwgS1kOuGcefcJhDuMEn3Klet49pfZWZJnI1Wg"
+  ],
+  "aiChatDay": null,
+  "aiChatCount": 0,
+  "scoringSource": "flex5",
+  "createdAt": {
+    "$date": "2026-05-18T23:17:56.958Z"
+  },
+  "updatedAt": {
+    "$date": "2026-05-18T23:17:58.909Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a0c2c80b1199f31753c71c7"
+  },
+  "name": "Jetpyke's Stack",
+  "slug": "demo-jetpyke-13b91606",
+  "logo": "4",
+  "region": "europe",
+  "platform": "euw",
+  "lastRefresh": {
+    "$date": "2026-05-19T09:25:35.972Z"
+  },
+  "victories": 2,
+  "losses": 1,
+  "avgFlexRankLabel": "Platinum II",
+  "avgFlexTier": "PLATINUM",
+  "avgFlexLp": 1820,
+  "leaderboardScore": null,
+  "leaderboardScoreUpdatedAt": null,
+  "isDemo": true,
+  "demoExpiresAt": {
+    "$date": "2026-05-19T21:25:19.961Z"
+  },
+  "demoClaimToken": "13b91606",
+  "demoPlayerSlug": "jetpyke",
+  "puuids": [
+    "E4ZUxCQNFDXQyBEvI3lWGp-zaeVk8eiihBDlBdX3dEd1OYnWbdOgF6CoKXzMJvTI8bNIS14EQncLAg",
+    "E5YSNvfGAWq0AXBth2L2hexMLbGi2heKt-GhOM7mulG2ZR7TH3EzRQo0GVhm9Spp2bo8-hkVD-r0jg",
+    "Q8PS1m4nUD_t4NosugqEJJFOSM0faxefwdnyZy1_6j43PfPAbEeTeQze7KS4yJPn1rSOXzvi9e-gew",
+    "I_4q6h04fJZGZ7RkNxjiXyFFZP_rB3UPtHG2mHldWcK_-tdzO3fZYYetK4sMddjzn50YYbMwhoeqPQ",
+    "68Xh8of0KPKjYREAhfrY1xGw4mENhexD5aoD_jB2oxLOGpCtMzAAXTOoK7I9JEr32ZvUCsz6juMG1A"
+  ],
+  "aiChatDay": null,
+  "aiChatCount": 0,
+  "scoringSource": "flex5",
+  "createdAt": {
+    "$date": "2026-05-19T09:25:20.639Z"
+  },
+  "updatedAt": {
+    "$date": "2026-05-19T09:25:37.338Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a0c69e7dd58ee2b3d9c1cee"
+  },
+  "name": "RIP Degcube's Squad",
+  "slug": "rip-degcube-demo",
+  "logo": "4",
+  "region": "europe",
+  "platform": "euw",
+  "lastRefresh": {
+    "$date": "2026-05-19T13:47:19.009Z"
+  },
+  "victories": 8,
+  "losses": 3,
+  "avgFlexRankLabel": null,
+  "avgFlexTier": null,
+  "avgFlexLp": null,
+  "leaderboardScore": null,
+  "leaderboardScoreUpdatedAt": null,
+  "isDemo": true,
+  "demoExpiresAt": {
+    "$date": "2026-05-20T01:47:19.009Z"
+  },
+  "demoClaimToken": null,
+  "demoPlayerSlug": "rip-degcube",
+  "puuids": [
+    "gHB6a68LW8WQx9O3UjREeWC34yZ875pOO_9wkNAg-zS2bPJlPcvrbBY-TSE12IBEduTbhcGIIwYNqQ",
+    "amiyYuLgmJjsyTc9ftqLTOzi7qAwG_ApthhrlDv3BkPK7ju7by60FnyzZGhUNBRi8OjbuOOcPHJg6w",
+    "9eXDXsHuz4rnM6i5rO7gYX9zsfQfLjsc51xzsir3hLFwvRwt0x5mWIhM-Ww66_4VbKIgZ6cdpqMynw",
+    "SZeY1nAfdG00JUZYbKg1PR2Ftth6SJZDDdoAe8t6YGzdvHPfILek2nrL1KtKBfnI1BWmU32gOqLCOQ",
+    "KrvnKeN81QsYtk6cRSAPaq7Q31GHKhttdhHwe0rqoyN0-7aZgNRIazKDsYphHon_XpobVcJ_vVjpUw"
+  ],
+  "aiChatDay": null,
+  "aiChatCount": 0,
+  "scoringSource": "flex5",
+  "createdAt": {
+    "$date": "2026-05-19T13:47:19.021Z"
+  },
+  "updatedAt": {
+    "$date": "2026-05-19T13:47:19.831Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a0c6d0b772c6ed4581e7da1"
+  },
+  "name": "The Σnemy's Squad",
+  "slug": "the-nemy-demo",
+  "logo": "4",
+  "region": "europe",
+  "platform": "euw",
+  "lastRefresh": {
+    "$date": "2026-05-19T14:00:43.038Z"
+  },
+  "victories": 3,
+  "losses": 0,
+  "avgFlexRankLabel": null,
+  "avgFlexTier": null,
+  "avgFlexLp": null,
+  "leaderboardScore": null,
+  "leaderboardScoreUpdatedAt": null,
+  "isDemo": true,
+  "demoExpiresAt": {
+    "$date": "2026-05-20T02:00:43.038Z"
+  },
+  "demoClaimToken": null,
+  "demoPlayerSlug": "the-nemy",
+  "puuids": [
+    "ZBnKmyHIFZA8_yd2eSZL6Ubd0qqOAK6Rni4i2cTGawQVx54DlQ3Ufy4_7bCKVLD_z_Xwyv5llt-_NA",
+    "6pvSNm_J6HMUCTrFee_ZjGRWzABih_iMTrKsGcA75g3XPVGcUVEXBvahYAfq7CTbZYAUp-pcOVsllw",
+    "9eXDXsHuz4rnM6i5rO7gYX9zsfQfLjsc51xzsir3hLFwvRwt0x5mWIhM-Ww66_4VbKIgZ6cdpqMynw",
+    "ZgAzgyRcKKwrF3lcmVpiRcN4gue6c8ETyEC-yHVv-EFOz4pj5gqJ5EXUq-SU5WHEd9lPEFwizzF2xA",
+    "kEeUTE4_YZwaHAu03QqhPpaE4WJDXVhET1dQJ3xV3D4xJ-VXWPCuyP8NyZVhhxAUWnswzsCtK9LGaQ"
+  ],
+  "aiChatDay": null,
+  "aiChatCount": 0,
+  "scoringSource": "flex5",
+  "createdAt": {
+    "$date": "2026-05-19T14:00:43.041Z"
+  },
+  "updatedAt": {
+    "$date": "2026-05-19T14:00:43.775Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a0cdb32dd58ee2b3d9c26ab"
+  },
+  "name": "RIP Degcube's Squad",
+  "slug": "rip-degcube-demo-2",
+  "logo": "4",
+  "region": "europe",
+  "platform": "euw",
+  "lastRefresh": {
+    "$date": "2026-05-19T21:50:42.078Z"
+  },
+  "victories": 8,
+  "losses": 3,
+  "avgFlexRankLabel": "Challenger",
+  "avgFlexTier": "CHALLENGER",
+  "avgFlexLp": 3831,
+  "leaderboardScore": null,
+  "leaderboardScoreUpdatedAt": null,
+  "isDemo": true,
+  "demoExpiresAt": {
+    "$date": "2026-05-20T09:50:42.078Z"
+  },
+  "demoClaimToken": null,
+  "demoPlayerSlug": "rip-degcube",
+  "puuids": [
+    "gHB6a68LW8WQx9O3UjREeWC34yZ875pOO_9wkNAg-zS2bPJlPcvrbBY-TSE12IBEduTbhcGIIwYNqQ",
+    "amiyYuLgmJjsyTc9ftqLTOzi7qAwG_ApthhrlDv3BkPK7ju7by60FnyzZGhUNBRi8OjbuOOcPHJg6w",
+    "9eXDXsHuz4rnM6i5rO7gYX9zsfQfLjsc51xzsir3hLFwvRwt0x5mWIhM-Ww66_4VbKIgZ6cdpqMynw",
+    "SZeY1nAfdG00JUZYbKg1PR2Ftth6SJZDDdoAe8t6YGzdvHPfILek2nrL1KtKBfnI1BWmU32gOqLCOQ",
+    "KrvnKeN81QsYtk6cRSAPaq7Q31GHKhttdhHwe0rqoyN0-7aZgNRIazKDsYphHon_XpobVcJ_vVjpUw"
+  ],
+  "aiChatDay": null,
+  "aiChatCount": 0,
+  "scoringSource": "flex5",
+  "createdAt": {
+    "$date": "2026-05-19T21:50:42.083Z"
+  },
+  "updatedAt": {
+    "$date": "2026-05-19T21:50:44.354Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a0d8a8650b27ec59985d6e0"
+  },
+  "name": "GBA Luffy's Squad",
+  "slug": "gba-luffy-demo",
+  "logo": "4",
+  "region": "europe",
+  "platform": "euw",
+  "lastRefresh": {
+    "$date": "2026-05-20T10:18:46.310Z"
+  },
+  "victories": 11,
+  "losses": 13,
+  "avgFlexRankLabel": "Grandmaster",
+  "avgFlexTier": "GRANDMASTER",
+  "avgFlexLp": 3311,
+  "leaderboardScore": null,
+  "leaderboardScoreUpdatedAt": null,
+  "isDemo": true,
+  "demoExpiresAt": {
+    "$date": "2026-05-20T22:18:46.310Z"
+  },
+  "demoClaimToken": null,
+  "demoPlayerSlug": "gba-luffy",
+  "puuids": [
+    "XiBiOcRccBWTtjiHiN6U_D-jThwO8eE4VgkcAiNToQ_hUfsSQHU0CzbmndxuGcCEJapHlEGZhOG3Zg",
+    "hT-3_zYYOo-dm4zKIrus0OckdXcL21ei7_eVpQ2xjUVCZTHb7VkSZtVOHW1CmjjE0rIGP7N2DHe1ug",
+    "VwFlec8ePunIkRTMeq0o0EQ5w5NED11muALZ7cnAHnWiM-RFIwIHsmaKrSGziVnv8lZSdOcsk2ouvg",
+    "A-KN2oNHuAzyhzfEEnc7TbBw3JslJEM9j8kdgzNn48zB1ViIOskCMawnm88BJipPetLpfpygWS17ng",
+    "Yxd1VAuMoRt6PPxSiYhtcXGf7RUVs0tPON9BpaABRBPRwvzxwQWKpt5LCKd9c9ic7lfeW14W1FJNEw"
+  ],
+  "aiChatDay": null,
+  "aiChatCount": 0,
+  "scoringSource": "flex5",
+  "createdAt": {
+    "$date": "2026-05-20T10:18:46.318Z"
+  },
+  "updatedAt": {
+    "$date": "2026-05-20T10:18:52.100Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a0e0d573b365cfed8f99f04"
+  },
+  "name": "KEGIS CORp",
+  "slug": "kegis-corp",
+  "logo": "10",
+  "region": "europe",
+  "platform": "euw",
+  "lastRefresh": {
+    "$date": "2026-05-22T04:00:10.793Z"
+  },
+  "victories": 28,
+  "losses": 17,
+  "avgFlexRankLabel": "Challenger",
+  "avgFlexTier": "CHALLENGER",
+  "avgFlexLp": 4817,
+  "leaderboardScore": 1.2016666666666667,
+  "leaderboardScoreUpdatedAt": {
+    "$date": "2026-05-22T13:18:10.279Z"
+  },
+  "isDemo": false,
+  "demoExpiresAt": null,
+  "demoClaimToken": null,
+  "demoPlayerSlug": null,
+  "puuids": [
+    "DjLD_LBhDaVpvPH_tspv3uiZFV6KCoCEpgErAo_Z8rXa_nXzO4Tf0Wf3JhP08hAoPeytzC4J0HssMg",
+    "dNtIuha9huAsNpwY7CXffe6GvE33bVwleiDOLvPkQ5nRBY2_5qs-iDtd6wzqbUG2VTfJbokImp6n_g",
+    "v0BHVMH3uu16aNUqQfbKV1mc-l7xe6Hhp0c_jr5fkvCDmA_sDclOKdHaQatgkiAlXNdmbVipUGpLtQ",
+    "z9NBVWsEk4Tn_r0KF6O2YCKt-wxoEXqYnm0P-UkXzKuosm9Fb428iVBvBU1vlRG33f3SI3b3AgmvQA",
+    "ydSR2kKBJ-5xRQbJLFtvy-LoeBvk2a99dy2KQjAiDX53IFq7DZjX9ZsiuHMJgVpnvAJ_lakSVvDKmA"
+  ],
+  "aiChatDay": null,
+  "aiChatCount": 0,
+  "scoringSource": "flex5",
+  "createdAt": {
+    "$date": "2026-05-20T19:36:55.149Z"
+  },
+  "updatedAt": {
+    "$date": "2026-05-22T13:18:10.279Z"
+  },
+  "__v": 0,
+  "admin": {
+    "$oid": "6935ee724b8c43a349550fb7"
+  }
+},
+{
+  "_id": {
+    "$oid": "6a0e18c39ad4e53ee9bd74e2"
+  },
+  "name": "Shade's Squad",
+  "slug": "shade-demo",
+  "logo": "4",
+  "region": "europe",
+  "platform": "euw",
+  "lastRefresh": {
+    "$date": "2026-05-20T20:25:39.065Z"
+  },
+  "victories": 6,
+  "losses": 8,
+  "avgFlexRankLabel": "Grandmaster",
+  "avgFlexTier": "GRANDMASTER",
+  "avgFlexLp": 3494,
+  "leaderboardScore": null,
+  "leaderboardScoreUpdatedAt": null,
+  "isDemo": true,
+  "demoExpiresAt": {
+    "$date": "2026-05-21T08:25:39.065Z"
+  },
+  "demoClaimToken": null,
+  "demoPlayerSlug": "shade",
+  "puuids": [
+    "PCFQ2ycGpX-W5KfSIAr-M6C2DTlhEoVdNFhcBJOIeWL387guoELi4w6cLSo725baoeNL5tHHR1JTfA",
+    "rZMdnZRQ8rWTk3rGxAM-rOlx9F8mS6s1HcbrFmCqPI3NwPm5FdhjGnTml4_PMudAqNaFduSPaQykjA",
+    "sCA-OKJkeZZd3rkZ1xqE_xMrpnGIWFSNZgWsenfc_8s_TVgB2hVxK641vu0seK7Ry6nboS-B6CeOQQ",
+    "FO4LvhqcQWTuFu4DNIydzK_ke3ubjVV6XhSgsV9tGMCgpKlsTn6F_mTbo3vHw8JU3p3ex-lBlyur4g",
+    "3BDd1c0-122sL3LvwvNPcunzSwVZqwmxn5DMEwnuqHvnXYixu4nhzpw-pxLBz0uuaoiYMf4TbPQ9PA"
+  ],
+  "aiChatDay": null,
+  "aiChatCount": 0,
+  "scoringSource": "flex5",
+  "createdAt": {
+    "$date": "2026-05-20T20:25:39.069Z"
+  },
+  "updatedAt": {
+    "$date": "2026-05-20T20:25:39.655Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a0e1aef9ad4e53ee9bd755e"
+  },
+  "name": "Basmet's Squad",
+  "slug": "basmet-demo",
+  "logo": "4",
+  "region": "europe",
+  "platform": "euw",
+  "lastRefresh": {
+    "$date": "2026-05-20T20:34:55.412Z"
+  },
+  "victories": 7,
+  "losses": 8,
+  "avgFlexRankLabel": "Grandmaster",
+  "avgFlexTier": "GRANDMASTER",
+  "avgFlexLp": 3567,
+  "leaderboardScore": null,
+  "leaderboardScoreUpdatedAt": null,
+  "isDemo": true,
+  "demoExpiresAt": {
+    "$date": "2026-05-21T08:34:55.412Z"
+  },
+  "demoClaimToken": null,
+  "demoPlayerSlug": "basmet",
+  "puuids": [
+    "pWEAuiD1Loq5meMX4Xjpg0A5ll-rNtVWAxwCa8O166DOhQ1rGd9Q9S6vcJEbSFNWYAWn5UofRW6gGg",
+    "EGthor14UcBgfvA3ISFRbUy34zIeQrnW7AuTlqebr5e4oeqiXMqAvntU1-Ce057Qir-EYGXsv-t8Ag",
+    "thAh6r9Lc1vTakOa5uipXNJXeraq6-GmvG0_96SeKAmDNp6UACXi5L8X0Qiicz8FO5jrfkf8pwkEHQ",
+    "cmFyQLoDDlpkryBvvJ6WBWAvq8Jqs8uwM36GYv59wDsz0TZqP539PHqVDmbS-g8ZLkTpqs-GDb6pXw",
+    "nok9s403Yhe6e1bb8B5w6HCPrJcZdefS5UVz1nuRrHIdRn8VD41ing-aWY5-cQXjdJrj331NukOw4Q"
+  ],
+  "aiChatDay": null,
+  "aiChatCount": 0,
+  "scoringSource": "flex5",
+  "createdAt": {
+    "$date": "2026-05-20T20:34:55.414Z"
+  },
+  "updatedAt": {
+    "$date": "2026-05-20T20:34:56.045Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a0e1cab9ad4e53ee9bd75df"
+  },
+  "name": "Fazhi's Squad",
+  "slug": "fazhi-demo",
+  "logo": "4",
+  "region": "europe",
+  "platform": "euw",
+  "lastRefresh": {
+    "$date": "2026-05-20T20:42:19.753Z"
+  },
+  "victories": 5,
+  "losses": 2,
+  "avgFlexRankLabel": "Master",
+  "avgFlexTier": "MASTER",
+  "avgFlexLp": 2967,
+  "leaderboardScore": null,
+  "leaderboardScoreUpdatedAt": null,
+  "isDemo": true,
+  "demoExpiresAt": {
+    "$date": "2026-05-21T08:42:19.753Z"
+  },
+  "demoClaimToken": null,
+  "demoPlayerSlug": "fazhi",
+  "puuids": [
+    "jmNDkU9jwEOAuUJYlT5sYe1TnxLydLGRUG-aCjcUlywEqBIo6XrPa-lYoEA7JSJY-rD6NI-vcsqG-g",
+    "KmUH3eqb-mqF7RDyF3iVbCwjBW6PYfqB_bcdH97WQph2B4frTzXHuZ4puv97LVP3PITLvnv3S7j78w",
+    "FgtQu3B44xdnXc4Cjq0nL_tbrBWnvekvssw5smtw-qh-7m_sWQIRMlFbLOLZknzGtZEwcwioHo9mZA",
+    "Ah_WvJ4ksh9cm2Z4ju2jNVOFx22tFtGjqcQcRQ9ERuHP_M_Q8ceazUtcHvULe5VpxMQ8dzc7ohWgdg",
+    "Rtr5BtZXZlsJ6tF8cOlPIA6WQiy3CyC79IU1_bCgOLZrhAfAuTWOI8GA0aEoef8G3HRSvuNvZlphpA"
+  ],
+  "aiChatDay": null,
+  "aiChatCount": 0,
+  "scoringSource": "flex5",
+  "createdAt": {
+    "$date": "2026-05-20T20:42:19.755Z"
+  },
+  "updatedAt": {
+    "$date": "2026-05-20T20:42:20.110Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a0ef2d68e22608fa2a7a827"
+  },
+  "name": "Low Elos",
+  "slug": "low-elos",
+  "logo": "4",
+  "region": "europe",
+  "platform": "euw",
+  "lastRefresh": {
+    "$date": "2026-05-21T11:56:06.612Z"
+  },
+  "victories": 17,
+  "losses": 8,
+  "avgFlexRankLabel": "Challenger",
+  "avgFlexTier": "CHALLENGER",
+  "avgFlexLp": 3732,
+  "leaderboardScore": 1.2197500000000001,
+  "leaderboardScoreUpdatedAt": {
+    "$date": "2026-05-22T13:18:10.279Z"
+  },
+  "isDemo": false,
+  "demoExpiresAt": null,
+  "demoClaimToken": null,
+  "demoPlayerSlug": null,
+  "puuids": [
+    "oR6xcWM_ZXdQC7MMmli5ImQUlbI0gtqIcCQa-DTbeqyBn7SY7TvOTodig1f2oYSCtUjRA8PB-_HQ9g",
+    "lIE7y-wYzUdrdtRAqFV8hpirBWwq9trG-3hbVyzk__-GInciEQJ3BFGE8hGZH8QpUp8AbGt3v4Yl_Q",
+    "QvIDrgy76MlazhMYO0lBrW1NbHi1zxoCcoTgta5ST3m7ZOPX5t6PX0PWLpLQ4ugwm6j8KQCEuK7S4w",
+    "RVNpJXbC6P8vNzGnRak4_asEnikZrxa0_6mzYdjVWAk4JO5CkJ_jE1b9FK9ly3Hok05NE82iDw8dSA",
+    "nNXTTWx3kbwnqm_385jlUzrhMwHH2zswVil2DuqH--ruv3gqagXhkPLE7O9WL2AGgU1QotdqluLiMQ"
+  ],
+  "aiChatDay": null,
+  "aiChatCount": 0,
+  "scoringSource": "flex5",
+  "createdAt": {
+    "$date": "2026-05-21T11:56:06.620Z"
+  },
+  "updatedAt": {
+    "$date": "2026-05-22T13:18:10.279Z"
+  },
+  "__v": 0,
+  "admin": {
+    "$oid": "6a0ef3cb7571d083da0899dd"
+  }
+},
+{
+  "_id": {
+    "$oid": "6a0efb928e22608fa2a7a8f3"
+  },
+  "name": "LUC Jones23's Squad",
+  "slug": "luc-jones23-demo",
+  "logo": "4",
+  "region": "europe",
+  "platform": "euw",
+  "lastRefresh": {
+    "$date": "2026-05-21T12:33:22.921Z"
+  },
+  "victories": 13,
+  "losses": 11,
+  "avgFlexRankLabel": "Master",
+  "avgFlexTier": "MASTER",
+  "avgFlexLp": 2946,
+  "leaderboardScore": null,
+  "leaderboardScoreUpdatedAt": null,
+  "isDemo": true,
+  "demoExpiresAt": {
+    "$date": "2026-05-22T00:33:22.921Z"
+  },
+  "demoClaimToken": null,
+  "demoPlayerSlug": "luc-jones23",
+  "puuids": [
+    "OaEFAcozHh8v00lSRdAwLSDA75w4IeMDLWQH9zZMM-iLgixPb-bJb3FTLD7WL3UbsjuXcggTARQocg",
+    "GO6P0JYbQziSuIkeFh0yghFEgw8bPTrOQle5jdT11m_0Bsu1VCzJEILTDCyPxcBebPn_CJPD2PFjug",
+    "chpqqA2legCXpfpd4t-Tqkx1E9Y0PUHXGy2rc-9-qI8E0x6beZea8ifw4fi2qldpROE8KQIV9xQRAg",
+    "1cn_txB7zhNKprmI2NpIyaxE9Kg5UR68aonUgXvg2IvFYsyZgx_cTroahlJI8ZrLedrxFMQWpaQweA",
+    "Bbqg_Y9_8RJ_2hiVknwv4bVq6A-YI61Hqg_rWg9UoYtMC_sYsBsykahPtofoHvMvX72Dn7Kqtc6__g"
+  ],
+  "aiChatDay": null,
+  "aiChatCount": 0,
+  "scoringSource": "flex5",
+  "createdAt": {
+    "$date": "2026-05-21T12:33:22.923Z"
+  },
+  "updatedAt": {
+    "$date": "2026-05-21T12:33:23.576Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a0f686ae74a5d907e542e3d"
+  },
+  "name": "Ichiban Énvy's Squad",
+  "slug": "ichiban-envy-demo",
+  "logo": "4",
+  "region": "europe",
+  "platform": "euw",
+  "lastRefresh": {
+    "$date": "2026-05-21T20:17:46.341Z"
+  },
+  "victories": 17,
+  "losses": 13,
+  "avgFlexRankLabel": "Master",
+  "avgFlexTier": "MASTER",
+  "avgFlexLp": 2928,
+  "leaderboardScore": null,
+  "leaderboardScoreUpdatedAt": null,
+  "isDemo": true,
+  "demoExpiresAt": {
+    "$date": "2026-05-22T08:17:46.341Z"
+  },
+  "demoClaimToken": null,
+  "demoPlayerSlug": "ichiban-envy",
+  "puuids": [
+    "GcdTU0J21L11vOUQOoXtbp0GwbmGMDQOn3Lu2pHGAD0eRAAMg4fEYMelkkj6wqvAUTawxEjjAce6vg",
+    "-M9yomtDZ_skTc1NJdRB0ENnpwgZkyKZEwcnLwq4UYBDGUDo6zxa-hUU3ESVop3QF_mzXToL03nNCg",
+    "pVEK8OrbYqXqoSZkZWbepoLyc2lRVu5tMSMM6y-G2uXziO2UPTMFjP9bKGujT9gtXfIlNM3Yh1Pdsg",
+    "R9lohmaSZ1KV_K-oAUbJiVKKXeYEK4zhDO9xkN3igXIlHcsO3ojW-Q49lO8jZg1fzdG-KRuovL12zg",
+    "aFPuvvrkDHvRMgpmGec7T5kisZbVq7Zsmqa7wv5IM72D8ja_TDcSCXviEbqfDXNNrmGaxGLLGJC8Dw"
+  ],
+  "aiChatDay": null,
+  "aiChatCount": 0,
+  "scoringSource": "flex5",
+  "createdAt": {
+    "$date": "2026-05-21T20:17:46.346Z"
+  },
+  "updatedAt": {
+    "$date": "2026-05-21T20:17:47.260Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a0f6cebfbc1df23715db6a5"
+  },
+  "name": "caca",
+  "slug": "caca",
+  "logo": "38",
+  "admin": {
+    "$oid": "6a0f5c912df2544c6ce735e4"
+  },
+  "region": "europe",
+  "platform": "euw",
+  "lastRefresh": {
+    "$date": "2026-05-21T20:38:53.346Z"
+  },
+  "lastManualRefresh": {
+    "$date": "2026-05-21T20:38:43.096Z"
+  },
+  "victories": 12,
+  "losses": 14,
+  "avgFlexRankLabel": "Master",
+  "avgFlexTier": "MASTER",
+  "avgFlexLp": 2996,
+  "leaderboardScore": 0.5775461538461538,
+  "leaderboardScoreUpdatedAt": {
+    "$date": "2026-05-22T13:18:10.279Z"
+  },
+  "isDemo": false,
+  "demoExpiresAt": null,
+  "demoClaimToken": null,
+  "demoPlayerSlug": null,
+  "puuids": [
+    "xCH4W7XqzG1Jo9Pe66Ys8bUmGAm2S0G6O284oFGmP84Jib2yj4wE_TzTiUHW6Cml1EEcw8ehnD0JmQ",
+    "f14OI2R91VwHsXVwCwP-Ovuau7Mm_izPHT9JO0IIEZgtJXvxbol_Lya89SOPFQTZWgm8FAkjq6c13Q",
+    "213Tj_bS5HvvvZr2uh1OduHXXx20qIZnZqAODRZpLa4D0aHx9cshCUCKDs8UJ8pU0NwzLlxThBF6lg",
+    "ocpVGoYMBkY6XIrHE3yS9VtcRT-5K-vAG2368rlMVnvPGJRdLV8GLTNn8xtFQrQj8ZKsKAyAkUaQOw",
+    "aRTPVXCIuaKcn54wJBp9fAIFMnoJCF0kK4R1tMxfY1c_51j0Jnp3lDaWjSk6jiTPyvs7X8zc_AwKxg",
+    "Ges4IguokmWw0t8yaVOSLM8aA50HuTFf3bf5tkxwSUzSQ31BdSWYTByfS-Sr--gJEN_Tn3ylcU4ffQ"
+  ],
+  "aiChatDay": null,
+  "aiChatCount": 0,
+  "scoringSource": "flex5",
+  "createdAt": {
+    "$date": "2026-05-21T20:36:59.299Z"
+  },
+  "updatedAt": {
+    "$date": "2026-05-22T13:18:10.279Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a1004af377c9cab1b673ab6"
+  },
+  "name": "WK Master's Squad",
+  "slug": "wk-master-demo",
+  "logo": "4",
+  "region": "europe",
+  "platform": "euw",
+  "lastRefresh": {
+    "$date": "2026-05-22T07:24:31.004Z"
+  },
+  "lastManualRefresh": null,
+  "victories": 8,
+  "losses": 6,
+  "avgFlexRankLabel": "Master",
+  "avgFlexTier": "MASTER",
+  "avgFlexLp": 3022,
+  "leaderboardScore": null,
+  "leaderboardScoreUpdatedAt": null,
+  "isDemo": true,
+  "demoExpiresAt": {
+    "$date": "2026-05-22T19:24:31.004Z"
+  },
+  "demoClaimToken": null,
+  "demoPlayerSlug": "wk-master",
+  "puuids": [
+    "UuhHryfwS9kBtcPu6JuO0R72yXMEfvFQez1TmbYxkAA4Y8t8KiJMtms-mjwH7OlhuSTX-_SY8lkdsw",
+    "719t1hkBHs5-I4aSXA2AgiXXUvr2gqFV9d7S6DZUb1TWozUGrd18rymD3Bbn192kE5CBuIsQYu_FlA",
+    "NGQX9A8Ze0bpnMUVURJdcPT8tnZZVzqmdvkJmIpGgL8QBT1muj0cl9GoQ2UTwxWklaDj-j7IxOrH4g",
+    "tPZQz6N_IrRzbwA-Q8T57cnLU3eVe93ZMHPtyRLfFZ9QedRwJYdZ30b0kW5ctcWFkemTqVKGKRGOMw",
+    "f6QKvsCb3iT-aaHjleWVy_XuZ4DOsaKa41Q4uVbq5G-yOCXYb0yiuhBqdojxD15-FL498A6trgo5xw"
+  ],
+  "aiChatDay": null,
+  "aiChatCount": 0,
+  "scoringSource": "flex5",
+  "createdAt": {
+    "$date": "2026-05-22T07:24:31.010Z"
+  },
+  "updatedAt": {
+    "$date": "2026-05-22T07:24:31.850Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a100538377c9cab1b673b40"
+  },
+  "name": "Ｒｅｖａａｚ's Squad",
+  "slug": "team-demo",
+  "logo": "4",
+  "region": "europe",
+  "platform": "euw",
+  "lastRefresh": {
+    "$date": "2026-05-22T07:26:48.244Z"
+  },
+  "lastManualRefresh": null,
+  "victories": 8,
+  "losses": 3,
+  "avgFlexRankLabel": "Grandmaster",
+  "avgFlexTier": "GRANDMASTER",
+  "avgFlexLp": 3270,
+  "leaderboardScore": null,
+  "leaderboardScoreUpdatedAt": null,
+  "isDemo": true,
+  "demoExpiresAt": {
+    "$date": "2026-05-22T19:26:48.244Z"
+  },
+  "demoClaimToken": null,
+  "demoPlayerSlug": "player",
+  "puuids": [
+    "DnS2v2fepYNM4rJLRRM1km-g6ow4rK9IFbH4_JF8TZnNpfMgmIRzgpQbTmRM7cLLtHbWm_O22WTWLA",
+    "WMpyzrB8A648-v9t3NAW45XXcwa9w2zNZn2gUGNJIHVekrhSkV3VShA9Q1CLA_HM-_BjVsCCEnSArw",
+    "71YcksuvE2HprUdpH7bDHjqU1zKcPZUoulfWMr6JeH3dQEkEhZUvm_XHJYRO-9fUkwPuOwwZS5eM8w",
+    "q1Tl1SbENSmX3HoJM5z5F9Nuo4oJTyoJD9sIYp9YRampieWKGg1PGhkGDXfEtbG4JmXgoy_fYVNTxA",
+    "NVx3no2Wa01jQNRbPoa76DmP9s7ZccrtValcDiRRQEsOzLk3Vm_xIfCm-UYtSxmzdF3FHHAzfgDmhg"
+  ],
+  "aiChatDay": null,
+  "aiChatCount": 0,
+  "scoringSource": "flex5",
+  "createdAt": {
+    "$date": "2026-05-22T07:26:48.246Z"
+  },
+  "updatedAt": {
+    "$date": "2026-05-22T07:26:48.852Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a104de2f2f2ac320578ce13"
+  },
+  "name": "pochacco's Squad",
+  "slug": "pochacco-demo",
+  "logo": "4",
+  "region": "europe",
+  "platform": "euw",
+  "lastRefresh": {
+    "$date": "2026-05-22T12:36:50.287Z"
+  },
+  "lastManualRefresh": null,
+  "victories": 8,
+  "losses": 6,
+  "avgFlexRankLabel": "Master",
+  "avgFlexTier": "MASTER",
+  "avgFlexLp": 3022,
+  "leaderboardScore": null,
+  "leaderboardScoreUpdatedAt": null,
+  "isDemo": true,
+  "demoExpiresAt": {
+    "$date": "2026-05-23T00:36:50.287Z"
+  },
+  "demoClaimToken": null,
+  "demoPlayerSlug": "pochacco",
+  "puuids": [
+    "UuhHryfwS9kBtcPu6JuO0R72yXMEfvFQez1TmbYxkAA4Y8t8KiJMtms-mjwH7OlhuSTX-_SY8lkdsw",
+    "719t1hkBHs5-I4aSXA2AgiXXUvr2gqFV9d7S6DZUb1TWozUGrd18rymD3Bbn192kE5CBuIsQYu_FlA",
+    "NGQX9A8Ze0bpnMUVURJdcPT8tnZZVzqmdvkJmIpGgL8QBT1muj0cl9GoQ2UTwxWklaDj-j7IxOrH4g",
+    "tPZQz6N_IrRzbwA-Q8T57cnLU3eVe93ZMHPtyRLfFZ9QedRwJYdZ30b0kW5ctcWFkemTqVKGKRGOMw",
+    "f6QKvsCb3iT-aaHjleWVy_XuZ4DOsaKa41Q4uVbq5G-yOCXYb0yiuhBqdojxD15-FL498A6trgo5xw"
+  ],
+  "aiChatDay": null,
+  "aiChatCount": 0,
+  "scoringSource": "flex5",
+  "createdAt": {
+    "$date": "2026-05-22T12:36:50.290Z"
+  },
+  "updatedAt": {
+    "$date": "2026-05-22T12:36:50.821Z"
+  },
+  "__v": 0
+}]
